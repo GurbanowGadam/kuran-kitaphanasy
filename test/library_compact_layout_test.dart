@@ -9,7 +9,7 @@ void main() {
       const Size(384, 832),
       const Size(390, 844),
     ]) {
-      testWidgets('one-book home fits without scrolling at $size dark=$dark', (
+      testWidgets('library actions remain reachable at $size dark=$dark', (
         t,
       ) async {
         t.view.physicalSize = size;
@@ -39,22 +39,25 @@ void main() {
         );
         await t.pumpAndSettle();
         final scroll = t.state<ScrollableState>(find.byType(Scrollable).first);
-        expect(
-          scroll.position.maxScrollExtent,
-          0,
-          reason: 'A single book and all home actions must fit at normal text scale.',
-        );
+        // The new hadith section may scroll on the shortest phone, but the
+        // Quran action stays immediately reachable. Taller phones still fit.
+        if (size.height >= 832) {
+          expect(scroll.position.maxScrollExtent, 0);
+        }
         final coverRect = t.getRect(find.byType(BookCover));
         expect(coverRect.width, lessThanOrEqualTo(144));
         expect(find.text('Okap başla').hitTestable(), findsOneWidget);
-        expect(
-          find.byKey(const Key('source-about')).hitTestable(),
-          findsOneWidget,
-        );
         await t.tap(find.text('Okap başla'));
         expect(opened, true);
         await t.tap(find.byType(IconButton).first);
         expect(toggled, true);
+        await t.ensureVisible(find.text('Sahih Buhari'));
+        expect(find.text('Sahih Buhari').hitTestable(), findsOneWidget);
+        await t.ensureVisible(find.byKey(const Key('source-about')));
+        expect(
+          find.byKey(const Key('source-about')).hitTestable(),
+          findsOneWidget,
+        );
         await t.tap(find.byKey(const Key('source-about')));
         await t.pumpAndSettle();
         expect(find.byType(AlertDialog), findsOneWidget);

@@ -179,6 +179,61 @@ class LibraryPage extends StatelessWidget {
                         ),
                       ),
                     ),
+                  const SizedBox(height: 16),
+                  const Text(
+                    'Hadyslar',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 8),
+                  Material(
+                    color: colors.surfaceContainerLow,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
+                      side: BorderSide(color: colors.outlineVariant),
+                    ),
+                    clipBehavior: Clip.antiAlias,
+                    child: Column(
+                      children: [
+                        for (final title in ['Sahih Muslim', 'Sahih Buhari'])
+                          ListTile(
+                            leading: Icon(
+                              Icons.menu_book_outlined,
+                              color: colors.primary,
+                            ),
+                            title: Text(
+                              title,
+                              style: const TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            subtitle: const Text(
+                              'Ýakynda',
+                              style: TextStyle(fontSize: 12),
+                            ),
+                            trailing: const Icon(
+                              Icons.schedule_outlined,
+                              size: 20,
+                            ),
+                            onTap: () => showDialog<void>(
+                              context: context,
+                              builder: (ctx) => AlertDialog(
+                                title: Text(title),
+                                content: const Text(
+                                  'Ýakyn wagtda taýýar bolar.',
+                                ),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () => Navigator.pop(ctx),
+                                    child: const Text('Ýap'),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
                   const SizedBox(height: 8),
                   TextButton.icon(
                     key: const Key('source-about'),
