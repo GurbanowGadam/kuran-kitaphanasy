@@ -1,0 +1,19 @@
+{
+  "id": ".",
+  "name": "Kuran Kitaphanasy",
+  "short_name": "Kuran Kitaphanasy",
+  "lang": "tk",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#faf7ef",
+  "theme_color": "#18685f",
+  "description": "Kurany Kerim we türkmençe many terjimesi. Tor bolmasa-da okap bolýar.",
+  "prefer_related_applications": false,
+  "icons": [
+    {"src": "icons/Icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/Icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/Icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/Icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

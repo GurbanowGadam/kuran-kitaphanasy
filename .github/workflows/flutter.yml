@@ -1,0 +1,94 @@
+name: Flutter quality and Android artifacts
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      signed_release:
+        description: Build signed release AAB using owner-configured environment secrets
+        required: true
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: flutter-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.7'
+          channel: stable
+          cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: flutter pub get
+      - run: python3 tool/release_readiness.py
+      # Uses frozen artifacts + stdlib and the runner's OpenSSL. No PDF/network refresh.
+      - run: python3 tools/check_full_content.py
+      - run: python3 test/content_editorial_review.py
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build apk --debug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-debug-not-for-store
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+  signed-android-release:
+    if: github.event_name == 'workflow_dispatch' && inputs.signed_release
+    needs: quality
+    runs-on: ubuntu-latest
+    # Owner should protect this GitHub environment with approval and branch rules.
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.7'
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Build signed AAB (fails closed if any secret is absent)
+        shell: bash
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          : "${KEYSTORE_BASE64:?Missing ANDROID_KEYSTORE_BASE64}"
+          : "${ANDROID_KEYSTORE_PASSWORD:?Missing ANDROID_KEYSTORE_PASSWORD}"
+          : "${ANDROID_KEY_ALIAS:?Missing ANDROID_KEY_ALIAS}"
+          : "${ANDROID_KEY_PASSWORD:?Missing ANDROID_KEY_PASSWORD}"
+          export ANDROID_KEYSTORE_PATH="$RUNNER_TEMP/kuran-upload.jks"
+          trap 'rm -f "$ANDROID_KEYSTORE_PATH"' EXIT
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$ANDROID_KEYSTORE_PATH"
+          chmod 600 "$ANDROID_KEYSTORE_PATH"
+          python3 tool/release_readiness.py --require-signing
+          flutter build appbundle --release
+          jarsigner -verify -verbose -certs build/app/outputs/bundle/release/app-release.aab > "$RUNNER_TEMP/signature-verification.txt"
+          if ! grep -q 'jar verified' "$RUNNER_TEMP/signature-verification.txt"; then
+            printf 'AAB signature verification failed\n' >&2
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-signed-release-aab-owner-review-required
+          path: build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14

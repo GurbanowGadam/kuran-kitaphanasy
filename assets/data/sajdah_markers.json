@@ -1,0 +1,99 @@
+{
+  "source": {
+    "url": "https://kuran.diyanet.gov.tr/api/v2/isaretciler",
+    "readerUrl": "https://kuran.diyanet.gov.tr/kuran",
+    "field": "data filtered by tip == Secde; sure_id/ayet_no retained exactly",
+    "responsePath": "assets/sources/diyanet-reading/isaretciler-response.json",
+    "responseSha256": "d7de2264cc0cca286a76ba63ecf21e654624c9e786c7de7b46daa246bfb89875",
+    "decodedPath": "assets/sources/diyanet-reading/isaretciler-decoded.json",
+    "decodedSha256": "e4c0824390c7c07594d7aba86302e3cafe4a48a7b36c70fa01d715aca6b07826",
+    "publicClientSha256": "40c9cca5151739ec74372afa679b669e0664bf8932dac8ce54baae47574a93f9",
+    "policy": "Diyanet portal marker positions, not a universal madhhab ruling. Some markers begin a multi-verse sajdah passage (e.g. 16:49, 17:107, 27:25, 41:37); do not silently replace these with later verses or infer markers from Arabic words. Annotation only; canonical scripture and grouped translations unchanged."
+  },
+  "items": [
+    {
+      "surah": 7,
+      "ayah": 206,
+      "sourcePage": 175,
+      "sourceMarkerId": 36
+    },
+    {
+      "surah": 13,
+      "ayah": 15,
+      "sourcePage": 250,
+      "sourceMarkerId": 52
+    },
+    {
+      "surah": 16,
+      "ayah": 49,
+      "sourcePage": 271,
+      "sourceMarkerId": 57
+    },
+    {
+      "surah": 17,
+      "ayah": 107,
+      "sourcePage": 292,
+      "sourceMarkerId": 63
+    },
+    {
+      "surah": 19,
+      "ayah": 58,
+      "sourcePage": 308,
+      "sourceMarkerId": 67
+    },
+    {
+      "surah": 22,
+      "ayah": 18,
+      "sourcePage": 333,
+      "sourceMarkerId": 73
+    },
+    {
+      "surah": 25,
+      "ayah": 60,
+      "sourcePage": 364,
+      "sourceMarkerId": 80
+    },
+    {
+      "surah": 27,
+      "ayah": 25,
+      "sourcePage": 378,
+      "sourceMarkerId": 84
+    },
+    {
+      "surah": 32,
+      "ayah": 15,
+      "sourcePage": 415,
+      "sourceMarkerId": 92
+    },
+    {
+      "surah": 38,
+      "ayah": 24,
+      "sourcePage": 453,
+      "sourceMarkerId": 101
+    },
+    {
+      "surah": 41,
+      "ayah": 37,
+      "sourcePage": 479,
+      "sourceMarkerId": 107
+    },
+    {
+      "surah": 53,
+      "ayah": 62,
+      "sourcePage": 527,
+      "sourceMarkerId": 118
+    },
+    {
+      "surah": 84,
+      "ayah": 21,
+      "sourcePage": 589,
+      "sourceMarkerId": 131
+    },
+    {
+      "surah": 96,
+      "ayah": 19,
+      "sourcePage": 597,
+      "sourceMarkerId": 134
+    }
+  ]
+}

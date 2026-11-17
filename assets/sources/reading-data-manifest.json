@@ -1,0 +1,169 @@
+{
+  "status": "legacy-ten-page-demo-not-current-production",
+  "originalStatus": "complete-diyanet-arabic",
+  "supersededBy": "assets/sources/full-content-manifest.json",
+  "validationEntryPoint": "python3 tools/check_full_content.py",
+  "legacyWarning": "Historical 76-ayah/ten-page snapshot only. Hashes and counts below refer to the original demo, not current assets/data. Original demo project remains untouched. Use full-content-manifest.json and docs/CONTENT_REPORT.md for production verification.",
+  "pdf": {
+    "type": "user-provided-pdf",
+    "path": "/home/gadamgurban/Documents/kurany_kerim_turkmen_dilinde.pdf",
+    "sha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+    "pageNumbering": "1-based physical PDF page; printed PDF numbers coincide in this excerpt",
+    "extraction": "tools/extract_pdf_sources.py; text blocks in left-then-right column order",
+    "normalization": "Whitespace joined; lexical line-end hyphens retained without whitespace; soraýa- / rys joined. No translation or spelling corrections.",
+    "redistribution": "Not established; local prototype only."
+  },
+  "datasets": {
+    "surah_names_arabic": 114,
+    "surah_names_pdf": 114,
+    "surah_descriptions": 2,
+    "footnotes": 10,
+    "verses": 76,
+    "translations": 76,
+    "pages": 10
+  },
+  "verifiedPdfCoverage": "Fatiha 1-7; Bakara 1-69 (ten PDF reading pages 2-11)",
+  "verifiedDiyanetPages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unresolved": [
+    "Full PDF glyph-to-Unicode identity is not established; exact official Diyanet textGroup 4 restored, matching all 12 previous shared verses.",
+    "Primary-font cmap coverage is measured in reading-font-coverage.json; visual/device rendering still needs review.",
+    "Human review of editorial Arabic-name transliteration and redistribution permission."
+  ],
+  "normalizationExceptions": [
+    {
+      "source": "soraýa-\nrys",
+      "output": "soraýarys",
+      "location": "Fatiha 5, PDF page 2"
+    }
+  ],
+  "reproduce": [
+    "python3 -m venv /tmp/quran-data-venv",
+    "/tmp/quran-data-venv/bin/pip install pymupdf",
+    "/tmp/quran-data-venv/bin/python tools/extract_pdf_sources.py",
+    "python3 tools/build_reading_data.py",
+    "python3 tools/check_reading_data.py"
+  ],
+  "arabicPdf": {
+    "type": "user-provided-pdf",
+    "path": "/home/gadamgurban/Documents/kurani-kerim-turkce.pdf",
+    "sha256": "fa88e87198fa9cadee797cd3ac1d3d41e4c4c7776d97b4fee02c32e0a14cb0f7",
+    "physicalPageCount": 616,
+    "status": "complete",
+    "pageNumbering": "Reader id 1..10 = physical PDF 2..11. printedPage 0,1 are inferred sequence positions, NOT visible labels; printedLabel null there. Visible printed labels 2..9 on physical 4..11.",
+    "scope": "Fatiha 1-7; Bakara 1-69",
+    "verification": "All ten rendered pages visually checked; all 76 verse-end CID markers independently enumerated. PDF cover excluded; catchwords outside frame excluded."
+  },
+  "arabicText": {
+    "type": "diyanet-api",
+    "status": "complete",
+    "provider": "Diyanet public Quran API, textGroup 4",
+    "textGroup": 4,
+    "fontId": 173,
+    "captures": [
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/0?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-00-decoded.json",
+        "sha256": "c35659186bd413dceff849d2dcd1255da7d47098e8aa12381c19c01f995b089b",
+        "responsePath": "assets/sources/diyanet-reading/page-00-response.json",
+        "responseSha256": "96aacaf253cf05d5448f2501783236e52930c3435d02e69813ce3b659f008749"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/1?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-01-decoded.json",
+        "sha256": "e572a47c29b64eba561359f7d9bbae5c4d1e2223606828c01d653135b2835e9b",
+        "responsePath": "assets/sources/diyanet-reading/page-01-response.json",
+        "responseSha256": "57dae2f0849879dd0e8faa841e8a75fa70ee78e70d2849a15b494c76e2cb2451"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/2?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-02-decoded.json",
+        "sha256": "5fd5a40860a24ab2e93ce91dfe534be147e1ac807b7d5658154f401d9af58be8",
+        "responsePath": "assets/sources/diyanet-reading/page-02-response.json",
+        "responseSha256": "e87ffc9cbb8186c6dee97678b0388a11640369e7b992c8333ca70fbee2f927d8"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/3?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-03-decoded.json",
+        "sha256": "6b7022dc9b9854c551d0a5c5e96fc324773e9b3817e9573f51ff1dde7f76b6ca",
+        "responsePath": "assets/sources/diyanet-reading/page-03-response.json",
+        "responseSha256": "975fb9027f0bae4034121ecb8edbd73d860d5e58fa3c6a813994d6c22a25221c"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/4?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-04-decoded.json",
+        "sha256": "094c48ba5f04331240453964759bb62bd91210cad1f17d7b273d6870e0244d86",
+        "responsePath": "assets/sources/diyanet-reading/page-04-response.json",
+        "responseSha256": "9c9bd536fbc1d4ca6a7d5905fd945fbf5a5b0514078f605a491c2d3396ecaa66"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/5?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-05-decoded.json",
+        "sha256": "1b47dfc49c4d18526809ab5d40863767370d63c2390e768e221b3dc939df2a3d",
+        "responsePath": "assets/sources/diyanet-reading/page-05-response.json",
+        "responseSha256": "07c2fcd23390c1e26433a3ecaa18ffc8c9e95deeca46482874b7257f30ed0fe2"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/6?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-06-decoded.json",
+        "sha256": "687897d70f214554ce506e15bc6e98b8cb621d2af40aea2842bd657602ec9950",
+        "responsePath": "assets/sources/diyanet-reading/page-06-response.json",
+        "responseSha256": "59cfcdf614621cab96e23e8c137fb2fefc87e025fbcafa727b7d9a1c36d25094"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/7?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-07-decoded.json",
+        "sha256": "c4a2d0b4c1cf1f14c2dd285c89b28e4a287ce83d0db3d507b84d5a786397f47b",
+        "responsePath": "assets/sources/diyanet-reading/page-07-response.json",
+        "responseSha256": "ec6b8af9fc2e600e8ed966429f3fd1ebc36285eb1bc95da30a1b602365fd996c"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/8?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-08-decoded.json",
+        "sha256": "88505ec5a48e5786a7b9340601275973d3aaefec0df45982d98a8d377be7c35f",
+        "responsePath": "assets/sources/diyanet-reading/page-08-response.json",
+        "responseSha256": "5d524c2653e7406393eab4b1aa68b863abc005f563fc124d2db104407477aa9f"
+      },
+      {
+        "url": "https://kuran.diyanet.gov.tr/api/v2/sayfa/9?font_id=173",
+        "path": "assets/sources/diyanet-reading/page-09-decoded.json",
+        "sha256": "761f51f22395ad93c415adc0a6e33473b075aec06bc2093e3302cfd453f3f355",
+        "responsePath": "assets/sources/diyanet-reading/page-09-response.json",
+        "responseSha256": "12e60789e5b2df2da4940c27445a946d82844de63240f231f60f9746a2535b78"
+      }
+    ],
+    "captureManifestSha256": "5f1e19793a23c88d5ebb3d74c4d8453223cb38d214af46a2d620ee18856b53cb",
+    "normalization": "None. Exact metin string from official metin_grubu_id 4 after public transport decoding and JSON parsing. No BOM, basmala, letter, vowel or stop-mark changes.",
+    "scope": "Fatiha 1-7; Bakara 1-69",
+    "pdfTextMatch": "Page membership independently verified against user PDF; Unicode matches all 12 previous shared Diyanet records exactly. Full PDF glyph-to-Unicode identity is not claimed.",
+    "redistribution": "Public access is not redistribution permission; review Diyanet font and text licensing before release."
+  },
+  "verifiedReadingCoverage": "10 pages, physical Arabic PDF 2-11, Fatiha 1-7 and Bakara 1-69 (76 verses)",
+  "reproduceCompletedArabic": [
+    "Install pymupdf, fonttools and uharfbuzz in a venv",
+    "python tools/complete_reading_data.py",
+    "python tools/check_reading_data.py --require-complete",
+    "Optional explicit public-source refresh: python tools/capture_diyanet_reading.py"
+  ],
+  "artifactHashes": {
+    "assets/data/surah_names_arabic.json": "8a93a9b239ac6870773e340bb533042c7fe437790668ee774500db5c6bdefba2",
+    "assets/data/surah_names_pdf.json": "39da950184c6b0b845c0767947679cf9839cac0d971955953ef7718064517ab7",
+    "assets/data/surah_descriptions.json": "6560e75265bb6c2ca34698eeba430df878adb253da66039461440a9275f545f8",
+    "assets/data/footnotes.json": "eb94b1005af37d8700799374be32f13040db5ff1de3d046f001a11d480e96a25",
+    "assets/data/verses.json": "bb864f4844f55217003a4df312be8246c4ae07f3dca773bdb8f587cb09baddc3",
+    "assets/data/translations.json": "9df8037ead82c319f98f8ce4bd15066edded9741adddbe0293ac92531f55cc3f",
+    "assets/data/pages.json": "0b3af714868d325d35b01947a767f8456d78fd658ffb05953ce1bde97f44eeb1",
+    "assets/sources/reading-page-evidence.json": "93f48484d5f88d31ab5e490d8f09181b4e814d2fd188c59ddeebd79ffb1b4324",
+    "assets/sources/reading-font-coverage.json": "5eb4494093ac009b45ad815e547b14f850ebcc4f5c917b80f0495d64664b11e2"
+  }
+}

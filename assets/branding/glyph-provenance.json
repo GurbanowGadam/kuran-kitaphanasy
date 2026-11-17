@@ -1,0 +1,11 @@
+{
+  "icon": "Icons.auto_stories_outlined",
+  "fontFamily": "MaterialIcons",
+  "codepoint": "0xeeaf",
+  "glyphName": "auto_stories_outlined",
+  "fontSha256": "d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+  "iconsDartSha256": "44fa76fc1acbf26416b3ef9d6276b054ed9d2b9a83ba08ba637539143aa0f7c3",
+  "source": "Flutter SDK bin/cache/artifacts/material_fonts/MaterialIcons-Regular.otf",
+  "transformation": "Uniform scale, center, y-axis inversion only; no redrawing",
+  "license": "Apache-2.0; see MaterialIcons-LICENSE.txt"
+}

@@ -1,0 +1,466 @@
+{
+  "source": {
+    "type": "editorial-transliteration",
+    "language": "Turkmen-oriented Latin phonetic approximation",
+    "authority": "Editorial, not sourced from Diyanet or PDF; not a scholarly transliteration standard. Human Arabic/Turkmen review required.",
+    "note": "Pronunciation names, not translated meanings. Surah 40 uses Gafir and 94 uses Sharh rather than the PDF aliases."
+  },
+  "items": [
+    {
+      "surah": 1,
+      "name": "El-Fätiha"
+    },
+    {
+      "surah": 2,
+      "name": "El-Bakara"
+    },
+    {
+      "surah": 3,
+      "name": "Älu Ymran"
+    },
+    {
+      "surah": 4,
+      "name": "En-Nisä"
+    },
+    {
+      "surah": 5,
+      "name": "El-Mäide"
+    },
+    {
+      "surah": 6,
+      "name": "El-Engäm"
+    },
+    {
+      "surah": 7,
+      "name": "El-Agräf"
+    },
+    {
+      "surah": 8,
+      "name": "El-Enfäl"
+    },
+    {
+      "surah": 9,
+      "name": "Et-Tewbe"
+    },
+    {
+      "surah": 10,
+      "name": "Ýunus"
+    },
+    {
+      "surah": 11,
+      "name": "Hud"
+    },
+    {
+      "surah": 12,
+      "name": "Ýusuf"
+    },
+    {
+      "surah": 13,
+      "name": "Er-Ragd"
+    },
+    {
+      "surah": 14,
+      "name": "Ybrahym"
+    },
+    {
+      "surah": 15,
+      "name": "El-Hijr"
+    },
+    {
+      "surah": 16,
+      "name": "En-Nahl"
+    },
+    {
+      "surah": 17,
+      "name": "El-Isrä"
+    },
+    {
+      "surah": 18,
+      "name": "El-Kehf"
+    },
+    {
+      "surah": 19,
+      "name": "Merýem"
+    },
+    {
+      "surah": 20,
+      "name": "Taha"
+    },
+    {
+      "surah": 21,
+      "name": "El-Enbiýä"
+    },
+    {
+      "surah": 22,
+      "name": "El-Hajj"
+    },
+    {
+      "surah": 23,
+      "name": "El-Mu’minun"
+    },
+    {
+      "surah": 24,
+      "name": "En-Nur"
+    },
+    {
+      "surah": 25,
+      "name": "El-Furkan"
+    },
+    {
+      "surah": 26,
+      "name": "Eş-Şu’arä"
+    },
+    {
+      "surah": 27,
+      "name": "En-Neml"
+    },
+    {
+      "surah": 28,
+      "name": "El-Kasas"
+    },
+    {
+      "surah": 29,
+      "name": "El-Ankebut"
+    },
+    {
+      "surah": 30,
+      "name": "Er-Rum"
+    },
+    {
+      "surah": 31,
+      "name": "Lukman"
+    },
+    {
+      "surah": 32,
+      "name": "Es-Sejde"
+    },
+    {
+      "surah": 33,
+      "name": "El-Ahzäb"
+    },
+    {
+      "surah": 34,
+      "name": "Sebe"
+    },
+    {
+      "surah": 35,
+      "name": "Fätyr"
+    },
+    {
+      "surah": 36,
+      "name": "Ýäsin"
+    },
+    {
+      "surah": 37,
+      "name": "Es-Säffät"
+    },
+    {
+      "surah": 38,
+      "name": "Sad"
+    },
+    {
+      "surah": 39,
+      "name": "Ez-Zümer"
+    },
+    {
+      "surah": 40,
+      "name": "Gäfir"
+    },
+    {
+      "surah": 41,
+      "name": "Fussilet"
+    },
+    {
+      "surah": 42,
+      "name": "Eş-Şura"
+    },
+    {
+      "surah": 43,
+      "name": "Ez-Zuhruf"
+    },
+    {
+      "surah": 44,
+      "name": "Ed-Duhän"
+    },
+    {
+      "surah": 45,
+      "name": "El-Jäsiýe"
+    },
+    {
+      "surah": 46,
+      "name": "El-Ahkaf"
+    },
+    {
+      "surah": 47,
+      "name": "Muhammed"
+    },
+    {
+      "surah": 48,
+      "name": "El-Feth"
+    },
+    {
+      "surah": 49,
+      "name": "El-Hujurät"
+    },
+    {
+      "surah": 50,
+      "name": "Kaf"
+    },
+    {
+      "surah": 51,
+      "name": "Ez-Zäriýät"
+    },
+    {
+      "surah": 52,
+      "name": "Et-Tur"
+    },
+    {
+      "surah": 53,
+      "name": "En-Nejm"
+    },
+    {
+      "surah": 54,
+      "name": "El-Kamar"
+    },
+    {
+      "surah": 55,
+      "name": "Er-Rahmän"
+    },
+    {
+      "surah": 56,
+      "name": "El-Wäky’a"
+    },
+    {
+      "surah": 57,
+      "name": "El-Hadid"
+    },
+    {
+      "surah": 58,
+      "name": "El-Mujädele"
+    },
+    {
+      "surah": 59,
+      "name": "El-Haşr"
+    },
+    {
+      "surah": 60,
+      "name": "El-Mumtehine"
+    },
+    {
+      "surah": 61,
+      "name": "Es-Saff"
+    },
+    {
+      "surah": 62,
+      "name": "El-Jumu’a"
+    },
+    {
+      "surah": 63,
+      "name": "El-Munäfikun"
+    },
+    {
+      "surah": 64,
+      "name": "Et-Tegabun"
+    },
+    {
+      "surah": 65,
+      "name": "Et-Taläk"
+    },
+    {
+      "surah": 66,
+      "name": "Et-Tahrim"
+    },
+    {
+      "surah": 67,
+      "name": "El-Mulk"
+    },
+    {
+      "surah": 68,
+      "name": "El-Kalem"
+    },
+    {
+      "surah": 69,
+      "name": "El-Häkka"
+    },
+    {
+      "surah": 70,
+      "name": "El-Me’ärij"
+    },
+    {
+      "surah": 71,
+      "name": "Nuh"
+    },
+    {
+      "surah": 72,
+      "name": "El-Jinn"
+    },
+    {
+      "surah": 73,
+      "name": "El-Muzzemmil"
+    },
+    {
+      "surah": 74,
+      "name": "El-Muddessir"
+    },
+    {
+      "surah": 75,
+      "name": "El-Kyýäme"
+    },
+    {
+      "surah": 76,
+      "name": "El-Insän"
+    },
+    {
+      "surah": 77,
+      "name": "El-Murselät"
+    },
+    {
+      "surah": 78,
+      "name": "En-Nebe"
+    },
+    {
+      "surah": 79,
+      "name": "En-Näzi’ät"
+    },
+    {
+      "surah": 80,
+      "name": "Abese"
+    },
+    {
+      "surah": 81,
+      "name": "Et-Tekwir"
+    },
+    {
+      "surah": 82,
+      "name": "El-Infitär"
+    },
+    {
+      "surah": 83,
+      "name": "El-Mutaffifin"
+    },
+    {
+      "surah": 84,
+      "name": "El-Inşikak"
+    },
+    {
+      "surah": 85,
+      "name": "El-Buruj"
+    },
+    {
+      "surah": 86,
+      "name": "Et-Täryk"
+    },
+    {
+      "surah": 87,
+      "name": "El-A’lä"
+    },
+    {
+      "surah": 88,
+      "name": "El-Gaşiýe"
+    },
+    {
+      "surah": 89,
+      "name": "El-Fejr"
+    },
+    {
+      "surah": 90,
+      "name": "El-Beled"
+    },
+    {
+      "surah": 91,
+      "name": "Eş-Şems"
+    },
+    {
+      "surah": 92,
+      "name": "El-Leýl"
+    },
+    {
+      "surah": 93,
+      "name": "Ed-Duhä"
+    },
+    {
+      "surah": 94,
+      "name": "Eş-Şerh"
+    },
+    {
+      "surah": 95,
+      "name": "Et-Tin"
+    },
+    {
+      "surah": 96,
+      "name": "El-Alak"
+    },
+    {
+      "surah": 97,
+      "name": "El-Kadr"
+    },
+    {
+      "surah": 98,
+      "name": "El-Beýýine"
+    },
+    {
+      "surah": 99,
+      "name": "Ez-Zelzele"
+    },
+    {
+      "surah": 100,
+      "name": "El-Ädiýät"
+    },
+    {
+      "surah": 101,
+      "name": "El-Käri’a"
+    },
+    {
+      "surah": 102,
+      "name": "Et-Tekäsur"
+    },
+    {
+      "surah": 103,
+      "name": "El-Asr"
+    },
+    {
+      "surah": 104,
+      "name": "El-Humeze"
+    },
+    {
+      "surah": 105,
+      "name": "El-Fil"
+    },
+    {
+      "surah": 106,
+      "name": "Kuraýş"
+    },
+    {
+      "surah": 107,
+      "name": "El-Mä’un"
+    },
+    {
+      "surah": 108,
+      "name": "El-Kewser"
+    },
+    {
+      "surah": 109,
+      "name": "El-Käfirun"
+    },
+    {
+      "surah": 110,
+      "name": "En-Nasr"
+    },
+    {
+      "surah": 111,
+      "name": "El-Mesed"
+    },
+    {
+      "surah": 112,
+      "name": "El-Ihläs"
+    },
+    {
+      "surah": 113,
+      "name": "El-Felak"
+    },
+    {
+      "surah": 114,
+      "name": "En-Näs"
+    }
+  ]
+}

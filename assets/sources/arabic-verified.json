@@ -1,0 +1,114 @@
+[
+  {
+    "surah": 1,
+    "ayah": 1,
+    "arabic": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖیمِ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/1"
+  },
+  {
+    "surah": 1,
+    "ayah": 2,
+    "arabic": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمٖینَۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/2"
+  },
+  {
+    "surah": 1,
+    "ayah": 3,
+    "arabic": "اَلرَّحْمٰنِ الرَّحٖیمِۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/3"
+  },
+  {
+    "surah": 1,
+    "ayah": 4,
+    "arabic": "مَالِكِ یَوْمِ الدّٖینِؕ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/4"
+  },
+  {
+    "surah": 1,
+    "ayah": 5,
+    "arabic": "اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعٖینُؕ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/5"
+  },
+  {
+    "surah": 1,
+    "ayah": 6,
+    "arabic": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقٖیمَۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/6"
+  },
+  {
+    "surah": 1,
+    "ayah": 7,
+    "arabic": "صِرَاطَ الَّذٖینَ اَنْعَمْتَ عَلَیْهِمْۙ غَیْرِ الْمَغْضُوبِ عَلَیْهِمْ وَلَا الضَّٓالّٖینَ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/1/7"
+  },
+  {
+    "surah": 2,
+    "ayah": 1,
+    "arabic": "الٓمٓۚ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/2/1"
+  },
+  {
+    "surah": 2,
+    "ayah": 2,
+    "arabic": "ذٰلِكَ الْكِتَابُ لَا رَیْبَۚۛ فٖیهِۚۛ هُدًى لِلْمُتَّقٖینَۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/2/2"
+  },
+  {
+    "surah": 2,
+    "ayah": 3,
+    "arabic": "اَلَّذٖینَ یُؤْمِنُونَ بِالْغَیْبِ وَیُقٖیمُونَ الصَّلٰوةَ وَمِمَّا رَزَقْنَاهُمْ یُنْفِقُونَۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/2/3"
+  },
+  {
+    "surah": 2,
+    "ayah": 4,
+    "arabic": "وَالَّذٖینَ یُؤْمِنُونَ بِمَٓا اُنْزِلَ اِلَیْكَ وَمَٓا اُنْزِلَ مِنْ قَبْلِكَۚ وَبِالْاٰخِرَةِ هُمْ یُوقِنُونَؕ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/2/4"
+  },
+  {
+    "surah": 2,
+    "ayah": 5,
+    "arabic": "اُو𐻾لٰٓئِكَ عَلٰى هُدًى مِنْ رَبِّهِمْ وَاُو𐻾لٰٓئِكَ هُمُ الْمُفْلِحُونَ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/2/5"
+  },
+  {
+    "surah": 112,
+    "ayah": 1,
+    "arabic": "قُلْ هُوَ اللّٰهُ اَحَدٌۚ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/112/1"
+  },
+  {
+    "surah": 112,
+    "ayah": 2,
+    "arabic": "اَللّٰهُ الصَّمَدُۚ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/112/2"
+  },
+  {
+    "surah": 112,
+    "ayah": 3,
+    "arabic": "لَمْ یَلِدْ وَلَمْ یُولَدْۙ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/112/3"
+  },
+  {
+    "surah": 112,
+    "ayah": 4,
+    "arabic": "وَلَمْ یَكُنْ لَهُ كُفُوًا اَحَدٌ",
+    "textGroup": 4,
+    "url": "https://kuran.diyanet.gov.tr/api/v2/ayet/112/4"
+  }
+]

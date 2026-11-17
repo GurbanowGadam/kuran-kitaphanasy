@@ -1,0 +1,2046 @@
+{
+  "source": {
+    "type": "user-provided-pdf",
+    "path": "/home/gadamgurban/Documents/kurany_kerim_turkmen_dilinde.pdf",
+    "sha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+    "pageNumbering": "1-based physical PDF page; printed PDF numbers coincide in this excerpt",
+    "extraction": "tools/extract_pdf_sources.py; text blocks in left-then-right column order",
+    "normalization": "Whitespace folded; line-end hyphens preserved without intervening whitespace; only pre-existing Fatiha soraýa- / rys joined. No Unicode normalization or wording correction. Printed missing punctuation retained as sourceLabel.",
+    "redistribution": "User explicitly asserted complete source permissions on 2026-11-13. This records user assertion; no independently verified license is claimed.",
+    "status": "complete",
+    "scope": "114 surahs; 6236 ayahs, source grouped paragraphs preserved",
+    "extractionSha256": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546"
+  },
+  "items": [
+    {
+      "id": "1:1-1:note-1",
+      "surah": 1,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Bu birinji aýata, gysgaça, «Bismillä» diýilýär. Ymam Agzamyň, şeýle-de bir topar başga fykh (yslam hukugy) alymlarynyň pikirine görä, «Bismillä» aýaty «Elham» süresiniň bir aýaty däldir. Diňe «Neml» süresiniň 30-njy aýatynda agzalýan «Bismillä» bir aýatdyr, galan ýerde bolsa gaýtalamadyr, şol süreden bir aýat däldir. Kurany Kerimiň «Toba» süresinden galan 113 süresiniň hemmesiniň başynda gelýän bu aýat bu süreleriň başynda diňe bereket üçin okalýar. Şonuň üçin hem ol namazda içiňden aýdylýar. Emma käbir alymlar ony «Elhamyň» bir aýaty hasaplaýarlar. Hadyslaryň birinde: «Bismillä bilen başlanmadyk işiň soňy ýokdur» diýilýär. Bu sebäpli, hem haýsydyr bir işe başlanylanda «Bismillä» aýdylýar.",
+      "pdfPage": 2,
+      "column": "right",
+      "extractionOffset": 6249
+    },
+    {
+      "id": "1:7-7:note-1",
+      "surah": 1,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "Düşündiriş: «Elham» süresi okalandan soň, «Ämin!» («Kabul et!») diýmek sünnet hasaplanylýar.",
+      "pdfPage": 2,
+      "column": "right",
+      "extractionOffset": 7366
+    },
+    {
+      "id": "2:1-1:note-1",
+      "surah": 2,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Kurany Kerimde 29 süräniň başynda getirilýän şular ýaly arap elipbiýiniň harplary özbaşdak many aňlatmaýar. Ol harplaryň getirilmegi Kuranyň şular ýaly harplardan ybaratdygyny, muňa garamazdan, yslama ynanmaýanlaryň bu mukaddes kitabyň bir aýaty ýaly jümläni hem düzüp bilmeýändiklerini ýaňzytmak maksady bilen baglanyşyklydyr. Bu harplara Kurany Kerimiň syrlary hökmünde hem garalýar.",
+      "pdfPage": 3,
+      "column": "left",
+      "extractionOffset": 7946
+    },
+    {
+      "id": "2:37-37:note-1",
+      "surah": 2,
+      "fromAyah": 37,
+      "toAyah": 37,
+      "text": "Düşündiriş: Adam ata toba eden mahaly: «Eý, Perwerdigärimiz! Biz özümize zulum etdik, eger Sen biziň günälerimizi geçip, bize merhemet etmeseň, biz zyýan çekenlerden bolarys» diýip dileg edipdir. Käbir çeşmelerde bolsa Adam atanyň toba eden wagty okan dileginiň namazda okalýan «Subhaneke» dogasydygy aýdylýar.",
+      "pdfPage": 7,
+      "column": "right",
+      "extractionOffset": 15300
+    },
+    {
+      "id": "2:40-40:note-1",
+      "surah": 2,
+      "fromAyah": 40,
+      "toAyah": 40,
+      "text": "Düşündiriş: Ysraýyl Ýakup pygamberiň lakamydyr. Manysy hem «Allanyň guly» diýmekdir. Olara Ýakup pygamberiň neslinden gelendikleri üçin ysraýyl ogullary diýlipdir. Hezreti Musa tabyn bolandyklary üçin bolsa olara musaýylar diýlipdir.",
+      "pdfPage": 8,
+      "column": "left",
+      "extractionOffset": 16227
+    },
+    {
+      "id": "2:47-47:note-1",
+      "surah": 2,
+      "fromAyah": 47,
+      "toAyah": 47,
+      "text": "Düşündiriş: Oňki döwürlerde haýsy millete pygamber iberilse, şol millet üstün hasaplanar eken. Ol millet hem, özlerine iberilen pygamber sebäpli, abraýly hasaplanylypdyr. Ýöne olaryň Allanyň öňündäki jogapkärçilikleri hem beýlekilerden has uly bolupdyr.",
+      "pdfPage": 8,
+      "column": "right",
+      "extractionOffset": 17436
+    },
+    {
+      "id": "2:48-48:note-1",
+      "surah": 2,
+      "fromAyah": 48,
+      "toAyah": 48,
+      "text": "Düşündiriş: Şepagat – bir adamyň günäsiniň geçilmegi üçin edilen haýyşdyr, kömekdir. Alla kyýamat gününde öz ygtyýary bilen islendik bendesine başga birini şepagat etme hakyny berip bilýär.",
+      "pdfPage": 8,
+      "column": "right",
+      "extractionOffset": 17888
+    },
+    {
+      "id": "2:57-57:note-1",
+      "surah": 2,
+      "fromAyah": 57,
+      "toAyah": 57,
+      "text": "Düşündiriş: Menne – ýahudylara asmandan ýörite iberilen halwa ýaly şepbeşik, şirin nygmatyň ady. Ol asmandan her gün ir bilen daň atandan, tä Gün dogýança gar ýaly ap-ak bolup ýagar eken. Halk hem her gün gündeki iýjegini alar eken. Umuman, zähmet çekmezden öz-özi gelýän ähli zatlara hem «menne» diýilýär. Sözlüklerde «menne» diýlip, käbir miweli agaçlarda peýda bolýan süýji tagamly şepbeşik iýmit düşündirilýär. Ol gijesine agaçlardan çykýan şiräniň netijesinde bir ýere üýşüp, kiçiräk şepbeşik görnüşde emele gelýär. Ony ir bilen, heniz Gün dogmanka alýarlar.",
+      "pdfPage": 9,
+      "column": "right",
+      "extractionOffset": 19502
+    },
+    {
+      "id": "2:62-62:note-1",
+      "surah": 2,
+      "fromAyah": 62,
+      "toAyah": 62,
+      "text": "Düşündiriş: Bu ýerde yslam gelmezden öň öz döwürlerindäki hak dine iman getiren ymmatlar göz öňünde tutulýar. Sabylar – öň ýaşap geçen, belli bir dinleri bolmadyk we Allanyň birligini ykrar eden ymmatlaryň biri.",
+      "pdfPage": 11,
+      "column": "left",
+      "extractionOffset": 21784
+    },
+    {
+      "id": "2:65-65:note-1",
+      "surah": 2,
+      "fromAyah": 65,
+      "toAyah": 65,
+      "text": "Düşündiriş: Bu aýatda şenbe güni balyk tutmak gadagan edilse-de, ol gadagançylyga uýmadyk ysraýyl ogullary barada aýdylýar. Kuranda we hadyslarda irki döwürlerde şular ýaly käbir günäkärleriň Allanyň näletine galyp maýmyna, doňza öwrülendikleri, soň gysga wagt ýaşap, ölüp gidendikleri barada aýdylýar.",
+      "pdfPage": 11,
+      "column": "left",
+      "extractionOffset": 22640
+    },
+    {
+      "id": "2:73-73:note-1",
+      "surah": 2,
+      "fromAyah": 73,
+      "toAyah": 73,
+      "text": "Düşündiriş: Ysraýyl ogullaryndan iki sany ýaş ýigit mirasyna eýe bolmak üçin öz agalaryny (kakalarynyň doganyny) öldürýärler. Ganhoryň kimdigi bolsa näbelli bolup galýar. Bu hadysany Musa pygambere ýetirýärler. Ol hem ganhoryň kimdigini bilip bilmänsoň, Alla nyýaz edip ýüz tutýar. Netijede, damagy çalnan ol sygryň eti bilen uransoňlar, öldürilen adam direlýär we özüniň ganhorynyň kimdigini aýdýar.",
+      "pdfPage": 12,
+      "column": "right",
+      "extractionOffset": 24793
+    },
+    {
+      "id": "2:89-89:note-1",
+      "surah": 2,
+      "fromAyah": 89,
+      "toAyah": 89,
+      "text": "Düşündiriş: Ysraýyl ogullary ahyrzaman pygamberiniň geljekdigini özlerine inderilen Töwratdan bilýärdiler. Hatda oňa garaşyp ýördüler. Emma ol pygamber özlerinden däl-de, araplardan dörände bolsa ony inkär edýärler.",
+      "pdfPage": 15,
+      "column": "left",
+      "extractionOffset": 29191
+    },
+    {
+      "id": "2:97-97:note-1",
+      "surah": 2,
+      "fromAyah": 97,
+      "toAyah": 97,
+      "text": "Düşündiriş: Ysraýyl ogullaryndan bir ruhany pygamberimiz Muhammet aleýhissalamdan: «Saňa Kuranyň bu sözlerini kim getirýär?» diýip soranda, ol: «Jebraýyl perişde» diýip jogap berýär. Onda ýaňky ruhany: «Jebraýyl biziň duşmanymyzdyr. Başgasy getirsedi, saňa iman getirerdik» diýýär. Bu wakadan soň hem aşakdaky aýat inýär.",
+      "pdfPage": 16,
+      "column": "right",
+      "extractionOffset": 31444
+    },
+    {
+      "id": "2:102-102:note-1",
+      "surah": 2,
+      "fromAyah": 102,
+      "toAyah": 102,
+      "text": "Düşündiriş: Allanyň emri bilen Harut we Marut atly iki perişde ynsan keşbinde jadygöýligiň giňden ýaýran ýeri bolan Babyl şäherine iberilýärler. Bu perişdeler hem adamlara jadygöýligiň erbetligi barada wagyz-nesihat edipdirler. Emma Allanyň hikmeti bilen olara käbir zatlary hem öwredipdirler. Şeýle-de ýahudylar Süleýman pygamberi Allanyň ilçisi däl-de, bir jadygöý hasaplapdyrlar.",
+      "pdfPage": 17,
+      "column": "left",
+      "extractionOffset": 33250
+    },
+    {
+      "id": "2:104-104:note-1",
+      "surah": 2,
+      "fromAyah": 104,
+      "toAyah": 104,
+      "text": "Düşündiriş: Pygamberimiz musulmanlara wagyz-nesihat edende, olar: «Eý Allanyň ilçisi! Biziň gowy düşünmegimiz üçin tagapyl ediň!» manysynda pygamberimize «Ragynä» diýýärdiler. Bu sözüň ýahudylaryň dilinde sögünç manysy bardy. Olar pygamberimize öz dillerindäki erbet manyny göz öňünde tutup, bu söz bilen ýüzlenip başladylar. Munuň netijesinde hem musulmanlara: «Ragynä» diýmäň, oňa derek şol manyny aňladýan «Unzurnä» diýiň» diýlip aýdyldy.",
+      "pdfPage": 17,
+      "column": "left",
+      "extractionOffset": 33989
+    },
+    {
+      "id": "2:105-105:note-1",
+      "surah": 2,
+      "fromAyah": 105,
+      "toAyah": 105,
+      "text": "Düşündiriş: Ähli-kitap – özlerine asmandan kitap iberilen kapyrlar. Kurany Kerimde ähli kitap diýlende ýahudylar we nasranylar göz öňünde tutulýar.",
+      "pdfPage": 17,
+      "column": "right",
+      "extractionOffset": 34678
+    },
+    {
+      "id": "2:106-106:note-1",
+      "surah": 2,
+      "fromAyah": 106,
+      "toAyah": 106,
+      "text": "Düşündiriş: Kurany Kerimde käbir aýatlar inderilenden gysga wagt geçenden soň unutdyrylýar. Sahabalar bir gije bir süräni okamakçy bolýarlar. Emma başyndaky «Bismilläden» başga hiç zat ýatlaryna düşmändir. Olar bu ýagdaýyň sebäbini sorap, pygamberimize ýüz tutanlarynda, ol: «Ol süre sözleri we hökümleri bilen aradan aýrylandyr» diýip jogap berýär.",
+      "pdfPage": 18,
+      "column": "left",
+      "extractionOffset": 35028
+    },
+    {
+      "id": "2:116-116:note-1",
+      "surah": 2,
+      "fromAyah": 116,
+      "toAyah": 116,
+      "text": "Düşündiriş: Ýahudylar «Uzeýr pygamber Allanyň ogludyr», nasranylar bolsa «Isa pygamber Allanyň ogludyr», butparazlar hem «Perişdeler Allanyň gyzlarydyr» diýdiler. Bu aýatda bular inkär edilýär.",
+      "pdfPage": 19,
+      "column": "left",
+      "extractionOffset": 37594
+    },
+    {
+      "id": "2:125-125:note-1",
+      "surah": 2,
+      "fromAyah": 125,
+      "toAyah": 125,
+      "text": "Düşündiriş: «Makamy Ybraýym» sözi «Ybraýym pygamberiň duran ýeri» diýen manyny aňladýar. Ybraýym pygamberiň Käbäni bina edende, üstüne çykan we aýagynyň yzy galan daş. Ol ýer şu wagt Käbäniň daşynda ýarym aýlanyp duran daşdan ybarat. Ol ýer öň Käbäniň çäginde eken. Ýöne Käbe soň täzeden bina edilende, ol ýer Käbäniň daşynda galýar.",
+      "pdfPage": 20,
+      "column": "right",
+      "extractionOffset": 39786
+    },
+    {
+      "id": "2:142-142:note-1",
+      "surah": 2,
+      "fromAyah": 142,
+      "toAyah": 142,
+      "text": "Düşündiriş: Musulmanlar ilkibaşda Medinede Kudusa bakyp namaza durýardylar. Şonda ýahudylar: «Muhammede kyblanyň nirededigini biz görkezdik» diýip öwünýärdiler. Soň Alladan musulmanlara namazda ýüzlerini Käbä öwürmekleri barada emir gelýär. Bu ýagdaýdan soň hem olar ýene-de öz aralarynda bolgusyz gürrüňleri edip başlaýarlar.",
+      "pdfPage": 23,
+      "column": "left",
+      "extractionOffset": 43893
+    },
+    {
+      "id": "2:143-143:note-1",
+      "surah": 2,
+      "fromAyah": 143,
+      "toAyah": 143,
+      "text": "Düşündiriş: Kyýamat gününde ähli ymmatlar pygamberleriniň özlerine hakykaty getirendiklerini inkär ederler. Alla hem hakykaty ýetirendikleri barada pygamberlerden delil talap eder. Şonda Muhammet ymmatyny getirerler. Olar hem ähli pygamberleriň öz ymmatlaryna hakykaty ýetirendiklerine güwä geçerler. Olardan: «Siz muny nireden bilýärsiňiz?» diýlip soralar. Olar hem: «Kurandan we Allanyň ilçisinden» diýerler. Soň Allanyň ilçisi Muhammedi getirerler, ol hem bularyň hakykatdygyny tassyklar.",
+      "pdfPage": 23,
+      "column": "left",
+      "extractionOffset": 44759
+    },
+    {
+      "id": "2:144-144:note-1",
+      "surah": 2,
+      "fromAyah": 144,
+      "toAyah": 144,
+      "text": "Düşündiriş: Mesjidi-Haram – Käbäniň Kurany Kerimdäki ady bolup, bu ýerdäki haram sözi «mukaddes, keramatly, hormatly, çäklerinde gadagan işleri etmek haram bolan» manylaryny aňladýar.",
+      "pdfPage": 23,
+      "column": "right",
+      "extractionOffset": 45714
+    },
+    {
+      "id": "2:179-179:note-1",
+      "surah": 2,
+      "fromAyah": 179,
+      "toAyah": 179,
+      "text": "Düşündiriş: Kasasyň ýörediljegini bilenler başga adamlaryň janyna kast etmekden heder ederler. Netije-de hem ýaşaýyş dabaralanar.",
+      "pdfPage": 28,
+      "column": "right",
+      "extractionOffset": 53788
+    },
+    {
+      "id": "2:180-180:note-1",
+      "surah": 2,
+      "fromAyah": 180,
+      "toAyah": 180,
+      "text": "Düşündiriş: Bu aýatyň tereke bilen baglanyşyky aýatlar inenden soň hökümi ýatyrylýar.",
+      "pdfPage": 28,
+      "column": "right",
+      "extractionOffset": 54134
+    },
+    {
+      "id": "2:188-188:note-1",
+      "surah": 2,
+      "fromAyah": 188,
+      "toAyah": 188,
+      "text": "Düşündiriş: Bu ýerde ynsanlaryň elindäki bar bolan amanat zatlary inkär edip, eýesine bermejek bolup, kazyýetlere baş urup, ýarysyny özi alyp, ýarysyny bolsa kazylara para hökmünde berýänler ýazgarylýar.",
+      "pdfPage": 30,
+      "column": "right",
+      "extractionOffset": 57140
+    },
+    {
+      "id": "2:189-189:note-1",
+      "surah": 2,
+      "fromAyah": 189,
+      "toAyah": 189,
+      "text": "Düşündiriş: Yslamdan öň we yslamyň başlarynda haj ýa-da umra ybadatyny berjaý etmek üçin yhram baglaýan adam, sogap bolýar diýen düşünje bilen, öýüň arka tarapyndan girer eken. Bu aýatda beýle hereketiň nädogrudgy nygtalýar.",
+      "pdfPage": 30,
+      "column": "right",
+      "extractionOffset": 57717
+    },
+    {
+      "id": "2:198-198:note-1",
+      "surah": 2,
+      "fromAyah": 198,
+      "toAyah": 198,
+      "text": "Düşündiriş: Arafat – Mekgäniň golaýyndaky bir dagyň ady. Haj döwründe gurban aýynyň dokuzyna ol ýerde wakfa durmak, ýagny biraz wagtlap aýak üstünde eglenmek hajyň parzlarynyň biridir. Arafat dagyndan inen hajylar soň Muzdelife diýen ýere gelip, ol ýerde agşam, ýassy we ertir namazlaryny okaýarlar. Muzdelifäniň çetinde ýerleşýän Meşgary-Haram (ýa-da Kuzah) diýilýän depede gijäni geçirmek, aýak üstünde dik durup, Alla ýönelip doga-dileg etmek has sogap hasaplanylýar.",
+      "pdfPage": 32,
+      "column": "right",
+      "extractionOffset": 60945
+    },
+    {
+      "id": "2:203-203:note-1",
+      "surah": 2,
+      "fromAyah": 203,
+      "toAyah": 203,
+      "text": "Düşündiriş: Tekbir aýtmak – «Allahu ekber» («Alla örän beýikdir») diýmek bolup, hanafy alymlarynyň pikirine görä, bu aýatdaky «sanalgy (gurbanlyk) günlerinden» maksat gurbanlyk günlerindäki aýdylýan tekbirlerdir. Bu tekbirler gurban aýynyň dokuzy güni ertir namazynyň parzyndan başlap, tä gurban aýynyň on üçünji güni ikindi namazynyň parzyna çenli, jemi 23 namazyň yzyndan aýtmak wajyp hasaplanylýar.",
+      "pdfPage": 33,
+      "column": "left",
+      "extractionOffset": 62394
+    },
+    {
+      "id": "2:230-230:note-1",
+      "surah": 2,
+      "fromAyah": 230,
+      "toAyah": 230,
+      "text": "Düşündiriş: Yslamdan öň araplar aýallaryna birnäçe gezek talak berip, soň ýene yzyna alar ekenler. Yslam muny gadagan edýär we aýala üç we ondan köp talak berilse, olaryň aýrylyşmalydyklaryny kesgitleýär.",
+      "pdfPage": 37,
+      "column": "right",
+      "extractionOffset": 71237
+    },
+    {
+      "id": "2:247-247:note-1",
+      "surah": 2,
+      "fromAyah": 247,
+      "toAyah": 247,
+      "text": "Düşündiriş: Müsür bile Palestinanyň arasynda ýaşaýan amalika halkynyň Jalut atly hökümdary ysraýyl ogullarynyň üstüne häli-şindi çozuş edip, olary ýurtlaryndan kowup çykarýar. Ysraýyl ogullary hem şol döwrüň pygamberi bolan Işmewil pygamberden Jaluta garşy söweşde özlerine birini hökümdar we serkerde bellemegini haýyş edýärler. Işmewil pygamber hem Allanyň halkyň içinden Taluty olara serkerde hem hökümdar edip belländigini aýdýar.",
+      "pdfPage": 41,
+      "column": "left",
+      "extractionOffset": 77247
+    },
+    {
+      "id": "2:281-281:note-1",
+      "surah": 2,
+      "fromAyah": 281,
+      "toAyah": 281,
+      "text": "Düşündiriş: Bu aýat Kurany Kerimiň inen iň soňky aýatydyr. Pygamberimiz bu aýatdan soň uzak ýaşaman, dünýäden gaýdýar.",
+      "pdfPage": 48,
+      "column": "right",
+      "extractionOffset": 88038
+    },
+    {
+      "id": "2:282-282:note-1",
+      "surah": 2,
+      "fromAyah": 282,
+      "toAyah": 282,
+      "text": "Düşündiriş: Bu aýat Kurany Kerimiň iň uzyn aýatydyr.",
+      "pdfPage": 49,
+      "column": "right",
+      "extractionOffset": 89497
+    },
+    {
+      "id": "3:37-37:note-1",
+      "surah": 3,
+      "fromAyah": 37,
+      "toAyah": 37,
+      "text": "Düşündiriş: Zekeriýýa pygamber bibi Merýemiň daýzasynyň ýanýoldaşydy. Aýatda hem aýdylyşy ýaly, Zekeriýýa bibi Merýeme gözegçilik edýärdi. Metjidiň içinden Merýeme ýörite bir otag taýýarlapdy. Zekeriýýa aleýhissalam Merýemiň otagyna giren wagty dürli ter we täze miweler görýärdi. Bular şol möwsümde ol sebitde ýetişmeýän miwelerdi. Şeýle hem bibi Merýeme rysgal gelýändigini habar beren bu aýat keramatyň hakykatdygyna-da delildir.",
+      "pdfPage": 55,
+      "column": "right",
+      "extractionOffset": 99645
+    },
+    {
+      "id": "3:39-39:note-1",
+      "surah": 3,
+      "fromAyah": 39,
+      "toAyah": 39,
+      "text": "Düşündiriş: Tefsir alymlarynyň aglabasynyň pikirine görä, bu aýatdaky «keleme» (söz) diýilmeginden maksat Isa pygamberdir.",
+      "pdfPage": 56,
+      "column": "left",
+      "extractionOffset": 100514
+    },
+    {
+      "id": "3:45-45:note-1",
+      "surah": 3,
+      "fromAyah": 45,
+      "toAyah": 45,
+      "text": "Düşündiriş: Allatagala Isa pygamberi ýaradanda oňa «Bol!» diýipdir welin, ol ene göwresinde peýda bolup, dünýä inipdir. Şol sözden dünýä inendigi üçin hem Isa pygambere «Allanyň sözi» diýilýär.",
+      "pdfPage": 56,
+      "column": "right",
+      "extractionOffset": 101754
+    },
+    {
+      "id": "3:61-61:note-1",
+      "surah": 3,
+      "fromAyah": 61,
+      "toAyah": 61,
+      "text": "Düşündiriş: Bu aýata iki tarapyň haýsydyr bir meselede jedelleşip, bir karara gelip bilmeseler, haýsy tarap ýalançy bolsa, Allanyň oňa nälet etmegini bütin kalbyň bilen islemek manysynda «näletleme aýaty» diýilýär.",
+      "pdfPage": 58,
+      "column": "right",
+      "extractionOffset": 105010
+    },
+    {
+      "id": "3:66-66:note-1",
+      "surah": 3,
+      "fromAyah": 66,
+      "toAyah": 66,
+      "text": "Düşündiriş: Ýahudylar bilen nasranylar öz aralarynda Ybraýym aleýhissalamyň ýahudy ýa-da nasranydygy barada jedel eder ekenler. Bu aýat olaryň bu pikirlerini ret edýär. Sebäbi ýahudylyk we nasranylyk Ybraýym aleýhissalamdan soň dörän dindir.",
+      "pdfPage": 59,
+      "column": "left",
+      "extractionOffset": 106198
+    },
+    {
+      "id": "3:71-71:note-1",
+      "surah": 3,
+      "fromAyah": 71,
+      "toAyah": 71,
+      "text": "Düşündiriş: Haýbar ýahudylaryndan on iki adamdan ybarat ruhanylar topary agyz birikdirip irden ýalandan yslamy kabul eden bolýarlar. Agşamrak bolsa, öz kitaplaryny okandyklaryny we hezreti Muhammediň pygamberligine degişli hiç hili habara gabat gelmändiklerini aýdyp, yslamdan ýüz öwürýärler. Şeýlelik bilen olar musulmanlaryň arasynda şübhe döredip, olaryň hem dinden çykmaklaryna sebäp bolmak isleýärdiler. Aşakdaky aýatlar bu waka yşarat edýär.",
+      "pdfPage": 60,
+      "column": "left",
+      "extractionOffset": 107092
+    },
+    {
+      "id": "3:103-103:note-1",
+      "surah": 3,
+      "fromAyah": 103,
+      "toAyah": 103,
+      "text": "Düşündiriş: Yslamdan öň Arap ýarymadasynda ynsan ýaşaýşynyň hiç bir gymmaty galmandy. Iň ownuk bir sebäbe görä hem ynsanlary çekinmän öldürer ekenler. Tire-taýpa söweşleriniň, öç alma we gan dawalarynyň soňy gelmeýärdi. Medinedäki ews we hazraç taýpalary 120 ýyllap dowamly söweşýärdiler. Yslam dininiň gelmeginiň netijesinde hem olar biri-birleri bilen ýaraşyp, dogan bolýarlar.",
+      "pdfPage": 64,
+      "column": "right",
+      "extractionOffset": 114397
+    },
+    {
+      "id": "3:154-154:note-1",
+      "surah": 3,
+      "fromAyah": 154,
+      "toAyah": 154,
+      "text": "Düşündiriş: Aýatdaky söweş musulmanlaryň ýeňlişi bilen gutaran Uhut söweşidir. Käbir mynapyklar musulmanlar bilen bile söweşe goşulandyklary üçin puşman edip, öz aralarynda: «Ýolbaşçylykda ygtyýarymyz bolup, biziň pikirimiz bilen hereket edilsedi, beýle ryswa bolup, ýeňilmezdik» diýdiler. Şeýdip, olar pygamberimize töhmet atýardylar, musulmanlaryň ruhy güýjüne-de zeper ýetirýärdiler. Sahabalardan Abdylla ibn Mesgut söweşdäki uky halynyň Alladan, namazdaky uky halynyň bolsa şeýtandandygyny aýdypdyr.",
+      "pdfPage": 71,
+      "column": "left",
+      "extractionOffset": 125673
+    },
+    {
+      "id": "3:165-165:note-1",
+      "surah": 3,
+      "fromAyah": 165,
+      "toAyah": 165,
+      "text": "Düşündiriş: Uhut söweşinde musulmanlardan ýetmiş kişi şehit bolýar. Bedrde bolsa kapyrlardan ýetmiş öli, ýetmiş adam hem ýesir düşýär. netije-de hem olaryň ýitgisi musulmanlaryňkydan iki esse köp bolýar.",
+      "pdfPage": 72,
+      "column": "right",
+      "extractionOffset": 128873
+    },
+    {
+      "id": "4:3-3:note-1",
+      "surah": 4,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "Düşündiriş: Bu aýat, aýalyň ýaradylyşynda gabanjaňlyk duýgusynyň bardygyna garamazdan, erkege dörde çenli aýal bilen nikalaşmaga rugsat berýär. Ýöne yslamyň bu rugsadyna söweş sebäpli, erkekleriň azalyp, aýallaryň artmagy ýaly durmuş şertlerine, erkekleriň güýçli, aýallaryň ejiz, islegsiz, önelgesiz bolmagy ýaly aýal-erkegiň ýaradylyş aýratynlyklaryna görä garalmalydyr. Şeýle-de yslamda zyna haram edilendigi üçin zyna eltýän ýollaryn öňüniň alynmagy hökmanydyr. Üstesine-de, erkegiň dört sany aýala öýlenmegi hökmany bir emir däl-de, diňe bir rugsatdyr we ikinji, üçünji, dördünji boljak aýal hem muňa mejbur däldir. Şeýle-de erkege aýallarynyň arasynda adalaty saklamak şert edilýär, muny başarmakdan heder edýän bolsa, ýeke aýal bilen oňmalydygy, ýogsa günäkär boljakdygy aýdylýar.",
+      "pdfPage": 78,
+      "column": "right",
+      "extractionOffset": 138808
+    },
+    {
+      "id": "4:11-11:note-1",
+      "surah": 4,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Yslamyň miras hukugynda paýlar bilen jogapkärçilik arasynda bir baglanyşyk bardyr. Şol sebäpli, mirasda oglan perzent gyzyň paýyna görä iki esse köp alýar. Çünki yslama görä, erkek maşgalasyny eklemäge borçludyr. Aýalyň bolsa beýle bir wezipesi ýa-da borjy ýokdur. Aýalyň eklemji ärine degişlikä, erkek maşgalasynyň, çagalarynyň, ýagdaýa görä ene-atasynyň güzeranyny öz üstüne almaga mejburdyr. Netijede, tereke meselesindäki bu höküm dolulygy bilen adalatlydyr.",
+      "pdfPage": 79,
+      "column": "right",
+      "extractionOffset": 142273
+    },
+    {
+      "id": "4:16-16:note-1",
+      "surah": 4,
+      "fromAyah": 16,
+      "toAyah": 16,
+      "text": "Düşündiriş: Zynanyň jezasy hökmünde Kuranda gelen ilkinji höküm bu aýatlarda bildirilişi ýaly temmi bermek, zyna eden aýaly öýde saklamak, soňky jeza bolsa ýüz gamçy urmakdyr.",
+      "pdfPage": 81,
+      "column": "left",
+      "extractionOffset": 144442
+    },
+    {
+      "id": "4:18-18:note-1",
+      "surah": 4,
+      "fromAyah": 18,
+      "toAyah": 18,
+      "text": "Düşündiriş: Tobanyň kabul edilmegi bilen baglanyşykly aýaty we hadyslary derňän tefsir alymlarynyň ahyrky gelen netijeri şeýledir: Jany bogazyna gelmezden öň, heniz ýaşaýşa umyt barka, küpürden ýüz öwrüp, toba edip imana gelmeklik dürsdür. Emma jan bogaza gelip, ýaşaýyşdan umydyny kesen wagty küpürden ýüz öwrensoň toba edip imana gelmek dürs däldir. Tobanyň kabul bolmagy üçin iman getireniňden soň sogaply işler edip bilmek üçin wagt bolmalydyr.",
+      "pdfPage": 81,
+      "column": "left",
+      "extractionOffset": 145049
+    },
+    {
+      "id": "4:19-19:note-1",
+      "surah": 4,
+      "fromAyah": 19,
+      "toAyah": 19,
+      "text": "Düşündiriş: Yslamdan öňki nadanlyk döwründe ölen bir erkegiň iň ýakyn mirasdary onuň aýalynyň üstüne bir mata bölegi oklasa, ony öz gol astyna geçirdigi bolar eken. Soň islese galyň tölemän ony nikalap alar eken, islese başga bir erkek bilen nikalap, galyňyny özi alar eken, islese-de ony öýünde tussag edip, emlägini elinden alar eken. Aýat bu erbet adaty aradan aýyrýar. Aýatyň soňky bölümi maşgala düzgüniniň dowam etmegi üçin örän möhüm bir kadany getirýär. Maşgala gurlan wagty kişiniň ýanýoldaşynyň gözellik ýa-da ahlak taýdan kemçilikleri bolup biler. Emma oňa gowy taraplaryny görkezmäge pursat bermezden, söhbetde we ysnyşykda bolman, derrew aýrylyşmakçy bolmagyň nädogrudygy aýdylýar.",
+      "pdfPage": 81,
+      "column": "right",
+      "extractionOffset": 145887
+    },
+    {
+      "id": "4:22-22:note-1",
+      "surah": 4,
+      "fromAyah": 22,
+      "toAyah": 22,
+      "text": "Düşündiriş: Yslamdan öň nadanlyk döwründe öweý enä öýlenmek däbe laýyk hasaplanýan eken, emma bu aýat ony gadagan edýär we musulmançylyga sygmaýan zatdygyny äşgär edýär.",
+      "pdfPage": 82,
+      "column": "right",
+      "extractionOffset": 147321
+    },
+    {
+      "id": "4:24-24:note-1",
+      "surah": 4,
+      "fromAyah": 24,
+      "toAyah": 24,
+      "text": "Düşündiriş: Käbir ymmatlarda gyz durmuşa çykanda, erkege gymmat bahaly zatlar ýa-da pul berer ekenler. Bu aýalyň emlägine hormat edilmegi üçin edilipdir. Yslamda bolsa, aýalyň emlägine däl, özüne hormat edilýär. Hatda goýulýan hormatyň alamaty hökmünde erkek oňa galyň töleýär.",
+      "pdfPage": 83,
+      "column": "left",
+      "extractionOffset": 148862
+    },
+    {
+      "id": "4:31-31:note-1",
+      "surah": 4,
+      "fromAyah": 31,
+      "toAyah": 31,
+      "text": "Düşündiriş: Uly günäler Allanyň anyk haram eden we olary edenlere ahyretde azap beriljek günälerdir. Bir hadysda olaryň şulardygy aýdylýar: Alla şärik goşmak, jadygöýlik, adam öldürmek, ýetimiň malyny iýmek, zyna etmek, hak söweşde goşundan gaçmak, namysly mömin aýallara zyna töhmetini atmakdyr. Şeýle-de ene-ata garşy gitmek, süýthorluk hem uly günälerden hasaplanylýar.",
+      "pdfPage": 84,
+      "column": "right",
+      "extractionOffset": 150803
+    },
+    {
+      "id": "4:34-34:note-1",
+      "surah": 4,
+      "fromAyah": 34,
+      "toAyah": 34,
+      "text": "Düşündiriş: Ärlerine boýun bolmaýan we onuň namysyny goramaýan aýallara ýokarda sanalyp geçilen üç görnüş temmi berlip biler. Eger bir duýduryş ýeterlik bolsa, soňkulara geçmek dogry däldir. Köteklemäge rugsat berilse-de, ol ýüze degmezlik we ýara salmazlyk şerti bilen berilýän jezadyr. Hezreti pygamber aleýhissalam göwünsiz, diňe maşgala ojagynyň ýykylmazlygy üçin muňa rugsat beripdir, ýagny, hezreti pygamber aýat bilen bagly düşündirişde bu kötekleme işiniň juda çäkli bolmalydygyny bildirýän görkezmeler beripdir. Bulardan biri-de «Awundyrmaýan, ýeňiljek kötek» diýlen düşündirişdir.",
+      "pdfPage": 85,
+      "column": "left",
+      "extractionOffset": 152344
+    },
+    {
+      "id": "4:43-43:note-1",
+      "surah": 4,
+      "fromAyah": 43,
+      "toAyah": 43,
+      "text": "Düşündiriş: Serhoş edýän içgileri içmek bütinleý haram edilmezden öň käbir çäklendirmeler bolupdyr. Ilkibaşda diňe ýassy namazyndan soň içmäge rugsat berlipdir. Soň «Mäide» süresiniň 90-91-nji aýatlarynyň inmegi bilen musulmanlara şerap içmek doly haram edilýär. Teýemmum (teýim) – suw ýok bolup ýa-da hassalyk sebäpli, suw ulanmak zyýan ýetirjek bolsa, täret ýa-da gusul üçin arassalanmak niýeti bilen elleri tämiz topraga sürüp, ýüzi we elleri mesh etmekdir. Teýemmum rugsady ynsanda belli bir nyzama, düzgüne tabyn bolmak we boýun bolup tagat etmegi üçin hemişe taýýar bolmak düşünjesini berkidýär. Ynsanyň aňynda özüni arassa saklamak we namazyň mukaddesdigi baradaky düşünjäni güýçlendirýär.",
+      "pdfPage": 86,
+      "column": "right",
+      "extractionOffset": 154990
+    },
+    {
+      "id": "4:47-47:note-1",
+      "surah": 4,
+      "fromAyah": 47,
+      "toAyah": 47,
+      "text": "Düşündiriş: Alla ýahudylara şenbe günleri balyk tutmagy gadagan edýär. Bu kada boýun egmedikleri Alla jezalandyrýar. Şonuň üçin hem olara Kuranda «Ashaby-sebt» («Şenbelik ýaranlary») diýlip at galýar.",
+      "pdfPage": 87,
+      "column": "left",
+      "extractionOffset": 156754
+    },
+    {
+      "id": "4:59-59:note-1",
+      "surah": 4,
+      "fromAyah": 59,
+      "toAyah": 59,
+      "text": "Düşündiriş: Aýatdaky «Baştutanlaryňyz» («Ulul-emr») sözi giň manyda bolup, ol musulmanlaryň islendik işleriniň başynda bolan ýolbaşçydyr. Şeýle-de din alymlary, kazylar, ýurduň baştutany hem muňa girýändirler.",
+      "pdfPage": 88,
+      "column": "right",
+      "extractionOffset": 159221
+    },
+    {
+      "id": "4:60-60:note-1",
+      "surah": 4,
+      "fromAyah": 60,
+      "toAyah": 60,
+      "text": "Düşündiriş: Bir mynapyk bilen bir ýahudy bir meselede dawalaşýarlar. Bu dawany çözmek üçin ýahudy pygamberimiziň ýanyna gitmegi teklip edýär, emma mynapyk kabul etmeýär. Ol mynapyk özüniň şygyrlary bilen pygamberimizi tankytlaýan Kagb ibn Eşref atly jadygöý kapyryň emin bolmagyny teklip edýär. Bu aýatdaky tagut sözünden maksat hem bu şahs hasaplanylýar.",
+      "pdfPage": 89,
+      "column": "left",
+      "extractionOffset": 159677
+    },
+    {
+      "id": "4:65-65:note-1",
+      "surah": 4,
+      "fromAyah": 65,
+      "toAyah": 65,
+      "text": "Düşündiriş: Hezreti Muhammet aleýhissalamy Allanyň ilçisi hökmünde kabul etmegiň manysy, onuň ündeýän we durmuşa geçirýän ynanç, düşünje we ýaşaýyş ýörelgelerini kabul etmek, bu babatda ony nusga edinmekdir.",
+      "pdfPage": 89,
+      "column": "right",
+      "extractionOffset": 161154
+    },
+    {
+      "id": "4:71-71:note-1",
+      "surah": 4,
+      "fromAyah": 71,
+      "toAyah": 71,
+      "text": "Düşündiriş: Uhud söweşinde musulmanlaryň ýarym ýeňlişinden soň Medinäniň töweregindäki arap tire-taýpalary musulmanlara garşy baş göterip başlaýarlar. Musulmanlara Medinäniň dürli tarapyndan howp abanyp ugraýar. Yslamy öwretmek üçin daş ýerlerden çagyrylanlaryň hem janlaryna kast edilýär. Bu aýat möminleriň ýeterlik derejede ätiýaçly we taýýarlykly bolmaklaryny emir edýär.",
+      "pdfPage": 90,
+      "column": "right",
+      "extractionOffset": 162177
+    },
+    {
+      "id": "4:117-117:note-1",
+      "surah": 4,
+      "fromAyah": 117,
+      "toAyah": 117,
+      "text": "Düşündiriş: Hiç kim «Men şeýtana sežde edýärin» diýmez. Ýöne işi-aladasy şeýtany bolan, mydama şeýtany şat etjek işleri edýänler şeýtana ybadat edýän ýaly hasaplanylýar.",
+      "pdfPage": 98,
+      "column": "right",
+      "extractionOffset": 174711
+    },
+    {
+      "id": "4:158-158:note-1",
+      "surah": 4,
+      "fromAyah": 158,
+      "toAyah": 158,
+      "text": "Düşündiriş: Isa pygamberi öldürip, haça çüýlemekçi bolanlar ýahudylardyr. Ýöne olar Isa pygamberiň deregine başga bir şahsy haja çüýleýärler. Alla Isa pygamberi ikinji gat asmana galdyrýar. Isa pygamber hakda oňuşman, çaprazlyga düşenler bolsa nasranylardyr.",
+      "pdfPage": 104,
+      "column": "right",
+      "extractionOffset": 184097
+    },
+    {
+      "id": "4:159-159:note-1",
+      "surah": 4,
+      "fromAyah": 159,
+      "toAyah": 159,
+      "text": "Düşündiriş: Ýahudylar Isanyň pygamberligini inkär edip, oňa ynanmaýarlar, nasranylar bolsa ony hudaý hasaplaýarlar. Emma nasranylar soňky demlerinde onuň Allanyň guly we ilçisidigine hökman ynanarlar. Ýöne şol wagtky getirilen iman peýda bermez. Hadyslarda aýdylyşyna görä, Isa pygamber kyýamat golaýlaşanda gelip, hak diniň yslamdygyny jar eder we nasranylar (hristianlar) oňa iman getirerler.",
+      "pdfPage": 104,
+      "column": "right",
+      "extractionOffset": 184509
+    },
+    {
+      "id": "5:2-2:note-1",
+      "surah": 5,
+      "fromAyah": 2,
+      "toAyah": 2,
+      "text": "Düşündiriş: Beýtil-Haram – Käbäniň bir ady. Yslamdan öňki döwürlerde araplar Käbede söweş etmegiň haramdygyna ynanypdyrlar. Şonuň üçin hem oňa «Beýtil-Haram» («Söweş haram bolan öý») diýip at beripdirler.",
+      "pdfPage": 107,
+      "column": "right",
+      "extractionOffset": 190525
+    },
+    {
+      "id": "5:11-11:note-1",
+      "surah": 5,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Bu aýatyň inmegine aşakdaky wakanyň sebäp bolandygy aýdylýar: Ýahudylaryň Beni nazyr tiresi pygamberimiz Muhammet aleýhissalamyň we ýanyndaky sahabalaryň depesinden daş oklap, olary duýdansyz öldürmek isleýärler. Şonda Alla tarapyndan Jebraýyl perişde gelip, olara ýahudylaryň bu pirimini habar berýär. Pygamberimiz hem ýanyndakylar bilen dessine oturan ýerlerinden turup gidýärler.",
+      "pdfPage": 110,
+      "column": "left",
+      "extractionOffset": 194397
+    },
+    {
+      "id": "5:50-50:note-1",
+      "surah": 5,
+      "fromAyah": 50,
+      "toAyah": 50,
+      "text": "Düşündiriş: Geçen aýatlarda Allatagala Töwratyň we Injiliň hökümlerine amal etmändikleri üçin ähli-kitabyň kapyr, zalym we pasyk bolandyklaryny aýdýar. Soňky aýatlarda bolsa olar bilen dostlaşmakdan daşda durmagy hem-de ýahudylaryň Alla barada aýdan erbet sözleri beýan edilýär.",
+      "pdfPage": 117,
+      "column": "right",
+      "extractionOffset": 206138
+    },
+    {
+      "id": "5:68-68:note-1",
+      "surah": 5,
+      "fromAyah": 68,
+      "toAyah": 68,
+      "text": "Düşündiriş: Ýahudylardan bir topar pygamberimiz Muhammet aleýhissalamyň ýanyna gelip: «Sen Töwratyň Alla tarapyndan inendigini ykrar edýärsiňmi?» diýip sorapdyrlar. Pygamberimiz: «Hawa» diýip jogap beripdir. Olar: «Onda biz hem şoňa ynanýarys. Ýöne başga kitaba ynanmaýarys» diýipdirler. Allatagala şol sebäpden ýokardaky aýaty inderipdir.",
+      "pdfPage": 120,
+      "column": "right",
+      "extractionOffset": 211073
+    },
+    {
+      "id": "5:69-69:note-1",
+      "surah": 5,
+      "fromAyah": 69,
+      "toAyah": 69,
+      "text": "Düşündiriş: Islendik adam, dinine garamazdan, her näçe günäkär hem bolsa, toba edip, pygamberimize iman getirip, ýagşy işleri etse, soň hem imanyna laýyk ýaşasa, oňa iki dünýäde hem gorkara zat ýokdur.",
+      "pdfPage": 120,
+      "column": "right",
+      "extractionOffset": 211641
+    },
+    {
+      "id": "5:82-82:note-1",
+      "surah": 5,
+      "fromAyah": 82,
+      "toAyah": 82,
+      "text": "Düşündiriş: Bu aýat Hebeşistandaky hristianlar hakynda inipdir. Yslamyň ilki döwürlerinde, Mekgäniň kapyrlary musulmanlara dürli ýollar bilen ezýet berensoňlar, pygamberimiz olara Hebeşistana göçmäge rugsat berýär. Musulmanlar ol ýere baranlarynda, Hebeşistanyň hökümdary Nejaşy olaryň haýsy dine uýýandyklaryny sorapdyr. Musulmanlar Muhammet aleýhissalam we yslamyň esasy ýörelgeleri hakda maglumat berip, oňa Kurany Kerimiň «Merýem» süresini okap berýärler. Şonda Nejaşy, onuň ýanyndaky alymlar we ybadathonlar yslamyň hak dindigine, Kuranyň bolsa ylahy kitapdygyna göz ýetirip, onuň aýatlarynyň täsirinden ýaňa gözýaş döküpdirler.",
+      "pdfPage": 122,
+      "column": "right",
+      "extractionOffset": 214994
+    },
+    {
+      "id": "5:83-83:note-1",
+      "surah": 5,
+      "fromAyah": 83,
+      "toAyah": 83,
+      "text": "Düşündiriş: Bu habary eşidip: «Nasranylar öz dinlerinden çykyp, musulman bolupdyrlar» diýen ýahudylara jogap edip, Nejaşy we onuň ýanyndaky alymlar, ybadathonlar aşakdaky aýatdaky sözleri aýdypdyrlar.",
+      "pdfPage": 123,
+      "column": "left",
+      "extractionOffset": 215844
+    },
+    {
+      "id": "5:87-87:note-1",
+      "surah": 5,
+      "fromAyah": 87,
+      "toAyah": 87,
+      "text": "Düşündiriş: Rowaýata görä, üç sany sahaba pygamberimiziň ýanyna gelipdir. Olaryň biri uzynly gije ýatman, diňe ybadat etjekdigini, ýene biri elmydama oraza tutjakdygyny, üçünjisi bolsa hiç haçan öýlenjek däldigini aýdypdyrlar. Bu aýat hem şol sebäpli inipdir.",
+      "pdfPage": 123,
+      "column": "left",
+      "extractionOffset": 216634
+    },
+    {
+      "id": "5:91-91:note-1",
+      "surah": 5,
+      "fromAyah": 91,
+      "toAyah": 91,
+      "text": "Düşündiriş: Sahabalardan Enes ibn Mälik şeýle rowaýat edýär: «Arak haram bolan güni men Ebu Talhanyň öýünde şerap guýup otyrdym. Birden, şerabyň haram edilendigi barada aýatyň inendigini habar berýän jarçynyň sesi eşidildi. Şondan soň şeraplar Medinäniň köçelerine döküldi. Ebu Talha bize: «Bar, git-de, bulary döküp gel!» diýip, şeraplaryň hemmesini köçä dökmegimizi aýtdy. Bu höküm aragyň haramlygy baradaky gutarnykly hökümdir. Musulmanlaryň bu höküme amal etmegi parzdyr.",
+      "pdfPage": 124,
+      "column": "left",
+      "extractionOffset": 217957
+    },
+    {
+      "id": "5:93-93:note-1",
+      "surah": 5,
+      "fromAyah": 93,
+      "toAyah": 93,
+      "text": "Düşündiriş: Ibn Abbasdan rowaýat edilmegine görä, aragy haram edýän aýat inende, käbir adamlar: «Bizden öňki arak içip, humar oýnanlaryň haly niçik bolarka» diýipdirler. Şonda Allatagala arak haram bolmazdan öň dünýäden öten adamlara günä ýokdugyny beýan edip ýokardaky aýaty inderipdir.",
+      "pdfPage": 124,
+      "column": "right",
+      "extractionOffset": 218945
+    },
+    {
+      "id": "5:103-103:note-1",
+      "surah": 5,
+      "fromAyah": 103,
+      "toAyah": 103,
+      "text": "Düşündiriş: Yslamdan öňki nadanlyk döwründäki araplaryň ynanç adatlaryna görä: Bahira – bäş gezek botlan, iň soňkusy hem urkaçy bolan düýe. Onuň gulagyny dilip bellik edýärler, süýdüni bolsa butlara bagyşlaýarlar. Säibe – butlara bagyşlanan, süýdüni bolsa diňe ýolagçylaryň içmegi dogry bolan düýe. Wasyla – erkek köşek botlamazdan yzly-yzyna iki gezek inen köşek botlan düýe. Ol düýe hem butlara bagyş edilýän ekeni. Hamy – özünden on köşek alnandan soň, butlara bagyş edilen düýe. Ondan soň bu düýä hiç hili ýük ýüklemek bolmaýar eken.",
+      "pdfPage": 125,
+      "column": "right",
+      "extractionOffset": 221740
+    },
+    {
+      "id": "6:7-7:note-1",
+      "surah": 6,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "Düşündiriş: Kurany Kerim pygamberimiz Muhammet aleýhissalama Jebraýyl perişdäniň üsti bilen inderilendir. Inderilen aýatlar kitap görnüşinde bolman, diňe okap berlip, pygamberimize öwredilip, ýat tutdurylypdyr. Kapyrlar bu gudratlary görüp, aýatlary eşitseler-de, bu görnüş wahyny kabul etmän, onuň ýazylan kitap görnüşinde gelmegini isläpdirler. Allatagala bu aýatda Kurany Kerimiň olaryň islän görnüşinde inderilen ýagdaýynda hem kapyrlaryň ony inkär etjekdikleri barada aýdýar. Çünki öň Musa pygambere Töwrat ýazylan görnüşinde iberilse-de, kapyrlar oňa ynanmandyrlar.",
+      "pdfPage": 129,
+      "column": "right",
+      "extractionOffset": 229396
+    },
+    {
+      "id": "6:9-9:note-1",
+      "surah": 6,
+      "fromAyah": 9,
+      "toAyah": 9,
+      "text": "Düşündiriş: Pygamber ynsan bolansoň, oňa «Sen hem biziň ýaly bir ynsansyň» diýip, ynanmaýan kapyrlar perişdäni ynsan şeklinde görseler hem, oňa: «Biz seniň perişdedigiňi nireden bileli, sen hem biziň ýaly ynsansyň» diýip, onuň perişdedigine ynanmazdylar. Onuň getiren hak dinine gulak asmazdylar we pygamberligini hem tassyk etmezdiler.",
+      "pdfPage": 130,
+      "column": "left",
+      "extractionOffset": 230371
+    },
+    {
+      "id": "6:19-19:note-1",
+      "surah": 6,
+      "fromAyah": 19,
+      "toAyah": 19,
+      "text": "Düşündiriş: Bir gün Mekgäniň kapyrlary pygamberimiz Muhammet aleýhissalamyň ýanyna gelip: «Eý, Muhammet! Biz seniň pygamberligiňi tassyklaýan hiç kimi bilmeýäris. Sen hakda nasranylardan we ýahudylardan hem soradyk welin, olaryň aýtmagyna görä, öňki kitaplarda sen barada hiç hili zat aýdylmandyr. Sen bize öz pygamberligiňe şaýatlyk edýän birini görkez» diýipdirler. Şonda ýokardaky aýat inipdir.",
+      "pdfPage": 131,
+      "column": "left",
+      "extractionOffset": 232668
+    },
+    {
+      "id": "6:20-20:note-1",
+      "surah": 6,
+      "fromAyah": 20,
+      "toAyah": 20,
+      "text": "Düşündiriş: Ýokardaky aýat ýahudylaryň we nasranylaryň hezreti Muhammet aleýhissalamyň pygamberliginiň hakdygyny bilýändiklerini subut edýär. Olaryň mukaddes kitaplarynda pygamber aleýhissalamyň geljegini buşlaýan habarlar bardyr. Muny bilýän Abdylla ibn Salam atly bir ýahudy alym: «Men Muhammedi oglumy tanaýşymdan hem has gowy tanaýaryn. Onuň pygamberliginiň hakdygyna hiç hili şek-şübhäm ýok. Emma çagam barada nireden bileýin, belki, enesiniň maňa hyýanat eden bolmagy mümkin, oňa şübhäm bolup biler» diýipdir.",
+      "pdfPage": 131,
+      "column": "left",
+      "extractionOffset": 233254
+    },
+    {
+      "id": "6:25-25:note-1",
+      "surah": 6,
+      "fromAyah": 25,
+      "toAyah": 25,
+      "text": "Düşündiriş: Ibn Abbasdan rowaýat edilmegine görä, Ebu Sufýan, Welid ibn Mugyra we Nadr ibn Hars dagylar pygamberimiz Muhammet aleýhissalam Kuran okap otyrka gelip, diňlemäge durupdyrlar. Soň olar Nadra ýüzlenip: «Muhammet näme diýýär?» diýip soranlarynda ol: «Öň meniň size dürli ertekileri aýdyp berşim ýaly, ol hem öten-geçenleriň hekaýalaryny aýdýar» diýipdir. Şonda Allatagala ýokardaky aýaty inderipdir.",
+      "pdfPage": 131,
+      "column": "right",
+      "extractionOffset": 234703
+    },
+    {
+      "id": "6:33-33:note-1",
+      "surah": 6,
+      "fromAyah": 33,
+      "toAyah": 33,
+      "text": "Düşündiriş: Rowaýat edilmegine görä, Haris ibn Amyr atly bir kuraýşly pygamberimiziň ýanyna gelip: «Eý, Muhammet! Biz seni ýalançy hasaplar ýaly şu wagta çenli ýalan sözläniňi eşitmedik. Ýöne eger saňa uýsak, bizi bu ýurdumyzdan kowup çykararlar» diýensoň, bu aýat inipdir.",
+      "pdfPage": 132,
+      "column": "right",
+      "extractionOffset": 236772
+    },
+    {
+      "id": "6:38-38:note-1",
+      "surah": 6,
+      "fromAyah": 38,
+      "toAyah": 38,
+      "text": "Düşündiriş: Lowhy-mahfuz – «Goralýan tagta» manysynda bolup, Alla tarapyndan ähli zatlaryň ýazgydy ýazylan Arşdaky mukaddes kitapdyr.",
+      "pdfPage": 133,
+      "column": "left",
+      "extractionOffset": 238360
+    },
+    {
+      "id": "6:50-50:note-1",
+      "surah": 6,
+      "fromAyah": 50,
+      "toAyah": 50,
+      "text": "Düşündiriş: Bir gezek kapyrlar pygamberimiz Muhammet aleýhissalamyň ýanyna gelip: «Eger seniň pygamberligiň hak bolsa, Perwerdigäriňden bize baýlyk dile» diýýärler. Şonda Allatagala bularyň pygamberiň elindäki zat däldigini we munuň diňe Allanyň eradasyna baglydygyny habar berip, bu aýaty inderipdir.",
+      "pdfPage": 134,
+      "column": "right",
+      "extractionOffset": 240977
+    },
+    {
+      "id": "6:52-52:note-1",
+      "surah": 6,
+      "fromAyah": 52,
+      "toAyah": 52,
+      "text": "Düşündiriş: Mekgeli kapyrlar pygamberimiziň ýanyna gelip: «Eger sen ýanyňdaky (Habbap, Bilal, Ammar, Suheýp ýaly) garyplary kowsaň, biz saňa tabyn bolarys» diýenlerinde, bu aýat inipdir.",
+      "pdfPage": 134,
+      "column": "right",
+      "extractionOffset": 241867
+    },
+    {
+      "id": "6:93-93:note-1",
+      "surah": 6,
+      "fromAyah": 93,
+      "toAyah": 93,
+      "text": "Düşündiriş: Bu aýat Museýlemetul-Kezzap we Eswed Ansi ýaly käbir ýalançylaryň: «Bize-de wahyý gelýär» diýip, özlerini pygamber yglan edendikleri üçin inipdir.",
+      "pdfPage": 140,
+      "column": "right",
+      "extractionOffset": 252669
+    },
+    {
+      "id": "6:131-131:note-1",
+      "surah": 6,
+      "fromAyah": 131,
+      "toAyah": 131,
+      "text": "Düşündiriş: Allatagala ynsanlara pygamber ibermezden, eden ýalňyşlary üçin olardan hasap soramaz, inkär etmekleri we günä işlemekleri sebäpli, olary jezalandyrmaz. Emma ynsanlar iberilen pygamberleriň emirlerine gulak asman‚ öz isleglerine görä hereket etseler‚ ahyretde azaba duçar bolarlar.",
+      "pdfPage": 145,
+      "column": "right",
+      "extractionOffset": 261885
+    },
+    {
+      "id": "6:136-136:note-1",
+      "surah": 6,
+      "fromAyah": 136,
+      "toAyah": 136,
+      "text": "Düşündiriş: Butparazlar Alla we özleriniň butlary üçin ekin ekýärdiler. Alla üçin ekenleri ýetişip‚ hudaýlarynyň adyna ekenleri bitmese‚ Alla üçin ekenleriniň bir bölegini hudaýlaryna degişli paýa goşup: «Alla hiç zada mätäç bolmadyk hudaýdyr. Bular bolsa mätäçdirler» diýerdiler. Tersine‚ ýagny butlaryna degişli ekin ýetişip‚ Alla üçin ekilen ekin bitmese welin‚ Allanyň paýyna hiç zat goşman: «Alla hiç zada mätäç däldir» diýerdiler.",
+      "pdfPage": 146,
+      "column": "right",
+      "extractionOffset": 263396
+    },
+    {
+      "id": "6:143-143:note-1",
+      "surah": 6,
+      "fromAyah": 143,
+      "toAyah": 143,
+      "text": "Düşündiriş: Yslamdan öňki nadanlyk döwrüniň araplary käte erkek‚ käte urkaçy haýwanlary‚ käte bularyň köşeklerini, gölelerini, guzularyny haram hasaplar ekenler. Kurany Kerimiň aýatlarynda sanalyp geçilen sekiz baş malyň halaldygyny bildirip‚ olaryň bu hereketleriniň ýalňyşdygy görkezilýär. Bu ýerde aýdylmak islenilýän zat şudur: hiç kim, öz düşünjesine görä, haýsydyr bir zady haram ýa-da halal edip bilmez. Bu hukuk diňe Alla degişlidir.",
+      "pdfPage": 148,
+      "column": "left",
+      "extractionOffset": 266046
+    },
+    {
+      "id": "7:4-4:note-1",
+      "surah": 7,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "Düşündiriş: Allatagala Lut pygamberiň kowumyny gije‚ Şugaýyp pygamberiň kowumyny bolsa gündiz heläk edipdir.",
+      "pdfPage": 152,
+      "column": "right",
+      "extractionOffset": 273549
+    },
+    {
+      "id": "7:11-11:note-1",
+      "surah": 7,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Bu aýat Adamyň birden däl-de‚ belli bir döwrüň dowamynda ýaradylandygyny ýatladýar. Çünki ilki ynsanyň ýaradyljak maddasy döredilipdir‚ soň oňa ynsanyň şekili berlipdir‚ ondan soň duýgularyna eýe bolup‚ Adam derejesine gelende‚ perişdelere oňa boýun bolmak buýrulypdyr.",
+      "pdfPage": 152,
+      "column": "right",
+      "extractionOffset": 274600
+    },
+    {
+      "id": "7:26-26:note-1",
+      "surah": 7,
+      "fromAyah": 26,
+      "toAyah": 26,
+      "text": "Düşündiriş: Eşikdenem has ähmiýetli bolan takwalyk we haýa-şerimdir. Örtülmesi zerur ýerleriň ýapylmagy namysy goramagyň ilkinji şertidir. Ýarym-ýalaňaçlyk öwner ýaly artykmaçlyk däl-de‚ nadanlyk we medeniýetsizlikdir. Geçmişde nadanlyk döwrüniň adamlary‚ aýaly-erkegi bilelikde, Käbäni çuw ýalaňaç halda togap eder ekenler we muny artykmaçlyk hasaplar ekenler. Ýalaňaçlygy ýaýmak şeýtanyň ündewi bilen bagly bolansoň‚ Allatagala örtünmegiň we geýimiň ynsanyň maddy we ruhy taýdan bezegidigini‚ şeýtana uýup, uýat ýerleriňi açmaly däldigini ýatladýar.",
+      "pdfPage": 154,
+      "column": "right",
+      "extractionOffset": 277316
+    },
+    {
+      "id": "7:31-31:note-1",
+      "surah": 7,
+      "fromAyah": 31,
+      "toAyah": 31,
+      "text": "Düşündiriş: Uýat ýerleriňi örtmek, hemişe bolşy ýaly‚ aýratyn-da namaz‚ haj ýaly ybadatlarda parzdyr. Ýöne isrip etmezlik şerti bilen her bir musulmanyň ybadat wagty iň gelşikli we tämiz eşiklerini geýmesi sünnetdir. Köpçülik bilen bolsun‚ metjitde oturlan wagty bolsun‚ edepli‚ salyhatly‚ terbiýeli bolmak‚ gelşikli geýinmek we güler ýüzli bolmak hemişe zerurdyr. Öňdäki aýatda gelen «ýüzüňi kybla öwürmeklik» emiri hem şu zatlary aňladýar.",
+      "pdfPage": 155,
+      "column": "left",
+      "extractionOffset": 279183
+    },
+    {
+      "id": "7:32-32:note-1",
+      "surah": 7,
+      "fromAyah": 32,
+      "toAyah": 32,
+      "text": "Düşündiriş: Bu aýatda anyk görkezilişi ýaly, Alla dünýädäki bütin nygmatlary bendeleriniň ulanmagy üçin ýaradypdyr. Şükür etmek bilen birlikde‚ halal çäklerde her nygmatdan peýdalanmak mümkindir.",
+      "pdfPage": 155,
+      "column": "left",
+      "extractionOffset": 279971
+    },
+    {
+      "id": "7:54-54:note-1",
+      "surah": 7,
+      "fromAyah": 54,
+      "toAyah": 54,
+      "text": "Düşündiriş: «Istiwa» sözüniň manysy beýgelmek‚ ornaşmak, ýerleşmek diýmekdir. «Arş» diýlip hem hökümdarlaryň oturýan tagtyna diýilýär. Ilki döwür yslam alymlary şeýle manysy çylşyrymly aýatlara düşündiriş bermezden, olary bolşy ýaly kabul edipdirler. Olar Allanyň eliniň‚ ýüzüniň barlygyny ykrar etseler-de, olaryň ynsanlaryňky ýaly däldigini tassyklapdyrlar. Soňky döwrüň alymlary bolsa sada halkyň bu hili aýatlarda Allany janly barlyklara meňzetmek ýaly ýalňyşmaklarynyň öňüni almak üçin olary akyla laýyklykda düşündiripdirler. Mysal üçin: «Alla Arşa istiwa etdi» diýilmegini «Alla hökümdarlyk bilen älemi dolandyrdy»‚ «Allanyň eli» diýilmegini bolsa «Onuň gudraty» diýip düşündiripdirler.",
+      "pdfPage": 158,
+      "column": "right",
+      "extractionOffset": 285839
+    },
+    {
+      "id": "7:55-55:note-1",
+      "surah": 7,
+      "fromAyah": 55,
+      "toAyah": 55,
+      "text": "Düşündiriş: Belent ses bilen doga-dileg etmek‚ makul bolmadyk (meselem pygamberlik ýaly) zatlary dilemek ýa-da günä bolan zatlary islemek‚ dileg-dogany uzaltmak «dileg-dogada hetden aşmaklyk» hasaplanylýar.",
+      "pdfPage": 158,
+      "column": "right",
+      "extractionOffset": 286635
+    },
+    {
+      "id": "7:73-73:note-1",
+      "surah": 7,
+      "fromAyah": 73,
+      "toAyah": 73,
+      "text": "Düşündiriş: Semud kowumy ad kowumyndan soň Arabystanda iň köp ýaýran halk bolupdyr. Gadymy arap şygyrlarynda-da‚ köne taryhçy we geografiýaçy alymlarynyň işlerinde-de semud halky barada aýdylypdyr. Bu kowum demirgazyk-günbatar Arabystanda‚ Hyjr sebitinde oturypdyr. Paýtagtlary häzir Medaýyn Salih ady bile bilinýär. Bu halkyň dag belentliklerini oýup ýasan daş öýleri häzire çenli saklanyp galypdyr. Kuranyň inen wagtlary mekgeliler Siriýa söwda üçin gidenlerinde, Hyjryň galyndylarynyň gapdalyndan geçýärdiler. Bir gezek pygamberimiz (aleýhissalam) sahabalary bilen ol ýerden geçip barýarka: «Bu ýer Allanyň gazaby bilen heläk bolan bir halkyň diýarydy. Sizem bu ýerden tisginip geçiň! Bu ýer şagalaň ediljek däl-de‚ gynanyljak ýerdir» diýip‚ ol ýerden basymrak aýrylmagy ündäpdir.",
+      "pdfPage": 160,
+      "column": "right",
+      "extractionOffset": 290530
+    },
+    {
+      "id": "7:105-105:note-1",
+      "surah": 7,
+      "fromAyah": 105,
+      "toAyah": 105,
+      "text": "Düşündiriş: Hezreti Ýusup guýudan çykarylyp‚ gul edilip satylandan soň, Müsürde köşkde galýar we has soň Müsüriň hazynasyna jogapkär edilip bellenilýär. Ol kakasy hezreti Ýakuby çagyrýar hem-de maşgalasy we ysraýyl ogullary bilen Palestinadan bilelikde gelip‚ Müsürde ýerleşýärler. Wagtyň geçmegi bilen Müsüriň fyrgawnlary olary gul hökmünde agyr işlerde ulanýarlar. Olara zulum edip‚ ejir çekdirýärler. Hezreti Musa, gul bolan şol ysraýyl ogullaryndan mömin ymmat döretmek üçin olary Fyrgawnyň ýesirliginden halas edip‚ azat adamlar hökmünde watanlary Palestina ýerleşdirmek isleýär.",
+      "pdfPage": 165,
+      "column": "left",
+      "extractionOffset": 297583
+    },
+    {
+      "id": "7:135-135:note-1",
+      "surah": 7,
+      "fromAyah": 135,
+      "toAyah": 135,
+      "text": "Düşündiriş: Bu aýatda agzalýan azap sözünden maksat, käbir alymlaryň garaýşyna görä, mergi keseli bolmaly.",
+      "pdfPage": 167,
+      "column": "left",
+      "extractionOffset": 302627
+    },
+    {
+      "id": "7:143-143:note-1",
+      "surah": 7,
+      "fromAyah": 143,
+      "toAyah": 143,
+      "text": "Düşündiriş: Hezreti Musa Allanyň kelamyny eşidip‚ onuň höwesi we joşguny bilen Perwerdigärini görmek isledi. Allatagala dünýä gözi bilen Özini görüp bolmajakdygyny bildirdi. Jennetileriň Allany görmek bagtyna ýetjekdikleri aýatlarda we hadyslarda bardyr. Pygamberimiz bir hadysynda şeýle diýýär: «Siziň şu dolan Aýy görşüňiz ýaly, Perwerdigäriňizi-de görjekdigiňize şek-şübhe ýokdur».",
+      "pdfPage": 168,
+      "column": "right",
+      "extractionOffset": 304868
+    },
+    {
+      "id": "7:157-157:note-1",
+      "surah": 7,
+      "fromAyah": 157,
+      "toAyah": 157,
+      "text": "Düşündiriş: Hezreti Musa rahmeti özi we halky üçin diledi. Allatagala-da bu rahmetiň bütin ynsanlyga iberiljek «Rahmet pygamberi» bolan ahyrzaman ilçisi Muhammet aleýhissalama boýun bolmaga baglydygyny aýdýar. Bu taýda hezreti pygamber hakda ümmi (okamagy we ýazmagy başarmaýan) sypatynyň ulanylmagy aýratyn üns berilmeli. Bu sözüň «bilim almadyk‚ okamagy-ýazmagy bilmeýän» manysyndan başga-da, ýahudylaryň arasynda «Kitap eýesi bolmaýan‚ ýagny ýahudy bolmaýan» manysy-da bardyr. Ýokarky aýatda bu iki many-da göz öňünde tutulandyr. Ýahudylar ümmilere hiç ähmiýet bermeýärdiler. Alla olaryň öz kowumlary bilen bagly milletparazlyk duýgularyny we gedemliklerini ýok etmek isläpdir. Aýatda geçýän ýükleriň we zynjyrlaryň görkezýän manysy Töwratda geçýän we günä eden agzalar bilen nejasat degen eşigiň şol böleginiň kesilip aýrylmagy ýaly agyr hökümleriň Kuran arkaly ýatyrylmagydyr.",
+      "pdfPage": 171,
+      "column": "left",
+      "extractionOffset": 309218
+    },
+    {
+      "id": "7:172-173:note-1",
+      "surah": 7,
+      "fromAyah": 172,
+      "toAyah": 173,
+      "text": "Düşündiriş: Alla ilkibaşda Adam atanyň neslinden kyýamata çenli geljek ähli ynsanlaryň ruhlaryny ýaradyp‚ olara: «Men siziň Perwerdigäriňiz dälmi eýsem?» diýip soranda, olar: «Hawa, sen biziň Perwerdirimizsiň!» diýipdirler. Ruhlar äleminde alnan bu ähti-peýmanyň esasyna laýyklykda, her bir ynsan şol günden bäri musulman hasaplanylýar.",
+      "pdfPage": 174,
+      "column": "right",
+      "extractionOffset": 314618
+    },
+    {
+      "id": "7:180-180:note-1",
+      "surah": 7,
+      "fromAyah": 180,
+      "toAyah": 180,
+      "text": "Düşündiriş: Hezreti pygamber aleýhissalam şeýle diýipdir: «Allanyň 99 gözel ady bardyr. Kim bulary ýatda saklasa we olar bilen Allany zikir etse we Alladan olar bilen islegini dilese, ol kişi jennete girer».",
+      "pdfPage": 175,
+      "column": "left",
+      "extractionOffset": 316392
+    },
+    {
+      "id": "7:190-190:note-1",
+      "surah": 7,
+      "fromAyah": 190,
+      "toAyah": 190,
+      "text": "Düşündiriş: Mekgeli kapyrlar çagalaryna «Abdymenat (Menatyň guly), Abdyluzza (Uzzanyň guly)» ýaly butlarynyň atlaryny dakar ekenler. Netijede bolsa, Allanyň özlerine beren çagalary sebäpli, Allanyň öňünde günä gazanýardylar.",
+      "pdfPage": 176,
+      "column": "right",
+      "extractionOffset": 318877
+    },
+    {
+      "id": "7:206-206:note-1",
+      "surah": 7,
+      "fromAyah": 206,
+      "toAyah": 206,
+      "text": "Düşündiriş: Kurany Kerimiň aşakda görkezilen 14 aýatynyň okalan ýa-da diňlenen wagty sežde etmek wajypdyr. Muňa «Tilawet seždesi» («Okalan wagty edilýän sežde») diýilýär. Bu seždäni berjaý etmek wajypdyr. Kuranda sežde aýatlary şulardyr: «Agraf» 206; «Ragd» 15‚ «Nahl» 49; «Isra» 107; «Merýem» 58; «Haj» 18; «Furkan» 60; «Neml» 25; «Sežde» 15; «Sagd» 24; «Fussilet» 37; «Nejm» 62; «Inşikak» 21; «Alak» 19.",
+      "pdfPage": 177,
+      "column": "right",
+      "extractionOffset": 321719
+    },
+    {
+      "id": "8:1-1:note-1",
+      "surah": 8,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Bedr söweşinde ele salnan oljalary paýlaşmakda ýaşlar bilen garrylaryň arasynda dawa ýüze çykanda ýokardaky aýat inýär. Munuň netijesinde hem pygamberimiz oljalary olaryň arasynda deň paýlaýar.",
+      "pdfPage": 178,
+      "column": "right",
+      "extractionOffset": 322943
+    },
+    {
+      "id": "8:9-9:note-1",
+      "surah": 8,
+      "fromAyah": 9,
+      "toAyah": 9,
+      "text": "Düşündiriş: Bedr söweşinde Allanyň ilçisi sahabalarynyň (egindeşleriniň) azlygy‚ kapyrlaryň köplügi sebäpli, kybla ýüzlenip‚ şeýle doga-dileg etdi: «Eý, Allam! Maňa beren wadaňy ýerine ýetir‚ eger bu musulmanlary heläk etseň‚ soň ýer ýüzünde Saňa ybadat etjek hiç kim galmaz». Pygamber aleýhissalam bu dogany birnäçe gezek gaýtalady. Allatagala hem onuň dilegini kabul etdi we müň perişde bilen musulmanlary gollady. Aýat şu zatlara yşarat edýär. Kuraýşyň goşuny musulmanlardan has öň gelip Bedr guýusynyň töweregini eýeläpdi. Musulmanlar bolsa teşnediler. Ýerleşen ýerleri hem çäge bolany üçin, hereket etmek kynlaşýardy. Ýagan ýagyş olaryň ýüreklerindäki howsalany aýyrdy‚ ruhlaryny belende göterdi‚ teşneliklerini gandyrdy. Şonuň ýaly-da, ýagyş çägäni berkidip‚ söweşmäge oňaýly şert döretdi.",
+      "pdfPage": 179,
+      "column": "left",
+      "extractionOffset": 324468
+    },
+    {
+      "id": "8:35-35:note-1",
+      "surah": 8,
+      "fromAyah": 35,
+      "toAyah": 35,
+      "text": "Düşündiriş: Mekgeli kapyrlar, hezreti Ybraýym aleýhissalamyň dininiň aslyny üýtgedişleri ýaly, haj ybadatyny hem üýtgedipdiler. Erkek-aýal‚ ýarym ýalaňaç‚ el-ele tutuşyp‚ Käbäniň töwereginde aýlanardylar‚ sykylyk atyp‚ el çarpyşýardylar. Pygamberimiz Käbä gelende‚ oňa garşylyk hökmünde bu hereketlerini has-da artyrdyrýardylar we muny ybadat hökmünde edýärdiler.",
+      "pdfPage": 182,
+      "column": "left",
+      "extractionOffset": 330642
+    },
+    {
+      "id": "8:41-41:note-1",
+      "surah": 8,
+      "fromAyah": 41,
+      "toAyah": 41,
+      "text": "Düşündiriş: Oljanyň bäşden biri Allanyň ýoluna sarp edilmek üçin aýrylyp‚ galan dördi bolsa esgerlere paýlanýar. Bäşden bir bölegi şu aýatda beýan edilen bäş topara paý edilýär. Bu mesele baradaky giňişleýin hökümler yslam hukugy kitaplarynda anyk getirilýär. Pygamberimiz öz paýyny mätäçlere paýlar eken.",
+      "pdfPage": 183,
+      "column": "left",
+      "extractionOffset": 332431
+    },
+    {
+      "id": "8:57-57:note-1",
+      "surah": 8,
+      "fromAyah": 57,
+      "toAyah": 57,
+      "text": "Düşündiriş: Hezreti pygamber Beni kuraýza ýahudylary bilen bir şertnama baglaşypdy. Olar musulmanlaryň garşysyna hiç kime goldaw bermezligi kabul edipdiler. Muňa garamazdan, olar Bedr söweşinde Mekgeli kapyrlara ýarag kömegini etdiler. Baştutanlary Kagp ibn Eşref bolsa, Mekgä gidip‚ ol ýerde kapyrlara ýaran boldy. Beni kaýnuka ýahudylarynyň hem, şertnama garamazdan‚ öz bolýan ýerlerine gelen käbir musulman aýallary bimaza edip‚ hezreti pygamber tarapyndan duýduryş almaklaryna öýkeli jogap berdiler. Aýat şol ýagdaýlarda inipdir.",
+      "pdfPage": 185,
+      "column": "left",
+      "extractionOffset": 336262
+    },
+    {
+      "id": "8:72-72:note-1",
+      "surah": 8,
+      "fromAyah": 72,
+      "toAyah": 72,
+      "text": "Düşündiriş: Möminleriň 622-nji ýylda Medinä göçmekleriniň yz ýanynda hezreti pygamber aleýhissalam göç edenler (muhajyrlar) bilen olara ýardam berenleriň (ensarlaryň) arasynda dogan okaşdyrýar. Olar biri-birlerine mirasdüşer bolýarlar. Emma soň inderilen bu süräniň 75-nji aýaty bu doganlygyň miras bilen bagly hökümini ýatyryp‚ diňe ýakyn hossarlaryň biri-birine mirasdüşer bolup biljekdigini görkezýär.",
+      "pdfPage": 187,
+      "column": "left",
+      "extractionOffset": 340345
+    },
+    {
+      "id": "9:14-15:note-1",
+      "surah": 9,
+      "fromAyah": 14,
+      "toAyah": 15,
+      "text": "Düşündiriş: Kapyrlaryň kethudalaryndan Ebu Sufýan ibn Harb‚ Safwan ibn Umeýýe‚ Ykryma ibn Ebu Jähl‚ Suheýl ibn Amr ýaly ýolbaşçylar Mekge eýelenenden soň toba edip‚ yslam dinini kabul edipdirler.",
+      "pdfPage": 190,
+      "column": "left",
+      "extractionOffset": 345546
+    },
+    {
+      "id": "9:16-16:note-1",
+      "surah": 9,
+      "fromAyah": 16,
+      "toAyah": 16,
+      "text": "Düşündiriş: Pygamberimiziň kakasynyň dogany Abbas Bedr söweşinde musulmanlara ýesir düşende, onuň enteklerem butparazdygy‚ garyndaşlary bilen gatnaşygyny kesendigi sebäpli, aýypladylar. Hezreti Aly oňa has agyr sözler aýdypdyr. Abbas oňa jogap berip: «Biziň diňe erbet taraplarymyzy görýärsiňiz‚ ýagşy taraplarymyzy bolsa, görmeýärsiňiz. Emma biz Käbä hyzmat edýäris, hajylara suw paýlaýarys‚ ýesirleri azat edýäris» diýdi. Şonda aşakdaky aýatlar bu waka bilen baglanyşykly inipdir.",
+      "pdfPage": 190,
+      "column": "right",
+      "extractionOffset": 345945
+    },
+    {
+      "id": "9:25-25:note-1",
+      "surah": 9,
+      "fromAyah": 25,
+      "toAyah": 25,
+      "text": "Düşündiriş: Pygamberimiz Mekgäni eýelänsoň, on iki müň esgerlik goşun bilen araplaryň Taýyfdaky hawazyn we sakyf taýpalarynyň üstüne ýöriş edýär. Goşunyň köplügini gören käbir musulmanlar: «Bu goşun hiç haçan hem ýeňilmez» diýip öwnüp, uly gepleýärler we ýeňşiň Allanyň ýardamy bilen bolýandygyny unudýarlar. Soň olar Huneýin jülgesinde özlerinden az sanly butparazlar bilen garşylaşýarlar. Şonuň üçin söweşde musulmanlar ýeňlip, derbi-dagyn edilensoň, çekilip başlaýarlar. Pygamber Alladan dileg edensoň, möminleriň kalplaryna rahatlyk aralaşyp, söweşe başlaýarlar we ýeňiş gazanýarlar. Ýokardaky aýat hem bu hadysany beýan edýär.",
+      "pdfPage": 191,
+      "column": "left",
+      "extractionOffset": 348469
+    },
+    {
+      "id": "9:28-28:note-1",
+      "surah": 9,
+      "fromAyah": 28,
+      "toAyah": 28,
+      "text": "Düşündiriş: Alla şärik goşanlar bedenleri bilen bagly maddy barlyk babatynda däl-de‚ batyl ynançlary‚ ahlak ynançlary we edim-gylymlary taýdan murdar (nejis) hasaplanýardy. Käbä girmekleri şonuň üçin gadagan edilipdir.",
+      "pdfPage": 192,
+      "column": "left",
+      "extractionOffset": 349741
+    },
+    {
+      "id": "9:31-31:note-1",
+      "surah": 9,
+      "fromAyah": 31,
+      "toAyah": 31,
+      "text": "Düşündiriş: Öz dini ruhanylaryny perwerdigär edinmek olara sežde etmek, ybadat etmek manysynda däl-de‚ olaryň haram we halal etmek ygtyýarynyň barlygyna ynanmak‚ olaryň hiç hili hatalarynyň ýokdugyny kabul etmek manysyndadyr.",
+      "pdfPage": 192,
+      "column": "right",
+      "extractionOffset": 350830
+    },
+    {
+      "id": "9:34-34:note-1",
+      "surah": 9,
+      "fromAyah": 34,
+      "toAyah": 34,
+      "text": "Düşündiriş: Bu aýatyň birinji bölegi ähli-kitabyň alymlaryna degişli bolup, ikinji bölegi bolsa, baýlyk ýygnap, zekadyny bermeýänlere degişlidir.",
+      "pdfPage": 193,
+      "column": "left",
+      "extractionOffset": 351680
+    },
+    {
+      "id": "9:38-38:note-1",
+      "surah": 9,
+      "fromAyah": 38,
+      "toAyah": 38,
+      "text": "Düşündiriş: 630-njy ýylda musulmanlary ýok etmek üçin Wizantiýanyň goşun taýýarlaýandygy baradaky habary alan pygamberimiz olara garşy söweş yglan edýär. Ýöne mynapyklar Wizantiýa söweş yglan etmegiň dogry däldigi barada dowul ýaýradýarlar. Şol sebäpli, käbir musulmanlar munuň täsiri bilen, Tebuk diýen ýere çenli giden yslam goşunyna goşulmaýarlar. Aýatlarda bular beýan edilýär.",
+      "pdfPage": 194,
+      "column": "right",
+      "extractionOffset": 353233
+    },
+    {
+      "id": "9:40-40:note-1",
+      "surah": 9,
+      "fromAyah": 40,
+      "toAyah": 40,
+      "text": "Düşündiriş: Bu aýatda «gowakdaky ýoldaşy» diýilmekden maksat hezreti Ebu Bekr Syddyk bolup, ol hezreti pygamber aleýhissalam Medinä göç eden mahaly Mekgäniň günortasyndaky Söwr gowagynda üç günläp bile bolupdyr we Medinä bilelikde gidipdirler.",
+      "pdfPage": 194,
+      "column": "right",
+      "extractionOffset": 354346
+    },
+    {
+      "id": "9:64-64:note-1",
+      "surah": 9,
+      "fromAyah": 64,
+      "toAyah": 64,
+      "text": "Düşündiriş: Mynapyklar içki dünýälerini‚ hezreti pygamber aleýhissalam hem-de musulmanlar hakda gizlin saklaýan hakyky düşünjelerini aýan etjek wahynyň häli geler‚ şindi geler gorkusy bilen ýaşapdylar. Kuranyň Allanyň buýrugydygyna doly ynanmasalaram‚ Allanyň ilçisiniň ençeme gizlin ýagdaýlary ýüze çykarandygyna degişli ýeterlik tejribeleri bolansoň‚ bu gorky olardan aýrylmandyr.",
+      "pdfPage": 198,
+      "column": "left",
+      "extractionOffset": 360008
+    },
+    {
+      "id": "9:74-74:note-1",
+      "surah": 9,
+      "fromAyah": 74,
+      "toAyah": 74,
+      "text": "Düşündiriş: Mynapyklaryň küpür sözleri mysal bererden kändir. Meselem‚ Tebuk ýörişinde hezreti pygamberiň düýelerinden biri ýitende‚ musulmanlar ony gözläp başlapdyrlar. Mynapyklar içini güldürip: «Bu adamyň pygamberligine serediň! Özi asmandan habar alýar‚ ýöne düýesiniň nirdedigini bilenok!» diýşipdirler. Başga bir tarapdan hezreti pygamberiň goşunynyň Wizantiýa tarapyndan derbi-dagyn ediljekdigine ykjam ynanyp‚ Abdylla ibn Ubeýi Medinä hökümdar bellemäge taýýarlanyp başlapdylar.",
+      "pdfPage": 200,
+      "column": "right",
+      "extractionOffset": 363590
+    },
+    {
+      "id": "9:79-79:note-1",
+      "surah": 9,
+      "fromAyah": 79,
+      "toAyah": 79,
+      "text": "Düşündiriş: Mynapyklaryň örän ýaramaz kişilerdigi aýatda juda äşgär beýan edilýär. Özleri baý bolsalar-da‚ halka zat bermeýärdiler. Elinden geldigiçe köp berenlere bolsa «Özlerini görkezmek üçin edýärler» diýip günäkärleýärdiler. Garyp bolandyklary üçin az berenlere bolsa: «Bulara serediň! Wizantiýa imperatorlygynyň galalary bularyň sadakalary bilen weýran ediljekmiş!» diýip ýaňsylaýardylar.",
+      "pdfPage": 200,
+      "column": "right",
+      "extractionOffset": 365074
+    },
+    {
+      "id": "9:90-90:note-1",
+      "surah": 9,
+      "fromAyah": 90,
+      "toAyah": 90,
+      "text": "Düşündiriş: Çarwalar (bedewiler) diýlip çölde ýaşaýan‚ göçüp-gonup ýören sähraýy araplar göz öňünde tutulýar. Her bedewi-çarwa beýle bolmasa-da‚ olar umuman ýaşaýan çöl şertleri bilen bagly gödek we gazaply häsiýetli bolýarlar. Şeýle bolansoň‚ olaryň küpüri we ikiýüzlüligi-de agdyklyk edýändir.",
+      "pdfPage": 202,
+      "column": "right",
+      "extractionOffset": 368091
+    },
+    {
+      "id": "9:107-107:note-1",
+      "surah": 9,
+      "fromAyah": 107,
+      "toAyah": 107,
+      "text": "Düşündiriş: Bu garşy çykan kişi Medinedäki araplaryň hazraj tiresinden Ebu Amyrdyr. Hezreti pygamberiň Medinä barmazyndan öň ol bir nasrany ruhanysydy. Pygamberimizi özüne bäsdeş hasaplap, oňa duşman boldy. Yslamyň garşysyna hereket etdi. Ol yslamyň güýçlenmeginiň öňüni alyp bilmänsoň‚ ahyry, çäre hökmünde, Wizantiýa imperatorlygyny herekete getirmäge çalyşdy. Tebuk ýörişine sebäp bolan Wizantiýanyň söweş taýýarlygy bolupdy. Medineli mynapyklar Ebu Amyr bilen bile hereket edýärdiler. Olar Ebu Amyr bilen, bir merkez hökmünde ulanmak üçin, bir metjit gurmak barada ylalaşdylar. Aslynda, Medinede metjide zerurlyk ýokdy. Zerurlyk bar diýlip gurlan metjitde ilkinji namazy okap bermegini hezreti pygamberden haýyş etdiler. Tebuk ýörişine taýýarlanýandyklary sebäpli‚ hezreti pygamber wagtynyň ýokdugyny aýdypdyr. Olar metjidi erbet işler üçin ulanmaga başladylar. Tebukdan dönenden soň‚ pygamberimiz ol metjidi ýykdyrypdyr.",
+      "pdfPage": 205,
+      "column": "left",
+      "extractionOffset": 372718
+    },
+    {
+      "id": "9:117-117:note-1",
+      "surah": 9,
+      "fromAyah": 117,
+      "toAyah": 117,
+      "text": "Düşündiriş: Pygamberimiz Tebuk ýörişine çykan mahaly, mynapyklar gelip‚ ýalandan maýyp-müjrüpdiklerini beýan edip‚ rugsat soraýarlar. Ol hem olara rugsat berýär. Bu babatda 43-nji aýat inýär we Allatagala pygambere duýduryş berýär. Mynapyklaryň wagyzlaryna aldanan käbir musulmanlaryň-da kalbyna iňkis aralaşýar. Ýöne soň olar toba edýärler.",
+      "pdfPage": 206,
+      "column": "right",
+      "extractionOffset": 376081
+    },
+    {
+      "id": "9:118-118:note-1",
+      "surah": 9,
+      "fromAyah": 118,
+      "toAyah": 118,
+      "text": "Düşündiriş: Ol üç kişi hakyky musulmanlar bolan Kagb ibn Mälik‚ Hilal ibn Umeýýe we Murara ibn Rabyg atly sahabalardy. Hakyky musulman bolan bu üç kişini hezreti pygamber kabul etmedi‚ musulmanlara bolsa olar bilen gepleşmegi gadagan etdi. Olar elli gün dowam eden‚ özlerine bolsa elli müň ýyl ýaly bolan ägirt uly synagy başdan geçirdiler. Wepadarlygyny tassyklanlaryndan soň‚ Alla-da olaryň tobalaryny kabul etdi.",
+      "pdfPage": 207,
+      "column": "left",
+      "extractionOffset": 376905
+    },
+    {
+      "id": "9:122-122:note-1",
+      "surah": 9,
+      "fromAyah": 122,
+      "toAyah": 122,
+      "text": "Düşündiriş: Bu aýatda dini ýagşy öwrenmegiň näderejede zerurdygy ýüze çykarylýar. Çünki bu dünýäniň we ahyretiň bagtyýarlygy, Allanyň dogry ýolunyň‚ halas ediş ýörelgeleriniň we ölçegleriniň özeni yslamyň dogry bilinmegi bilen baglydyr.",
+      "pdfPage": 207,
+      "column": "right",
+      "extractionOffset": 378516
+    },
+    {
+      "id": "9:127-127:note-1",
+      "surah": 9,
+      "fromAyah": 127,
+      "toAyah": 127,
+      "text": "Düşündiriş: Hezreti pygamber inderilen täze aýatlary hutba görnüşinde möminlere okap berer eken. Mynapyklar zoraýakdan bu söhbete goşulandyklary üçin bimaza bolýardylar‚ gelendiklerini bildirensoňlar, bir ugur tapyp gitmegiň ýollaryny gözleýärdiler. Öňlerine gelen bu döwletliligiň‚ bu ajaýyp bereket çeşmesiniň gadryny bilmeýändikleri sebäpli‚ Alla-da olary dogry ýolundan mahrum edýär.",
+      "pdfPage": 208,
+      "column": "right",
+      "extractionOffset": 379722
+    },
+    {
+      "id": "10:92-92:note-1",
+      "surah": 10,
+      "fromAyah": 92,
+      "toAyah": 92,
+      "text": "Düşündiriş: Dogrudan hem Fyrgawnyň mumyýalanan jesedi soň tapylýar we ol biziň günlerimize çenli saklanyp galýar. Oňa heniz hem muzeýde adamlar tarapyndan ybrat bilen seredilýär.",
+      "pdfPage": 220,
+      "column": "right",
+      "extractionOffset": 400036
+    },
+    {
+      "id": "11:107-107:note-1",
+      "surah": 11,
+      "fromAyah": 107,
+      "toAyah": 107,
+      "text": "Düşündiriş: Bu aýatda aýdylýan «Asmanlar we ýer» kyýamat gopandan soň täzeden ýaradyljak asmanlar we ýerdir. Bu barada «Ybraýym» süresiniň 48-nji aýatynda şeýle diýilýär: «Ol gün ýer başga bir ýer bilen, asmanlar bolsa (başga asmanlar bilen) çalşyrylar».",
+      "pdfPage": 234,
+      "column": "right",
+      "extractionOffset": 424720
+    },
+    {
+      "id": "12:100-100:note-1",
+      "surah": 12,
+      "fromAyah": 100,
+      "toAyah": 100,
+      "text": "Düşündiriş: Olar Ýusuba gowuşdurany üçin Alla şükür seždesini edipdirler we Ýusubyň öňünde hormat bilen baş egipdirler. Olaryň dininde adama ybadat maksady bilen däl-de, hormat üçin sežde etmäge rugsat berlipdir. Yslam dininde bolsa, isle hormat üçin, isle ybadat üçin, Alladan özgäniň öňünde sežde etmek gadagandyr.",
+      "pdfPage": 248,
+      "column": "right",
+      "extractionOffset": 447056
+    },
+    {
+      "id": "14:50-50:note-1",
+      "surah": 14,
+      "fromAyah": 50,
+      "toAyah": 50,
+      "text": "Düşündiriş: Katran – gara reňkli, ýakymsyz ysly, oda çalt tutaşýan, gyzgyn we ýiti ýag görnüşli madda. Katran gotur açan düýe üçin derman hökmünde ulanylypdyr.",
+      "pdfPage": 262,
+      "column": "right",
+      "extractionOffset": 470541
+    },
+    {
+      "id": "15:78-78:note-1",
+      "surah": 15,
+      "fromAyah": 78,
+      "toAyah": 78,
+      "text": "Düşündiriş: Eýke – tokaý, gür şahaly baglyk diýmegi aňladýar. Şugaýyp pygamberiň kowumy baglyk ýerde ýaşandyklary sebäpli, olara «Eshabul-eýke» («Tokaý eýeleri)» diýlipdir.",
+      "pdfPage": 267,
+      "column": "left",
+      "extractionOffset": 478682
+    },
+    {
+      "id": "15:80-80:note-1",
+      "surah": 15,
+      "fromAyah": 80,
+      "toAyah": 80,
+      "text": "Düşündiriş: Hyjr – Medine bilen Şamyň arasynda ýerleşýän bir ýeriň ady. Ol ýerde semud kowumy ýaşapdyr. Olary dogry ýola çagyrmak üçin Salyh pygamber iberlipdir.",
+      "pdfPage": 267,
+      "column": "left",
+      "extractionOffset": 479077
+    },
+    {
+      "id": "16:103-103:note-1",
+      "surah": 16,
+      "fromAyah": 103,
+      "toAyah": 103,
+      "text": "Düşündiriş: Alla şärik goşýanlar, adamlary şübhä düşürmek üçin, Kuranyň Muhammet aleýhissalama rumly bir nasrany tarapyndan öwredilendigini aýdanlarynda, ýokardaky aýat inýär.",
+      "pdfPage": 280,
+      "column": "left",
+      "extractionOffset": 499645
+    },
+    {
+      "id": "16:112-112:note-1",
+      "surah": 16,
+      "fromAyah": 112,
+      "toAyah": 112,
+      "text": "Düşündiriş: Mekgeli kapyrlar pygamberimiziň aýdanlaryny ýalan hasap edensoňlar, bolelinlikden, bereketden mahrum bolup, ýedi ýyllap elhenç gytçylyga duçar bolýarlar.",
+      "pdfPage": 281,
+      "column": "left",
+      "extractionOffset": 501345
+    },
+    {
+      "id": "16:126-126:note-1",
+      "surah": 16,
+      "fromAyah": 126,
+      "toAyah": 126,
+      "text": "Düşündiriş: Bu aýata şeýle düşündiriş berilýär: Pygamberimiz Muhammet aleýhissalam Uhud söweşinde kakasynyň dogany hezreti Hemzäniň burnunyň we gulagynyň kesilenini, bagyr-öýkeniniň çykarylanyny görende: «Alladan kasam edýärin, eger maňa ýeňiş nesip etse, seniň ýeriňe ýetmiş adamy şular ýaly ederin» diýip kasam edýär. Pygamberimiz, inen bu aýat sebäpli, eden ähti-peýmanynyň ýerine keffarat tölegini berýär. Kasamyny bozan adam, keffaratyň jerimesi hökmünde on sany garyby (ajy) naharlamaly ýa-da bir guly azat etmeli. Eger bulara güýji ýetmese, üç gün yzly-yzyna agyz beklemeli.",
+      "pdfPage": 282,
+      "column": "right",
+      "extractionOffset": 503905
+    },
+    {
+      "id": "17:1-1:note-1",
+      "surah": 17,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Bir gije pygamberimiz Muhammet aleýhissalam Allanyň gudraty bilen, Mekgeden Kudusdaky Aksa metjidine äkidilýär. Ol ýerden hem asmana äkidilýär. Muňa «Mygraj hadysasy» diýilýär. Ol bu syýahatynda Allanyň ençeme gudratyny görýär. Pygamberler we perişdeler bilen hemra bolýar. Dowzahy we jenneti görýär. «Sidratul-muntehä» diýilýän älemiň iň çetki nokadyna çenli baryp ýetýär. Bu syýahatda bäş wagt namaz parz edilýär. «Bakara» süresiniň soňky iki aýaty inderilýär.",
+      "pdfPage": 283,
+      "column": "left",
+      "extractionOffset": 505646
+    },
+    {
+      "id": "17:5-5:note-1",
+      "surah": 17,
+      "fromAyah": 5,
+      "toAyah": 5,
+      "text": "Düşündiriş: Ysraýyl ogullary azyp, halaly haram diýip, Zekeriýýa pygamberi öldürip, nähak gan dökenlerinde, Allatagala olaryň üstüne Babyl hökümdary Buhtunnasry (käbir rowaýatlarda Jaluty) musallat edýär. Olar ysraýyl ogullarynyň 70 müňüsini ýesir alýarlar ýa-da öldürýärler. Bu ysraýyl ogullarynyň birinji bozgakçylygydyr.",
+      "pdfPage": 283,
+      "column": "left",
+      "extractionOffset": 506743
+    },
+    {
+      "id": "17:7-7:note-1",
+      "surah": 17,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "Düşündiriş: Tefsir kitaplarynda ysraýyl ogullarynyň başyna ikinji gezek gelen musybatyň sebäpi hökmünde, olaryň azgynçylyk edip, Ýahýa pygamberi öldürmekleri we Ysa pygamberi öldürmek islemekleri ýaly sebäpler agzalyp geçilýär.",
+      "pdfPage": 283,
+      "column": "right",
+      "extractionOffset": 507643
+    },
+    {
+      "id": "17:11-11:note-1",
+      "surah": 17,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Bu aýatda ynsanyň kä halatda başyna düşen kynçylyklary sabyrlylyk we zähmet bilen ýeňip geçmek ýerine öz ölümini dilemek, gargyş etmek, haram ýa-da halallygyna garamazdan, mal-mülk edinmek ýaly ýalňyş ýollar bilen Alla doga-dileg edýän halatlarynyň hem bolýandygy aýdylýar.",
+      "pdfPage": 284,
+      "column": "right",
+      "extractionOffset": 508408
+    },
+    {
+      "id": "17:28-28:note-1",
+      "surah": 17,
+      "fromAyah": 28,
+      "toAyah": 28,
+      "text": "Düşündiriş: Bilal, Suheýb, Salym, Mahja we Habbap ýaly garyp sahabalar pygamberimiz Muhamet aleýhissalamyň ýardamy bilen güzeranlaryny aýlardylar. Pygamberimiz olara bermäge zat tapmadyk ýagdaýynda, olardan uýalyp, aýdara söz tapman ýüzüni sowardy. Ýöne Alladan olara rysgal, ýardam bermegini isläp dileg ederdi. Ine, bu aýatda pygamberimiziň olara bermäge zady bolmadyk ýagdaýynda, olara ýagşy söz aýdyp, göwünlik bermegi ündelýär.",
+      "pdfPage": 286,
+      "column": "left",
+      "extractionOffset": 511667
+    },
+    {
+      "id": "17:75-75:note-1",
+      "surah": 17,
+      "fromAyah": 75,
+      "toAyah": 75,
+      "text": "Düşündiriş: Alla şärik goşanlar yslam dinini kabul etmek üçin pygamberimizden özleriniň käbir şertlerini kabul etmegini talap edipdirler. Şonda Allatagala pygamberi ägä edip, ýokardaky aýatlary inderipdir.",
+      "pdfPage": 290,
+      "column": "right",
+      "extractionOffset": 520781
+    },
+    {
+      "id": "17:78-78:note-1",
+      "surah": 17,
+      "fromAyah": 78,
+      "toAyah": 78,
+      "text": "Düşündiriş: Bu aýatda kesgitli wagtlarda okalýan bäş wagt namaza hem-de gündizki işlere gözegçilik edýän perişdeler bilen gijeki işlere gözegçilik edýän perişdeleriň nobatlaryny çalşanlarynda ertir namazyny okaýan adamlara şaýat bolýandyklaryna yşarat edilýär.",
+      "pdfPage": 291,
+      "column": "left",
+      "extractionOffset": 521502
+    },
+    {
+      "id": "18:9-9:note-1",
+      "surah": 18,
+      "fromAyah": 9,
+      "toAyah": 9,
+      "text": "Düşündiriş: «Kehf» dagyň gowagy diýmegi aňladýar. «Rakym» bolsa hadys kitaplarynda gürrüňleri edilýän üç kişidir. Bir gün üç sany adam ýagyşdan gaçyp gowaga girýär. Şonda uly bir daş togalanyp gelip gowagyň agzyny ýapýar. Çykgynsyz ýagdaýa düşen bu üç kişiniň her haýsy özleriniň Allanyň ýolunda eden ýagşy işlerini ýatlap, özleriniň sogap amallaryny araçy edip, gowagyň agzyndaky daşyň aýrylmagy üçin Alla ýalbaryp dileg edýärler. Ahyrynda gowagyň agzy açylýar.",
+      "pdfPage": 295,
+      "column": "left",
+      "extractionOffset": 529683
+    },
+    {
+      "id": "18:12-12:note-1",
+      "surah": 18,
+      "fromAyah": 12,
+      "toAyah": 12,
+      "text": "Düşündiriş: Aýatda agzalýan iki toparyň «Ashaby kehfiň» özleridigi ýa-da olar ukudan oýandyrylandan soň ýanlaryna gelen adamlardygy aýdylýar.",
+      "pdfPage": 295,
+      "column": "left",
+      "extractionOffset": 530632
+    },
+    {
+      "id": "18:60-60:note-1",
+      "surah": 18,
+      "fromAyah": 60,
+      "toAyah": 60,
+      "text": "Düşündiriş: Tefsir kitaplarynda bu ýaş ýigidiň Ýuşa ibn Nundugy, onuň Musa pygambere hyzmat edendigi, ondan ylym öwrenendigi aýdylýar.",
+      "pdfPage": 301,
+      "column": "right",
+      "extractionOffset": 541877
+    },
+    {
+      "id": "18:61-61:note-1",
+      "surah": 18,
+      "fromAyah": 61,
+      "toAyah": 61,
+      "text": "Düşündiriş: Musa pygamber özünden has ylymly bolan Hydyr pygamber bilen duşuşmak üçin ýanyndaky ýoldaşy (hyzmatkäri) bolan ýaş ýigit bilen ýola çykypdy. Musa pygamberiň ýanynda bir öli balyk bardy. Ol balyk nirede janlanyp, deňze böküp girse, şol ýerde hem Hydyr pygamberiň bardygy habar berilmelidi. Emma olar gürrüňe gyzygyp, balygyň janlanyp, deňze böken ýerinden bihabar galýarlar.",
+      "pdfPage": 301,
+      "column": "right",
+      "extractionOffset": 542164
+    },
+    {
+      "id": "18:63-63:note-1",
+      "surah": 18,
+      "fromAyah": 63,
+      "toAyah": 63,
+      "text": "Düşündiriş: Ol ýigit üçin geň bolan zat, balygyň mugjyza bilen jana girmegidir. Bu mugjyzanyň amala aşan ýeri Hydyr pygamberiň duran ýeridi. Bu hadysa Musa pygamber dynç almak üçin, uka gidende bolup geçen bolmaly.",
+      "pdfPage": 302,
+      "column": "left",
+      "extractionOffset": 542939
+    },
+    {
+      "id": "19:15-15:note-1",
+      "surah": 19,
+      "fromAyah": 15,
+      "toAyah": 15,
+      "text": "Düşündiriş: Ýahýa pygamberiň dünýä inişindäki bu adatdan daşary gudrat, ýagny aslynda bir önelgesiz ene bilen ýaşy ötüşen bir gojadan nesil önmegi barada gürrüň edilenden soň, Allatagalanyň çäksiz gudratynyň beýany hökmünde bibi Merýemiň Isa pygamberi atasyz dünýä inderişi baradaky gürrüňe başlanýar.",
+      "pdfPage": 307,
+      "column": "left",
+      "extractionOffset": 551934
+    },
+    {
+      "id": "20:10-10:note-1",
+      "surah": 20,
+      "fromAyah": 10,
+      "toAyah": 10,
+      "text": "Düşündiriş: Hezreti Musa maşgalasy bilen birlikde Medýen şäherinden Müsüre tarap gidip barýarka, ýolda sowuk gijäniň içinde bir çagalary dünýä inýär. Sowukdan üşäp, ýoly hem doly bilmänsoňlar, Musa uzakdan görnen otdan tutaşdyrlyk almak üçin gidýär.",
+      "pdfPage": 313,
+      "column": "right",
+      "extractionOffset": 562876
+    },
+    {
+      "id": "20:39-39:note-1",
+      "surah": 20,
+      "fromAyah": 39,
+      "toAyah": 39,
+      "text": "Düşündiriş: Musa pygamberiň ejesi, Fyrgawnyň her doglan erkek çagany öldürýändigi üçin, öz ogluny hem öldürmeginden gorkýardy. Şol sebäpli, hem ýokardaky aýatda aýdylan buýruga boýun bolup, bir sandyga salyp, ogluny Nil derýasyna atýar. Aýaly bilen bag-bakjasynyň içinde aýlanyp ýören Fyrgawn suwda akyp ýören sandygy görýär we ony daşyna çykardyp, içindäki çaga gözi düşende haýran galýar. Aýatda beýan edilişi ýaly, Allanyň Musa bagyş eden mähremliginiň täsiri bilen biygtyýar bu çaga mähri siňýär. Fyrgawn we aýaly bu oglanjygy ogullyk edinmekçi bolýarlar. Allanyň Musanyň ejesine: «Ony saňa gaýtaryp bereris» diýen sözi netijesinde Musa öz ejesinden başgasyny emmeýär. Musanyň derýa atylan wagtyndan bäri ony yzarlaýan gyz dogany bolsa Fyrgawnyň Musa üçin eneke we terbiýeçi gözleýändiginiň habaryny alýar we ony Musanyň ejesine gelip aýdýar. Şeýdip, Musanyň ejesi eneke hökmünde öz ogly Musany idedip başlaýar.",
+      "pdfPage": 315,
+      "column": "left",
+      "extractionOffset": 565173
+    },
+    {
+      "id": "20:69-69:note-1",
+      "surah": 20,
+      "fromAyah": 69,
+      "toAyah": 69,
+      "text": "Düşündiriş: Musa pygamber özüne Alladan gelen emre eýerip, elindäki hasasyny ýere oklaýar. Allatagalanyň gudraty bilen aždarha öwrülen hasa Fyrgawnyň jadygöýleriniň jadyly ýüplerini we taýaklaryny ýuwudýar.",
+      "pdfPage": 317,
+      "column": "left",
+      "extractionOffset": 569685
+    },
+    {
+      "id": "20:82-82:note-1",
+      "surah": 20,
+      "fromAyah": 82,
+      "toAyah": 82,
+      "text": "Düşündiriş: Hezreti Musa kowumyny Müsürden çykaryp, Sina elteninden soň öz ýerine dogany Haruny ýolbaşçy belläp, Allatagaladan wahyý almak üçin Tur dagyna gidýär. Şonda Allatagala hezreti Musa şeýle diýýär:",
+      "pdfPage": 318,
+      "column": "right",
+      "extractionOffset": 571785
+    },
+    {
+      "id": "20:85-85:note-1",
+      "surah": 20,
+      "fromAyah": 85,
+      "toAyah": 85,
+      "text": "Düşündiriş: Samyry ysraýyl ogullarynyň samyra tiresindendi. Ol göläniň heýkelini ýasap, onuň hudaýdygyna ynandyrmak üçin ysraýyl ogullaryny Musa bilen Harunyň hak dininden daşlaşdyrmaga çalşypdy.",
+      "pdfPage": 318,
+      "column": "right",
+      "extractionOffset": 572307
+    },
+    {
+      "id": "20:97-97:note-1",
+      "surah": 20,
+      "fromAyah": 97,
+      "toAyah": 97,
+      "text": "Düşündiriş: Rowaýat edilmegine görä, hezreti Musanyň: «Indi sen ömürboýy: «Maňa degmek ýok» diýip geçersiň» diýen gargyşyndan soň, Samyry ýokanç kesele duçar bolupdyr we bütin ömrüne adamlardan üzňelikde ýaşamaga mejbur bolupdyr.",
+      "pdfPage": 319,
+      "column": "right",
+      "extractionOffset": 574554
+    },
+    {
+      "id": "20:104-104:note-1",
+      "surah": 20,
+      "fromAyah": 104,
+      "toAyah": 104,
+      "text": "Düşündiriş: Bu aýatda ahyretiň ebediliginiň ýanynda dünýäde geçirilen ömrüň örän gysgadygy düşündirilýär.",
+      "pdfPage": 320,
+      "column": "right",
+      "extractionOffset": 575526
+    },
+    {
+      "id": "20:133-133:note-1",
+      "surah": 20,
+      "fromAyah": 133,
+      "toAyah": 133,
+      "text": "Düşündiriş: Kurany Kerim hem özüniň hakykatdygyny subut edýän hem-de öňki kitaplaryň hakdygyna güwä geçýän bir nyşandyr.",
+      "pdfPage": 322,
+      "column": "right",
+      "extractionOffset": 579832
+    },
+    {
+      "id": "21:82-82:note-1",
+      "surah": 21,
+      "fromAyah": 82,
+      "toAyah": 82,
+      "text": "Düşündiriş: Hezreti Süleýmanyň emri bilen jynlar deňze çümüp, gymmatbaha daşlary çykarypdyrlar we bu magdanlary köşkler, şäherler gurmakda, haýran galdyryjy çeperçilikdäki sungatlary döretmekde ulanypdyrlar.",
+      "pdfPage": 330,
+      "column": "left",
+      "extractionOffset": 591028
+    },
+    {
+      "id": "22:33-33:note-1",
+      "surah": 22,
+      "fromAyah": 33,
+      "toAyah": 33,
+      "text": "Düşündiriş: Yhramly gezmeli günler gutarandan soň, eýeleri gurban etmek maksady bilen getiren mallaryndan münmek ýa-da süýdüni sagmak maksady bilen peýdalanyp bilerler.",
+      "pdfPage": 337,
+      "column": "left",
+      "extractionOffset": 601823
+    },
+    {
+      "id": "24:11-11:note-1",
+      "surah": 24,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Bu we mundan soňky üç aýat hezreti Aýşa atylan töhmetiň ýalandygyny subut etmek üçin inipdir.",
+      "pdfPage": 352,
+      "column": "left",
+      "extractionOffset": 626225
+    },
+    {
+      "id": "25:38-38:note-1",
+      "surah": 25,
+      "fromAyah": 38,
+      "toAyah": 38,
+      "text": "Düşündiriş: Ad Hud pygamberiň, semud Salyh pygamberiň, res kowumy hem Şugaýyp pygamberiň ymmatydyr.",
+      "pdfPage": 364,
+      "column": "right",
+      "extractionOffset": 645750
+    },
+    {
+      "id": "26:189-189:note-1",
+      "surah": 26,
+      "fromAyah": 189,
+      "toAyah": 189,
+      "text": "Düşündiriş: Ilki yssy bolupdyr, soň bulutlar gelipdir. Adamlar, yssydan goranmak üçin, bulutlaryň kölegeleriniň aşagyndakalar bolsa, olardan ot-ýalyn ýagyp başlapdyr we olary heläk edipdir.",
+      "pdfPage": 376,
+      "column": "left",
+      "extractionOffset": 665821
+    },
+    {
+      "id": "27:22-22:note-1",
+      "surah": 27,
+      "fromAyah": 22,
+      "toAyah": 22,
+      "text": "Düşündiriş: Sebe halky – Ýemende söwda-satyk bilen meşgullanan bir halkyň ady. Olaryň paýtagty Ýemeniň Sana şäheriniň takmynan 100 km demirgazyk-gündogarynda ýerleşýän Marib şäheri bolupdyr.",
+      "pdfPage": 379,
+      "column": "right",
+      "extractionOffset": 671758
+    },
+    {
+      "id": "28:52-52:note-1",
+      "surah": 28,
+      "fromAyah": 52,
+      "toAyah": 52,
+      "text": "Düşündiriş: Bu ýerde ýahudylardan we nasranylardan Muhammet pygambere iman getirenler göz öňünde tutulýar.",
+      "pdfPage": 393,
+      "column": "left",
+      "extractionOffset": 693338
+    },
+    {
+      "id": "30:1-5:note-1",
+      "surah": 30,
+      "fromAyah": 1,
+      "toAyah": 5,
+      "text": "Düşündiriş: Ähli-kitap bolan rumlular (wizantiýalylar) otparaz bolan parslardan ýeňlipdi. Mekgäniň kapyrlary muňa örän begendiler we musulmanlara: «Eger Alla siziň aýdyşyňyz ýaly, ýeke-täk ýeňiji bolsady, ähli-kitapdan bolan rumlular ýeňerdiler» diýip gyjalat berdiler. Şol sebäpli, Kuran bir mugjyza hökmünde geljekde boljak söweşde rumlularyň ýeňiş gazanjakdyklaryny habar berdi. Takyk, Kurany Kerimiň habar berşi ýaly, 624-nji ýylda rumlular parslary ýeňdiler.",
+      "pdfPage": 405,
+      "column": "right",
+      "extractionOffset": 713292
+    },
+    {
+      "id": "32:23-23:note-1",
+      "surah": 32,
+      "fromAyah": 23,
+      "toAyah": 23,
+      "text": "Düşündiriş: Bu ýerde pygamberimiziň mygraç gijesinde Musa pygamber bilen duşuşjakdygy barada aýdylýar.",
+      "pdfPage": 418,
+      "column": "left",
+      "extractionOffset": 733023
+    },
+    {
+      "id": "33:4-4:note-1",
+      "surah": 33,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "Düşündiriş: Yslamdan öň araplaryň arasynda eger bir erkek aýalyna: «Seniň teniň meniň ejemiň teni ýaly» diýse, soň ol aýal oňa ejesi hökmünde bolup, erkek hem oňa ýanaşyp bilmez eken. Muňa «zyhar» diýlipdir. Bu aýatda hem bir aýalyň bir erkege hem eje, hem-de aýal bolup bilmejekdigi barada aýdylýar. Şeýle hem araplaryň arasyndan käbir akylly, dana adamlarda iki kalp bolup bilýär diýen ynanç bar eken.",
+      "pdfPage": 419,
+      "column": "left",
+      "extractionOffset": 734894
+    },
+    {
+      "id": "33:6-6:note-1",
+      "surah": 33,
+      "fromAyah": 6,
+      "toAyah": 6,
+      "text": "Düşündiriş: Yslamyýetiň ilkinji ýyllarynda möminler bir maşgalanyň agzalary ýaly biri-birlerine mirasdüşer bolýardylar. Bu aýat inderilenden soň bolsa, mirasda dogan-garyndaşlyk ileri tutulyp başlanýar.",
+      "pdfPage": 419,
+      "column": "right",
+      "extractionOffset": 735995
+    },
+    {
+      "id": "33:37-37:note-1",
+      "surah": 33,
+      "fromAyah": 37,
+      "toAyah": 37,
+      "text": "Düşündiriş: Zeýt pygamberimiziň ogullygydy. Pygamberimiz ony gowy görýärdi. Oňa kakasynyň aýal doganynyň gyzy Zeýnep binti Jahşy nikalap berdi. Emma Zeýnep atly-abraýly maşgaladan gelensoň, asly gul bolan Zeýt bilen ysnyşyp bilmedi we olar aýrylyşmaly boldular. Mundan soň Zeýnep pygamberimiz bilen nikalaşdy.",
+      "pdfPage": 424,
+      "column": "right",
+      "extractionOffset": 742870
+    },
+    {
+      "id": "36:25-25:note-1",
+      "surah": 36,
+      "fromAyah": 25,
+      "toAyah": 25,
+      "text": "Düşündiriş: Ol adamyň bu sözlerinden soň kapyrlar: «Diýmek, sen hem onuň dininden ekeniň» diýip, ony daşlap başlaýarlar. Ol adam hem şol ýerde jan berýär.",
+      "pdfPage": 442,
+      "column": "right",
+      "extractionOffset": 772673
+    },
+    {
+      "id": "36:76-76:note-1",
+      "surah": 36,
+      "fromAyah": 76,
+      "toAyah": 76,
+      "text": "Düşündiriş: Ölümden soňky direlmegi inkär edýän Ubeý ibn Halef atly bir kapyr eline çüýräp giden bir süňki alyp, ony owradýar. Soň bolsa pygamberimize ýüzlenip: «Sen Allanyň çüýräp giden bu süňkleri täzeden direltjegine ynanýarsyňmy?» diýýär. Pygamberimiz hem oňa: «Hawa, ol direlder, seni hem dowzaha salar» diýýär. Bu wakadan soň hem aşakdaky aýatlar inýär.",
+      "pdfPage": 446,
+      "column": "right",
+      "extractionOffset": 778816
+    },
+    {
+      "id": "36:80-80:note-1",
+      "surah": 36,
+      "fromAyah": 80,
+      "toAyah": 80,
+      "text": "Düşündiriş: Çarwa araplar «Merh» we «Ufar» diýilýän agaçlary biri-birine süýkäp, ondan ot çykarar ekenler. Bu aýatda hem ýaşyl (öl) agaçlardan ot çykarmaga güýji ýeten Allanyň, çüýrän süňkleri direltmäge hem güýjüniň ýetjekdigi aýdylmak islenýär.",
+      "pdfPage": 446,
+      "column": "right",
+      "extractionOffset": 779703
+    },
+    {
+      "id": "37:125-125:note-1",
+      "surah": 37,
+      "fromAyah": 125,
+      "toAyah": 125,
+      "text": "Düşündiriş: Bagl – Siriýada Bek şäheriniň ilatynyň ybadat eden butunyň ady. Soň ol şäheriň ady «Bekleriň buty» manysynda Baglbek bolup galypdyr.",
+      "pdfPage": 451,
+      "column": "right",
+      "extractionOffset": 790245
+    },
+    {
+      "id": "37:140-140:note-1",
+      "surah": 37,
+      "fromAyah": 140,
+      "toAyah": 140,
+      "text": "Düşündiriş: Ýunus pygamber özüni ýalançy hasaplan kowumyna gaharlanyp, olaryň üstüne basym uly belanyň geljekdigini duýdurýar we Allatagalanyň rugsady, buýrugy bolmasa-da kowumynyň arasyndan çykyp gidip, bir deňziň kenarynda duran agyr ýükli gämä münýär. Gämi esli ýol alandan soň gaý turup ýa-da başga bir sebäpden howp astynda galýar. Şonda ýüki agdyklyk edýän gämiden bije atyp, ýolagçylaryň birini deňze taşlamaly bolýarlar. Bije Ýunus pygamberiň paýyna düşýär we ol deňze taşlanýar.",
+      "pdfPage": 452,
+      "column": "right",
+      "extractionOffset": 791451
+    },
+    {
+      "id": "38:34-34:note-1",
+      "surah": 38,
+      "fromAyah": 34,
+      "toAyah": 34,
+      "text": "Düşündiriş: Allatagala Süleýman pygamberi agyr hassalyga duçar edýär. Ol bu hassalyk zerarly, tapdan düşüp, tagtynyň üstünde jansyz jeset ýaly ýaraman ýatýar.",
+      "pdfPage": 456,
+      "column": "right",
+      "extractionOffset": 800340
+    },
+    {
+      "id": "38:69-69:note-1",
+      "surah": 38,
+      "fromAyah": 69,
+      "toAyah": 69,
+      "text": "Düşündiriş: Uly topar – Allatagalnyň mejlis geçirmek üçin perişdelerden jemlän uly topary.",
+      "pdfPage": 458,
+      "column": "right",
+      "extractionOffset": 804355
+    },
+    {
+      "id": "41:3-3:note-1",
+      "surah": 41,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "Düşündiriş: Bu aýatda agzalýan «Fussylet» («Doly beýan edilen») sözüniň manysy aşakdaky görnüşlerde düşündirilýär: 1. Kuranyň hökümleri, kyssalary, nesihatlary aç-açan mälim edilen. 2. Süreleriň başlanýan ýerleri we gutarýan ýerleri beýan edilen. 3. Wadalar, kyssalar, hökümler, mysallar aýratynlykda beýan edilen.",
+      "pdfPage": 478,
+      "column": "right",
+      "extractionOffset": 837689
+    },
+    {
+      "id": "45:23-23:note-1",
+      "surah": 45,
+      "fromAyah": 23,
+      "toAyah": 23,
+      "text": "Düşündiriş: Bu ýerde şu many öňe sürülýär. Hak ýoldan üzňe bolup, haý-höwesiň guly bolmak gözi kör, gulagy ker, kalby ýowuz eder. Beýle adam hakykaty aňmaz.",
+      "pdfPage": 502,
+      "column": "left",
+      "extractionOffset": 879313
+    },
+    {
+      "id": "46:4-4:note-1",
+      "surah": 46,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "Düşündiriş: Bu ýerde öňki kitapdan maksat Alla tarapyndan iberilen ylahy kitaplardyr. Ylymdan bir galyndy bolsa öňki pygamberleriň öwreden taglymatlarynyň galyndylarydyr. Ol kitaplarda Alla şärik goşmaklyk inkär edilýär.",
+      "pdfPage": 503,
+      "column": "right",
+      "extractionOffset": 883096
+    },
+    {
+      "id": "46:10-10:note-1",
+      "surah": 46,
+      "fromAyah": 10,
+      "toAyah": 10,
+      "text": "Düşündiriş: Bu ýerdäki şaýat Medinede tanymal ýahudy alymy bolan Abdylla ibn Salam ýaly yslamy kabul edenler göz öňünde tutulýar.",
+      "pdfPage": 504,
+      "column": "right",
+      "extractionOffset": 884795
+    },
+    {
+      "id": "46:21-21:note-1",
+      "surah": 46,
+      "fromAyah": 21,
+      "toAyah": 21,
+      "text": "Düşündiriş: Ahkaf – ýer-ýurt ady ady bolup, Arap ýarymadasynyň günorta-günbatarynda ýerleşýändir. Irki wagtlar bu ýerler baglyk-bakjalyk ýer eken, emma soň ol ýerler gurap galypdyr. Häzirki wagtda ol ýerde ýaşaýyş saklanyp galmandyr.",
+      "pdfPage": 506,
+      "column": "left",
+      "extractionOffset": 887659
+    },
+    {
+      "id": "46:31-31:note-1",
+      "surah": 46,
+      "fromAyah": 31,
+      "toAyah": 31,
+      "text": "Düşündiriş: Bu aýatdan jynlaryň Musa pygambere we beýleki pygamberlere inen kitaplara hem ynanandyklary belli bolýar. Bu hadysadan soň jynlar topar-topar bolup pygamberimiziň ýanyna gelip, musulman bolýarlar.",
+      "pdfPage": 507,
+      "column": "left",
+      "extractionOffset": 890111
+    },
+    {
+      "id": "47:1-1:note-1",
+      "surah": 47,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Mekgeli sada adamlar yslama girmekden çekinýärdiler. Sebäbi kapyrlar olara böwet bolýardylar, ezýet berýärdiler we yslamy kabul edenleri hem döndermek üçin, tagalla edýärdiler.",
+      "pdfPage": 508,
+      "column": "left",
+      "extractionOffset": 892118
+    },
+    {
+      "id": "48:1-1:note-1",
+      "surah": 48,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Bu ýeňiş Hudeýbiýe ylalaşygydyr. Yslam taryhynda bu ylalaşyk, Mekgäniň eýelenmegine we musulmanlaryň ondan soňky ýeten üstünliklerine alyp baran iň uly ýeňiş hökmünde häsiýetlendirilýär.",
+      "pdfPage": 512,
+      "column": "left",
+      "extractionOffset": 900002
+    },
+    {
+      "id": "48:10-10:note-1",
+      "surah": 48,
+      "fromAyah": 10,
+      "toAyah": 10,
+      "text": "Düşündiriş: Hijri senesiniň 6-njy (milady 627-nji) ýylynda pygamberimiz «Umra» hajyny berjaý etmek üçin ýanyna 1400 sahabany alyp, Medineden Mekgä tarap ýola düşýär. Şonda Mekgeli kapyrlar musulmanlaryň Mekgä girmegine garşy çykýarlar. Pygamberimiz Hudeýbiýe diýilýän ýere gelip, Hezreti Osmany özleriniň söweşmäge gelmändiklerini bildirmegi üçin Mekgä ilçi edip iberýär. Mekgeliler hezreti Osmany goýbermän saklanlarynda pygamberimiz bir agajyň aşagynda sahabalardan «Eger Osman öldürilern bolsa, özleriniň hem bu ugurda öldürilseler-de söweşjekdikleri barada söz bermekliklerini isläp, olardan ähti-peýman alýar.",
+      "pdfPage": 513,
+      "column": "left",
+      "extractionOffset": 901813
+    },
+    {
+      "id": "48:18-19:note-1",
+      "surah": 48,
+      "fromAyah": 18,
+      "toAyah": 19,
+      "text": "Düşündiriş: Bu ähti-peýman Hudeýbiýede «Semre» diýen agajyň aşagynda bolup geçýär. Muňa «Ryzwan biaty» («Razyçylyk ykrary, ähti») diýlen at galýar. Bu ýerde 1400 sany sahaba kuraýşlylar bilen soňuna çenli söweşjekdikleri barada karara gelýärler we pygambere kömek etjekdikleri barada söz berýärler.",
+      "pdfPage": 514,
+      "column": "right",
+      "extractionOffset": 904873
+    },
+    {
+      "id": "52:1-6:note-1",
+      "surah": 52,
+      "fromAyah": 1,
+      "toAyah": 6,
+      "text": "Düşündiriş: «Beýti-magmur» sözüniň manysy «Ybadat edilýän öý» diýmek bolup, onuň Käbedigi, şeýle-de Arşyň deňinde perişdeleriň yzygiderli ybadat edýän bir ýeridigi bellenilýär.",
+      "pdfPage": 524,
+      "column": "right",
+      "extractionOffset": 924029
+    },
+    {
+      "id": "53:18-18:note-1",
+      "surah": 53,
+      "fromAyah": 18,
+      "toAyah": 18,
+      "text": "Düşündiriş: «Sidratul-muntehä» sözüniň manysy «Iň çetki agaç, barlyk äleminiň iň soňky nokady» diýmekligi aňladýar. Ondan soň gaýyp älem başlaýar. «Mäwa» jenneti hem perişdeleriň, şehitleriň ruhlarynyň ýaşaýan ýeridir.",
+      "pdfPage": 527,
+      "column": "left",
+      "extractionOffset": 929930
+    },
+    {
+      "id": "53:35-35:note-1",
+      "surah": 53,
+      "fromAyah": 35,
+      "toAyah": 35,
+      "text": "Düşündiriş: Bu soňky üç aýat musulmançylykdan dänip, köphudaýlylyga geçen Welit ibn Mugyra atly kapyr adam hakda inýär.",
+      "pdfPage": 528,
+      "column": "right",
+      "extractionOffset": 932152
+    },
+    {
+      "id": "53:49-49:note-1",
+      "surah": 53,
+      "fromAyah": 49,
+      "toAyah": 49,
+      "text": "Düşündiriş: Şygra ýyldyzy parlak ýyldyzlaryň biri bolup, araplaryň huzaga we himýer kabylalary ol ýyldyzy hudaý hasaplar ekenler.",
+      "pdfPage": 529,
+      "column": "left",
+      "extractionOffset": 933026
+    },
+    {
+      "id": "54:1-1:note-1",
+      "surah": 54,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Pygamberimiziň mugjyzasy bilen, Medinä göçülmezden bäş ýyl öň Mekgäniň golaýynda Aý ikä bölünýär, soň ýene birleşýär.",
+      "pdfPage": 529,
+      "column": "right",
+      "extractionOffset": 934398
+    },
+    {
+      "id": "54:17-17:note-1",
+      "surah": 54,
+      "fromAyah": 17,
+      "toAyah": 17,
+      "text": "Düşündiriş: Bu ýerde Kurany okamak we ýat tutmak isleýän adam üçin onuň sözleriniň, oňa düşünmek isleýänler üçin manylarynyň ýeňilleşdirilendigi aýdylýar.",
+      "pdfPage": 530,
+      "column": "right",
+      "extractionOffset": 936213
+    },
+    {
+      "id": "55:13-13:note-1",
+      "surah": 55,
+      "fromAyah": 13,
+      "toAyah": 13,
+      "text": "Düşündiriş: Bu aýat bu sürede 31 gezek gaýtalanýar. Bu ýerde «Siz» diýlip, ikilik sana ýüzlenilýär. Tefsir alymlary muny ynsanlar we jynlar diýip düşündirýärler.",
+      "pdfPage": 532,
+      "column": "right",
+      "extractionOffset": 941268
+    },
+    {
+      "id": "55:17-17:note-1",
+      "surah": 55,
+      "fromAyah": 17,
+      "toAyah": 17,
+      "text": "Düşündiriş: Tefsir kitaplarynda tomusda we gyşda günüň dogýan we ýaşýan ýeriniň üýtgeýändigi üçin iki Gündogar we iki Günbatar diýlendigi bellenilýär.",
+      "pdfPage": 533,
+      "column": "left",
+      "extractionOffset": 941716
+    },
+    {
+      "id": "57:27-27:note-1",
+      "surah": 57,
+      "fromAyah": 27,
+      "toAyah": 27,
+      "text": "Düşündiriş: Ruhbanlyk (monahlyk) nasranylaryň oýlap tapan zady bolup, özlerini ruhban, monah, ruhany hasaplaýanlar öýlenmän, dünýä nygmatlaryndan ýüz öwrüp, ýalňyzlykda ýaşapdyrlar. Bu yslama we Allanyň ýoluna ters hasaplanylýar.",
+      "pdfPage": 542,
+      "column": "right",
+      "extractionOffset": 960168
+    },
+    {
+      "id": "58:1-1:note-1",
+      "surah": 58,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Yslamdan öňki döwürde araplaryň arasynda talagyň «zyhar» diýilýän bir görnüşi bolupdyr. Äri eger aýalyna: «Sen maňa ejem ýalysyň» diýse, ol erkegiň aýalynyň ýanyna gelmegi haram hasaplanylypdyr. Emma aralaryndaky nika bozulmaýan eken. Aýal hem nikaly wagty ýanýoldaşsyz ýagdaýa düşer eken. Bu aýatyň inmegi bilen «zyhar» talagy hem aradan aýrylýar.",
+      "pdfPage": 543,
+      "column": "left",
+      "extractionOffset": 961545
+    },
+    {
+      "id": "58:8-8:note-1",
+      "surah": 58,
+      "fromAyah": 8,
+      "toAyah": 8,
+      "text": "Düşündiriş: Ýahudylar pygamberimize salam diýmegiň ýerine «sa:m» («ölüm») diýer ekenler.",
+      "pdfPage": 544,
+      "column": "right",
+      "extractionOffset": 964076
+    },
+    {
+      "id": "62:11-11:note-1",
+      "surah": 62,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Düşündiriş: Bir gün Medinede açlyk, guraklyk ýyllarynda bir kerweniň gelip düşländigini eşiden musulmanlar, beýle ýagdaýda pygamberi goýup gitmeli däldigini bilmänsoňlar, juma namazynyň hutbasyny okap duran pygamberi taşlap, metjitden çykyp gidiberipdiriler. Ýokardaky aýat juma namazynyň wagyzynyň (hutbasynyň) ähmiýetini habar berýär.",
+      "pdfPage": 555,
+      "column": "left",
+      "extractionOffset": 984828
+    },
+    {
+      "id": "66:12-12:note-1",
+      "surah": 66,
+      "fromAyah": 12,
+      "toAyah": 12,
+      "text": "Düşündiriş: Aýatlarda aýdylýan Nuh pygamberiň aýaly halka Nuhuň dälidigini, akylynyň ýerinde däldigini aýdar eken. Lutuň aýaly bolsa näwagt Lutuň öýüne myhman gelse, eger gije bolsa, ot ýakyp, gündiz bolsa, tüsse çykaryp halka habar berer eken. Fyrgawnyň aýaly Asyýa bolsa Musa pygambere iman getirendigi üçin, Fyrgawn tarapyndan öldürilýär.",
+      "pdfPage": 562,
+      "column": "right",
+      "extractionOffset": 999185
+    },
+    {
+      "id": "68:42-42:note-1",
+      "surah": 68,
+      "fromAyah": 42,
+      "toAyah": 42,
+      "text": "Düşündiriş: Arap dilinde «Injik açylar» söz düzümi işleriň kynlaşyp, ähli hakykatlaryň ýüze çykmagyny aňladýar.",
+      "pdfPage": 566,
+      "column": "right",
+      "extractionOffset": 1008302
+    },
+    {
+      "id": "71:23-23:note-1",
+      "surah": 71,
+      "fromAyah": 23,
+      "toAyah": 23,
+      "text": "Düşündiriş: Ady agzalan bu kişiler olaryň öten-geçen ýagşyzada we salyh ata-babalarynyň atlary bolup, olar ölenden soň, elmydama ýatlap durmaklary we olary unutmazlyk üçin, guburlaryna olaryň heýkellerini dikipdirler. Sebäbi halk olaryň heýkellerini görende has hem Alla ýatlaryna düşer, günä işlere meýil etmez ekenler. Soň, şeýtanyň aldawy bilen, soňky nesil hem olaryň bu niýetinden daşlaşyp, ol heýkellerden özleriniň isleg-hajatlaryny diläp, olary hudaý hasaplap başlaýarlar.",
+      "pdfPage": 572,
+      "column": "right",
+      "extractionOffset": 1019652
+    },
+    {
+      "id": "73:1-1:note-1",
+      "surah": 73,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Pygamberimiz Muhammet aleýhissalama ilkinji gezek wahyý gelende, Jebraýyl perişde oňa öz asyl suratynda görünýär. Ol hem gorkup, öýüne tarap gaýdýar we maşgalasy Hatyja: «Meniň üstümi ört!» diýýär. Onuň üstüni örtýärler. Pygamberimiz bürenip ýatyrka, Jebraýyl perişde ýene gelip bu süräni wahyý edýär.",
+      "pdfPage": 575,
+      "column": "left",
+      "extractionOffset": 1025297
+    },
+    {
+      "id": "74:25-25:note-1",
+      "surah": 74,
+      "fromAyah": 25,
+      "toAyah": 25,
+      "text": "Düşündiriş: Rowaýata görä, Welid ibn Mugyra atly bir adam, pygamber Kuran okaýarka, ony diňläp, örän täsirlenýär. Muny eşiden mekgeli kapyrlar, onuň öz dinlerinden dänip, musulmançylgy kabul etmeginden gorkýarlar. Mekgeli kapyrlaryň baştutanlaryndan bolan Ebu Jähl hem Welidiň ýanyna baryp, onuň tekepbirligini has-da artdyrjak sözleri aýdyp, onuň musulmançylyga geçmeginiň öňüni alyp, ony bu pikirinden dändirýär. Soň kapyrlaryň ýanlaryna gelenlerinde, Welit olara indiden beýläk Muhammede telbe, däli, bilgiç, şahyr, ýalançy ýaly sözler bilen ýüzlenmegiň peýdasynyň ýokdugyny aýdýar. Soň hem uzak wagtlap, mazalyja pikirlenip, ölçerip, ahyry hem kapyrlara ýüzlenip: «Muhammet jadygöýdir. Görmeýärsiňizmi, ol perzendi ene-atasyndan, maşgalasyndan, gullary hojaýynlaryndan aýryp bilýär. Bu bir jadylykdyr» diýýär. Kapyrlar hem bu wakadan soň pygamberimiz Muhammede «jadygöý» diýip başlaýarlar. Bu ýagdaý pygamberimize örän ýokuş degýär.",
+      "pdfPage": 577,
+      "column": "left",
+      "extractionOffset": 1030159
+    },
+    {
+      "id": "75:16-16:note-1",
+      "surah": 75,
+      "fromAyah": 16,
+      "toAyah": 16,
+      "text": "Düşündiriş: Pygamberimiz Muhammet aleýhissalam gelen wahyny unutmazlyk üçin, heniz wahynyň sözleri doly gutarmanka, ony çaltlyk bilen gaýtalaýar eken. Aýatda bu waka barada aýdylýar.",
+      "pdfPage": 578,
+      "column": "right",
+      "extractionOffset": 1034834
+    },
+    {
+      "id": "82:11-12:note-1",
+      "surah": 82,
+      "fromAyah": 11,
+      "toAyah": 12,
+      "text": "Düşündiriş: Kiramen kätibin – ynsanyň ýanyndan aýrylmaýan we eden ähli zadyny ýazýan perişdelerdir.",
+      "pdfPage": 588,
+      "column": "right",
+      "extractionOffset": 1054848
+    },
+    {
+      "id": "85:4-4:note-1",
+      "surah": 85,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "Düşündiriş: «Garym ýaranlary» barada tefsirlerde dört sany hadysa agzalýar: Bularyň iň meşhury Ýemen hökümdarlygyny gol astyna geçiren Zu Nuwas bilen baglanyşyklydyr. Dördünji asyrda Ýemen patyşasy bolan bu hökümdar ýahudylygy kabul edýär we nasrany bolan Nejranyň ilatyny hem ýahudylygy kabul etmäge zorlaýar. Halk muňa garşy çykansoň, onuň görkezmesi bilen ýigrimi müň töweregi adam otly garymlara oklanylýar. Şonuň üçin hme bular Kurany Kerimde bu at bilen ýatlanylýar.",
+      "pdfPage": 591,
+      "column": "left",
+      "extractionOffset": 1060778
+    },
+    {
+      "id": "90:3-3:note-1",
+      "surah": 90,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "Düşündiriş: Aýatda «Ata we onuň zürýady» diýilmek bilen, Adam Ata we onuň neberesi, ýagny bütin adamzat göz öňünde tutulýar.",
+      "pdfPage": 595,
+      "column": "right",
+      "extractionOffset": 1069833
+    },
+    {
+      "id": "93:3-3:note-1",
+      "surah": 93,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "Düşündiriş: Pygamberligiň başlangyç döwürlerinde az wagtlyk wahyý kesilýär. Kapyrlar hem bu ýagdaýdan peýdalanyp: «Perwerdigäriň seni terk etdi, taşlady» diýip, oňa gyjalat berýärler. Bu sözler pygambere örän ýokuş degipdir. Netijede, bu aýat inipdir.",
+      "pdfPage": 597,
+      "column": "right",
+      "extractionOffset": 1074370
+    }
+  ]
+}

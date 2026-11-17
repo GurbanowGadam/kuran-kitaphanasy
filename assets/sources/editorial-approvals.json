@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "surah": 79,
+      "mappedAyahs": [
+        40,
+        41
+      ],
+      "sourceLabel": "40.",
+      "status": "approved",
+      "reviewer": "product-owner",
+      "recordedAt": "2026-11-13T01:09:23+02:00",
+      "ownerStatement": "Naziat 40–41 ayetlerinin tercümesini başka kaynaklar üzerinden doğruladım; Türkmençe kaynakta sadece 41 yazmayı unutmuşlar.",
+      "verificationBasis": "Owner reports comparison with other sources; source URLs were not supplied.",
+      "scope": "Approval of the 79:40–41 paragraph mapping only; no claim of blanket device or store release approval.",
+      "sourcePdfSha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+      "paragraphSha256": "b102c1261984cad5689a11bc51451ee18a2dc6fde31a4205c8635697072387d1"
+    }
+  ]
+}

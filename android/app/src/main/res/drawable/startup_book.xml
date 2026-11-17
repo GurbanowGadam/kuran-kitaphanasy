@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Both resting leaves and the turning leaf share the same outline. -->
+    <path android:name="book" android:fillColor="@color/launch_surface"
+        android:strokeColor="@color/launch_accent" android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:pathData="M54,37 Q39,29 25,35 L25,72 Q39,67 54,76 Z M54,37 Q69,29 83,35 L83,72 Q69,67 54,76 Z"/>
+    <path android:name="static_page_lines" android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/launch_accent" android:strokeAlpha="0.45"
+        android:strokeWidth="0.8" android:strokeLineCap="round"
+        android:pathData="M48,44 Q39,40 31,43 M48,51 Q39,47 31,50 M48,58 Q39,54 31,57 M60,44 Q69,40 77,43 M60,51 Q69,47 77,50 M60,58 Q69,54 77,57"/>
+    <!-- A plain paper leaf hinges at the spine; there are no decorative symbols. -->
+    <group android:name="turning_page" android:pivotX="54" android:pivotY="55">
+        <path android:name="turning_leaf" android:fillColor="@color/launch_surface"
+            android:strokeColor="@color/launch_accent" android:strokeWidth="2"
+            android:strokeLineJoin="round"
+            android:pathData="M54,37 Q69,29 83,35 L83,72 Q69,67 54,76 Z"/>
+        <path android:name="page_lines" android:fillColor="@android:color/transparent"
+            android:strokeColor="@color/launch_accent" android:strokeAlpha="0.45"
+            android:strokeWidth="0.8" android:strokeLineCap="round"
+            android:pathData="M60,44 Q69,40 77,43 M60,51 Q69,47 77,50 M60,58 Q69,54 77,57"/>
+    </group>
+</vector>

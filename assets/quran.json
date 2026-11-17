@@ -1,0 +1,90 @@
+{
+  "surahs": [
+    {
+      "id": 1,
+      "name": "Fatyha",
+      "subtitle": "Açylyş · 7 aýat · Mekge",
+      "blocks": [
+        {
+          "range": "1",
+          "arabic": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖیمِ",
+          "translation": "Rahman (Mähriban) we Rahym (Rehim-şepagatly) Allanyň ady bilen (başlaýaryn)."
+        },
+        {
+          "range": "2",
+          "arabic": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمٖینَۙ",
+          "translation": "(Ähli) hamdy-senalar älemleriň Perwerdigäri Alla mahsusdyr."
+        },
+        {
+          "range": "3",
+          "arabic": "اَلرَّحْمٰنِ الرَّحٖیمِۙ",
+          "translation": "(Ol) Rahmandyr (Mähribandyr), Rahymdyr (Rehim-şepagatlydyr)."
+        },
+        {
+          "range": "4",
+          "arabic": "مَالِكِ یَوْمِ الدّٖینِؕ",
+          "translation": "Din (kyýamat) gününiň Eýesidir."
+        },
+        {
+          "range": "5",
+          "arabic": "اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعٖینُؕ",
+          "translation": "(Eý, Allam!) Biz diňe Saňa ybadat edýäris we diňe Senden kömek soraýarys!"
+        },
+        {
+          "range": "6",
+          "arabic": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقٖیمَۙ",
+          "translation": "(Eý, Allam!) Bizi dogry ýola (yslam dinine) gönükdir!"
+        },
+        {
+          "range": "7",
+          "arabic": "صِرَاطَ الَّذٖینَ اَنْعَمْتَ عَلَیْهِمْۙ غَیْرِ الْمَغْضُوبِ عَلَیْهِمْ وَلَا الضَّٓالّٖینَ",
+          "translation": "(Bizi) gazaba sezewar bolanlaryň we azaşanlaryň (ýoluna) däl-de, Öz nygmat berenleriň ýoluna (gönükdir)!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bakara",
+      "subtitle": "Sygyr · 1–5-nji aýatlar · Medine",
+      "blocks": [
+        {
+          "range": "1",
+          "arabic": "الٓمٓۚ",
+          "translation": "Elif, Läm, Mim."
+        },
+        {
+          "range": "2",
+          "arabic": "ذٰلِكَ الْكِتَابُ لَا رَیْبَۚۛ فٖیهِۚۛ هُدًى لِلْمُتَّقٖینَۙ",
+          "translation": "Bu (Kuran) özüniň (hakykatdygyna) şek-şübhe bolmadyk we takwalar (Alladan gorkýanlar) üçin dogry ýoly (görkezýän) kitapdyr."
+        },
+        {
+          "range": "3",
+          "arabic": "اَلَّذٖینَ یُؤْمِنُونَ بِالْغَیْبِ وَیُقٖیمُونَ الصَّلٰوةَ وَمِمَّا رَزَقْنَاهُمْ یُنْفِقُونَۙ",
+          "translation": "Olar (takwalar) gaýyba ynanýarlar, namaz okaýarlar we Biziň özlerine beren rysgalymyzdan (Alla ýolunda) haýyr-sahawat edýärler."
+        },
+        {
+          "range": "4",
+          "arabic": "وَالَّذٖینَ یُؤْمِنُونَ بِمَٓا اُنْزِلَ اِلَیْكَ وَمَٓا اُنْزِلَ مِنْ قَبْلِكَۚ وَبِالْاٰخِرَةِ هُمْ یُوقِنُونَؕ",
+          "translation": "(Şeýle-de) olar (takwalar) saňa inderilene (Kurana) we senden öňki (pygamberlere) inderilen (kitaplara) ynanýarlar. Olar ahyrete (hem) doly ynanýarlar."
+        },
+        {
+          "range": "5",
+          "arabic": "اُو𐻾لٰٓئِكَ عَلٰى هُدًى مِنْ رَبِّهِمْ وَاُو𐻾لٰٓئِكَ هُمُ الْمُفْلِحُونَ",
+          "translation": "Ine, olar (takwalar) özleriniň Perwerdigärinden (gelen) dogry ýoldadyrlar we halas bolanlar (hem) hut olaryň özleridir."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Yhlas",
+      "subtitle": "Kulhuwalla · 4 aýat · Mekge",
+      "blocks": [
+        {
+          "range": "1–4",
+          "arabic": "قُلْ هُوَ اللّٰهُ اَحَدٌۚ\nاَللّٰهُ الصَّمَدُۚ\nلَمْ یَلِدْ وَلَمْ یُولَدْۙ\nوَلَمْ یَكُنْ لَهُ كُفُوًا اَحَدٌ",
+          "translation": "Aýt (eý, Muhammet!): «Ol Alla Ahatdyr (Birdir). Alla Sametdir (hiç zada mätäç däldir, ähli zat Oňa mätäçdir). Ol (hiç kimi) dogran däldir, (hiç kimden) doglan däldir. Onuň hiç bir deňi-taýy ýokdur»."
+        }
+      ]
+    }
+  ]
+}

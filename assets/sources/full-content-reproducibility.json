@@ -1,0 +1,67 @@
+{
+  "method": "Two consecutive complete offline rebuilds; SHA-256 compared for every manifest artifact and the manifest itself. Reports contain no current timestamp. This does not compare UI/platform build outputs.",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "executable": "/tmp/quran-data-venv/bin/python",
+  "builds": [
+    {
+      "build": 1,
+      "exitCode": 0,
+      "stdout": "Arabic titles and opening metadata 114 PASS\nArabic 6236 pages 605\ntranslation 5905 notes 203 descriptions 114\nFont primary coverage and HarfBuzz 6236 verses and 114 prefixed headings PASS\nPDF markers 605 PASS; 0 mismatch []\nIndependent translation source conservation 114 surahs PASS; editorial mapping review approved by product owner\n",
+      "stderr": "",
+      "hashes": {
+        "assets/data/footnotes.json": "c04dfd42b22db8db4ea940d5acbfcac01983d2d5138ee9a9a1baece1ff1e2410",
+        "assets/data/pages.json": "5a89f45c9a1c2f9d8e0d99294a83ca324944672f50d3dd024934d8c3112d3922",
+        "assets/data/surah_descriptions.json": "ccb653866dd3aeddb6438c6f909e9422e375c728698a392ad2b34cd915894c04",
+        "assets/data/surah_metadata.json": "f69054932a403b39c0586102a90a2e0b1643055518ca0bc5c90fc700ceb418ed",
+        "assets/data/surah_names_arabic.json": "8a93a9b239ac6870773e340bb533042c7fe437790668ee774500db5c6bdefba2",
+        "assets/data/surah_names_pdf.json": "39da950184c6b0b845c0767947679cf9839cac0d971955953ef7718064517ab7",
+        "assets/data/surah_titles_diyanet.json": "4085c808486f270eedd6e2b979166ab1ce1522e3d2db80b9478be00fdadc22dd",
+        "assets/data/translations.json": "5cd8a1206d1b2c276422e3c78381d0252f8f6f28aea6cd90f9b91d1ac5e5e3ba",
+        "assets/data/verses.json": "d7c2c8a713914d06747992f0f618fb37c3417bccbc5d81fa72b37c79222f0176",
+        "assets/sources/diyanet-reading/manifest.json": "86c5e49fcbd718d076bf6e0dacaffd1eafd5c15441f1b1327aea94fd494f9a4f",
+        "assets/sources/diyanet-reading/public-client.js": "40c9cca5151739ec74372afa679b669e0664bf8932dac8ce54baae47574a93f9",
+        "assets/sources/diyanet-reading/surahs-decoded.json": "679d4626a3b499c7585afa4be1622ad2a88a2717190178c1700b22eaea62ee86",
+        "assets/sources/diyanet-reading/surahs-response.json": "a522ae982ac3704e993f600eecb4dbfaf4927679da0b8b783f10b633dfde8d82",
+        "assets/sources/editorial-approvals.json": "6634d442af128f4cdfd6613c46647c7d29b952208b7444a5b9e4cf71268080e2",
+        "assets/sources/full-content-manifest.json": "540390b2000176fc5497245dccb46eb8590ba38761034aa7b65f5ce12568ff17",
+        "assets/sources/full-font-validation.json": "18e4650501eb1df95fc3ca6effaf44ea0e8cf4971aa91ce546580ec0ae034e15",
+        "assets/sources/full-pdf-page-validation.json": "c57af5564237e081208fc80a9b4742559c66acc803f081af3e48c8d628456747",
+        "assets/sources/full-translation-anomalies.json": "4250306cc38f658d26af44aba3ccb11868581b93d1b9d9bf05b98fa0e933a465",
+        "assets/sources/full-translation-conservation.json": "926e1d8dcf7a3c138f57fb3121848ab33383b6a960fd036b1c106928a8626fc7",
+        "assets/sources/full-turkmen-pdf-extraction-validation.json": "d59cd21e43512371deaf6c5cc2539d97d3c95fad16ae21903f75f0cbc1fdb0a7",
+        "assets/sources/pdf-extraction/all-pages.json": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546"
+      }
+    },
+    {
+      "build": 2,
+      "exitCode": 0,
+      "stdout": "Arabic titles and opening metadata 114 PASS\nArabic 6236 pages 605\ntranslation 5905 notes 203 descriptions 114\nFont primary coverage and HarfBuzz 6236 verses and 114 prefixed headings PASS\nPDF markers 605 PASS; 0 mismatch []\nIndependent translation source conservation 114 surahs PASS; editorial mapping review approved by product owner\n",
+      "stderr": "",
+      "hashes": {
+        "assets/data/footnotes.json": "c04dfd42b22db8db4ea940d5acbfcac01983d2d5138ee9a9a1baece1ff1e2410",
+        "assets/data/pages.json": "5a89f45c9a1c2f9d8e0d99294a83ca324944672f50d3dd024934d8c3112d3922",
+        "assets/data/surah_descriptions.json": "ccb653866dd3aeddb6438c6f909e9422e375c728698a392ad2b34cd915894c04",
+        "assets/data/surah_metadata.json": "f69054932a403b39c0586102a90a2e0b1643055518ca0bc5c90fc700ceb418ed",
+        "assets/data/surah_names_arabic.json": "8a93a9b239ac6870773e340bb533042c7fe437790668ee774500db5c6bdefba2",
+        "assets/data/surah_names_pdf.json": "39da950184c6b0b845c0767947679cf9839cac0d971955953ef7718064517ab7",
+        "assets/data/surah_titles_diyanet.json": "4085c808486f270eedd6e2b979166ab1ce1522e3d2db80b9478be00fdadc22dd",
+        "assets/data/translations.json": "5cd8a1206d1b2c276422e3c78381d0252f8f6f28aea6cd90f9b91d1ac5e5e3ba",
+        "assets/data/verses.json": "d7c2c8a713914d06747992f0f618fb37c3417bccbc5d81fa72b37c79222f0176",
+        "assets/sources/diyanet-reading/manifest.json": "86c5e49fcbd718d076bf6e0dacaffd1eafd5c15441f1b1327aea94fd494f9a4f",
+        "assets/sources/diyanet-reading/public-client.js": "40c9cca5151739ec74372afa679b669e0664bf8932dac8ce54baae47574a93f9",
+        "assets/sources/diyanet-reading/surahs-decoded.json": "679d4626a3b499c7585afa4be1622ad2a88a2717190178c1700b22eaea62ee86",
+        "assets/sources/diyanet-reading/surahs-response.json": "a522ae982ac3704e993f600eecb4dbfaf4927679da0b8b783f10b633dfde8d82",
+        "assets/sources/editorial-approvals.json": "6634d442af128f4cdfd6613c46647c7d29b952208b7444a5b9e4cf71268080e2",
+        "assets/sources/full-content-manifest.json": "540390b2000176fc5497245dccb46eb8590ba38761034aa7b65f5ce12568ff17",
+        "assets/sources/full-font-validation.json": "18e4650501eb1df95fc3ca6effaf44ea0e8cf4971aa91ce546580ec0ae034e15",
+        "assets/sources/full-pdf-page-validation.json": "c57af5564237e081208fc80a9b4742559c66acc803f081af3e48c8d628456747",
+        "assets/sources/full-translation-anomalies.json": "4250306cc38f658d26af44aba3ccb11868581b93d1b9d9bf05b98fa0e933a465",
+        "assets/sources/full-translation-conservation.json": "926e1d8dcf7a3c138f57fb3121848ab33383b6a960fd036b1c106928a8626fc7",
+        "assets/sources/full-turkmen-pdf-extraction-validation.json": "d59cd21e43512371deaf6c5cc2539d97d3c95fad16ae21903f75f0cbc1fdb0a7",
+        "assets/sources/pdf-extraction/all-pages.json": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546"
+      }
+    }
+  ],
+  "differentPaths": [],
+  "changedFromPrecheck": []
+}

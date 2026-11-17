@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "surah": 7,
+      "kind": "commentary-numeric-citation",
+      "text": "19.",
+      "action": "kept inside final source note, not emitted as an ayah"
+    },
+    {
+      "surah": 20,
+      "sourceLabel": "29, 32",
+      "mappedAyahs": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "kind": "source-range-or-omitted-intermediate-labels"
+    },
+    {
+      "surah": 20,
+      "sourceLabel": "33, 35",
+      "mappedAyahs": [
+        33,
+        34,
+        35
+      ],
+      "kind": "source-range-or-omitted-intermediate-labels"
+    },
+    {
+      "surah": 79,
+      "sourceLabel": "40.",
+      "mappedAyahs": [
+        40,
+        41
+      ],
+      "kind": "unprinted-41-label",
+      "userReviewRequired": false,
+      "reviewStatus": "approved-by-product-owner",
+      "action": "single unchanged source paragraph covers 40–41; no wording invented",
+      "evidence": "PDF physical 585: paragraph ends ýeri jennetdir.; next printed label is 42."
+    },
+    {
+      "surah": 79,
+      "sourceLabel": "40",
+      "mappedAyahs": [
+        40,
+        41
+      ],
+      "kind": "source-range-or-omitted-intermediate-labels"
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "method": "Independent reassembly of headings, descriptions, opening formulas, original numeric sourceMarkers, grouped translation paragraphs and all linked notes. Comparison ignores whitespace only plus the pre-existing reviewed Fatiha soraýa- / rys joining. No Unicode normalization or spelling correction. This does not prove human approval of verse interpretation.",
+  "extractionSha256": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546",
+  "datasetHashes": {
+    "translations": "5cd8a1206d1b2c276422e3c78381d0252f8f6f28aea6cd90f9b91d1ac5e5e3ba",
+    "surah_descriptions": "ccb653866dd3aeddb6438c6f909e9422e375c728698a392ad2b34cd915894c04",
+    "surah_names_pdf": "39da950184c6b0b845c0767947679cf9839cac0d971955953ef7718064517ab7",
+    "footnotes": "c04dfd42b22db8db4ea940d5acbfcac01983d2d5138ee9a9a1baece1ff1e2410"
+  },
+  "surahs": [
+    {
+      "surah": 1,
+      "translationBlocks": 7,
+      "sourceCharacterCount": 2144,
+      "reconstructedCharacterCount": 2144,
+      "sourceSha256": "7744876e878ccf2289b5a2a350445eeba24c1c071d0626faec68be26b5ad3a86",
+      "reconstructedSha256": "7744876e878ccf2289b5a2a350445eeba24c1c071d0626faec68be26b5ad3a86",
+      "matches": true
+    },
+    {
+      "surah": 2,
+      "translationBlocks": 286,
+      "sourceCharacterCount": 72564,
+      "reconstructedCharacterCount": 72564,
+      "sourceSha256": "2fc99b174d1939f48a6cb9ded85a26949022074227c467585899cc3d62e7c74d",
+      "reconstructedSha256": "2fc99b174d1939f48a6cb9ded85a26949022074227c467585899cc3d62e7c74d",
+      "matches": true
+    },
+    {
+      "surah": 3,
+      "translationBlocks": 200,
+      "sourceCharacterCount": 39729,
+      "reconstructedCharacterCount": 39729,
+      "sourceSha256": "968d187bd7f43efdc850f7c736e4ac2b0ae6b4219dc7622664a321c17663672f",
+      "reconstructedSha256": "968d187bd7f43efdc850f7c736e4ac2b0ae6b4219dc7622664a321c17663672f",
+      "matches": true
+    },
+    {
+      "surah": 4,
+      "translationBlocks": 175,
+      "sourceCharacterCount": 44937,
+      "reconstructedCharacterCount": 44937,
+      "sourceSha256": "1a45a79a896365604c69bef2c55440f005408c1977bdaa5d70c760f91c076162",
+      "reconstructedSha256": "1a45a79a896365604c69bef2c55440f005408c1977bdaa5d70c760f91c076162",
+      "matches": true
+    },
+    {
+      "surah": 5,
+      "translationBlocks": 120,
+      "sourceCharacterCount": 33449,
+      "reconstructedCharacterCount": 33449,
+      "sourceSha256": "aecebf8ed1e2c22b06a6e389e3af56a5d746535672f7f07853ec16d6b61f883a",
+      "reconstructedSha256": "aecebf8ed1e2c22b06a6e389e3af56a5d746535672f7f07853ec16d6b61f883a",
+      "matches": true
+    },
+    {
+      "surah": 6,
+      "translationBlocks": 165,
+      "sourceCharacterCount": 38982,
+      "reconstructedCharacterCount": 38982,
+      "sourceSha256": "ea200e50d52196e419a1adebcd059aab89fda5266e7887bffd7eab6cd74acba6",
+      "reconstructedSha256": "ea200e50d52196e419a1adebcd059aab89fda5266e7887bffd7eab6cd74acba6",
+      "matches": true
+    },
+    {
+      "surah": 7,
+      "translationBlocks": 185,
+      "sourceCharacterCount": 42969,
+      "reconstructedCharacterCount": 42969,
+      "sourceSha256": "fbed7531c5948390ff6ccf27a2f00f0c514b2b84263ff6d78fc5c266b6b9622f",
+      "reconstructedSha256": "fbed7531c5948390ff6ccf27a2f00f0c514b2b84263ff6d78fc5c266b6b9622f",
+      "matches": true
+    },
+    {
+      "surah": 8,
+      "translationBlocks": 72,
+      "sourceCharacterCount": 16707,
+      "reconstructedCharacterCount": 16707,
+      "sourceSha256": "ca84e29831c2aacbbedcf1aa67ec9510ea6131104611f8aed5b754b83f63cc65",
+      "reconstructedSha256": "ca84e29831c2aacbbedcf1aa67ec9510ea6131104611f8aed5b754b83f63cc65",
+      "matches": true
+    },
+    {
+      "surah": 9,
+      "translationBlocks": 128,
+      "sourceCharacterCount": 33997,
+      "reconstructedCharacterCount": 33997,
+      "sourceSha256": "78d258cbfbf0a35a8d83a0893c6e0eabb3b4fa4b8d66e3761779271a6be838e8",
+      "reconstructedSha256": "78d258cbfbf0a35a8d83a0893c6e0eabb3b4fa4b8d66e3761779271a6be838e8",
+      "matches": true
+    },
+    {
+      "surah": 10,
+      "translationBlocks": 107,
+      "sourceCharacterCount": 19671,
+      "reconstructedCharacterCount": 19671,
+      "sourceSha256": "8854cc174d92363698bba95c2de9471e9cd9cd34847fc049719ba24562132426",
+      "reconstructedSha256": "8854cc174d92363698bba95c2de9471e9cd9cd34847fc049719ba24562132426",
+      "matches": true
+    },
+    {
+      "surah": 11,
+      "translationBlocks": 121,
+      "sourceCharacterCount": 21167,
+      "reconstructedCharacterCount": 21167,
+      "sourceSha256": "3bb25e15ca376f8aa3280ea354a3be788c49dc5300182a085869f4de15320673",
+      "reconstructedSha256": "3bb25e15ca376f8aa3280ea354a3be788c49dc5300182a085869f4de15320673",
+      "matches": true
+    },
+    {
+      "surah": 12,
+      "translationBlocks": 111,
+      "sourceCharacterCount": 18819,
+      "reconstructedCharacterCount": 18819,
+      "sourceSha256": "96cd65ce5774fb4ec9b8bd8428516fbbd996b0b333870a8c0fbdb8aa52283bdf",
+      "reconstructedSha256": "96cd65ce5774fb4ec9b8bd8428516fbbd996b0b333870a8c0fbdb8aa52283bdf",
+      "matches": true
+    },
+    {
+      "surah": 13,
+      "translationBlocks": 42,
+      "sourceCharacterCount": 9693,
+      "reconstructedCharacterCount": 9693,
+      "sourceSha256": "5261df1228dd257fb51126a96a9ee1b208db70ea27c659652cf092bb8e23e790",
+      "reconstructedSha256": "5261df1228dd257fb51126a96a9ee1b208db70ea27c659652cf092bb8e23e790",
+      "matches": true
+    },
+    {
+      "surah": 14,
+      "translationBlocks": 52,
+      "sourceCharacterCount": 8755,
+      "reconstructedCharacterCount": 8755,
+      "sourceSha256": "95636dd3ed6733bbfcb5f05fbd77fd84e9e465da803fd4007f8bfeea8d570b31",
+      "reconstructedSha256": "95636dd3ed6733bbfcb5f05fbd77fd84e9e465da803fd4007f8bfeea8d570b31",
+      "matches": true
+    },
+    {
+      "surah": 15,
+      "translationBlocks": 94,
+      "sourceCharacterCount": 8770,
+      "reconstructedCharacterCount": 8770,
+      "sourceSha256": "3cd49ce79e28829bca716aaef556b5574429153673052a3aec2ede0bd032efa3",
+      "reconstructedSha256": "3cd49ce79e28829bca716aaef556b5574429153673052a3aec2ede0bd032efa3",
+      "matches": true
+    },
+    {
+      "surah": 16,
+      "translationBlocks": 128,
+      "sourceCharacterCount": 20437,
+      "reconstructedCharacterCount": 20437,
+      "sourceSha256": "e76ed1bd617994fbef83dea16986938c7a576fac35725ef5309691e6fb8d6056",
+      "reconstructedSha256": "e76ed1bd617994fbef83dea16986938c7a576fac35725ef5309691e6fb8d6056",
+      "matches": true
+    },
+    {
+      "surah": 17,
+      "translationBlocks": 110,
+      "sourceCharacterCount": 19882,
+      "reconstructedCharacterCount": 19882,
+      "sourceSha256": "48d745d66e3b1e1c40bd2bbaaae04cb987fda39a1a5922da3d67b9fb71ad82ed",
+      "reconstructedSha256": "48d745d66e3b1e1c40bd2bbaaae04cb987fda39a1a5922da3d67b9fb71ad82ed",
+      "matches": true
+    },
+    {
+      "surah": 18,
+      "translationBlocks": 110,
+      "sourceCharacterCount": 19140,
+      "reconstructedCharacterCount": 19140,
+      "sourceSha256": "30ca2c1aa20622332fbf3371cd6a629541e51684963ea4ae88bd6c15e5bab452",
+      "reconstructedSha256": "30ca2c1aa20622332fbf3371cd6a629541e51684963ea4ae88bd6c15e5bab452",
+      "matches": true
+    },
+    {
+      "surah": 19,
+      "translationBlocks": 94,
+      "sourceCharacterCount": 10157,
+      "reconstructedCharacterCount": 10157,
+      "sourceSha256": "5676c3701b81a038267c530cf247d0c34acce0f4706c51fd7343a3dd3ea6e1ea",
+      "reconstructedSha256": "5676c3701b81a038267c530cf247d0c34acce0f4706c51fd7343a3dd3ea6e1ea",
+      "matches": true
+    },
+    {
+      "surah": 20,
+      "translationBlocks": 125,
+      "sourceCharacterCount": 15984,
+      "reconstructedCharacterCount": 15984,
+      "sourceSha256": "c6710035d15d856482df758833625eae42b6e8671e218d6cecb264acbfd0a718",
+      "reconstructedSha256": "c6710035d15d856482df758833625eae42b6e8671e218d6cecb264acbfd0a718",
+      "matches": true
+    },
+    {
+      "surah": 21,
+      "translationBlocks": 110,
+      "sourceCharacterCount": 13033,
+      "reconstructedCharacterCount": 13033,
+      "sourceSha256": "9214b7ae15ef40d2d2df0fc9ae823e7e430a84647104bdc7844ac157def15e1c",
+      "reconstructedSha256": "9214b7ae15ef40d2d2df0fc9ae823e7e430a84647104bdc7844ac157def15e1c",
+      "matches": true
+    },
+    {
+      "surah": 22,
+      "translationBlocks": 78,
+      "sourceCharacterCount": 12977,
+      "reconstructedCharacterCount": 12977,
+      "sourceSha256": "83f169cb70b21ac996f2a420198fbf3d0f2b1c32c3c41c4a11b7334f1bbfa28d",
+      "reconstructedSha256": "83f169cb70b21ac996f2a420198fbf3d0f2b1c32c3c41c4a11b7334f1bbfa28d",
+      "matches": true
+    },
+    {
+      "surah": 23,
+      "translationBlocks": 114,
+      "sourceCharacterCount": 11562,
+      "reconstructedCharacterCount": 11562,
+      "sourceSha256": "14c20cd7bb439425ed898b4629e40ee3dbb3bd633d5062bd96d6bddfdb451460",
+      "reconstructedSha256": "14c20cd7bb439425ed898b4629e40ee3dbb3bd633d5062bd96d6bddfdb451460",
+      "matches": true
+    },
+    {
+      "surah": 24,
+      "translationBlocks": 64,
+      "sourceCharacterCount": 13456,
+      "reconstructedCharacterCount": 13456,
+      "sourceSha256": "4089e56f8449061ded5b83aaca3927a76cba7ccb4f7f4cb8a629985aee87d47f",
+      "reconstructedSha256": "4089e56f8449061ded5b83aaca3927a76cba7ccb4f7f4cb8a629985aee87d47f",
+      "matches": true
+    },
+    {
+      "surah": 25,
+      "translationBlocks": 77,
+      "sourceCharacterCount": 10186,
+      "reconstructedCharacterCount": 10186,
+      "sourceSha256": "874b49ca0f01639f131cad18c6b434f2f2b4254b234cbc79646c566172dfeaf8",
+      "reconstructedSha256": "874b49ca0f01639f131cad18c6b434f2f2b4254b234cbc79646c566172dfeaf8",
+      "matches": true
+    },
+    {
+      "surah": 26,
+      "translationBlocks": 217,
+      "sourceCharacterCount": 14879,
+      "reconstructedCharacterCount": 14879,
+      "sourceSha256": "cb35439d37aec3aeb21f354f1b5eb9ecc659c1e6ed98ce18904697fe295850db",
+      "reconstructedSha256": "cb35439d37aec3aeb21f354f1b5eb9ecc659c1e6ed98ce18904697fe295850db",
+      "matches": true
+    },
+    {
+      "surah": 27,
+      "translationBlocks": 93,
+      "sourceCharacterCount": 12440,
+      "reconstructedCharacterCount": 12440,
+      "sourceSha256": "cc28b3025100e3b22046ea865854bfae146c44c58cf1040e3b4977100b79280f",
+      "reconstructedSha256": "cc28b3025100e3b22046ea865854bfae146c44c58cf1040e3b4977100b79280f",
+      "matches": true
+    },
+    {
+      "surah": 28,
+      "translationBlocks": 88,
+      "sourceCharacterCount": 14981,
+      "reconstructedCharacterCount": 14981,
+      "sourceSha256": "c12f5ac0a71e5142d7a7ce644bf7136be9c12928410a42d3519ca90028d8ee92",
+      "reconstructedSha256": "c12f5ac0a71e5142d7a7ce644bf7136be9c12928410a42d3519ca90028d8ee92",
+      "matches": true
+    },
+    {
+      "surah": 29,
+      "translationBlocks": 69,
+      "sourceCharacterCount": 10497,
+      "reconstructedCharacterCount": 10497,
+      "sourceSha256": "0cdf3b969f30cdde3e2e0363a996c8afc9fe9989604233b05c00640e1c1cd2de",
+      "reconstructedSha256": "0cdf3b969f30cdde3e2e0363a996c8afc9fe9989604233b05c00640e1c1cd2de",
+      "matches": true
+    },
+    {
+      "surah": 30,
+      "translationBlocks": 56,
+      "sourceCharacterCount": 9014,
+      "reconstructedCharacterCount": 9014,
+      "sourceSha256": "df6cb9be72dc02828596f295a353c768ec4e9e79c2a5fa1a6a0adebab4916a2a",
+      "reconstructedSha256": "df6cb9be72dc02828596f295a353c768ec4e9e79c2a5fa1a6a0adebab4916a2a",
+      "matches": true
+    },
+    {
+      "surah": 31,
+      "translationBlocks": 34,
+      "sourceCharacterCount": 5476,
+      "reconstructedCharacterCount": 5476,
+      "sourceSha256": "193a4c3a2efbd1b57637476b647bd0f547400721042927ab7ab979103f020083",
+      "reconstructedSha256": "193a4c3a2efbd1b57637476b647bd0f547400721042927ab7ab979103f020083",
+      "matches": true
+    },
+    {
+      "surah": 32,
+      "translationBlocks": 30,
+      "sourceCharacterCount": 3958,
+      "reconstructedCharacterCount": 3958,
+      "sourceSha256": "796d4e8e5a4a36a0476e6c8638d683c7ae3253f854b8b9a6a8eacb0145490db7",
+      "reconstructedSha256": "796d4e8e5a4a36a0476e6c8638d683c7ae3253f854b8b9a6a8eacb0145490db7",
+      "matches": true
+    },
+    {
+      "surah": 33,
+      "translationBlocks": 72,
+      "sourceCharacterCount": 13530,
+      "reconstructedCharacterCount": 13530,
+      "sourceSha256": "9ea76f5c198dee0a82e49697db8544fb38131fd46659200b26eddaa8b8e39455",
+      "reconstructedSha256": "9ea76f5c198dee0a82e49697db8544fb38131fd46659200b26eddaa8b8e39455",
+      "matches": true
+    },
+    {
+      "surah": 34,
+      "translationBlocks": 53,
+      "sourceCharacterCount": 8928,
+      "reconstructedCharacterCount": 8928,
+      "sourceSha256": "9ae33b964893d017d0fd39ede1a4b5dd31827773e92c847eb4f7ac4971b6caf3",
+      "reconstructedSha256": "9ae33b964893d017d0fd39ede1a4b5dd31827773e92c847eb4f7ac4971b6caf3",
+      "matches": true
+    },
+    {
+      "surah": 35,
+      "translationBlocks": 44,
+      "sourceCharacterCount": 8031,
+      "reconstructedCharacterCount": 8031,
+      "sourceSha256": "eac70249c3d7576bf64edbf8604096906a533168d25b9639621db8e63ff23fc7",
+      "reconstructedSha256": "eac70249c3d7576bf64edbf8604096906a533168d25b9639621db8e63ff23fc7",
+      "matches": true
+    },
+    {
+      "surah": 36,
+      "translationBlocks": 78,
+      "sourceCharacterCount": 9488,
+      "reconstructedCharacterCount": 9488,
+      "sourceSha256": "7e06f6381f60cb95c6b342d5964f2d772ec0cdd828856b3649eb2d414c084fce",
+      "reconstructedSha256": "7e06f6381f60cb95c6b342d5964f2d772ec0cdd828856b3649eb2d414c084fce",
+      "matches": true
+    },
+    {
+      "surah": 37,
+      "translationBlocks": 164,
+      "sourceCharacterCount": 12536,
+      "reconstructedCharacterCount": 12536,
+      "sourceSha256": "6eb5aaeb8b87521045f2b95bc17b5aad94ff2fe7a3bcb574b5fd1199e28f7e57",
+      "reconstructedSha256": "6eb5aaeb8b87521045f2b95bc17b5aad94ff2fe7a3bcb574b5fd1199e28f7e57",
+      "matches": true
+    },
+    {
+      "surah": 38,
+      "translationBlocks": 87,
+      "sourceCharacterCount": 9814,
+      "reconstructedCharacterCount": 9814,
+      "sourceSha256": "10f7e2ce7fcb4678f34d1f685591b55c4cc397b545e34f52ca230afa3bfe14b9",
+      "reconstructedSha256": "10f7e2ce7fcb4678f34d1f685591b55c4cc397b545e34f52ca230afa3bfe14b9",
+      "matches": true
+    },
+    {
+      "surah": 39,
+      "translationBlocks": 72,
+      "sourceCharacterCount": 12817,
+      "reconstructedCharacterCount": 12817,
+      "sourceSha256": "57eec58662c7d789040e557c138f9aee60fb0f4042842e5a5628b3829ee0c8de",
+      "reconstructedSha256": "57eec58662c7d789040e557c138f9aee60fb0f4042842e5a5628b3829ee0c8de",
+      "matches": true
+    },
+    {
+      "surah": 40,
+      "translationBlocks": 84,
+      "sourceCharacterCount": 13899,
+      "reconstructedCharacterCount": 13899,
+      "sourceSha256": "8dfdcc9c7e1d928096764bc115f185a58bf25b78bbf7e44b79729a0adfc6cc2d",
+      "reconstructedSha256": "8dfdcc9c7e1d928096764bc115f185a58bf25b78bbf7e44b79729a0adfc6cc2d",
+      "matches": true
+    },
+    {
+      "surah": 41,
+      "translationBlocks": 53,
+      "sourceCharacterCount": 8981,
+      "reconstructedCharacterCount": 8981,
+      "sourceSha256": "6808a6c0832f96d99c1ce644418e959f11b281d94be7348ea8d2282a812ce972",
+      "reconstructedSha256": "6808a6c0832f96d99c1ce644418e959f11b281d94be7348ea8d2282a812ce972",
+      "matches": true
+    },
+    {
+      "surah": 42,
+      "translationBlocks": 52,
+      "sourceCharacterCount": 9231,
+      "reconstructedCharacterCount": 9231,
+      "sourceSha256": "311a4c815551d3dab4eebcd82c643c9d9b5d92de03bfacdb2e0de3c12fe3f483",
+      "reconstructedSha256": "311a4c815551d3dab4eebcd82c643c9d9b5d92de03bfacdb2e0de3c12fe3f483",
+      "matches": true
+    },
+    {
+      "surah": 43,
+      "translationBlocks": 89,
+      "sourceCharacterCount": 9824,
+      "reconstructedCharacterCount": 9824,
+      "sourceSha256": "6d0d57d8e525b903d9969c2b321a816737577a8eab13d689664c16c641badcc8",
+      "reconstructedSha256": "6d0d57d8e525b903d9969c2b321a816737577a8eab13d689664c16c641badcc8",
+      "matches": true
+    },
+    {
+      "surah": 44,
+      "translationBlocks": 53,
+      "sourceCharacterCount": 4535,
+      "reconstructedCharacterCount": 4535,
+      "sourceSha256": "f535be2c2bd20be74a6179d56106a8ed68d2b5e13754ebc6094c1e925f9a2bc4",
+      "reconstructedSha256": "f535be2c2bd20be74a6179d56106a8ed68d2b5e13754ebc6094c1e925f9a2bc4",
+      "matches": true
+    },
+    {
+      "surah": 45,
+      "translationBlocks": 37,
+      "sourceCharacterCount": 6062,
+      "reconstructedCharacterCount": 6062,
+      "sourceSha256": "5f67917861a5be8fd9f1ee1bd9baef6cb96753dfaae30aa26bcf5a24ba7856cb",
+      "reconstructedSha256": "5f67917861a5be8fd9f1ee1bd9baef6cb96753dfaae30aa26bcf5a24ba7856cb",
+      "matches": true
+    },
+    {
+      "surah": 46,
+      "translationBlocks": 35,
+      "sourceCharacterCount": 8343,
+      "reconstructedCharacterCount": 8343,
+      "sourceSha256": "ee2e23ca69b6c0310b1258be1aebd9c9d857b5803c10632f10b85542196e2ba8",
+      "reconstructedSha256": "ee2e23ca69b6c0310b1258be1aebd9c9d857b5803c10632f10b85542196e2ba8",
+      "matches": true
+    },
+    {
+      "surah": 47,
+      "translationBlocks": 38,
+      "sourceCharacterCount": 7032,
+      "reconstructedCharacterCount": 7032,
+      "sourceSha256": "364bfe3d1d92cff3d438bdffa83c629d2d17cd52639190ff720df7f0036f58b6",
+      "reconstructedSha256": "364bfe3d1d92cff3d438bdffa83c629d2d17cd52639190ff720df7f0036f58b6",
+      "matches": true
+    },
+    {
+      "surah": 48,
+      "translationBlocks": 28,
+      "sourceCharacterCount": 7463,
+      "reconstructedCharacterCount": 7463,
+      "sourceSha256": "8124a0e9015a00662998610986a6dd1ed3223a235628a2c1ac1630f27c492301",
+      "reconstructedSha256": "8124a0e9015a00662998610986a6dd1ed3223a235628a2c1ac1630f27c492301",
+      "matches": true
+    },
+    {
+      "surah": 49,
+      "translationBlocks": 18,
+      "sourceCharacterCount": 3876,
+      "reconstructedCharacterCount": 3876,
+      "sourceSha256": "63525a37c19d0abeb0b62650ca010735d6b180818095c8f5af6c2151c73a4c21",
+      "reconstructedSha256": "63525a37c19d0abeb0b62650ca010735d6b180818095c8f5af6c2151c73a4c21",
+      "matches": true
+    },
+    {
+      "surah": 50,
+      "translationBlocks": 39,
+      "sourceCharacterCount": 4552,
+      "reconstructedCharacterCount": 4552,
+      "sourceSha256": "fe4112da36507fa836865624dc431209aba70432b0a690057fe3ac92603d75f9",
+      "reconstructedSha256": "fe4112da36507fa836865624dc431209aba70432b0a690057fe3ac92603d75f9",
+      "matches": true
+    },
+    {
+      "surah": 51,
+      "translationBlocks": 58,
+      "sourceCharacterCount": 4733,
+      "reconstructedCharacterCount": 4733,
+      "sourceSha256": "78f9406098b54c98f6659b80d1f79bed25d882046a7359064741f0cc16f6267d",
+      "reconstructedSha256": "78f9406098b54c98f6659b80d1f79bed25d882046a7359064741f0cc16f6267d",
+      "matches": true
+    },
+    {
+      "surah": 52,
+      "translationBlocks": 40,
+      "sourceCharacterCount": 4311,
+      "reconstructedCharacterCount": 4311,
+      "sourceSha256": "8a1deb4d26c06dadd660e4e1a591dc0bf45c70bd3dad8117e7960dc273e54702",
+      "reconstructedSha256": "8a1deb4d26c06dadd660e4e1a591dc0bf45c70bd3dad8117e7960dc273e54702",
+      "matches": true
+    },
+    {
+      "surah": 53,
+      "translationBlocks": 54,
+      "sourceCharacterCount": 4776,
+      "reconstructedCharacterCount": 4776,
+      "sourceSha256": "1c071c4556628ced93cb12b20f3ad312ba20316c9e4e4342297f183ba602829e",
+      "reconstructedSha256": "1c071c4556628ced93cb12b20f3ad312ba20316c9e4e4342297f183ba602829e",
+      "matches": true
+    },
+    {
+      "surah": 54,
+      "translationBlocks": 54,
+      "sourceCharacterCount": 5335,
+      "reconstructedCharacterCount": 5335,
+      "sourceSha256": "a5fa3f6c41e574beadae63218bd84e38da14fc144ee56fd12674d0c4ed63c7d2",
+      "reconstructedSha256": "a5fa3f6c41e574beadae63218bd84e38da14fc144ee56fd12674d0c4ed63c7d2",
+      "matches": true
+    },
+    {
+      "surah": 55,
+      "translationBlocks": 75,
+      "sourceCharacterCount": 5833,
+      "reconstructedCharacterCount": 5833,
+      "sourceSha256": "bc846798108e6def1cf40d8ba7040753f6269326abf7edec1ebfbb59ea2d5ce0",
+      "reconstructedSha256": "bc846798108e6def1cf40d8ba7040753f6269326abf7edec1ebfbb59ea2d5ce0",
+      "matches": true
+    },
+    {
+      "surah": 56,
+      "translationBlocks": 70,
+      "sourceCharacterCount": 5027,
+      "reconstructedCharacterCount": 5027,
+      "sourceSha256": "6646014627cc0bc67b057e835c5a55e01c158725f3abbeb967c72adbaf317485",
+      "reconstructedSha256": "6646014627cc0bc67b057e835c5a55e01c158725f3abbeb967c72adbaf317485",
+      "matches": true
+    },
+    {
+      "surah": 57,
+      "translationBlocks": 29,
+      "sourceCharacterCount": 7147,
+      "reconstructedCharacterCount": 7147,
+      "sourceSha256": "1b942623e170f25b66233157916540448004d10820c22ff4302c6b4604010b44",
+      "reconstructedSha256": "1b942623e170f25b66233157916540448004d10820c22ff4302c6b4604010b44",
+      "matches": true
+    },
+    {
+      "surah": 58,
+      "translationBlocks": 22,
+      "sourceCharacterCount": 5584,
+      "reconstructedCharacterCount": 5584,
+      "sourceSha256": "d9edf1dca4efad6c85c775febd928fa7379baaa957f969dbb0eb4b3e94291e1f",
+      "reconstructedSha256": "d9edf1dca4efad6c85c775febd928fa7379baaa957f969dbb0eb4b3e94291e1f",
+      "matches": true
+    },
+    {
+      "surah": 59,
+      "translationBlocks": 24,
+      "sourceCharacterCount": 5861,
+      "reconstructedCharacterCount": 5861,
+      "sourceSha256": "c50bc6c75fb0e4ed819e189613ece3c8d8938eeda77d3a6efd366229e53ff0e0",
+      "reconstructedSha256": "c50bc6c75fb0e4ed819e189613ece3c8d8938eeda77d3a6efd366229e53ff0e0",
+      "matches": true
+    },
+    {
+      "surah": 60,
+      "translationBlocks": 13,
+      "sourceCharacterCount": 4338,
+      "reconstructedCharacterCount": 4338,
+      "sourceSha256": "26a042da45788b876d4fb922460eac565e803e75108e02cec2d48d2b2b4ec46b",
+      "reconstructedSha256": "26a042da45788b876d4fb922460eac565e803e75108e02cec2d48d2b2b4ec46b",
+      "matches": true
+    },
+    {
+      "surah": 61,
+      "translationBlocks": 14,
+      "sourceCharacterCount": 2551,
+      "reconstructedCharacterCount": 2551,
+      "sourceSha256": "374b5849a3755f32ba61cec7b9aa0ed4d3a5da46ca3340457b4690d72e1a305c",
+      "reconstructedSha256": "374b5849a3755f32ba61cec7b9aa0ed4d3a5da46ca3340457b4690d72e1a305c",
+      "matches": true
+    },
+    {
+      "surah": 62,
+      "translationBlocks": 11,
+      "sourceCharacterCount": 2746,
+      "reconstructedCharacterCount": 2746,
+      "sourceSha256": "59bd74fcb72f6655b4bddbf395b6aa8d05ae94f4e83641e91ab4266b82098d1c",
+      "reconstructedSha256": "59bd74fcb72f6655b4bddbf395b6aa8d05ae94f4e83641e91ab4266b82098d1c",
+      "matches": true
+    },
+    {
+      "surah": 63,
+      "translationBlocks": 11,
+      "sourceCharacterCount": 2328,
+      "reconstructedCharacterCount": 2328,
+      "sourceSha256": "9137e750040b674555137579173ca52e60d0e3081e7c51d31028c24403bac7a9",
+      "reconstructedSha256": "9137e750040b674555137579173ca52e60d0e3081e7c51d31028c24403bac7a9",
+      "matches": true
+    },
+    {
+      "surah": 64,
+      "translationBlocks": 18,
+      "sourceCharacterCount": 3470,
+      "reconstructedCharacterCount": 3470,
+      "sourceSha256": "354ab1feacc4ef6ffb205b00da99943cc86aefa6c5d92e3b0468b23d24f325f6",
+      "reconstructedSha256": "354ab1feacc4ef6ffb205b00da99943cc86aefa6c5d92e3b0468b23d24f325f6",
+      "matches": true
+    },
+    {
+      "surah": 65,
+      "translationBlocks": 11,
+      "sourceCharacterCount": 3380,
+      "reconstructedCharacterCount": 3380,
+      "sourceSha256": "33285ce95b48f272b2cddb0f37fb170c6f15c62943cf8e0d786e7842933cf921",
+      "reconstructedSha256": "33285ce95b48f272b2cddb0f37fb170c6f15c62943cf8e0d786e7842933cf921",
+      "matches": true
+    },
+    {
+      "surah": 66,
+      "translationBlocks": 12,
+      "sourceCharacterCount": 3250,
+      "reconstructedCharacterCount": 3250,
+      "sourceSha256": "79ea6e811874679a7514f8a12fbf98c5276763d054dc08d4baa00da9a66ce060",
+      "reconstructedSha256": "79ea6e811874679a7514f8a12fbf98c5276763d054dc08d4baa00da9a66ce060",
+      "matches": true
+    },
+    {
+      "surah": 67,
+      "translationBlocks": 30,
+      "sourceCharacterCount": 4323,
+      "reconstructedCharacterCount": 4323,
+      "sourceSha256": "d2db108b173e24c75fbfd82ed574be89ab58c334a12bce8d2b8ce4198a2f47f0",
+      "reconstructedSha256": "d2db108b173e24c75fbfd82ed574be89ab58c334a12bce8d2b8ce4198a2f47f0",
+      "matches": true
+    },
+    {
+      "surah": 68,
+      "translationBlocks": 43,
+      "sourceCharacterCount": 4481,
+      "reconstructedCharacterCount": 4481,
+      "sourceSha256": "b28de621c56941a56dcabdc94bef79d5e69ccdc40d106242788d0afc669ee5c6",
+      "reconstructedSha256": "b28de621c56941a56dcabdc94bef79d5e69ccdc40d106242788d0afc669ee5c6",
+      "matches": true
+    },
+    {
+      "surah": 69,
+      "translationBlocks": 46,
+      "sourceCharacterCount": 3428,
+      "reconstructedCharacterCount": 3428,
+      "sourceSha256": "1cdfdfeba4ac64ead891b9ea71f5ac8dcfed421c480101549f244cd38be6fea2",
+      "reconstructedSha256": "1cdfdfeba4ac64ead891b9ea71f5ac8dcfed421c480101549f244cd38be6fea2",
+      "matches": true
+    },
+    {
+      "surah": 70,
+      "translationBlocks": 27,
+      "sourceCharacterCount": 2918,
+      "reconstructedCharacterCount": 2918,
+      "sourceSha256": "2692709236c2bea4e3f016116e97d00dcd8fa289850a9e0cb146da1132718ec0",
+      "reconstructedSha256": "2692709236c2bea4e3f016116e97d00dcd8fa289850a9e0cb146da1132718ec0",
+      "matches": true
+    },
+    {
+      "surah": 71,
+      "translationBlocks": 27,
+      "sourceCharacterCount": 3196,
+      "reconstructedCharacterCount": 3196,
+      "sourceSha256": "c828287bebec2ca1ed68359ca32a4a9b7c9631654352bbe5d304a4f5a466edaf",
+      "reconstructedSha256": "c828287bebec2ca1ed68359ca32a4a9b7c9631654352bbe5d304a4f5a466edaf",
+      "matches": true
+    },
+    {
+      "surah": 72,
+      "translationBlocks": 26,
+      "sourceCharacterCount": 3376,
+      "reconstructedCharacterCount": 3376,
+      "sourceSha256": "4a09c75d593a41e0908b59aa3391a776e5ce81c2eeea97574c625727e55b01f0",
+      "reconstructedSha256": "4a09c75d593a41e0908b59aa3391a776e5ce81c2eeea97574c625727e55b01f0",
+      "matches": true
+    },
+    {
+      "surah": 73,
+      "translationBlocks": 19,
+      "sourceCharacterCount": 3145,
+      "reconstructedCharacterCount": 3145,
+      "sourceSha256": "49a0c4a133b09d834726a8c7090283d9949fab5be60963c01ddce132d09bd338",
+      "reconstructedSha256": "49a0c4a133b09d834726a8c7090283d9949fab5be60963c01ddce132d09bd338",
+      "matches": true
+    },
+    {
+      "surah": 74,
+      "translationBlocks": 49,
+      "sourceCharacterCount": 4365,
+      "reconstructedCharacterCount": 4365,
+      "sourceSha256": "91251626f27f529be0fdfd643d2cb98ea0297af1947c3583d31cca3323e44dd0",
+      "reconstructedSha256": "91251626f27f529be0fdfd643d2cb98ea0297af1947c3583d31cca3323e44dd0",
+      "matches": true
+    },
+    {
+      "surah": 75,
+      "translationBlocks": 34,
+      "sourceCharacterCount": 2560,
+      "reconstructedCharacterCount": 2560,
+      "sourceSha256": "bc47fc69b45469f042238783c2eb4f5f4549222f9debbb1e6d06ef6ca2d86b12",
+      "reconstructedSha256": "bc47fc69b45469f042238783c2eb4f5f4549222f9debbb1e6d06ef6ca2d86b12",
+      "matches": true
+    },
+    {
+      "surah": 76,
+      "translationBlocks": 31,
+      "sourceCharacterCount": 3062,
+      "reconstructedCharacterCount": 3062,
+      "sourceSha256": "25c45c9d5ec3911511effff11541ba9a08f8943a233fd334d6d23262dae4bf35",
+      "reconstructedSha256": "25c45c9d5ec3911511effff11541ba9a08f8943a233fd334d6d23262dae4bf35",
+      "matches": true
+    },
+    {
+      "surah": 77,
+      "translationBlocks": 47,
+      "sourceCharacterCount": 3002,
+      "reconstructedCharacterCount": 3002,
+      "sourceSha256": "161e4655e1f9a5c96364447eaee988bbcef17243f708920817a84cd1de6b56fa",
+      "reconstructedSha256": "161e4655e1f9a5c96364447eaee988bbcef17243f708920817a84cd1de6b56fa",
+      "matches": true
+    },
+    {
+      "surah": 78,
+      "translationBlocks": 34,
+      "sourceCharacterCount": 2580,
+      "reconstructedCharacterCount": 2580,
+      "sourceSha256": "97d227c8ebc603c64e3152250bbded3d5a075db480ee431cdff2011c35620758",
+      "reconstructedSha256": "97d227c8ebc603c64e3152250bbded3d5a075db480ee431cdff2011c35620758",
+      "matches": true
+    },
+    {
+      "surah": 79,
+      "translationBlocks": 40,
+      "sourceCharacterCount": 2601,
+      "reconstructedCharacterCount": 2601,
+      "sourceSha256": "c34fc23b66247145ea971b14dd08be6c6e73edba14633c44351aecfdbb7cc51c",
+      "reconstructedSha256": "c34fc23b66247145ea971b14dd08be6c6e73edba14633c44351aecfdbb7cc51c",
+      "matches": true
+    },
+    {
+      "surah": 80,
+      "translationBlocks": 27,
+      "sourceCharacterCount": 1959,
+      "reconstructedCharacterCount": 1959,
+      "sourceSha256": "31e7f828e18d19427fc686cbadc07564948f699747f0e3f8fe47b85c4854e5c0",
+      "reconstructedSha256": "31e7f828e18d19427fc686cbadc07564948f699747f0e3f8fe47b85c4854e5c0",
+      "matches": true
+    },
+    {
+      "surah": 81,
+      "translationBlocks": 28,
+      "sourceCharacterCount": 1710,
+      "reconstructedCharacterCount": 1710,
+      "sourceSha256": "52b34ce7dfbc1e7e4af067477d84e077e201ab680f05e956514bec69a0d75ee2",
+      "reconstructedSha256": "52b34ce7dfbc1e7e4af067477d84e077e201ab680f05e956514bec69a0d75ee2",
+      "matches": true
+    },
+    {
+      "surah": 82,
+      "translationBlocks": 17,
+      "sourceCharacterCount": 1379,
+      "reconstructedCharacterCount": 1379,
+      "sourceSha256": "8f7764a91a56f4c50df9abde0252bdb63d083995b9c1b67de094f0fbaf855d5b",
+      "reconstructedSha256": "8f7764a91a56f4c50df9abde0252bdb63d083995b9c1b67de094f0fbaf855d5b",
+      "matches": true
+    },
+    {
+      "surah": 83,
+      "translationBlocks": 33,
+      "sourceCharacterCount": 2515,
+      "reconstructedCharacterCount": 2515,
+      "sourceSha256": "666fabee0d0efed554587d839e5270f15745055fba84c02ef4e0d25d16789f39",
+      "reconstructedSha256": "666fabee0d0efed554587d839e5270f15745055fba84c02ef4e0d25d16789f39",
+      "matches": true
+    },
+    {
+      "surah": 84,
+      "translationBlocks": 21,
+      "sourceCharacterCount": 1473,
+      "reconstructedCharacterCount": 1473,
+      "sourceSha256": "49af542412d2acd7c7c5e00f84cfbac3d06fa356aef056a42ab7a5c08f09ebb5",
+      "reconstructedSha256": "49af542412d2acd7c7c5e00f84cfbac3d06fa356aef056a42ab7a5c08f09ebb5",
+      "matches": true
+    },
+    {
+      "surah": 85,
+      "translationBlocks": 17,
+      "sourceCharacterCount": 2119,
+      "reconstructedCharacterCount": 2119,
+      "sourceSha256": "cbad3d22944d5bab59d3c21cfde74cc3ef2d191ab81ac4fd7f18e88af550dde5",
+      "reconstructedSha256": "cbad3d22944d5bab59d3c21cfde74cc3ef2d191ab81ac4fd7f18e88af550dde5",
+      "matches": true
+    },
+    {
+      "surah": 86,
+      "translationBlocks": 15,
+      "sourceCharacterCount": 1076,
+      "reconstructedCharacterCount": 1076,
+      "sourceSha256": "d504e4b2f6b96329d6396c73f5962d49c875a5bae0bfad364513e35650853f03",
+      "reconstructedSha256": "d504e4b2f6b96329d6396c73f5962d49c875a5bae0bfad364513e35650853f03",
+      "matches": true
+    },
+    {
+      "surah": 87,
+      "translationBlocks": 8,
+      "sourceCharacterCount": 1214,
+      "reconstructedCharacterCount": 1214,
+      "sourceSha256": "e5b3ab71118de469226e648378df585fb6a87c88adcec49b89ab31579c3a39f1",
+      "reconstructedSha256": "e5b3ab71118de469226e648378df585fb6a87c88adcec49b89ab31579c3a39f1",
+      "matches": true
+    },
+    {
+      "surah": 88,
+      "translationBlocks": 18,
+      "sourceCharacterCount": 1560,
+      "reconstructedCharacterCount": 1560,
+      "sourceSha256": "84e440cbec14fe56efe59bd416d1053fc44c72e931d6ccfc155c030773568b25",
+      "reconstructedSha256": "84e440cbec14fe56efe59bd416d1053fc44c72e931d6ccfc155c030773568b25",
+      "matches": true
+    },
+    {
+      "surah": 89,
+      "translationBlocks": 24,
+      "sourceCharacterCount": 2053,
+      "reconstructedCharacterCount": 2053,
+      "sourceSha256": "3b89711a98c062b9ee0f2d93c3d4d2178611814eda43fbc46fcad363863d989c",
+      "reconstructedSha256": "3b89711a98c062b9ee0f2d93c3d4d2178611814eda43fbc46fcad363863d989c",
+      "matches": true
+    },
+    {
+      "surah": 90,
+      "translationBlocks": 19,
+      "sourceCharacterCount": 1387,
+      "reconstructedCharacterCount": 1387,
+      "sourceSha256": "8a63c4366fcfdca870f63a479390880e2ce54a317ba6a5a9d8a21c8538590f0b",
+      "reconstructedSha256": "8a63c4366fcfdca870f63a479390880e2ce54a317ba6a5a9d8a21c8538590f0b",
+      "matches": true
+    },
+    {
+      "surah": 91,
+      "translationBlocks": 15,
+      "sourceCharacterCount": 1134,
+      "reconstructedCharacterCount": 1134,
+      "sourceSha256": "b067065b021fd07be3f119eeceb8b484e37ad5bd72d724e4d80779e82ffd9d74",
+      "reconstructedSha256": "b067065b021fd07be3f119eeceb8b484e37ad5bd72d724e4d80779e82ffd9d74",
+      "matches": true
+    },
+    {
+      "surah": 92,
+      "translationBlocks": 15,
+      "sourceCharacterCount": 1352,
+      "reconstructedCharacterCount": 1352,
+      "sourceSha256": "0bbbc37ac40af10dd44ccd10079a7a0c40142bcd6529989cdc26694fa1af53c7",
+      "reconstructedSha256": "0bbbc37ac40af10dd44ccd10079a7a0c40142bcd6529989cdc26694fa1af53c7",
+      "matches": true
+    },
+    {
+      "surah": 93,
+      "translationBlocks": 10,
+      "sourceCharacterCount": 1052,
+      "reconstructedCharacterCount": 1052,
+      "sourceSha256": "b67dd50406d2312f62e945f096c8872059199d2d41661076195595084afb6522",
+      "reconstructedSha256": "b67dd50406d2312f62e945f096c8872059199d2d41661076195595084afb6522",
+      "matches": true
+    },
+    {
+      "surah": 94,
+      "translationBlocks": 7,
+      "sourceCharacterCount": 793,
+      "reconstructedCharacterCount": 793,
+      "sourceSha256": "5e8a1b6abe34e08b0820583240528873a231f1c269e95bf5389c4aa6aec5e9ec",
+      "reconstructedSha256": "5e8a1b6abe34e08b0820583240528873a231f1c269e95bf5389c4aa6aec5e9ec",
+      "matches": true
+    },
+    {
+      "surah": 95,
+      "translationBlocks": 6,
+      "sourceCharacterCount": 811,
+      "reconstructedCharacterCount": 811,
+      "sourceSha256": "1f190685235338ed5e0ba133078cf64c2e6fec7df1d7b5416d9e2c47230390bf",
+      "reconstructedSha256": "1f190685235338ed5e0ba133078cf64c2e6fec7df1d7b5416d9e2c47230390bf",
+      "matches": true
+    },
+    {
+      "surah": 96,
+      "translationBlocks": 15,
+      "sourceCharacterCount": 1320,
+      "reconstructedCharacterCount": 1320,
+      "sourceSha256": "17e8ad47ed739e7f2a7d55d26be234d8b43190283b9c29a04290c1559b26ecf0",
+      "reconstructedSha256": "17e8ad47ed739e7f2a7d55d26be234d8b43190283b9c29a04290c1559b26ecf0",
+      "matches": true
+    },
+    {
+      "surah": 97,
+      "translationBlocks": 5,
+      "sourceCharacterCount": 660,
+      "reconstructedCharacterCount": 660,
+      "sourceSha256": "aea88c06501c4c22cf5edd78bd979293b30b6e1ffad467342b7db27978faed1d",
+      "reconstructedSha256": "aea88c06501c4c22cf5edd78bd979293b30b6e1ffad467342b7db27978faed1d",
+      "matches": true
+    },
+    {
+      "surah": 98,
+      "translationBlocks": 7,
+      "sourceCharacterCount": 1288,
+      "reconstructedCharacterCount": 1288,
+      "sourceSha256": "0781c96207bf9eac5a8298660cccfa785e1a8f5d2e550cc388dafa3f6c115bfc",
+      "reconstructedSha256": "0781c96207bf9eac5a8298660cccfa785e1a8f5d2e550cc388dafa3f6c115bfc",
+      "matches": true
+    },
+    {
+      "surah": 99,
+      "translationBlocks": 8,
+      "sourceCharacterCount": 777,
+      "reconstructedCharacterCount": 777,
+      "sourceSha256": "3e628af0113a24aff188d53d541d768ad86a570478ba851f4c6d8e30f2846699",
+      "reconstructedSha256": "3e628af0113a24aff188d53d541d768ad86a570478ba851f4c6d8e30f2846699",
+      "matches": true
+    },
+    {
+      "surah": 100,
+      "translationBlocks": 6,
+      "sourceCharacterCount": 862,
+      "reconstructedCharacterCount": 862,
+      "sourceSha256": "7486eae2293acca92763648ace50a61e08ca5a090b9526b34c87cbccba26eac1",
+      "reconstructedSha256": "7486eae2293acca92763648ace50a61e08ca5a090b9526b34c87cbccba26eac1",
+      "matches": true
+    },
+    {
+      "surah": 101,
+      "translationBlocks": 8,
+      "sourceCharacterCount": 761,
+      "reconstructedCharacterCount": 761,
+      "sourceSha256": "9d34f7d7a3f5bf9b6ce5434510db649cd9c212e9fd6dbf4fd4c8b4b8449946fa",
+      "reconstructedSha256": "9d34f7d7a3f5bf9b6ce5434510db649cd9c212e9fd6dbf4fd4c8b4b8449946fa",
+      "matches": true
+    },
+    {
+      "surah": 102,
+      "translationBlocks": 8,
+      "sourceCharacterCount": 950,
+      "reconstructedCharacterCount": 950,
+      "sourceSha256": "ffcb2fc2c9b987922c3bda6a836e2cb2e1994adb0f6480206fb4bfb66f9b79d4",
+      "reconstructedSha256": "ffcb2fc2c9b987922c3bda6a836e2cb2e1994adb0f6480206fb4bfb66f9b79d4",
+      "matches": true
+    },
+    {
+      "surah": 103,
+      "translationBlocks": 3,
+      "sourceCharacterCount": 629,
+      "reconstructedCharacterCount": 629,
+      "sourceSha256": "b58375f7d0fdb1a1d4f83fd32b0c359ada5a8a0f8bf52cd0fad9efac38dd6da1",
+      "reconstructedSha256": "b58375f7d0fdb1a1d4f83fd32b0c359ada5a8a0f8bf52cd0fad9efac38dd6da1",
+      "matches": true
+    },
+    {
+      "surah": 104,
+      "translationBlocks": 9,
+      "sourceCharacterCount": 811,
+      "reconstructedCharacterCount": 811,
+      "sourceSha256": "f4fd92b45f65266968b1ae4a8723750bb438ce02ef09f8d7c4f6dcdbbc74b7cb",
+      "reconstructedSha256": "f4fd92b45f65266968b1ae4a8723750bb438ce02ef09f8d7c4f6dcdbbc74b7cb",
+      "matches": true
+    },
+    {
+      "surah": 105,
+      "translationBlocks": 5,
+      "sourceCharacterCount": 637,
+      "reconstructedCharacterCount": 637,
+      "sourceSha256": "4476c210ab0e48f56a9df6f9d9d0de573ecb4ed519bc3d791b0e56e647f58faf",
+      "reconstructedSha256": "4476c210ab0e48f56a9df6f9d9d0de573ecb4ed519bc3d791b0e56e647f58faf",
+      "matches": true
+    },
+    {
+      "surah": 106,
+      "translationBlocks": 1,
+      "sourceCharacterCount": 527,
+      "reconstructedCharacterCount": 527,
+      "sourceSha256": "838edce8c55db9ee8f671bcc21e9b8dff161300f1f91c9e3f2ffef7ebaf4ba7f",
+      "reconstructedSha256": "838edce8c55db9ee8f671bcc21e9b8dff161300f1f91c9e3f2ffef7ebaf4ba7f",
+      "matches": true
+    },
+    {
+      "surah": 107,
+      "translationBlocks": 5,
+      "sourceCharacterCount": 594,
+      "reconstructedCharacterCount": 594,
+      "sourceSha256": "2ef99f04c97c59967745e00de929f50462d13c799673320829b2bbd2306eed81",
+      "reconstructedSha256": "2ef99f04c97c59967745e00de929f50462d13c799673320829b2bbd2306eed81",
+      "matches": true
+    },
+    {
+      "surah": 108,
+      "translationBlocks": 3,
+      "sourceCharacterCount": 650,
+      "reconstructedCharacterCount": 650,
+      "sourceSha256": "2ef69a0a0e9c10bba417a49faf63de92449f4c0388143114074b2f2f8bbc112b",
+      "reconstructedSha256": "2ef69a0a0e9c10bba417a49faf63de92449f4c0388143114074b2f2f8bbc112b",
+      "matches": true
+    },
+    {
+      "surah": 109,
+      "translationBlocks": 6,
+      "sourceCharacterCount": 615,
+      "reconstructedCharacterCount": 615,
+      "sourceSha256": "84d773674777da56c6412d3bceeb0d870c520336dc045a61368363f7ea30fd56",
+      "reconstructedSha256": "84d773674777da56c6412d3bceeb0d870c520336dc045a61368363f7ea30fd56",
+      "matches": true
+    },
+    {
+      "surah": 110,
+      "translationBlocks": 1,
+      "sourceCharacterCount": 593,
+      "reconstructedCharacterCount": 593,
+      "sourceSha256": "de8c36a3ce9205d02f6fdffc9ee7b4ef99c5077386e60a5457b00e9c71fbf060",
+      "reconstructedSha256": "de8c36a3ce9205d02f6fdffc9ee7b4ef99c5077386e60a5457b00e9c71fbf060",
+      "matches": true
+    },
+    {
+      "surah": 111,
+      "translationBlocks": 5,
+      "sourceCharacterCount": 597,
+      "reconstructedCharacterCount": 597,
+      "sourceSha256": "bac0c38ff91ff01cb15f2a8a5b5749ce75a78f87b1f1cb8507af22e37b68c1d1",
+      "reconstructedSha256": "bac0c38ff91ff01cb15f2a8a5b5749ce75a78f87b1f1cb8507af22e37b68c1d1",
+      "matches": true
+    },
+    {
+      "surah": 112,
+      "translationBlocks": 1,
+      "sourceCharacterCount": 533,
+      "reconstructedCharacterCount": 533,
+      "sourceSha256": "93b7150f09ff54aa47291388bdbef920c72d1e92a5e216ce070812c52ff39060",
+      "reconstructedSha256": "93b7150f09ff54aa47291388bdbef920c72d1e92a5e216ce070812c52ff39060",
+      "matches": true
+    },
+    {
+      "surah": 113,
+      "translationBlocks": 1,
+      "sourceCharacterCount": 553,
+      "reconstructedCharacterCount": 553,
+      "sourceSha256": "bf534c30a7b1bd35aa777d5ec1c9b5508fa21e2360d4a244e75f58ec56312200",
+      "reconstructedSha256": "bf534c30a7b1bd35aa777d5ec1c9b5508fa21e2360d4a244e75f58ec56312200",
+      "matches": true
+    },
+    {
+      "surah": 114,
+      "translationBlocks": 1,
+      "sourceCharacterCount": 625,
+      "reconstructedCharacterCount": 625,
+      "sourceSha256": "2a96caeb75209837e5669b3089876dc3bfa29c885e7fae84be722d8f1777c501",
+      "reconstructedSha256": "2a96caeb75209837e5669b3089876dc3bfa29c885e7fae84be722d8f1777c501",
+      "matches": true
+    }
+  ],
+  "mismatchingSurahs": [],
+  "humanReviewRequired": []
+}

@@ -1,0 +1,40 @@
+name: kuran_kitaphanasy
+description: Kuran Kitaphanasy — arapça we türkmençe offline okyjy.
+publish_to: 'none'
+version: 0.0.1+2
+environment:
+  sdk: ^3.13.5
+dependencies:
+  shared_preferences: ^2.5.3
+  scrollable_positioned_list: ^0.3.8
+  flutter:
+    sdk: flutter
+  just_audio: ^0.10.6
+  path_provider: ^2.1.6
+  archive: ^4.7.1
+  crypto: ^3.0.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/kurany-kerim-cover.jpg
+    - assets/audio/yasir-fatiha-original.mp3
+    - assets/licenses/MaterialIcons-LICENSE.txt
+    - assets/fonts/NotoSerif-OFL.txt
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: assets/fonts/NotoSerif-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSerif-Bold.ttf
+          weight: 700
+    - family: DiyanetAmasya
+      fonts:
+        - asset: assets/fonts/KuranIsaretler.ttf
+    - family: DiyanetMarkers
+      fonts:
+        - asset: assets/fonts/ShaikhHamdullahMushaf.ttf

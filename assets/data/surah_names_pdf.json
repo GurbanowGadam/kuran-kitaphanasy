@@ -1,0 +1,697 @@
+{
+  "source": {
+    "type": "user-provided-pdf",
+    "path": "/home/gadamgurban/Documents/kurany_kerim_turkmen_dilinde.pdf",
+    "sha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+    "pageNumbering": "1-based physical PDF page; printed PDF numbers coincide in this excerpt",
+    "extraction": "tools/extract_pdf_sources.py; text blocks in left-then-right column order",
+    "normalization": "Whitespace joined; lexical line-end hyphens retained without whitespace; soraýa- / rys joined. No translation or spelling corrections.",
+    "redistribution": "Not established; local prototype only."
+  },
+  "items": [
+    {
+      "surah": 1,
+      "name": "Fatyha",
+      "originalHeading": "1-nji süre: «Fatyha» («Açylyş»)",
+      "pdfPage": 2
+    },
+    {
+      "surah": 2,
+      "name": "Bakara",
+      "originalHeading": "2-nji süre: Bakara» («Sygyr»)",
+      "pdfPage": 3
+    },
+    {
+      "surah": 3,
+      "name": "Äli-Ymran",
+      "originalHeading": "3-nji süre: «Äli-Ymran» («Ymranyň maşgalasy»)",
+      "pdfPage": 51
+    },
+    {
+      "surah": 4,
+      "name": "Nisa",
+      "originalHeading": "4-nji süre: «Nisa» («Aýallar»)",
+      "pdfPage": 78
+    },
+    {
+      "surah": 5,
+      "name": "Mäide",
+      "originalHeading": "5-nji süre: «Mäide» («Supra»)",
+      "pdfPage": 107
+    },
+    {
+      "surah": 6,
+      "name": "Engam",
+      "originalHeading": "6-njy süre: «Engam» («Öýdeçi mallar»)",
+      "pdfPage": 129
+    },
+    {
+      "surah": 7,
+      "name": "Agraf",
+      "originalHeading": "7-nji süre: «Agraf» («Belent diwar»)",
+      "pdfPage": 152
+    },
+    {
+      "surah": 8,
+      "name": "Enfäl",
+      "originalHeading": "8-nji süre: «Enfäl» («Oljalar»)",
+      "pdfPage": 178
+    },
+    {
+      "surah": 9,
+      "name": "Toba",
+      "originalHeading": "9-njy süre: Toba",
+      "pdfPage": 188
+    },
+    {
+      "surah": 10,
+      "name": "Ýunus",
+      "originalHeading": "10-njy süre: Ýunus",
+      "pdfPage": 209
+    },
+    {
+      "surah": 11,
+      "name": "Hud",
+      "originalHeading": "11-nji süre: Hud",
+      "pdfPage": 222
+    },
+    {
+      "surah": 12,
+      "name": "Ýusup",
+      "originalHeading": "12-nji süre: Ýusup",
+      "pdfPage": 236
+    },
+    {
+      "surah": 13,
+      "name": "Ragd",
+      "originalHeading": "13-nji süre: «Ragd» («Gök gümmürdisi»)",
+      "pdfPage": 250
+    },
+    {
+      "surah": 14,
+      "name": "Ybraýym",
+      "originalHeading": "14-nji süre: Ybraýym",
+      "pdfPage": 256
+    },
+    {
+      "surah": 15,
+      "name": "Hyjr",
+      "originalHeading": "15-nji süre: Hyjr",
+      "pdfPage": 263
+    },
+    {
+      "surah": 16,
+      "name": "Nahl",
+      "originalHeading": "16-njy süre: «Nahl» («Bal ary»)",
+      "pdfPage": 268
+    },
+    {
+      "surah": 17,
+      "name": "Isra",
+      "originalHeading": "17-nji süre: «Isra» («Gijeki seýr»)",
+      "pdfPage": 283
+    },
+    {
+      "surah": 18,
+      "name": "Kehf",
+      "originalHeading": "18-nji süre: «Kehf» («Gowak»)",
+      "pdfPage": 294
+    },
+    {
+      "surah": 19,
+      "name": "Merýem",
+      "originalHeading": "19-njy süre: Merýem",
+      "pdfPage": 306
+    },
+    {
+      "surah": 20,
+      "name": "Taha",
+      "originalHeading": "20-nji süre: Taha",
+      "pdfPage": 313
+    },
+    {
+      "surah": 21,
+      "name": "Enbiýa",
+      "originalHeading": "21-nji süre: «Enbiýa» («Pygamberler»)",
+      "pdfPage": 323
+    },
+    {
+      "surah": 22,
+      "name": "Haj",
+      "originalHeading": "22-nji süre: Haj",
+      "pdfPage": 333
+    },
+    {
+      "surah": 23,
+      "name": "Mu’minun",
+      "originalHeading": "23-nji süre: «Mu’minun» («Möminler»)",
+      "pdfPage": 343
+    },
+    {
+      "surah": 24,
+      "name": "Nur",
+      "originalHeading": "24-nji süre: Nur",
+      "pdfPage": 351
+    },
+    {
+      "surah": 25,
+      "name": "Furkan",
+      "originalHeading": "25-nji süre: «Furkan» («Tapawutlandyryjy»)",
+      "pdfPage": 360
+    },
+    {
+      "surah": 26,
+      "name": "Şugara",
+      "originalHeading": "26-njy süre: «Şugara» («Şahyrlar»)",
+      "pdfPage": 368
+    },
+    {
+      "surah": 27,
+      "name": "Neml",
+      "originalHeading": "27-nji süre: «Neml» («Garynja»)",
+      "pdfPage": 378
+    },
+    {
+      "surah": 28,
+      "name": "Kasas",
+      "originalHeading": "28-nji süre: «Kasas» («Kyssalar»)",
+      "pdfPage": 386
+    },
+    {
+      "surah": 29,
+      "name": "Ankebut",
+      "originalHeading": "29-njy süre: «Ankebut» («Möý»)",
+      "pdfPage": 397
+    },
+    {
+      "surah": 30,
+      "name": "Rum",
+      "originalHeading": "30-njy süre: Rum",
+      "pdfPage": 405
+    },
+    {
+      "surah": 31,
+      "name": "Lukman",
+      "originalHeading": "31-nji süre: Lukman",
+      "pdfPage": 412
+    },
+    {
+      "surah": 32,
+      "name": "Sežde",
+      "originalHeading": "32-nji süre: Sežde",
+      "pdfPage": 416
+    },
+    {
+      "surah": 33,
+      "name": "Ahzab",
+      "originalHeading": "33-nji süre: «Ahzab» («Taýpalar»)",
+      "pdfPage": 419
+    },
+    {
+      "surah": 34,
+      "name": "Sebe",
+      "originalHeading": "34-nji süre: Sebe",
+      "pdfPage": 429
+    },
+    {
+      "surah": 35,
+      "name": "Fatyr",
+      "originalHeading": "35-nji süre: «Fatyr» («Dörediji»)",
+      "pdfPage": 435
+    },
+    {
+      "surah": 36,
+      "name": "Ýäsin",
+      "originalHeading": "36-njy süre: Ýäsin",
+      "pdfPage": 441
+    },
+    {
+      "surah": 37,
+      "name": "Saffät",
+      "originalHeading": "37-nji süre: «Saffät» («Hatar-hatar bolup duranlar»)",
+      "pdfPage": 447
+    },
+    {
+      "surah": 38,
+      "name": "Sad",
+      "originalHeading": "38-nji süre: Sad",
+      "pdfPage": 454
+    },
+    {
+      "surah": 39,
+      "name": "Zümer",
+      "originalHeading": "39-njy süre: «Zümer» («Toparlar»)",
+      "pdfPage": 459
+    },
+    {
+      "surah": 40,
+      "name": "Mömin",
+      "originalHeading": "40-njy süre: «Mömin» («Iman getiren»)",
+      "pdfPage": 468
+    },
+    {
+      "surah": 41,
+      "name": "Fussylet",
+      "originalHeading": "41-nji süre: «Fussylet» («Doly beýan edilen»)",
+      "pdfPage": 478
+    },
+    {
+      "surah": 42,
+      "name": "Şura",
+      "originalHeading": "42-nji süre: «Şura» («Geňeş»)",
+      "pdfPage": 484
+    },
+    {
+      "surah": 43,
+      "name": "Zuhruf",
+      "originalHeading": "43-nji süre: «Zuhruf» («Zynatlar»)",
+      "pdfPage": 490
+    },
+    {
+      "surah": 44,
+      "name": "Duhan",
+      "originalHeading": "44-nji süre: «Duhan» («Tüsse»)",
+      "pdfPage": 497
+    },
+    {
+      "surah": 45,
+      "name": "Jäsiýe",
+      "originalHeading": "45-nji süre: «Jäsiýe» («Dyza çöken»)",
+      "pdfPage": 500
+    },
+    {
+      "surah": 46,
+      "name": "Ahkaf",
+      "originalHeading": "46-njy süre: «Ahkaf» («Gum depeleri»)",
+      "pdfPage": 503
+    },
+    {
+      "surah": 47,
+      "name": "Muhammet",
+      "originalHeading": "47-nji süre: Muhammet",
+      "pdfPage": 508
+    },
+    {
+      "surah": 48,
+      "name": "Feth",
+      "originalHeading": "48-nji süre: «Feth» («Ýeňiş»)",
+      "pdfPage": 512
+    },
+    {
+      "surah": 49,
+      "name": "Hujurat",
+      "originalHeading": "49-njy süre: «Hujurat» («Otaglar»)",
+      "pdfPage": 516
+    },
+    {
+      "surah": 50,
+      "name": "Kaf",
+      "originalHeading": "50-nji süre: «Kaf»",
+      "pdfPage": 519
+    },
+    {
+      "surah": 51,
+      "name": "Zäriýät",
+      "originalHeading": "51-nji süre: «Zäriýät» («Ýeller»)",
+      "pdfPage": 521
+    },
+    {
+      "surah": 52,
+      "name": "Tur",
+      "originalHeading": "52-nji: «Tur» süresi",
+      "pdfPage": 524
+    },
+    {
+      "surah": 53,
+      "name": "Nejm",
+      "originalHeading": "53-nji süre: «Nejm» («Ýyldyz»)",
+      "pdfPage": 527
+    },
+    {
+      "surah": 54,
+      "name": "Kamar",
+      "originalHeading": "54-nji süre: «Kamar» («Aý»)",
+      "pdfPage": 529
+    },
+    {
+      "surah": 55,
+      "name": "Rahman",
+      "originalHeading": "55-nji süre: Rahman",
+      "pdfPage": 532
+    },
+    {
+      "surah": 56,
+      "name": "Wakyga",
+      "originalHeading": "56-njy süre: «Wakyga» («Uly hadysa»)",
+      "pdfPage": 535
+    },
+    {
+      "surah": 57,
+      "name": "Hadid",
+      "originalHeading": "57-nji süre: «Hadid» («Demir»)",
+      "pdfPage": 538
+    },
+    {
+      "surah": 58,
+      "name": "Mujadele",
+      "originalHeading": "58-nji süre: «Mujadele» («Jedelleşme»)",
+      "pdfPage": 543
+    },
+    {
+      "surah": 59,
+      "name": "Haşr",
+      "originalHeading": "59-njy süre: «Haşr» («Jemlenme»)",
+      "pdfPage": 546
+    },
+    {
+      "surah": 60,
+      "name": "Mumtehyne",
+      "originalHeading": "60-njy süre: «Mumtehyne» («Synag edilenler»)",
+      "pdfPage": 550
+    },
+    {
+      "surah": 61,
+      "name": "Saf",
+      "originalHeading": "61-nji süre: «Saf» («Hatar»)",
+      "pdfPage": 552
+    },
+    {
+      "surah": 62,
+      "name": "Juma",
+      "originalHeading": "62-nji süre: «Juma» («Anna güni»)",
+      "pdfPage": 554
+    },
+    {
+      "surah": 63,
+      "name": "Munafikun",
+      "originalHeading": "63-nji süre: «Munafikun» («Ikiýüzlüler»)",
+      "pdfPage": 555
+    },
+    {
+      "surah": 64,
+      "name": "Tegabun",
+      "originalHeading": "64-nji süre: «Tegabun» («Aldanma»)",
+      "pdfPage": 557
+    },
+    {
+      "surah": 65,
+      "name": "Talak",
+      "originalHeading": "65-nji süre: Talak",
+      "pdfPage": 559
+    },
+    {
+      "surah": 66,
+      "name": "Tahrym",
+      "originalHeading": "66-njy süre: «Tahrym» («Gadagan etme»)",
+      "pdfPage": 561
+    },
+    {
+      "surah": 67,
+      "name": "Mülk",
+      "originalHeading": "67-nji süre: «Mülk» («Tebärek»)",
+      "pdfPage": 563
+    },
+    {
+      "surah": 68,
+      "name": "Galam",
+      "originalHeading": "68-nji süre: Galam",
+      "pdfPage": 565
+    },
+    {
+      "surah": 69,
+      "name": "Hakka",
+      "originalHeading": "69-njy süre: «Hakka» («Anyk hakykat»)",
+      "pdfPage": 567
+    },
+    {
+      "surah": 70,
+      "name": "Magaryj",
+      "originalHeading": "70-nji süre: «Magaryj» («Belentlik derejeleri»)",
+      "pdfPage": 569
+    },
+    {
+      "surah": 71,
+      "name": "Nuh",
+      "originalHeading": "71-nji süre: Nuh",
+      "pdfPage": 571
+    },
+    {
+      "surah": 72,
+      "name": "Jyn",
+      "originalHeading": "72-nji süre: Jyn",
+      "pdfPage": 573
+    },
+    {
+      "surah": 73,
+      "name": "Muzzemmil",
+      "originalHeading": "73-nji süre: «Muzzemmil» («Bürenip ýatan»)",
+      "pdfPage": 575
+    },
+    {
+      "surah": 74,
+      "name": "Muddessir",
+      "originalHeading": "74-nji süre: «Muddessir» («Dona bürenen»)",
+      "pdfPage": 576
+    },
+    {
+      "surah": 75,
+      "name": "Kyýamat",
+      "originalHeading": "75-nji süre: Kyýamat",
+      "pdfPage": 578
+    },
+    {
+      "surah": 76,
+      "name": "Ynsan",
+      "originalHeading": "76-njy süre: Ynsan",
+      "pdfPage": 579
+    },
+    {
+      "surah": 77,
+      "name": "Murselat",
+      "originalHeading": "77-nji süre: «Murselat» («Iberilenler»)",
+      "pdfPage": 581
+    },
+    {
+      "surah": 78,
+      "name": "Nebe",
+      "originalHeading": "78-nji süre: «Nebe» («Habar»)",
+      "pdfPage": 583
+    },
+    {
+      "surah": 79,
+      "name": "Näzigat",
+      "originalHeading": "79-njy süre: «Näzigat» («Sogrup alýanlar»)",
+      "pdfPage": 584
+    },
+    {
+      "surah": 80,
+      "name": "Abese",
+      "originalHeading": "80-nji süre: «Abese» («Ýüz bermeýän»)",
+      "pdfPage": 586
+    },
+    {
+      "surah": 81,
+      "name": "Tekwir",
+      "originalHeading": "81-nji süre: «Tekwir» («Düýrlemek»)",
+      "pdfPage": 587
+    },
+    {
+      "surah": 82,
+      "name": "Infitar",
+      "originalHeading": "82-nji süre: «Infitar» («Asmanyň bölünmegi»)",
+      "pdfPage": 588
+    },
+    {
+      "surah": 83,
+      "name": "Mutaffifin",
+      "originalHeading": "83-nji süre: «Mutaffifin» («Kem çekýänler»)",
+      "pdfPage": 589
+    },
+    {
+      "surah": 84,
+      "name": "Inşikak",
+      "originalHeading": "84-nji süre: «Inşikak» («Asmanyň ýarylmagy»)",
+      "pdfPage": 590
+    },
+    {
+      "surah": 85,
+      "name": "Buruç",
+      "originalHeading": "85-nji süre: «Buruç» («Ýyldyzlar topary»)",
+      "pdfPage": 591
+    },
+    {
+      "surah": 86,
+      "name": "Taryk",
+      "originalHeading": "86-njy süre: «Taryk» («Gije ýyldyzy»)",
+      "pdfPage": 592
+    },
+    {
+      "surah": 87,
+      "name": "Aglä",
+      "originalHeading": "87-nji süre: «Aglä» («Has beýik»)",
+      "pdfPage": 593
+    },
+    {
+      "surah": 88,
+      "name": "Gaşyýe",
+      "originalHeading": "88-nji süre: «Gaşyýe» («Gaplap alan»)",
+      "pdfPage": 593
+    },
+    {
+      "surah": 89,
+      "name": "Fejr",
+      "originalHeading": "89-nji süre: «Fejr» («Daň»)",
+      "pdfPage": 594
+    },
+    {
+      "surah": 90,
+      "name": "Beled",
+      "originalHeading": "90-njy süre: «Beled» («Şäher»)",
+      "pdfPage": 595
+    },
+    {
+      "surah": 91,
+      "name": "Şems",
+      "originalHeading": "91-nji süre: «Şems» («Gün»)",
+      "pdfPage": 596
+    },
+    {
+      "surah": 92,
+      "name": "Leýl",
+      "originalHeading": "92-nji süre: «Leýl» («Gije»)",
+      "pdfPage": 597
+    },
+    {
+      "surah": 93,
+      "name": "Zuha",
+      "originalHeading": "93-nji süre: «Zuha» («Guşluk»)",
+      "pdfPage": 597
+    },
+    {
+      "surah": 94,
+      "name": "Inşirah",
+      "originalHeading": "94-nji süre: «Inşirah» («Ýarylyş»)",
+      "pdfPage": 598
+    },
+    {
+      "surah": 95,
+      "name": "Tin",
+      "originalHeading": "95-nji süre: «Tin» («Injir»)",
+      "pdfPage": 598
+    },
+    {
+      "surah": 96,
+      "name": "Alak",
+      "originalHeading": "96-njy süre: «Alak» («Gan lagtasy»)",
+      "pdfPage": 599
+    },
+    {
+      "surah": 97,
+      "name": "Gadyr",
+      "originalHeading": "97-nji süre: Gadyr",
+      "pdfPage": 600
+    },
+    {
+      "surah": 98,
+      "name": "Beýýine",
+      "originalHeading": "98-nji süre: «Beýýine» («Äşgär delil»)",
+      "pdfPage": 600
+    },
+    {
+      "surah": 99,
+      "name": "Zilzäl",
+      "originalHeading": "99-njy süre: «Zilzäl» («Ýertitreme»)",
+      "pdfPage": 601
+    },
+    {
+      "surah": 100,
+      "name": "Adiýät",
+      "originalHeading": "100-nji süre: «Adiýät» («Ýüwrük atlar»)",
+      "pdfPage": 601
+    },
+    {
+      "surah": 101,
+      "name": "Karyga",
+      "originalHeading": "101-nji süre: «Karyga» («Elhenç ses»)",
+      "pdfPage": 602
+    },
+    {
+      "surah": 102,
+      "name": "Tekäsur",
+      "originalHeading": "102-nji süre: «Tekäsur» («Köplük bilen buýsanmak»)",
+      "pdfPage": 602
+    },
+    {
+      "surah": 103,
+      "name": "Asr",
+      "originalHeading": "103-nji süre: «Asr» («Wagt»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 104,
+      "name": "Hümeze",
+      "originalHeading": "104-nji süre: «Hümeze» («Gybat edýänler»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 105,
+      "name": "Fil",
+      "originalHeading": "105-nji süre: «Fil» («Pil»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 106,
+      "name": "Kuraýş",
+      "originalHeading": "106-njy süre: «Kuraýş» («Kuraýşlylar»)",
+      "pdfPage": 604
+    },
+    {
+      "surah": 107,
+      "name": "Mägun",
+      "originalHeading": "107-nji süre: «Mägun» («Ýardam bermek»)",
+      "pdfPage": 604
+    },
+    {
+      "surah": 108,
+      "name": "Köwser",
+      "originalHeading": "108-nji süre: Köwser",
+      "pdfPage": 604
+    },
+    {
+      "surah": 109,
+      "name": "Käfirun",
+      "originalHeading": "109-njy süre: «Käfirun» («Kapyrlar»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 110,
+      "name": "Nasr",
+      "originalHeading": "110-njy süre: «Nasr» («Kömek»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 111,
+      "name": "Mesed",
+      "originalHeading": "111-nji süre: «Mesed» («Işilen süýüm»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 112,
+      "name": "Yhlas",
+      "originalHeading": "112-nji süre: «Yhlas» («Kulhuwalla»)",
+      "pdfPage": 606
+    },
+    {
+      "surah": 113,
+      "name": "Felak",
+      "originalHeading": "113-nji süre: «Felak» («Säher»)",
+      "pdfPage": 606
+    },
+    {
+      "surah": 114,
+      "name": "Näs",
+      "originalHeading": "114-nji süre: «Näs» («Ynsanlar»)",
+      "pdfPage": 606
+    }
+  ]
+}

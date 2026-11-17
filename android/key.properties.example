@@ -1,0 +1,6 @@
+# Copy to android/key.properties, NEVER commit actual values.
+# Relative paths are resolved from android/, or use an absolute private path.
+storeFile=/absolute/private/path/upload-keystore.jks
+storePassword=REPLACE_LOCALLY
+keyAlias=REPLACE_LOCALLY
+keyPassword=REPLACE_LOCALLY

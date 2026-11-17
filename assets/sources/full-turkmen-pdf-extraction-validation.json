@@ -1,0 +1,677 @@
+{
+  "pdfPath": "/home/gadamgurban/Documents/kurany_kerim_turkmen_dilinde.pdf",
+  "pdfSha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+  "extractionSha256": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546",
+  "checkedColumns": 1210,
+  "physicalPdfPages": [
+    2,
+    606
+  ],
+  "method": "Independent full-page Poppler -bbox-layout words grouped by xMin at mirrored 255/287pt gutter, lines sorted by yMin/xMin. Exclude only numeric footer words yMin>740. Compare to frozen PyMuPDF, ignoring whitespace only; Unicode, spelling, punctuation and hyphens unchanged.",
+  "popplerVersion": "pdftotext version 26.01.0",
+  "supersededCropHeight": 742,
+  "supersededCropMismatches": [
+    {
+      "pdfPage": 131,
+      "column": "left",
+      "croppedPopplerCharacters": 1986,
+      "pymupdfCharacters": 2023,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 738.1182,
+          "yMax": 753.8862,
+          "text": "eger her (dürli) alamatlary (mugjyzalary)"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "egerher(dürli)alamatlary(mugjyzalary)"
+        }
+      ]
+    },
+    {
+      "pdfPage": 152,
+      "column": "left",
+      "croppedPopplerCharacters": 595,
+      "pymupdfCharacters": 608,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.1803,
+          "yMax": 745.9483,
+          "text": "öýdüp darykma!"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "öýdüpdarykma!"
+        }
+      ]
+    },
+    {
+      "pdfPage": 179,
+      "column": "left",
+      "croppedPopplerCharacters": 1564,
+      "pymupdfCharacters": 1579,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 740.5954,
+          "yMax": 756.3634,
+          "text": "jezasy ýowuzdyr!"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "jezasyýowuzdyr!"
+        }
+      ]
+    },
+    {
+      "pdfPage": 234,
+      "column": "left",
+      "croppedPopplerCharacters": 483,
+      "pymupdfCharacters": 516,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 738.6867,
+          "yMax": 754.4547,
+          "text": "hudaýlary hiç bir peýda bermedi hem-de"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "hudaýlaryhiçbirpeýdabermedihem-de"
+        }
+      ]
+    },
+    {
+      "pdfPage": 275,
+      "column": "left",
+      "croppedPopplerCharacters": 885,
+      "pymupdfCharacters": 917,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 736.9292,
+          "yMax": 752.6972,
+          "text": "alar. Araňyzda tapdan düşen garrylar"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "alar.Araňyzdatapdandüşengarrylar"
+        }
+      ]
+    },
+    {
+      "pdfPage": 302,
+      "column": "left",
+      "croppedPopplerCharacters": 547,
+      "pymupdfCharacters": 580,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 733.5182,
+          "yMax": 749.2862,
+          "text": "zadymyz!» diýdi hem-de olar yzlaryna,"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "zadymyz!»diýdihem-deolaryzlaryna,"
+        }
+      ]
+    },
+    {
+      "pdfPage": 313,
+      "column": "left",
+      "croppedPopplerCharacters": 1145,
+      "pymupdfCharacters": 1172,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 734.1607,
+          "yMax": 749.9287,
+          "text": "9. (Eý, Muhammet!) Saňa Musanyň"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "9.(Eý,Muhammet!)SaňaMusanyň"
+        }
+      ]
+    },
+    {
+      "pdfPage": 365,
+      "column": "right",
+      "croppedPopplerCharacters": 455,
+      "pymupdfCharacters": 469,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.0127,
+          "yMax": 745.7807,
+          "text": "arka çykýandyr."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "arkaçykýandyr."
+        }
+      ]
+    },
+    {
+      "pdfPage": 372,
+      "column": "left",
+      "croppedPopplerCharacters": 435,
+      "pymupdfCharacters": 457,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 733.7468,
+          "yMax": 748.2008,
+          "text": "zatlaryňyz hany, nirede?"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "zatlaryňyzhany,nirede?"
+        }
+      ]
+    },
+    {
+      "pdfPage": 376,
+      "column": "left",
+      "croppedPopplerCharacters": 489,
+      "pymupdfCharacters": 527,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 732.0006,
+          "yMax": 743.8266,
+          "text": "Düşündiriş: Ilki yssy bolupdyr, soň bulutlar gelipdir."
+        },
+        {
+          "yMin": 742.0006,
+          "yMax": 753.8266,
+          "text": "Adamlar, yssydan goranmak üçin, bulutlaryň"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "Adamlar,yssydangoranmaküçin,bulutlaryň"
+        }
+      ]
+    },
+    {
+      "pdfPage": 379,
+      "column": "left",
+      "croppedPopplerCharacters": 865,
+      "pymupdfCharacters": 896,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.0694,
+          "yMax": 745.8374,
+          "text": "kuwwat ber! Meni Öz merhemetiň bilen"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "kuwwatber!MeniÖzmerhemetiňbilen"
+        }
+      ]
+    },
+    {
+      "pdfPage": 381,
+      "column": "left",
+      "croppedPopplerCharacters": 1101,
+      "pymupdfCharacters": 1129,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.2395,
+          "yMax": 746.0075,
+          "text": "42. Hökümdar gelende oňa: «Seniň"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "42.Hökümdargelendeoňa:«Seniň"
+        }
+      ]
+    },
+    {
+      "pdfPage": 393,
+      "column": "left",
+      "croppedPopplerCharacters": 1007,
+      "pymupdfCharacters": 1041,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 731.43,
+          "yMax": 747.198,
+          "text": "dessine göterip çykararlar» diýdiler."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "dessinegöteripçykararlar»diýdiler."
+        }
+      ]
+    },
+    {
+      "pdfPage": 447,
+      "column": "left",
+      "croppedPopplerCharacters": 1548,
+      "pymupdfCharacters": 1558,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 728.3012,
+          "yMax": 744.0692,
+          "text": "17. Öňki ata-babalarymyz hem (direlmelimi?»"
+        },
+        {
+          "yMin": 742.3012,
+          "yMax": 758.0692,
+          "text": "diýerler)."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "diýerler)."
+        }
+      ]
+    },
+    {
+      "pdfPage": 447,
+      "column": "right",
+      "croppedPopplerCharacters": 518,
+      "pymupdfCharacters": 552,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 739.4174,
+          "yMax": 755.1854,
+          "text": "25. Size näme boldy beýle, birek-birege"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "25.Sizenämeboldybeýle,birek-birege"
+        }
+      ]
+    },
+    {
+      "pdfPage": 450,
+      "column": "left",
+      "croppedPopplerCharacters": 514,
+      "pymupdfCharacters": 548,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 726.7866,
+          "yMax": 742.5546,
+          "text": "(ybadat etmek) isleýärsiňizmi?"
+        },
+        {
+          "yMin": 741.5866,
+          "yMax": 757.3546,
+          "text": "87. Beýle bolsa älemleriň Perwerdigäri"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "87.BeýlebolsaälemleriňPerwerdigäri"
+        }
+      ]
+    },
+    {
+      "pdfPage": 454,
+      "column": "left",
+      "croppedPopplerCharacters": 606,
+      "pymupdfCharacters": 634,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.0862,
+          "yMax": 745.8542,
+          "text": "edipdik. Şonda olar dady-perýat"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "edipdik.Şondaolardady-perýat"
+        }
+      ]
+    },
+    {
+      "pdfPage": 456,
+      "column": "left",
+      "croppedPopplerCharacters": 575,
+      "pymupdfCharacters": 604,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 739.1339,
+          "yMax": 754.9019,
+          "text": "32. Şonda (Süleýman): «Takyk, men"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "32.Şonda(Süleýman):«Takyk,men"
+        }
+      ]
+    },
+    {
+      "pdfPage": 457,
+      "column": "left",
+      "croppedPopplerCharacters": 1307,
+      "pymupdfCharacters": 1323,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 731.5946,
+          "yMax": 747.3626,
+          "text": "Şondan datsynlar!"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "Şondandatsynlar!"
+        }
+      ]
+    },
+    {
+      "pdfPage": 498,
+      "column": "left",
+      "croppedPopplerCharacters": 463,
+      "pymupdfCharacters": 488,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 734.0142,
+          "yMax": 749.7822,
+          "text": "gark bolmaly goşun» (diýdi)."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "garkbolmalygoşun»(diýdi)."
+        }
+      ]
+    },
+    {
+      "pdfPage": 500,
+      "column": "left",
+      "croppedPopplerCharacters": 697,
+      "pymupdfCharacters": 760,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 731.8898,
+          "yMax": 747.0008,
+          "text": "(Allanyň gudratyny we hikmetini görkezýän)"
+        },
+        {
+          "yMin": 744.1898,
+          "yMax": 759.3008,
+          "text": "aýatlar (alamatlar) bardyr."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "(Allanyňgudratynywehikmetinigörkezýän)aýatlar(alamatlar)bardyr."
+        }
+      ]
+    },
+    {
+      "pdfPage": 527,
+      "column": "left",
+      "croppedPopplerCharacters": 1608,
+      "pymupdfCharacters": 1620,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.7394,
+          "yMax": 745.8504,
+          "text": "(butuny hem)?"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "(butunyhem)?"
+        }
+      ]
+    },
+    {
+      "pdfPage": 534,
+      "column": "left",
+      "croppedPopplerCharacters": 566,
+      "pymupdfCharacters": 599,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 736.189,
+          "yMax": 751.957,
+          "text": "49. Siz eýsem Perwerdigäriňiziň haýsy"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "49.SizeýsemPerwerdigäriňiziňhaýsy"
+        }
+      ]
+    },
+    {
+      "pdfPage": 538,
+      "column": "left",
+      "croppedPopplerCharacters": 536,
+      "pymupdfCharacters": 571,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 740.2318,
+          "yMax": 755.3428,
+          "text": "bolsaňyz, ony (çykan ol ruhy-jany) yzyna"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "bolsaňyz,ony(çykanolruhy-jany)yzyna"
+        }
+      ]
+    },
+    {
+      "pdfPage": 552,
+      "column": "left",
+      "croppedPopplerCharacters": 589,
+      "pymupdfCharacters": 618,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 731.1969,
+          "yMax": 746.9649,
+          "text": "(ýatanlaryň"
+        },
+        {
+          "yMin": 731.1969,
+          "yMax": 746.9649,
+          "text": "direlmeginden)"
+        },
+        {
+          "yMin": 731.1969,
+          "yMax": 746.9649,
+          "text": "umyt"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "(ýatanlaryňdirelmeginden)umyt"
+        }
+      ]
+    },
+    {
+      "pdfPage": 565,
+      "column": "left",
+      "croppedPopplerCharacters": 1233,
+      "pymupdfCharacters": 1257,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.0536,
+          "yMax": 745.8216,
+          "text": "8. Bes, sen (hakykaty) ýalan"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "8.Bes,sen(hakykaty)ýalan"
+        }
+      ]
+    },
+    {
+      "pdfPage": 566,
+      "column": "left",
+      "croppedPopplerCharacters": 597,
+      "pymupdfCharacters": 620,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.008,
+          "yMax": 745.776,
+          "text": "samyrdaşyp ýola çykdylar."
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "samyrdaşypýolaçykdylar."
+        }
+      ]
+    },
+    {
+      "pdfPage": 575,
+      "column": "left",
+      "croppedPopplerCharacters": 1557,
+      "pymupdfCharacters": 1594,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 732.4679,
+          "yMax": 747.9731,
+          "text": "14. (Ol gün) ýer we daglar güýçli (ýagdaýda)"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "14.(Olgün)ýerwedaglargüýçli(ýagdaýda)"
+        }
+      ]
+    },
+    {
+      "pdfPage": 575,
+      "column": "right",
+      "croppedPopplerCharacters": 501,
+      "pymupdfCharacters": 521,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 730.7236,
+          "yMax": 746.4916,
+          "text": "(islemedik tutmasyn)!"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "(islemediktutmasyn)!"
+        }
+      ]
+    },
+    {
+      "pdfPage": 591,
+      "column": "left",
+      "croppedPopplerCharacters": 1468,
+      "pymupdfCharacters": 1508,
+      "fullPagePopplerMatches": true,
+      "lowBodyLines": [
+        {
+          "yMin": 733.4565,
+          "yMax": 746.5965,
+          "text": "garşy çykansoň, onuň görkezmesi bilen ýigrimi"
+        }
+      ],
+      "differences": [
+        {
+          "operation": "insert",
+          "croppedPoppler": "",
+          "frozenPymupdf": "garşyçykansoň,onuňgörkezmesibilenýigrimi"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Old -H 742 crop omitted low body lines, NOT PyMuPDF text loss. Full-page independent extraction is checked without truncating body baselines. Every original discrepancy is reproduced below, including exact omitted strings. No canonical text or frozen PyMuPDF extraction was changed.",
+  "mismatches": []
+}

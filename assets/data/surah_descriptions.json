@@ -1,0 +1,814 @@
+{
+  "source": {
+    "type": "user-provided-pdf",
+    "path": "/home/gadamgurban/Documents/kurany_kerim_turkmen_dilinde.pdf",
+    "sha256": "3975592b810073a242879eb358c6509376d0c2db19c47f6b3fbe12ab72d40037",
+    "pageNumbering": "1-based physical PDF page; printed PDF numbers coincide in this excerpt",
+    "extraction": "tools/extract_pdf_sources.py; text blocks in left-then-right column order",
+    "normalization": "Whitespace folded; line-end hyphens preserved without intervening whitespace; only pre-existing Fatiha soraýa- / rys joined. No Unicode normalization or wording correction. Printed missing punctuation retained as sourceLabel.",
+    "redistribution": "User explicitly asserted complete source permissions on 2026-11-13. This records user assertion; no independently verified license is claimed.",
+    "status": "complete",
+    "scope": "114 surahs; 6236 ayahs, source grouped paragraphs preserved",
+    "extractionSha256": "41419934fbb86e8402fc309dc31e704cb454d1a38d8bade2ec71153542e10546"
+  },
+  "items": [
+    {
+      "surah": 1,
+      "text": "«Fatyha» süresi Mekgede inen sürelerden bolup, ol 7 aýatdan ybaratdyr. Kurany Kerimiň ilkinji süresidigi üçin, oňa «bir ýeri ýa-da bir zady açan, açyjy» manysynda «Fatyha» diýlip at berlipdir. Bu süräniň «Ummul-kitap» («Kitaplaryň enesi»), «Sebgul-mesäni» («Gaýtalanýan ýedi aýat»), «Esas» («Düýp-özen»), «Şifä» («Şypa beriji»), «Käfiýe» («Ýeterlik»), «El-hamd» («Hamdy-sena»), «Salät» («Namaz»), «Dua» («Dileg-doga») we «Taglym» («Tälim») ýaly atlary hem bar. Bu süre halkymyzyň arasynda «Elham» süresi diýlip meşhurlyk gazanypdyr. Pygamberimiz Muhammet aleýhissalam: «Elhamy» okamaýanyň namazy ýokdur» diýipdir. Şonuň üçin hem «Elham» süresi namazyň ähli rekagatlarynda okalýar. Kurany Kerim bütin adamzada dogry ýoly görkezmek üçin inderilipdir. Bu mubärek we uz manyly süre Kurany Kerimiň gysgaça manysyny özünde jemleýän we yslam dininiň düýp özeni hasaplanylýan süredir. Onda taryp edilmäge diňe Allanyň mynasypdygy, Allanyň bendelerine bu dünýäde Rahman (Mähriban), ahyretde Rahymdygy (Rehim-şepagatlydygy), diňe Alla ybadat edilmelidigi, dogry ýoly tapmagyň we dogry ýoldan azaşmagyň hem Allanyň eradasy bilen baglydygy beýan edilýär.",
+      "pdfPage": 2,
+      "column": "left",
+      "extractionOffset": 4992
+    },
+    {
+      "surah": 2,
+      "text": "«Bakara» süresi Medinede inen sürelerden bolup, ol 286 aýatdan ybaratdyr. Bu süre Kurany Kerimiň iň uzyn süresi bolup, ol on ýylyň dowamynda bölek-bölek görnüşde inipdir. «Bakara» diýmegiň manysy «Sygyr» diýmekdir. Bu sürede Musa pygamberiň ymmatyna sygyr gurban etmegi buýrandygy, emma olaryň buýrugy berjaý etmekde haýal-ýagallyk edendikleri baradaky kyssa beýan edilýär.",
+      "pdfPage": 3,
+      "column": "left",
+      "extractionOffset": 7459
+    },
+    {
+      "surah": 3,
+      "text": "«Äli-Ymran» süresi Medinede inen sürelerden bolup, ol 200 aýatdan ybaratdyr we uzyn süreleriň biridir. Süräniň ady 33-nji aýatynda agzalýan «Äli-Ymran» sözünden alnandyr. Ymran bibi Merýemiň kakasynyň adydyr. Bu sürede Töwratyň, Injiliň we Kuranyň şol bir ylahy gözbaşdan gaýdýandygy barada aýdylýar we ähli-kitap bilen hoşniýetli gatnaşyk etmäge we haka-hakykata çagyrylýar.",
+      "pdfPage": 51,
+      "column": "left",
+      "extractionOffset": 91274
+    },
+    {
+      "surah": 4,
+      "text": "«Nisa» süresi Medinede inen sürelerden bolup, ol 176 aýatdan ybaratdyr. Sürede aýallaryň hak-hukugy barada gürrüň gozgalýandygy üçin bu sürä «Aýallar» manysyny aňladýan «Nisa» ady berlipdir. Bu süre Kuranda «Eý, ynsanlar!» ýüzlenmesi bilen başlanýan iki süräniň biri bolup, ikinjisi «Haj» süresidir. «Nisa» süresi Allanyň haklary, ähli ynsanlaryň doganlygy, garyndaşlygy, çagalara, zenanlara, ýetimlere merhemet edilip hak-hukuklarynyň berilmegi, emlägiň goralmagy, nikalaşmak, miras, tämizlik, namaz okamak, arkalaşmak, amanaty gorap saklamak, adalatlylyk, ähli-kitap bilen gatnaşyk ýaly meseleler baradadyr.",
+      "pdfPage": 78,
+      "column": "left",
+      "extractionOffset": 137096
+    },
+    {
+      "surah": 5,
+      "text": "«Mäide» süresi Medinede inen sürelerden bolup, ol 120 aýatdan ybaratdyr. Sürede dini hökümler, ynanç-ygtykat meseleleri barada aýdylýar we ähli-kitabyň kyssalary beýan edilýär. Süräniň 112-nji we 114-nji aýatlarynda şägirtleriniň Isa pygambere ýüz tutup, Alladan özlerine asmandan bir supra (saçak) indermegini haýyş edendikleri hakynda habar berilýär. Şonuň üçin hem bu sürä «Mäide» («Supra») diýlip at berlipdir.",
+      "pdfPage": 107,
+      "column": "left",
+      "extractionOffset": 188996
+    },
+    {
+      "surah": 6,
+      "text": "«Engam» süresi Mekgede inen sürelerden bolup, ol 165 aýatdan ybaratdyr. Süräniň ady 126-144-nji aýatlaryň arasynda alty gezek agzalýan düýe, sygyr, goýun we geçi ýaly öýdeçi mallar manysyny aňladýan «Engam» sözünden gelip çykýar. Sürede imanyň esaslary, ynanç-ygtykat, wahyý, pygamberlik, ölümden soň direlmek we edilen amallara görä sylag ýa-da jeza berilmek ýaly meseleler barada aýdylyp geçilýär.",
+      "pdfPage": 129,
+      "column": "left",
+      "extractionOffset": 227639
+    },
+    {
+      "surah": 7,
+      "text": "«Agraf» süresi Mekgede inen sürelerden bolup, ol 206 aýatdan ybaratdyr. Süräniň 46-48-nji aýatlarynda ady agzalýan «Agraf» diýen ýer jennet bilen dowzahyň arasynda ýerleşen belent bir diwar bolup, süre hem onuň ady bilen atlandyrylypdyr. Sürede Adam atadan başlap‚ Nuh‚ Hud‚ Salyh‚ Lut‚ Şugaýyp‚ Musa ýaly pygamberleriň hemmesiniň Allanyň birligini ykrar edýän dine uýandyklary we kyýamatda bolup geçjek wakalar barada aýdylýar.",
+      "pdfPage": 152,
+      "column": "left",
+      "extractionOffset": 272568
+    },
+    {
+      "surah": 8,
+      "text": "«Enfäl» süresi Medinede inen sürelerden bolup, ol 75 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Oljalar» manysyny aňladýan «Enfäl» sözünden alnypdyr. Bu sürede Alla şärik goşanlaryň ýeňlişe sezewar boljakdyklary, Bedr söweşinde bolup geçen wakalar, bu söweşden çykarylmaly netijeler barada aýdylyp, möminlere iman, arkalaşma‚ söweş‚ şertnamalar, oljalar‚ sabyr we ähde wepalylyk‚ tertip-düzgün ýaly meselelerde nesihat berilýär.",
+      "pdfPage": 178,
+      "column": "left",
+      "extractionOffset": 322125
+    },
+    {
+      "surah": 9,
+      "text": "«Toba» süresi Medinede inen sürelerden bolup, ol 129 aýatdan ybaratdyr. Süräniň 104-nji aýaty toba bilen baglanyşykly bolandygy üçin sürä bu at berlipdir. «Toba» süresi Kurany Kerimde «Rahman (Mähriban) we Rahym (Rehim-şepagatly) Allanyň ady bilen» diýip başlanmaýan ýeke-täk süredir. Pygamberimiziň bu süräniň başyna «Bismilläniň» ýazdyrmazlygynyň sebäbi hem bu süräniň Allanyň duşmanlara duýduryş berip başlaýandygy bilen baglanyşdyrypdyr. Bu süre okalyp başlanda, diňe şeýtanyň şerinden Alla sygnylyp başlanylýar. (Daşlanylyp kowlan şeýtanyň şerinden Alla sygynýaryn)",
+      "pdfPage": 188,
+      "column": "left",
+      "extractionOffset": 341417
+    },
+    {
+      "surah": 10,
+      "text": "«Ýunus» süresi Mekgede inen sürelerden bolup, ol 109 aýatdan ybaratdyr. Sürede käbir pygamberleriň kyssasy beýan edilýär. Süräniň ady hem olaryň biri bolan Ýunus pygamberiň ady bilen atlandyrylýar. Bu sürede Mekgedäki kapyrlaryň pygamberimiz Muhammet aleýhissalamyň pygamberligine garşy çykandyklary barada aýdylýar.",
+      "pdfPage": 209,
+      "column": "left",
+      "extractionOffset": 380567
+    },
+    {
+      "surah": 11,
+      "text": "«Hud» süresi Mekgede inen sürelerden bolup, ol 123 aýatdan ybaratdyr. Süräniň 50-60-njy aýatlarynda Hud pygamber bilen baglanşykly wakalar beýan edileni üçin, süräniň ady Hud pygamberiň ady bilen baglanyşdyrylypdyr. Bu sürede ynanç-ygtykat meseleleri, kapyrlaryň we musulmanlaryň ahyretdäki ahwalatlary, Nuh, Hud, Salyh, Ybraýym, Lut, Şugaýyp we Musa ýaly pygamberleriň kyssalary beýan edilýär.",
+      "pdfPage": 222,
+      "column": "right",
+      "extractionOffset": 403305
+    },
+    {
+      "surah": 12,
+      "text": "«Ýusup» süresi Mekgede inen sürelerden bolup, ol 111 aýatdan ybaratdyr. Bu süräniň başyndan başlap, tä 101-nji aýatyna çenli Ýusup pygamberiň kyssasynyň beýan edilýändigi üçin, Ýusup pygamberiň ady dakylypdyr. Bu süre pygamberimiz Muhammet aleýhissalamyň Alla şärik goşýan mekgeli kapyrlar tarapyndan ezýet berlip, agyr günler geçirýän döwründe inderilipdir.",
+      "pdfPage": 236,
+      "column": "right",
+      "extractionOffset": 427845
+    },
+    {
+      "surah": 13,
+      "text": "«Ragd» süresiniň Mekgede ýa-da Medinede inendigi barada alymlaryň arasynda dürli garaýyşlar bardyr. Emma mazmuny boýunça ol Mekgede inen süre hasaplanylýar. Süre 43 aýatdan ybaratdyr. Bu süräniň 13-nji aýatynda «Gök gümmürdisi» diýen manyny aňladýan «Ragd» sözüniň geçýändigi sebäpli, bu süre şeýle atlandyrylypdyr. Sürede Allatagalanyň gudratyny aňladýan tebigat kanunlary, pygamberimiz bilen kapyrlaryň arasyndaky meseleler we möminler bilen kapyrlaryň ahyretdäki hallary barada gürrüň gidýär.",
+      "pdfPage": 250,
+      "column": "left",
+      "extractionOffset": 449632
+    },
+    {
+      "surah": 14,
+      "text": "«Ybraýym» süresi Mekgede inen soňky sürelerden bolup, ol 52 aýatdan ybaratdyr. Bu süräniň 35-41-nji aýatlarynda Ybraýym pygamberiň eden doga-dilegleri beýan edileni üçin, bu sürä «Ybraýym» diýip at berlipdir.",
+      "pdfPage": 256,
+      "column": "left",
+      "extractionOffset": 460832
+    },
+    {
+      "surah": 15,
+      "text": "«Hyjr» süresi Mekgede inen sürelerden bolup, ol 99 aýatdan ybaratdyr. Bu süräniň 80-84-nji aýatlarynda hyjr halky barada habar berlendigi üçin bu sürä «Hyjr» diýip at berlipdir. Sürede esasan hem, pygamberlerden Adam, Lut, Şugaýyp we Salyh aleýhissalam dagynyň kyssalary beýan edilýär. Şeýle hem bu sürede möminlere ahyretde bagtly ýaşaýşyň garaşýandygy, kapyrlaryň bolsa ezýet çekjekdikleri barada habar berilýär.",
+      "pdfPage": 263,
+      "column": "left",
+      "extractionOffset": 470971
+    },
+    {
+      "surah": 16,
+      "text": "«Nahl» süresi Mekgede inen sürelerden bolup, ol 128 aýatdan ybaratdyr. Bu süräniň 68-69-njy aýatlarynda balarynyň Allanyň emri bilen daglarda, baglarda öý ýasap, dürli ösümliklerden adamlar üçin şypaly bal ýygnamagy barada habar berilýändigi üçin bu sürä «Nahl» ady berlipdir. Sürede, esasan hem, Allanyň nygmatlary, beýikligi, gudraty agzalyp, Onuň ybadata mynasyp ýeke-täk Hudaýdygy aýdylýar.",
+      "pdfPage": 268,
+      "column": "right",
+      "extractionOffset": 481113
+    },
+    {
+      "surah": 17,
+      "text": "«Isra» süresi Mekgede inen sürelerden bolup, ol 111 aýatdan ybaratdyr. Bu süräniň ilkinji aýatynda «Gije seýran etmek» diýen manyny aňladýan «Esra» işliginiň geçýändigi sebäpli, bu süre şeýle atlandyrylypdyr. Süre pygamberimiz Muhammet aleýhissalamyň mygraj hadysasy bilen başlanýar. Soň bolsa ysraýyl ogullarynyň başdan geçirmeleri, ýeke-täk Alla gulluk etmek, ene-ata ýagşylyk etmek, gysganç we isripçi bolmazlyk, eklenç gorkusy sebäpli çagalary öldürmezlik, zyna etmezlik, ýetimiň we başganyň hakyny iýmezlik, tekepbir bolmazlyk ýaly belent ahlak we edep-terbiýe esaslary barada aýdylýar.",
+      "pdfPage": 283,
+      "column": "left",
+      "extractionOffset": 504702
+    },
+    {
+      "surah": 18,
+      "text": "«Kehf» süresi Mekgede inen sürelerden bolup, ol 110 aýatdan ybaratdyr. Bu sürede üç sany ybratly kyssalar barada gürrüň berilýär. Olaryň birinjisi «Eshabul-kehf» («Gowak ýaranlary») kyssasy bolup, onda din-imanlaryny goramak üçin zalym bir hökümdaryň süteminden gaçyp bir gowaga giren we Allanyň isleg-eradasy bilen ol ýerde üç ýüz dokuz ýyllap uklap ýatan ýedi sany dindar ýigidiň ahwalaty hekaýat edilýär. Halkymyzyň arasynda ol ýedi dindara «Ýedi weli» diýilýär. Bu ýagdaý sebäpli, sürä «Kehf» («Gowak») süresi diýip at berlipdir. Ikinji kyssada Musa pygamber bilen özüne Alla tarapyndan ylym berlen Hydyr atanyň arasynda bolup geçen ahwalat barada gürrüň berilýär. Üçünji kyssada bolsa Zülkarneýn hakda we onuň ýörişleri dogrusynda söz açylýar.",
+      "pdfPage": 294,
+      "column": "right",
+      "extractionOffset": 527681
+    },
+    {
+      "surah": 19,
+      "text": "«Merýem» süresi Mekgede inen sürelerden bolup, ol 98 aýatdan ybaratdyr. Sürede bibi Merýem we onuň ogly Isa pygamberiň dünýä inişi barada gürrüň gozgalýar. Şol sebäpli, bu sürä «Merýem» diýip at galypdyr.",
+      "pdfPage": 306,
+      "column": "left",
+      "extractionOffset": 549909
+    },
+    {
+      "surah": 20,
+      "text": "«Taha» süresi Mekgede inen sürelerden bolup, ol 135 aýatdan ybaratdyr. Sürede Musa pygamber barada giňişleýin gürrüň gozgalýar. Hezreti Omar bu süre arkaly musulmançylygy kabul edipdir. Süräniň ady onuň ilkinji aýatyndaky özbaşdak okalýan harplardan alnandyr.",
+      "pdfPage": 313,
+      "column": "left",
+      "extractionOffset": 561739
+    },
+    {
+      "surah": 21,
+      "text": "«Enbiýa» süresi Mekgede inen sürelerden bolup, ol 112 aýatdan ybaratdyr. Sürede 17 pygamber barada giňişleýin gürrüň gozgalýandygy üçin, oňa «Enbiýa» diýlip at berlipdir.",
+      "pdfPage": 323,
+      "column": "left",
+      "extractionOffset": 580365
+    },
+    {
+      "surah": 22,
+      "text": "«Haj» süresi Mekgede inen sürelerden bolup, ol 78 aýatdan ybaratdyr. Bu sürede Ybraýym pygambere Käbäniň ýeriniň görkezilmegi we ynsanlary haj ybadatyna çagyrmak barada gürrüň edilýänligi sebäpli, bu süre «Haj» diýlip atlandyrlypdyr. Bu söz süräniň 27-nji aýatynda agzalyp geçilýär.",
+      "pdfPage": 333,
+      "column": "left",
+      "extractionOffset": 595493
+    },
+    {
+      "surah": 23,
+      "text": "«Mu’minun» süresi Mekgede inen sürelerden bolup, ol 118 aýatdan ybaratdyr. Sürede möminleriň ahlak ýörelgeleri we olara ahyretdäki beriljek nygmatlar barada gürrüň gozgalýandygy üçin bu at berlipdir.",
+      "pdfPage": 343,
+      "column": "left",
+      "extractionOffset": 610534
+    },
+    {
+      "surah": 24,
+      "text": "«Nur» süresi Medinede inen sürelerden bolup, ol 64 aýatdan ybaratdyr. Sürede namysly aýallara töhmet atmagyň jezasy, gybatyň ýazgarylmagy, bir öýe baranyňda saklanylmaly edepler, jemgyýetçilik gatnaşyklary ýaly meseleler barada gürrüň gozgalýar. Süräniň ady 35-nji we 40-njy aýatlarda agzalýan «Allanyň nury» düşünjesinden alnandyr.",
+      "pdfPage": 351,
+      "column": "left",
+      "extractionOffset": 623970
+    },
+    {
+      "surah": 25,
+      "text": "«Furkan» süresi Mekgede inen sürelerden bolup, ol 77 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Furkan» sözünden gelip çykýar. Onuň manysy «Haky batyldan tapawutlandyryjy» diýmek bolup, Kuranyň hakykaty galpdan, inkäri imandan aýyl-saýyl edýändigini aňladýar. Sürede ylahy wahyý we pygamberlik arkaly kapyrlaryň aýdýan zatlarynyň batyldygy, Kurany Kerime uýanlaryň ruhy taýdan beýgeldiljekdikleri, durmuşlarynyň oňyn tarapa özgerjekdigi barada aýdylýar.",
+      "pdfPage": 360,
+      "column": "right",
+      "extractionOffset": 639485
+    },
+    {
+      "surah": 26,
+      "text": "«Şugara» süresi Mekgede inen sürelerden bolup, ol 227 aýatdan ybaratdyr. Sürede kapyrlaryň Kuranyň bir şahyr tarapyndan toslanandygy baradaky aýdan sözleri inkär edilip, Kuran bir şahyryň sözi däldigi subut edilýär. Süräniň ady 224-nji aýatda agzalýan «Şugara» sözünden alnandyr. Onuň manysy «Şahyrlar» diýmekdir.",
+      "pdfPage": 368,
+      "column": "left",
+      "extractionOffset": 651302
+    },
+    {
+      "surah": 27,
+      "text": "«Neml» süresi Mekgede inen sürelerden bolup, ol 93 aýatdan ybaratdyr. 18-nji aýatda Süleýman pygamberiň goşunyna ýol beren garynjalar barada söz gozgalýandygy üçin oňa «Neml» diýlip at berlipdir. (",
+      "pdfPage": 378,
+      "column": "left",
+      "extractionOffset": 668552
+    },
+    {
+      "surah": 28,
+      "text": "«Kasas» süresi Mekgede inen sürelerden bolup, ol 88 aýatdan ybaratdyr. Sürede Musa pygamberiň çagalykdan bäri ýaşaýşy, hak dine ynananlaryň ýeňşi we dünýa malyna ynam etmeli däldigi beýan edilýär. Sürede Musa pygamber baradaky kyssalar beýan edilýändigi üçin sürä «Kasas» diýip at berlipdir. Bu söz süräniň 25-nji aýatynda agzalýar.",
+      "pdfPage": 386,
+      "column": "right",
+      "extractionOffset": 683010
+    },
+    {
+      "surah": 29,
+      "text": "«Ankebut» süresi Mekgede inen sürelerden bolup, ol 69 aýatdan ybaratdyr. Sürede möminlere kapyrlaryň zulum-sütemlerine çydam etmekleri, zerur bolsa göç etmekleri, ahyret we Allanyň birligi ýaly meseleler barada aýdylýar. Süräniň ady 41-nji aýatda agzalýan «Ankebut» sözünden alnandyr.",
+      "pdfPage": 397,
+      "column": "left",
+      "extractionOffset": 700422
+    },
+    {
+      "surah": 30,
+      "text": "«Rum» süresi Mekgede inen sürelerden bolup, ol 60 aýatdan ybaratdyr. Eýrandaky sasanlylar bilen bolan söweşde ýeňlen Rum (Wizantiýa) goşunynyň olary ýakyn wagtda ýeňjekdikleri barada habar berilýändigi üçin bu süre «Rum» diýlip atlandyrylypdyr.",
+      "pdfPage": 405,
+      "column": "left",
+      "extractionOffset": 712619
+    },
+    {
+      "surah": 31,
+      "text": "«Lukman» süresi Mekgede inen sürelerden bolup, ol 34 aýatdan ybaratdyr. Bu sürede Lukmanyň kyssasy beýan edilýändigi üçin oňa Lukman diýip at galypdyr.",
+      "pdfPage": 412,
+      "column": "left",
+      "extractionOffset": 723033
+    },
+    {
+      "surah": 32,
+      "text": "«Sežde» süresi Mekgede inen sürelerden bolup, ol 30 aýatdan ybaratdyr. Bu süräniň 15-nji aýatynyň sežde aýatydygy sebäpli, oňa bu at berlipdir. Sürede möminlere ahyretde beriljek belent derejeler barada aýdylýar.",
+      "pdfPage": 416,
+      "column": "left",
+      "extractionOffset": 729393
+    },
+    {
+      "surah": 33,
+      "text": "«Ahzab» süresi Medinede inen sürelerden bolup, ol 73 aýatdan ýbaratdyr. Bu sürede musulmanlara garşy söweşmek üçin jemlenen arap tire-taýpalary hakda gürrüň gozgalýandygy üçin, süre şu at bilen atlandyrylypdyr. «Ahzab» sözi «tireler, taýpalar» diýen manylary aňladýar.",
+      "pdfPage": 419,
+      "column": "left",
+      "extractionOffset": 733990
+    },
+    {
+      "surah": 34,
+      "text": "«Sebe» süresi Mekgede inen sürelerden bolup, ol 54 aýatdan ybaratdyr. Bu süräniň ady 15-nji aýatda agzalýan we Yemende bir milletiň ady bolan sebe sözünden gelip çykýar. Bu sürede Dawut pygambere berlen zatlar we jynlaryň Süleýman pygamberiň hyzmatynda bolandyklary barada gürrüň berilýär.",
+      "pdfPage": 429,
+      "column": "left",
+      "extractionOffset": 749655
+    },
+    {
+      "surah": 35,
+      "text": "«Fatyr» süresi Mekgede inen sürelerden bolup, ol 45 aýatdan ybaratdyr. Bu süräniň ady ilkinji aýatda agzalýan «Dörediji» manysyny aňladýan «Fatyr» sözünden gelip çykýar.",
+      "pdfPage": 435,
+      "column": "left",
+      "extractionOffset": 760032
+    },
+    {
+      "surah": 36,
+      "text": "«Ýäsin» süresi Mekgede inen sürelerden bolup, ol 83 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda gelýän elipbiý harplary bolan «ýä» we «sin» harplarynyň guşulyp gelýändigi sebäpli, bu at bilen atlandyrylypdyr. Käbir alymlaryň garaýşyna görä, «Eý, ynsan!» manysyny aňladýan «Ýäsin» diýmek bilen Muhammet aleýhissalama ýüzlenilýär. «Ýäsin» süresinde Haky ykrar edýänler bilen etmeýänleriň ahwalaty, kyýamatda boljak zatlar we Allanyň gudratynyň beýany getirilýär.",
+      "pdfPage": 441,
+      "column": "left",
+      "extractionOffset": 769339
+    },
+    {
+      "surah": 37,
+      "text": "«Saffät» süresi Mekgede inen sürelerden bolup, ol 182 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «hatar-hatar bolup duranlar» manysyny aňladýan «Saffät» sözünden gelip çykýar. Bu süräniň başky üç aýatynda hatar bolup duran perişdelere, bulutlary aýlaýan güýje, Allany zikir edýän dile kasam edilip, Allanyň ýeke-täk Hudaýdygy subut edilýär.",
+      "pdfPage": 447,
+      "column": "left",
+      "extractionOffset": 780346
+    },
+    {
+      "surah": 38,
+      "text": "«Sad» süresi Mekgede inen sürelerden bolup, ol 88 aýatdan ybaratdyr. Süräniň ady ilkinji aýat we elipbiý harplaryndan bolan «Sad» harpy bilen başlanýandygy üçin, bu at bilen atlandyrylypdyr. Bu sürede Dawut, Süleýman we Eýýup pygamberleriň kyssalary, möminlere öwüt-ündewler, möminler bilen kapyrlaryň ahyretdäki ýagdaýlary, jennet we dowzah, Iblisiň jennetden kowulmagy ýaly wakalar beýan edilýär.",
+      "pdfPage": 454,
+      "column": "left",
+      "extractionOffset": 794852
+    },
+    {
+      "surah": 39,
+      "text": "«Zümer» süresi Mekgede inen sürelerden bolup, ol 75 aýatdan ybaratdyr. Süräniň ady 71-nji we 73-nji aýatlarda agzalýan «Toparlar» manysyny aňladýan «Zümer» sözünden gelip çykýar. Bu sürede mömin we kapyr toparlaryň ýagdaýlary barada gürrüň edilýär.",
+      "pdfPage": 459,
+      "column": "left",
+      "extractionOffset": 806224
+    },
+    {
+      "surah": 40,
+      "text": "«Mömin» süresi Medinede inen sürelerden bolup, ol 85 aýatdan ybaratdyr. Süräniň ady 28-nji aýatda agzalýan «Iman getiren» manysyny aňladýan «Mömin» sözünden gelip çykýar. Bu sürede Fyrgawnyň maşgalasyndan bir adamyň Allanyň birligini kabul edip, musulman bolandygy barada gürrüň edilýär. Bu sürä başgaça «Gafir» («Günä geçiji (Alla)») hem diýilýär. Bu süreden başlap, tä 46-njy sürä çenli, hemme süreleriň başy «Ha, Mim» diýip, elipbiý harplary bilen başlanýar we olar «Hawamim» süreler topary» diýlip atlandyrylypdyr.",
+      "pdfPage": 468,
+      "column": "left",
+      "extractionOffset": 821046
+    },
+    {
+      "surah": 41,
+      "text": "«Fussylet» süresi Mekgede inen sürelerden bolup, ol 54 aýatdan ybaratdyr. Süräniň ady 3-nji aýatda agzalýan «Doly beýan edilen» manysyny aňladýan «Fussylet» sözünden gelip çykýar. Sürede pygamberleriň ymmatlaryny hak ýola çagyrandyklary, Kurany Kerimiň Allanyň sözüdigi we Allanyň birligi barada aýdylýar.",
+      "pdfPage": 478,
+      "column": "left",
+      "extractionOffset": 837089
+    },
+    {
+      "surah": 42,
+      "text": "«Şura» süresi Mekgede inen sürelerden bolup, ol 53 aýatdan ybaratdyr. Süräniň ady 38-nji aýatda agzalýan «Geňeş, maslahat» manylaryny aňladýan «Şura» sözünden gelip çykýar. Bu sürede musulmanlaryň işlerini öz aralarynda maslahat bilen berjaý etmelidikleri barada aýdylýar.",
+      "pdfPage": 484,
+      "column": "left",
+      "extractionOffset": 847475
+    },
+    {
+      "surah": 43,
+      "text": "«Zuhruf» süresi Mekgede inen sürelerden bolup, ol 89 aýatdan ybaratdyr. Bu süräniň ady 35-nji aýatda agzalýan «Zynatlar» manysyny aňladýan «Zuhruf» sözünden gelip çykýar. Bu sürede gymmatbaha zatlardan gürrüň edilýändigi, emma Allatagalanyň ynsanyň elindäki gymmatbaha zatlaryna görä däl-de, tersine, onuň ynanç-ygtykadyna, gylyk-häsiýetine we ahlak-terbiýesine görä baha berýändigi habar berilýär. Şol sebäpden hem bu süre «Zuhruf» diýlip atlandyrylypdyr.",
+      "pdfPage": 490,
+      "column": "left",
+      "extractionOffset": 858131
+    },
+    {
+      "surah": 44,
+      "text": "«Duhan» süresi Mekgede inen sürelerden bolup, 59 aýatdan ybaratdyr. Bu süräniň ady 10-njy aýatda agzalýan «Tüsse» manysyny aňladýan «Duhan» sözünden gelip çykýar. Bu sürede Gadyr gijesi, kyýamatyň alamatlary, Allatagalanyň gazaby, Musa pygamberiň kyssasy hem-de öwütleri, ahyrete ynanmak ýaly meseleler beýan edilýär.",
+      "pdfPage": 497,
+      "column": "left",
+      "extractionOffset": 869505
+    },
+    {
+      "surah": 45,
+      "text": "«Jäsiýe» süresi Mekgede inen sürelerden bolup, ol 37 aýatdan ybaratdyr. «Jäsiýe» sözi «Dyza çöken» diýen manyny aňladýar. Bu sürede ahyretde hemmeleriň Allanyň öňünde dyza çökjekdigi beýan edilýändigi üçin bu at bilen atlandyrylypdyr. Ol söz süräniň 28-nji aýatynda agzalýar. Bu sürede ynsanlar Allany tanamaklyga çagyrylýar we ynsanlaryň aňyna ahyrete ynanmak düşünjesiniň ornaşdyrylmagy öňe sürülýär. Şeýle hem wahynyň hakykatdygy barada aýdylyp, kapyrlaryň derbi-dagyn ediljekdigi, Alla iman getiren bendeleriň ahyrky netijede eşretli durmuşa ýetjekdigi aýdylýar.",
+      "pdfPage": 500,
+      "column": "left",
+      "extractionOffset": 874771
+    },
+    {
+      "surah": 46,
+      "text": "«Ahkaf» süresi pygamberimiziň Mekgede ýaşan döwrüniň ahyrlarynda inip, ol 35 aýatdan ybaratdyr. «Ahkaf» sözi «Gum depeleri» diýmegi aňladýar. Bu söz süräniň 21-nji aýatynda agzalýar. «Ahkaf» süresi «Hawamim» süreler toparynyň iň soňky süresidir. Bu sürede Mekgedäki hak dine garşy çykanlaryň ad halky ýaly heläk ediljekdikleri barada duýdurylyp, Muhammet aleýhissalamyň pygamberligini kabul etmelidikleri habar berilýär. Süräniň ahyrynda bolsa Kurany Kerimi diňläp, dogry ýola giren jynlaryň beýleki jynlara hak dini habar bermek üçin gidendikleri beýan edilip, kejirlik edýän kapyrlara ybrat almaklygy ündelýär.",
+      "pdfPage": 503,
+      "column": "left",
+      "extractionOffset": 881773
+    },
+    {
+      "surah": 47,
+      "text": "«Muhammet» süresi Medinede inen sürelerden bolup, ol 38 aýatdan ybaratdyr. Süre adyny pygamberimiz Muhammet aleýhissalamyň adyndan alandyr. Bu sürede Allanyň ýolunda gazawat etmek, oljalar, ýesirler we mynapyklar barada gürrüň gozgalýar. Allanyň mömin bendelerine berýän kömegi üçin gerekli şertleri beýan edýän bu süre, öten milletleriň ýok bolup gitmekleri bilen baglanyşykly jebir-sütemler, mynapyklaryň ýüzüniň perdeleriniň syryljakdygy, dünýäniň pany, ahyretiň bolsa ebedidigi barada habar berilýär.",
+      "pdfPage": 508,
+      "column": "left",
+      "extractionOffset": 891416
+    },
+    {
+      "surah": 48,
+      "text": "«Feth» süresi Medinede inen sürelerden bolup, ol 29 aýatdan ybaratdyr. «Feth» sözi «Ýeňiş» manysyny aňladýar. Bu sürede ýeňiş we üstünlik barada gürrüň gozgalýandygy üçin, ol bu at bilen atlandyrylypdyr. Sürede mynapyklaryň hal-hereketleri, musulmanlara wada berlen ýeňişler we olaryň häsiýetleri barada gürrüň edilýär.",
+      "pdfPage": 512,
+      "column": "left",
+      "extractionOffset": 899517
+    },
+    {
+      "surah": 49,
+      "text": "«Hujurat» süresi Medinede inen sürelerden bolup, ol 18 aýatdan ybaratdyr. Süräniň ady bolan «Otaglar» diýen manyny aňladýan «Hujurat» sözi 4-nji aýatda agzalýar. Bu sürede musulmanlaryň pygambere we biri-birlerine nähili gatnaşykda bolmalydyklary baradaky edep-ahlak kadalary hakda aýdylýar.",
+      "pdfPage": 516,
+      "column": "right",
+      "extractionOffset": 908142
+    },
+    {
+      "surah": 50,
+      "text": "«Kaf» süresi Mekgede inen sürelerden bolup, ol 45 aýatdan ybaratdyr. Süräniň ady ilkinji aýatdaky elipbiý harpy bolan «Kaf» harpyndan alnandyr. Bu sürede Allatagalanyň güýç-gudratyny we hikmetini görkezýän älemdäki käbir zatlar barada gürrüň açylýar. Bulary ýaradan Allanyň kyýamat-magşarda ynsanlary täzeden direltmäge güýjüniň ýetjekdigi beýan edilýär. Dini inkär edenlere öňki käbir milletleriň başyna gelenler ýatlanylýar.",
+      "pdfPage": 519,
+      "column": "left",
+      "extractionOffset": 912601
+    },
+    {
+      "surah": 51,
+      "text": "«Zäriýät» süresi Mekgede inen sürelerden bolup, ol 60 aýatdan ybaratdyr. Süräniň ady «Ýeller» diýen manyny aňladýan «Zäriýät» sözünden alnandyr. Ol söz süräniň ilkinji aýatynda agzalýar. Bu sürede älem-jahanda bolup geçýän käbir ägirt tebigy hadysalar, olara jogapkär perişdeler barada hem-de yns-jynsyň Alla ybadat etmek üçin ýaradylandyklary barada aýdylýar.",
+      "pdfPage": 521,
+      "column": "left",
+      "extractionOffset": 917892
+    },
+    {
+      "surah": 52,
+      "text": "«Tur» süresi Mekgede inen sürelerden bolup, ol 49 aýatdan ybaratdyr. Bu süre Musa pygamberiň ylahy habara gowşan Tur dagy bilen baglanyşykly waka beýan edilýändigi üçin şeýle atlandyrylypdyr. Bu süre kapyrlaryň wahynyň öňünde nädip ejizländiklerini beýän edýär. Sürede ahyret ýaşaýşynda kapyrlara elhenç azaplar beriljekdigi hem-de musulmanlaryň jennetdäki ýaşaýşy beýan edilýär.",
+      "pdfPage": 524,
+      "column": "right",
+      "extractionOffset": 923373
+    },
+    {
+      "surah": 53,
+      "text": "«Nejm» süresi Mekgede inen sürelerden bolup, ol 62 aýatdan ybaratdyr. Süräniň ady bolan «Nejm» («Ýyldyz») sözi ilkinji aýatda agzalýar. Bu sürede Kuranyň wahyý arkaly gelendigi, pygamberimiziň mygraja çykmagy, onuň beýik mertebelere ýetendigi, Alla şärik goşmagyň erbetligi we hakykatyň üstün çykjakdygy barada aýdylýar.",
+      "pdfPage": 527,
+      "column": "left",
+      "extractionOffset": 928368
+    },
+    {
+      "surah": 54,
+      "text": "«Kamar» süresi Mekgede inen sürelerden bolup, ol 55 aýatdan ybaratdyr. «Kamar» sözüniň manysy «Aý» diýmek bolup, ol süräniň ilkinji aýatynda aýdylýandygy üçin bu at berlipdir. Bu sürede öňki pygamberleriň dini ýaýradyş usullary, Kuranyň çagyryşynyň ahyrky netijede Alla şärik goşýanlary ýeňjekdigi, şeýle-de Aýyň ikä bölünjekdigi aýdylýar.",
+      "pdfPage": 529,
+      "column": "left",
+      "extractionOffset": 933916
+    },
+    {
+      "surah": 55,
+      "text": "«Rahman» süresi Mekgede inen sürelerden bolup, ol 78 aýatdan ybaratdyr. Süräniň ilkinji aýatynda Allanyň «Rahman» adynyň geçýändigi we süräniň içinde Allanyň mähribanlygy barada gürrüň gozgalýandygy üçin sürä bu at berlipdir. Sürede Allanyň mömin bendelerini bu dünýäde, aýratyn hem jennetde taýýarlanylan nygmatlara çagyryşy beýan edilýär.",
+      "pdfPage": 532,
+      "column": "right",
+      "extractionOffset": 940101
+    },
+    {
+      "surah": 56,
+      "text": "«Wakyga» süresi Mekgede inen sürelerden bolup, ol 96 aýatdan ybaratdyr. Manysy «Uly hadysa» diýmekdir. Bu söz ilkinji aýatda aýdylýar. Bu sürede kyýamatyň öň ýanynda bolup geçjek hadysalar, ynsanlaryň ahyretdäki ýagdaýlary, Allanyň birliginiň we barlygynyň delilleri hem-de Kuranyň käbir wasplary beýan edilýär.",
+      "pdfPage": 535,
+      "column": "left",
+      "extractionOffset": 946817
+    },
+    {
+      "surah": 57,
+      "text": "«Hadid» süresi Medinede inen sürelerden bolup, ol 29 aýatdan ybaratdyr. Süräniň ady 25-nji aýatda agzalýan demir manysyny aňladýan «Hadid» sözünden alnandyr. Bu sürede Allanyň beýikligi, hakykatyň ugrunda göreşmelidigi, dünýäniň wagtlaýyn lezzetlerine aldanmaly däldigi, yslama garşy söweşenleriň ýeňiljekdikleri, Allanyň musulmanlara wada beren nygmatlary, pygamberlere hem-de olaryň yzlaryny ýöreden Muhammet aleýhissalama ynanmagyň gerekdigi habar berilýär.",
+      "pdfPage": 538,
+      "column": "right",
+      "extractionOffset": 952653
+    },
+    {
+      "surah": 58,
+      "text": "«Mujadele» süresi Medinede inen sürelerden bolup, ol 22 aýatdan ybaratdyr. Bu süre adyny ilkinji aýatda geçen sözden alandyr. Sürede aýallara degişli bolan zyhar talagy ýatyrylansoň, mynapyklaryň erbetlik üçin eden etmişleri ýazgarylýar, Allanyň gazap eden kişilerini dost tutunmak gadagandygy we Allanyň dinine uýmagyň gerekdigi habar berilýär.",
+      "pdfPage": 543,
+      "column": "left",
+      "extractionOffset": 960888
+    },
+    {
+      "surah": 59,
+      "text": "«Haşr» süresi Medinede inen sürelerden bolup, ol 24 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Haşr» sözünden alnandyr. Manysy «Bir ýere jemlenme» diýmegi aňladýar. Pygamberimiz käbir ýahudylar we butparazlar bilen ylalaşyp, Medinede şäher döwletini esaslandyrypdy. Emma ýahudylaryň Beni nazyr taýpasy Mekgedäki kuraýşylar bilen dildüwşüp, bu ylalaşygy bozupdy. Bu sürede käbir şol ýahudylaryň Medineden çykarylmagy, mynapyklaryň hileleri, musulmanlara nesihatlar we Allanyň gözel wasplary beýan edilýär.",
+      "pdfPage": 546,
+      "column": "right",
+      "extractionOffset": 967335
+    },
+    {
+      "surah": 60,
+      "text": "«Mumtehyne» süresi Medinede inen sürelerden bolup, ol 13 aýatdan ybaratdyr. «Mumtehyne» sözünuň manysy «Synag edilenler» diýmek bolup, bu sürede musulmanlaryň gaýry dinliler bilen gatnaşygy, yslamyň duşmanlary bilen dostlaşmaly däldigi, şeýle-de yslamy kabul eden aýallaryň maksatlaryny ýüze çykarmak arkaly synag edilendikleri barada aýdylýar.",
+      "pdfPage": 550,
+      "column": "left",
+      "extractionOffset": 974061
+    },
+    {
+      "surah": 61,
+      "text": "«Saf» süresi Medinede inen sürelerden bolup, ol 14 aýatdan ybaratdyr. Süräniň ady 4-nji aýatda agzalýan «Saf» sözünden alnypdyr, onuň manysy «Hatar» diýmekdir. Bu sürede iman getirip, onuň ugrunda göreşmelidigi, şeýle-de Musa, Isa we Muhammet aleýhissalamyň pygamberlikleri bilen baglanyşykly wakalar aýdylýar.",
+      "pdfPage": 552,
+      "column": "right",
+      "extractionOffset": 979046
+    },
+    {
+      "surah": 62,
+      "text": "«Juma» süresi Medinede inen sürelerden bolup, ol 11 aýatdan ybaratdyr. Bu süräniň 9-njy aýatynda juma namazynyň parzdygy aýdylýandygy üçin oňa «Juma» diýlip at berlipdir. Bu sürede Muhammet aleýhissalamyň pygamberliginiň adamzada peýdasy, ýahudylaryň özlerini beýleki milletlerden artyk hasaplap, bu düşünjelerini dinlerine hem ornaşdyrmakçy bolandyklary we onuň zyýany, şeýle-de yslam dininiň bütin ynsanlyga gujak açýan ybadat düşünjesi barada aýdylýar.",
+      "pdfPage": 554,
+      "column": "left",
+      "extractionOffset": 982002
+    },
+    {
+      "surah": 63,
+      "text": "«Munafikun» süresi Medinede inen sürelerden bolup, ol 11 aýatdan ybaratdyr. Sürede mynapyklar barada gürrüň gozgalýandygy üçin sürä bu at galypdyr. Şeýle-de, mynapyklaryň edýän işleri, dünýäniň wagtlaýyn lezzetine aldanmazlyklary üçin möminlere öwüt-nesihatlar berlip, möminlere mynapyklaryň howply ýollaryndan halas boluş ýollary görkezilýär.",
+      "pdfPage": 555,
+      "column": "left",
+      "extractionOffset": 985165
+    },
+    {
+      "surah": 64,
+      "text": "«Tegabun» süresi Medinede inen sürelerden bolup, ol 18 aýatdan ybaratdyr. Süräniň ady 9-njy aýatda agzalýan «Tegabun güni» sözünden alnypdyr. «Tegabun» diýmek, kemçilik eden ynsanyň günälerine göz ýetirip, bu dünýäde aldanandygyny kabul edip, ykrar etmegi we ökünmegidir. Aslynda Tegabun kyýamatyň atlarynyň biridir. Bu süre Alla ynanmak, yhlas, takwaçylyk, kanagat we ahyret bagtyýarlylygy üçin tagalla etmek ýaly meseleleri öz içine alýar. Şeýle-de sürede bu älemiň eýesiz däldigi, ähli zatda bolşy ýaly, ynsanyň ýaradylyşynyň hem maksadynyň bardygy, şonuň üçin hem ynsanyň öz ygtyýaryny haýyrly-sogaply ýollarda ulanmalydygy barada aýdylýar.",
+      "pdfPage": 557,
+      "column": "left",
+      "extractionOffset": 987831
+    },
+    {
+      "surah": 65,
+      "text": "«Talak» süresi Medinede inen sürelerden bolup, ol 12 aýatdan ybaratdyr. Bu sürede talagyň hökümleriniň beýän edilýändigi üçin, bu at berlipdir. Bu sürede talak bermek, talakdan soň garaşylmaly möhlet, eklenç, çaga seretmek ýaly meseleler agzalýar.",
+      "pdfPage": 559,
+      "column": "left",
+      "extractionOffset": 991849
+    },
+    {
+      "surah": 66,
+      "text": "«Tahrym» süresi Medinede inen sürelerden bolup, ol 12 aýatdan ybaratdyr. Tahrym «Bir zady gadagan etmek, haram etmek» manysyny aňladýar. Bu söz süräniň ilkinji aýatynda gelýär. Sürede pygamberimiziň päk zenanlary bilen aralarynda bolup geçen käbir wakalar, şeýle hem toba etmek, iman getirmek we öten pygamberleriň kyssalary beýan edilýär.",
+      "pdfPage": 561,
+      "column": "left",
+      "extractionOffset": 995758
+    },
+    {
+      "surah": 67,
+      "text": "«Mülk» süresi Mekgede inen sürelerden bolup, ol 30 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan Allanyň hökmürowanlygyndan gürrüň gozgamagyndan gelip çykýar. Sürede Allanyň bu dünýäni ynsanlaryň ýaşamagy üçin ýokdan bar edendigi, ýaşamak üçin onda dürli şertleri döredendigi, Allanyň ýeke-täk Ýaradandygy, Allany inkär edenleriň kyýamatda özlerini atjak howplary barada habar berlip, Alla iman getirenleriň halas boljakdyklary, kapyrlaryň soňlarynyň pajylagy gutarjakdygy aýdylýar. Bu süräniň sogaby hakda pygamberimiz Muhammet aleýhissalam: «Kuranda 30 aýatly bir süre bar. Ol süre kyýamat gününde bir adama şepagatçy bolar, (şeýdip) ahyry onuň günäsi bagyşlanar. Ol süre «Tebärek» («Mülk») süresidir» diýipdir.",
+      "pdfPage": 563,
+      "column": "left",
+      "extractionOffset": 999527
+    },
+    {
+      "surah": 68,
+      "text": "«Galam» süresi Mekgede inen sürelerden bolup, ol 52 aýatdan ybaratdyr. Süre adyny ikinji aýatda agzalýan «Galam» sözünden alypdyr. Bu süre kapyrlaryň pygamberimiziň garşysyna aýdan sözlerini boşa çykaryp, onuň pygamberligini subut edýär. Esasan hem, onuň kämil ahlagy barada aýdylyp geçilýär.",
+      "pdfPage": 565,
+      "column": "left",
+      "extractionOffset": 1004531
+    },
+    {
+      "surah": 69,
+      "text": "«Hakka» süresi Mekgede inen sürelerden bolup, ol 52 aýatdan ybaratdyr. Ol adyny ilkinji aýatda agzalýan «Hakka» sözünden alandyr. Ol «Anyk hakykat, amala aşjak hakyky kyýamat» diýen manyny aňladýar. Sürede öň ýaşap geçen pygamberleri inkär edenleriň başyna gelen belalar ýatlanylyp, Kurany Kerimiň Allanyň sözüdigi, pygamberiň kapyrlaryň ýöňkeýän töhmetlerinden daşdygy beýan edilýär.",
+      "pdfPage": 567,
+      "column": "left",
+      "extractionOffset": 1009718
+    },
+    {
+      "surah": 70,
+      "text": "«Magaryj» süresi Mekgede inen sürelerden bolup, ol 44 aýatdan ybaratdyr. Süre öz adyny üçünji aýatda agzalýan «Belentlik derejeleri» manysyndaky «Magaryj» sözünden alandyr. Bu sürede mekgeli kapyrlaryň ahyreti inkär etmekleri we pygamberi ýalançy hasaplamaklary ýazgarylýar.",
+      "pdfPage": 569,
+      "column": "left",
+      "extractionOffset": 1013729
+    },
+    {
+      "surah": 71,
+      "text": "«Nuh» süresi Mekgede inen sürelerden bolup, ol 28 aýatdan ybaratdyr. Bu sürede Nuh pygamber barada gürrüň edilýändigi üçin, süre bu at bilen atlandyrylypdyr. Sürede Nuh pygamberiň öz kowumyny dogry ýola çagyrandan soň, olaryň köpüsiniň hakykatdan ýüz öwürmegi netijesinde heläk edilendigi we onuň haka ynanan möminler üçin eden dilegi beýan edilýär.",
+      "pdfPage": 571,
+      "column": "left",
+      "extractionOffset": 1017112
+    },
+    {
+      "surah": 72,
+      "text": "«Jyn» süresi Mekgede inen sürelerden bolup, ol 28 aýatdan ybaratdyr. Bu sürede jynlar barada gürrüň gozgalýandygy üçin «Jyn» diýlip at berlipdir. Sürede bir topar jynyň Kurany diňläp, iman getirendikleri we Kuranyň hakykatlygy beýan edilýär.",
+      "pdfPage": 573,
+      "column": "left",
+      "extractionOffset": 1020819
+    },
+    {
+      "surah": 73,
+      "text": "«Muzzemmil» süresi Mekgede ilki inen süreleriniň biri bolup, ol 20 aýatdan ybaratdyr. Ol adyny ilkinji aýatda pygamberimize ýüzlenilip aýdylýan sözden alandyr. «Muzzemmil» sözi «Bürenip ýatan» diýmegi aňladýar. Sürede pygamberiň we oňa ynanan möminleriň gije ybadat etmekleri, Allanyň birligi, Oňa bil baglamak, Oňa tabyn bolmagyň syrlary we bu dini inkär edenleriň pajygaly soňlanmalary beýan edilýär.",
+      "pdfPage": 575,
+      "column": "left",
+      "extractionOffset": 1024754
+    },
+    {
+      "surah": 74,
+      "text": "«Muddessir» süresi pygamberligiň ilki başlarynda Mekgede inen sürelerden bolup, ol 56 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalýan we «Dona bürenen» manysyndaky «Muddessir» sözünden alandyr. Pygamberimiz Muhammet aleýhissalama ýüzlenilip başlaýan bu sürede pygamberligiň ýaýradylyşy, hak dine garşy çykan kapyrlaryň erbet häsiýetleri we olaryň ahyretde çekjek azaplary barada gürrüň gozgalýar.",
+      "pdfPage": 576,
+      "column": "right",
+      "extractionOffset": 1028404
+    },
+    {
+      "surah": 75,
+      "text": "«Kyýamat» süresi Mekgede inen sürelerden bolup, ol 40 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalýan we bütin süräniň manysy bolan kyýamat sözünden alandyr. Sürede kyýamatyň hakykatlygy akyl we duýgy ýollary arkaly subut edilýär we muňa ynanmaýanlaryň jezasy barada aýdylýar.",
+      "pdfPage": 578,
+      "column": "right",
+      "extractionOffset": 1033484
+    },
+    {
+      "surah": 76,
+      "text": "«Ynsan» süresi Mekgede inen sürelerden bolup, ol 31 aýatdan ybaratdyr. Süräniň ilkinji aýatynda ynsan barada agzalyp başlanýandygy üçin oňa bu at berlipdir. Bu sürede ynsanyň kemala gelmegi, ondaky bolmaly häsiýetler we ahyretdäki beriljek sylaglar beýan edilýär.",
+      "pdfPage": 579,
+      "column": "right",
+      "extractionOffset": 1036477
+    },
+    {
+      "surah": 77,
+      "text": "«Murselat» süresi Mekgede inen sürelerden bolup, ol 50 aýatdan ybaratdyr. Süre adyny «Iberilenler» manysyndaky ilkinji aýatda agzalýan «Murselat» sözünden alandyr. Sürede älemdäki möhüm işlere, olaryň berjaý edilmegi tabşyrylan perişdelere üns çekilýär. Allanyň gudratyna delil getirilýär. Möminleriň barjak jenneti, ol ýerdäki näzi-nygmatlar we hak dini inkär eden kapyrlaryň barjak dowzahy, ol ýerdäki görjek pajygaly azaplary barada aýdylýar.",
+      "pdfPage": 581,
+      "column": "left",
+      "extractionOffset": 1040015
+    },
+    {
+      "surah": 78,
+      "text": "«Nebe» süresi Mekgede inen sürelerden bolup, ol 40 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Nebe» («Habar») sözünden galypdyr. Habardan maksat ölümden soňky direliş we ahyret durmuşydyr. Bu sürede kapyrlaryň hakykaty inkär edişleri, şeýle-de Allanyň ýaradyjy güýjüniň hakykatdygyna älemdäki ägirt işlerinden mysallar getirilip, Allanyň gudraty subut edilýär. Şeýle-de, ahyret durmuşyna ynananlaryň sogaba gowuşjakdygy, inkär edenleriň bolsa çekjek jezalary barada aýdylýar.",
+      "pdfPage": 583,
+      "column": "left",
+      "extractionOffset": 1043514
+    },
+    {
+      "surah": 79,
+      "text": "«Näzigat» süresi Mekgede inen sürelerden bolup, ol 46 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Näzigat» («Sogrup alýanlar») sözünden alnandyr. Bu sürede ahyret durmuşyny inkär edýänlere duýduryş berlip, haky inkär eden Fyrgawny onuň dünýädäki hökmürowanlygynyň halas etmändigi barada aýdylýar.",
+      "pdfPage": 584,
+      "column": "right",
+      "extractionOffset": 1046512
+    },
+    {
+      "surah": 80,
+      "text": "«Abese» süresi Mekgede inen sürelerden bolup, ol 42 aýatdan ybaratdyr. Adyny ilkinji aýatda agzalýan «Abese» («Ýüz bermedi») işliginden alandyr. Bu sürede Allanyň dininiň ähli ynsanlara deňdigi, Allanyň beýik gudraty we hikmeti barada aýdylýar.",
+      "pdfPage": 586,
+      "column": "left",
+      "extractionOffset": 1049542
+    },
+    {
+      "surah": 81,
+      "text": "«Tekwir» süresi Mekgede inen sürelerden bolup, ol 29 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Düýrlenen, saralan, dolanan» manysyndaky bir işlikden alandyr. Sürede ynsanlaryň ölümden soň direlip, dünýäde eden işleriniň hasabyny berjekdikleri habar berilýär, şeýle-de Jebraýyl perişdäniň mertebesi barada aýdylýar.",
+      "pdfPage": 587,
+      "column": "left",
+      "extractionOffset": 1051843
+    },
+    {
+      "surah": 82,
+      "text": "«Infitar» süresi Mekgede inen sürelerden bolup, ol 19 aýatdan ybaratdyr. Süräniň ady birinji aýatda agzalýan «Asmanlaryň ýarylyp bölünmegi» manysyndaky işlikden alnandyr. Bu sürede ahyretde dünýädäki edilen işleriň haklarynyň alynjakdygy habar berilýär.",
+      "pdfPage": 588,
+      "column": "right",
+      "extractionOffset": 1053822
+    },
+    {
+      "surah": 83,
+      "text": "«Mutaffifin» süresi Mekgede inen sürelerden bolup, ol 36 aýatdan ybaratdyr. Adyny ilkinji aýatdan alandyr. Bu sürede işlerini dogry-dürs berjaý etmeýänleriň, terezide kem çekýänleriň geljekki erbet ykballary, dogruçyl ynsanlaryň bolsa ähmiýetleri we olara beriljek sylaglar barada aýdylýar.",
+      "pdfPage": 589,
+      "column": "left",
+      "extractionOffset": 1055425
+    },
+    {
+      "surah": 84,
+      "text": "«Inşikak» süresi Mekgede inen sürelerden bolup, ol 25 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Asman ýarylanda» manysyndaky bir işlikden alnandyr. Sürede Allanyň gudraty ýatladylyp, ynsanlara duýduryş bermek, älem-jahany ýokdan bar eden güýjüň adamlary täzeden direldip, magşar meýdanyna jemlemeginiň hem aňsat boljakdygy beýan edilýär.",
+      "pdfPage": 590,
+      "column": "right",
+      "extractionOffset": 1058308
+    },
+    {
+      "surah": 85,
+      "text": "«Buruç» süresi Mekgede inen sürelerden bolup, ol 22 aýatdan ybaratdyr. Ilkinji aýatynda Allatagala burçlar (Ýyldyzlar topary) we ulgamlar bilen doly asmana üns çekýär. «Buruç» sözi «Ýyldyzlar topary» diýmekdir. Bu sürede kapyrlaryň ezýetlerine we zulumlaryna garşy möminleriň sabyr-takatly we ruhubelent bolmaklary ündelýär. Öňki döwürlerdäki Allanyň ilçilerine garşy çykanlaryň-da derbi-dagyn edilişi ýaly, Kurana garşy çykanlaryň hem zyýana uçrajakdyklary barada aýdylýar.",
+      "pdfPage": 591,
+      "column": "left",
+      "extractionOffset": 1060025
+    },
+    {
+      "surah": 86,
+      "text": "«Taryk» süresi Mekgede inen sürelerden bolup, ol 17 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Gije ýyldyzy» manysyndaky «Taryk» sözünden alnandyr. Sürede ölümden soňky direliş barada aýdylýar.",
+      "pdfPage": 592,
+      "column": "right",
+      "extractionOffset": 1062475
+    },
+    {
+      "surah": 87,
+      "text": "«Aglä» süresı Mekgede inen sürelerden bolup, ol 19 aýatdan ybaratdyr. Süre özüniň adyny ilkinji aýatda agzalýan «Has beýik» manysyndaky «Aglä» sözünden alypdyr. Bu sürede Allanyň gudraty we birligi, Muhammet aleýhissalama gelen wahyý we käbir öwüt-ündewler orun alýar.",
+      "pdfPage": 593,
+      "column": "left",
+      "extractionOffset": 1063736
+    },
+    {
+      "surah": 88,
+      "text": "«Gaşyýe» süresi Mekgede inen sürelerden bolup, ol 26 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalýan sözden alandyr. «Gaşiýe» sözüniň manysy «Gaplap alan» diýmekdir. Ol haýbaty bilen ähli ynsanlary gorka gaplap alýandygyny aňladýan kyýamatyň bir adydyr. Sürede kyýamatda kapyrlaryň duçar boljak kynçylyklary, möminleriň ýetjek bagtyýarlygy, Allanyň älemdäki gudraty we hikmeti barada aýdylýar.",
+      "pdfPage": 593,
+      "column": "left",
+      "extractionOffset": 1065168
+    },
+    {
+      "surah": 89,
+      "text": "«Fejr» süresi Mekgede inen sürelerden bolup, ol 30 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalýan «Daň» manysyny aňladýan «Fejr» sözünden alandyr. Bu sürede Allatagalanyň ilçilerini ýalançy hasaplan käbir kowumlaryň ýowuz wakalary, Allanyň gullaryny synag etmekdäki hikmeti, ahyretde möminleriň we kapyrlaryň gabat geljek ýagdaýlary beýan edilýär.",
+      "pdfPage": 594,
+      "column": "right",
+      "extractionOffset": 1066980
+    },
+    {
+      "surah": 90,
+      "text": "«Beled» süresi Mekgede inen sürelerden bolup, ol 20 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Beled» («Şäher») sözünden alnandyr. Ol şäher bolsa Mekge şäheridir. Sürede Allanyň ynsanlara beren nygmatlary we gudraty ýatladylyp, ölümden soňky direliş barada gürrüň edilýär.",
+      "pdfPage": 595,
+      "column": "left",
+      "extractionOffset": 1069357
+    },
+    {
+      "surah": 91,
+      "text": "«Şems» süresi Mekgede inen sürelerden bolup, ol 15 aýatdan ybaratdyr. Adyny ilkinji aýatda agzalýan «Gün» sözünden alandyr. Bu sürede ynsanyň haýra we şere ukyply ýaradylandygy aýdylyp, ynsanlaryň ygtyýarlaryny haýra ulanmagy ündelýär.",
+      "pdfPage": 596,
+      "column": "right",
+      "extractionOffset": 1070982
+    },
+    {
+      "surah": 92,
+      "text": "«Leýl» süresi Mekgede inen sürelerden bolup, ol 21 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Gije» manysyndaky «Leýl» sözünden alnandyr. Bu sürede ynsanyň zähmet çekmegi, gaýrat-tagalla etmegi, manyly ömür geçirmegi üçin etmeli işleri, ýagşylaryň we ýamanlaryň ahyretdäki netijeleri barada aýdylýar.",
+      "pdfPage": 597,
+      "column": "left",
+      "extractionOffset": 1072314
+    },
+    {
+      "surah": 93,
+      "text": "«Zuha» süresi Mekgede inen sürelerden bolup, ol 11 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan we guşluk wagtyny aňladýan «Zuha» sözünden alnandyr. Bu süre pygamberimiz Muhammet aleýhissalama Allanyň beren nygmatlary we şükür etmek baradadyr.",
+      "pdfPage": 597,
+      "column": "right",
+      "extractionOffset": 1073896
+    },
+    {
+      "surah": 94,
+      "text": "«Inşirah» süresi Mekgede inen sürelerden bolup, ol 8 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan we ýarylmak manysyny aňladýan «Inşirah» sözünden alnandyr. Bu sürede Allatagalanyň pygamberimiz Muhammet aleýhissalamyň gursagyny ýaryp, gaty jopgapkärçilikli iş bolan pygamberligiň we wahynyň agyrlygynyň Allanyň ýardamy bilen ýeňledilendigi barada aýdylýar.",
+      "pdfPage": 598,
+      "column": "right",
+      "extractionOffset": 1075117
+    },
+    {
+      "surah": 95,
+      "text": "«Tin» süresi Mekgede inen sürelerden bolup, ol 8 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan we injir manysyny aňladýan «Tin» sözünden alnandyr. Bu sürede ynsanyň ähli zatdan mertebeli ýaradylandygy, ahyretde hem eden işleri üçin Allanyň öňünde hasap berjekdigi barada aýdylýar.",
+      "pdfPage": 598,
+      "column": "right",
+      "extractionOffset": 1076030
+    },
+    {
+      "surah": 96,
+      "text": "«Alak» süresi Mekgede inen sürelerden bolup, ol 19 aýatdan ybaratdyr. Bu süräniň ilkinji bäş aýaty Kurany Kerimiň ilkinji inen aýatlarydyr. Süräniň ady hem ikinji aýatda agzalýan we «Gan lagtasy» manysyndaky «Alak» sözünden alnandyr. Bu sürede pygamberimiz Muhammet aleýhissalama wahynyň gelip başlamagy, okamagyň, ýazmagyň we ylmyň ähmiýeti barada aýdylýar.",
+      "pdfPage": 599,
+      "column": "left",
+      "extractionOffset": 1076977
+    },
+    {
+      "surah": 97,
+      "text": "«Gadyr» süresi Mekgede inen sürelerden bolup, ol 5 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan we wezipe, hormat, gadyr, beýiklik manylaryny aňladýan «Gadyr» sözünden alnandyr. Bu sürede Kurany Kerimiň Gadyr gijesinde inderilip başlanandygy, ol gijäniň sogaby, ol gije älem-jahana injek ylahy aman-esenlik barada aýdylýar.",
+      "pdfPage": 600,
+      "column": "left",
+      "extractionOffset": 1078521
+    },
+    {
+      "surah": 98,
+      "text": "«Beýýine» süresi Medinede inen sürelerden bolup, ol 8 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Anyk we äşgär delil» manysyny aňladýan «Beýýine» sözünden alnandyr. Bu sürede ähli-kitabyň pygambere garşy eden etmişleri, Allany ykrar edip, oňa çyn ýürek bilen ybadat etmegiň zerurdygy, möminleriň we kapyrlaryň ahyretdäki ýagdaýlary beýan edilýär.",
+      "pdfPage": 600,
+      "column": "right",
+      "extractionOffset": 1079288
+    },
+    {
+      "surah": 99,
+      "text": "«Zilzäl» süresi Medinede inen sürelerden bolup, ol 8 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalan we «Ýertitreme» manysyny aňladýan «Zilzäl» sözünden alandyr. Bu sürede kyýamatyň öňýanynda boljak güýçli ýertitremesi, soň hem ähli ölüleriň mazarlaryndan çykyp berjek hasaby barada aýdylýar.",
+      "pdfPage": 601,
+      "column": "left",
+      "extractionOffset": 1080778
+    },
+    {
+      "surah": 100,
+      "text": "«Adiýät» süresi Mekgede inen sürelerden bolup, ol 11 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan we «Ýüwrük atlar» manysyny aňladýan «Adiýät» sözünden alnandyr. Bu sürede adamzadyň bigadyrlygy, kyýamat gününde ähli gizlin zatlaryň äşgär ediljekdigi beýan edilýär.",
+      "pdfPage": 601,
+      "column": "left",
+      "extractionOffset": 1081685
+    },
+    {
+      "surah": 101,
+      "text": "«Karyga» süresi Mekgede inen sürelerden bolup, ol 11 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Elhenç ses» sözünden alnandyr. Ol kyýamat diýmekdir. Bu sürede kyýamat gopanda bolup geçjek hadysalar beýan edilýär.",
+      "pdfPage": 602,
+      "column": "left",
+      "extractionOffset": 1082676
+    },
+    {
+      "surah": 102,
+      "text": "«Tekäsur» süresi Mekgede inen sürelerden bolup, ol 8 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Köplük bilen buýsanmak» sözünden alnandyr. Bu sürede islendik meselede men-menlik edip, bir zadyň köplügi bilen buýsanmagyň ynsany aldaýandygy we ynsanlaryň başyna geljek hadysalar barada aýdylýar.",
+      "pdfPage": 602,
+      "column": "right",
+      "extractionOffset": 1083563
+    },
+    {
+      "surah": 103,
+      "text": "«Asr» süresi Mekgede inen sürelerden bolup, ol 3 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan ikindi, asyr, döwür, wagt we zamana ýaly manylary aňladýan «Asr» sözünden alnandyr. Bu gysga we uz manyly sürede yslamyň manysy jemlenýär. Sürede Allatagala asra (wagta) kasam bilen başlaýar we ahyretde halas bolmak isleýänleriň iman getirip, ýagşy işleri etmelidigi, biri-birlerine hakykaty aýdyp, sabyrly bolmagy ündemelidigi aýdylýar.",
+      "pdfPage": 603,
+      "column": "left",
+      "extractionOffset": 1084660
+    },
+    {
+      "surah": 104,
+      "text": "«Hümeze» süresi Mekgede inen sürelerden bolup, ol 9 aýatdan ybaratdyr. Süräniň ady ilkinji sürede agzalýan «Gybat edýän, ýaňsylaýan» manysynda bolan «Hümeze» sözünden alnandyr. Bu sürede ynsanlary ýazgarmagyň, aýyplamagyň erbetdigi, beýle iş edýänler üçin taýýarlanan dowzah odunyň aýylgançdygy beýan edilýär.",
+      "pdfPage": 603,
+      "column": "left",
+      "extractionOffset": 1085388
+    },
+    {
+      "surah": 105,
+      "text": "«Fil» süresi Mekgede inen sürelerden bolup, ol 5 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan pil sözünden alnandyr. Bu sürede Allanyň dinine garşy çykanlaryň ahyrky netijeleriniň örän ýowuz boljakdygy we piller bilen Käbäni ýykmaga gelenleriň başyna gelen wakalar arkaly beýan edilýär.",
+      "pdfPage": 603,
+      "column": "left",
+      "extractionOffset": 1086326
+    },
+    {
+      "surah": 106,
+      "text": "«Kuraýş» süresi Mekgede inen sürelerden bolup, ol 4 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda kuraýş taýpasynyň ady agzalýandygy üçin bu sözden alnandyr. Bu sürede kuraýşlylaryň Käbä eýe çykyp, ony gorandyklary üçin berlen zatlar barada gürrüň gozgalýar.",
+      "pdfPage": 604,
+      "column": "left",
+      "extractionOffset": 1087064
+    },
+    {
+      "surah": 107,
+      "text": "«Mägun» süresi Mekgede inen sürelerden bolup, ol 7 aýatdan ybaratdyr. Süräniň ady «Ýardam bermek» manysynda bolan we iň soňky aýatda agzalýan «Mägun» sözünden alnandyr. Bu sürede iman getirmegiň, jemgyýetde daýanyşmagyň we ýardamlaşmagyň ähmiýeti we zerurlygy barada aýdylýar.",
+      "pdfPage": 604,
+      "column": "right",
+      "extractionOffset": 1087672
+    },
+    {
+      "surah": 108,
+      "text": "«Köwser» süresi Mekgede inen sürelerden bolup, ol 3 aýatdan ybaratdyr. Pygamberligiň ilkibaşlarynda inderilen bu süre özüniň adyny ilkinji aýatda agzalýan «Köwser» sözünden alandyr. «Köwser» jennetdäki bir howzuň adydyr. Bu süre Kurany Kerimiň iň gysga süresidir. Bu sürede Allanyň Muhammet aleýhissalama bagyş etjek Köwser howzy, şeýle-de pygamberimiziň oglan çagalarynyň durmaýandygy üçin, oňa «soňy kesik» diýendikleri we olara berlen jogap barada aýdylýar.",
+      "pdfPage": 604,
+      "column": "right",
+      "extractionOffset": 1088362
+    },
+    {
+      "surah": 109,
+      "text": "«Käfirun» sürese Mekgede inen sürelerden bolup, ol 6 aýatdan ybaratdyr. Süre adyny ilkinji aýatda agzalýan we kapyrlara ýüzlenip aýdylan «Käfirun» sözünden alandyr. Bu sürede dini kabul etdirmek üçin kapyrlary mejbury ýagdaýa salmaly däldigi, olary öz günlerine goýmalydygy aýdylýar.",
+      "pdfPage": 605,
+      "column": "left",
+      "extractionOffset": 1089115
+    },
+    {
+      "surah": 110,
+      "text": "«Nasr» süresi Mekgede inen sürelerden bolup, ol 3 aýatdan ybaratdyr. Bu süre Mekgäniň musulmanlaryň ygtyýaryna geçen wagty inipdir. Süräniň ady kömek manysynda bolan ilkinji aýatda agzalýan «Nasr» sözünden alnandyr. Bu sürede Allanyň kömeginiň gelendigi, pygamberligiň öz maksadyna ýetendigi we onuň indi wagtynyň azalandygy habar berilýär.",
+      "pdfPage": 605,
+      "column": "left",
+      "extractionOffset": 1089832
+    },
+    {
+      "surah": 111,
+      "text": "«Mesed» süresi Mekgede inen sürelerden bolup, ol 5 aýatdan ybaratdyr. Adyny «Işilen süýüm» manysynda bolan we iň soňky aýatda agzalýan «Mesed» sözünden alandyr. Bu sürede hak dine duşmançylyk edendigi sebäpli, barjak ýeri dowzah bolan Ebu Lehebiň we onuň aýalynyň mysalynda din duşmanlarynyň başyna geljek netijeler barada habar berilýär.",
+      "pdfPage": 605,
+      "column": "left",
+      "extractionOffset": 1090518
+    },
+    {
+      "surah": 112,
+      "text": "«Yhlas» süresi Mekgede inen sürelerden bolup, ol 4 aýatdan ybaratdyr. Pygamberligiň ilkinji döwürlerinde wahyý edilen bu süre Kuranyň gysgaça manysyny we ýeke-täk Allanyň birlik ynanjyny äşgär edýändigi üçin «Yhlas» süresi diýip at alypdyr. Bu sürede Alla şärik goşmagyň ähli görnüşleri gadagan we inkär edilýär.",
+      "pdfPage": 606,
+      "column": "left",
+      "extractionOffset": 1091219
+    },
+    {
+      "surah": 113,
+      "text": "«Felak» süresi Mekgede inen sürelerden bolup, ol 5 aýatdan ybaratdyr. Süräniň ady ilkinji aýatda agzalýan «Felak» («Säher») sözünden alnandyr. Bu sürede ynsanlaryň özlerine gelip biljek dürli erbetliklerden Alla nähili sygynmalydygy, nädip Onuň gorag-penasyna girmelidigi beýan edilýär.",
+      "pdfPage": 606,
+      "column": "right",
+      "extractionOffset": 1091844
+    },
+    {
+      "surah": 114,
+      "text": "«Näs» süresi Mekgede inen sürelerden bolup, ol 6 aýatdan ybaratdyr. Süräniň ady her aýatyň soňunda gaýtalanýan we ynsanlar diýmek bolan «Näs» sözünden alnandyr. Bu süre «Felak» süresiniň dowamy hökmünde bolup, onda Beýik Alladan gorag-pena islenilýär. Bu soňky iki sürä «Muawwizeteýn» («Pena islenilýän iki süre») diýilýär.",
+      "pdfPage": 606,
+      "column": "right",
+      "extractionOffset": 1092480
+    }
+  ]
+}

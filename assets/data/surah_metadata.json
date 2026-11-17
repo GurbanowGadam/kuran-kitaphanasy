@@ -1,0 +1,587 @@
+{
+  "source": {
+    "url": "https://kuran.diyanet.gov.tr/api/v2/sure",
+    "retrievedAt": "2026-11-11T21:26:28.690813+00:00",
+    "decodedPath": "assets/sources/diyanet-reading/surahs-decoded.json",
+    "decodedSha256": "679d4626a3b499c7585afa4be1622ad2a88a2717190178c1700b22eaea62ee86",
+    "responsePath": "assets/sources/diyanet-reading/surahs-response.json",
+    "responseSha256": "a522ae982ac3704e993f600eecb4dbfaf4927679da0b8b783f10b633dfde8d82",
+    "field": "data[].id, ayet_sayisi, inis_yeri; all 114 surahs",
+    "placeLabels": {
+      "mekki": "Mekge",
+      "medeni": "Medine"
+    }
+  },
+  "items": [
+    {
+      "surah": 1,
+      "verseCount": 7,
+      "place": "Mekge"
+    },
+    {
+      "surah": 2,
+      "verseCount": 286,
+      "place": "Medine"
+    },
+    {
+      "surah": 3,
+      "verseCount": 200,
+      "place": "Medine"
+    },
+    {
+      "surah": 4,
+      "verseCount": 176,
+      "place": "Medine"
+    },
+    {
+      "surah": 5,
+      "verseCount": 120,
+      "place": "Medine"
+    },
+    {
+      "surah": 6,
+      "verseCount": 165,
+      "place": "Mekge"
+    },
+    {
+      "surah": 7,
+      "verseCount": 206,
+      "place": "Mekge"
+    },
+    {
+      "surah": 8,
+      "verseCount": 75,
+      "place": "Medine"
+    },
+    {
+      "surah": 9,
+      "verseCount": 129,
+      "place": "Medine"
+    },
+    {
+      "surah": 10,
+      "verseCount": 109,
+      "place": "Mekge"
+    },
+    {
+      "surah": 11,
+      "verseCount": 123,
+      "place": "Mekge"
+    },
+    {
+      "surah": 12,
+      "verseCount": 111,
+      "place": "Mekge"
+    },
+    {
+      "surah": 13,
+      "verseCount": 43,
+      "place": "Mekge"
+    },
+    {
+      "surah": 14,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 15,
+      "verseCount": 99,
+      "place": "Mekge"
+    },
+    {
+      "surah": 16,
+      "verseCount": 128,
+      "place": "Mekge"
+    },
+    {
+      "surah": 17,
+      "verseCount": 111,
+      "place": "Mekge"
+    },
+    {
+      "surah": 18,
+      "verseCount": 110,
+      "place": "Mekge"
+    },
+    {
+      "surah": 19,
+      "verseCount": 98,
+      "place": "Mekge"
+    },
+    {
+      "surah": 20,
+      "verseCount": 135,
+      "place": "Mekge"
+    },
+    {
+      "surah": 21,
+      "verseCount": 112,
+      "place": "Mekge"
+    },
+    {
+      "surah": 22,
+      "verseCount": 78,
+      "place": "Mekge"
+    },
+    {
+      "surah": 23,
+      "verseCount": 118,
+      "place": "Mekge"
+    },
+    {
+      "surah": 24,
+      "verseCount": 64,
+      "place": "Medine"
+    },
+    {
+      "surah": 25,
+      "verseCount": 77,
+      "place": "Mekge"
+    },
+    {
+      "surah": 26,
+      "verseCount": 227,
+      "place": "Mekge"
+    },
+    {
+      "surah": 27,
+      "verseCount": 93,
+      "place": "Mekge"
+    },
+    {
+      "surah": 28,
+      "verseCount": 88,
+      "place": "Mekge"
+    },
+    {
+      "surah": 29,
+      "verseCount": 69,
+      "place": "Mekge"
+    },
+    {
+      "surah": 30,
+      "verseCount": 60,
+      "place": "Mekge"
+    },
+    {
+      "surah": 31,
+      "verseCount": 34,
+      "place": "Mekge"
+    },
+    {
+      "surah": 32,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 33,
+      "verseCount": 73,
+      "place": "Medine"
+    },
+    {
+      "surah": 34,
+      "verseCount": 54,
+      "place": "Mekge"
+    },
+    {
+      "surah": 35,
+      "verseCount": 45,
+      "place": "Mekge"
+    },
+    {
+      "surah": 36,
+      "verseCount": 83,
+      "place": "Mekge"
+    },
+    {
+      "surah": 37,
+      "verseCount": 182,
+      "place": "Mekge"
+    },
+    {
+      "surah": 38,
+      "verseCount": 88,
+      "place": "Mekge"
+    },
+    {
+      "surah": 39,
+      "verseCount": 75,
+      "place": "Mekge"
+    },
+    {
+      "surah": 40,
+      "verseCount": 85,
+      "place": "Mekge"
+    },
+    {
+      "surah": 41,
+      "verseCount": 54,
+      "place": "Mekge"
+    },
+    {
+      "surah": 42,
+      "verseCount": 53,
+      "place": "Mekge"
+    },
+    {
+      "surah": 43,
+      "verseCount": 89,
+      "place": "Mekge"
+    },
+    {
+      "surah": 44,
+      "verseCount": 59,
+      "place": "Mekge"
+    },
+    {
+      "surah": 45,
+      "verseCount": 37,
+      "place": "Mekge"
+    },
+    {
+      "surah": 46,
+      "verseCount": 35,
+      "place": "Mekge"
+    },
+    {
+      "surah": 47,
+      "verseCount": 38,
+      "place": "Medine"
+    },
+    {
+      "surah": 48,
+      "verseCount": 29,
+      "place": "Medine"
+    },
+    {
+      "surah": 49,
+      "verseCount": 18,
+      "place": "Medine"
+    },
+    {
+      "surah": 50,
+      "verseCount": 45,
+      "place": "Mekge"
+    },
+    {
+      "surah": 51,
+      "verseCount": 60,
+      "place": "Mekge"
+    },
+    {
+      "surah": 52,
+      "verseCount": 49,
+      "place": "Mekge"
+    },
+    {
+      "surah": 53,
+      "verseCount": 62,
+      "place": "Mekge"
+    },
+    {
+      "surah": 54,
+      "verseCount": 55,
+      "place": "Mekge"
+    },
+    {
+      "surah": 55,
+      "verseCount": 78,
+      "place": "Mekge"
+    },
+    {
+      "surah": 56,
+      "verseCount": 96,
+      "place": "Mekge"
+    },
+    {
+      "surah": 57,
+      "verseCount": 29,
+      "place": "Medine"
+    },
+    {
+      "surah": 58,
+      "verseCount": 22,
+      "place": "Medine"
+    },
+    {
+      "surah": 59,
+      "verseCount": 24,
+      "place": "Medine"
+    },
+    {
+      "surah": 60,
+      "verseCount": 13,
+      "place": "Medine"
+    },
+    {
+      "surah": 61,
+      "verseCount": 14,
+      "place": "Medine"
+    },
+    {
+      "surah": 62,
+      "verseCount": 11,
+      "place": "Medine"
+    },
+    {
+      "surah": 63,
+      "verseCount": 11,
+      "place": "Medine"
+    },
+    {
+      "surah": 64,
+      "verseCount": 18,
+      "place": "Medine"
+    },
+    {
+      "surah": 65,
+      "verseCount": 12,
+      "place": "Medine"
+    },
+    {
+      "surah": 66,
+      "verseCount": 12,
+      "place": "Medine"
+    },
+    {
+      "surah": 67,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 68,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 69,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 70,
+      "verseCount": 44,
+      "place": "Mekge"
+    },
+    {
+      "surah": 71,
+      "verseCount": 28,
+      "place": "Mekge"
+    },
+    {
+      "surah": 72,
+      "verseCount": 28,
+      "place": "Mekge"
+    },
+    {
+      "surah": 73,
+      "verseCount": 20,
+      "place": "Mekge"
+    },
+    {
+      "surah": 74,
+      "verseCount": 56,
+      "place": "Mekge"
+    },
+    {
+      "surah": 75,
+      "verseCount": 40,
+      "place": "Mekge"
+    },
+    {
+      "surah": 76,
+      "verseCount": 31,
+      "place": "Medine"
+    },
+    {
+      "surah": 77,
+      "verseCount": 50,
+      "place": "Mekge"
+    },
+    {
+      "surah": 78,
+      "verseCount": 40,
+      "place": "Mekge"
+    },
+    {
+      "surah": 79,
+      "verseCount": 46,
+      "place": "Mekge"
+    },
+    {
+      "surah": 80,
+      "verseCount": 42,
+      "place": "Mekge"
+    },
+    {
+      "surah": 81,
+      "verseCount": 29,
+      "place": "Mekge"
+    },
+    {
+      "surah": 82,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 83,
+      "verseCount": 36,
+      "place": "Mekge"
+    },
+    {
+      "surah": 84,
+      "verseCount": 25,
+      "place": "Mekge"
+    },
+    {
+      "surah": 85,
+      "verseCount": 22,
+      "place": "Mekge"
+    },
+    {
+      "surah": 86,
+      "verseCount": 17,
+      "place": "Mekge"
+    },
+    {
+      "surah": 87,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 88,
+      "verseCount": 26,
+      "place": "Mekge"
+    },
+    {
+      "surah": 89,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 90,
+      "verseCount": 20,
+      "place": "Mekge"
+    },
+    {
+      "surah": 91,
+      "verseCount": 15,
+      "place": "Mekge"
+    },
+    {
+      "surah": 92,
+      "verseCount": 21,
+      "place": "Mekge"
+    },
+    {
+      "surah": 93,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 94,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 95,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 96,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 97,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 98,
+      "verseCount": 8,
+      "place": "Medine"
+    },
+    {
+      "surah": 99,
+      "verseCount": 8,
+      "place": "Medine"
+    },
+    {
+      "surah": 100,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 101,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 102,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 103,
+      "verseCount": 3,
+      "place": "Mekge"
+    },
+    {
+      "surah": 104,
+      "verseCount": 9,
+      "place": "Mekge"
+    },
+    {
+      "surah": 105,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 106,
+      "verseCount": 4,
+      "place": "Mekge"
+    },
+    {
+      "surah": 107,
+      "verseCount": 7,
+      "place": "Mekge"
+    },
+    {
+      "surah": 108,
+      "verseCount": 3,
+      "place": "Mekge"
+    },
+    {
+      "surah": 109,
+      "verseCount": 6,
+      "place": "Mekge"
+    },
+    {
+      "surah": 110,
+      "verseCount": 3,
+      "place": "Medine"
+    },
+    {
+      "surah": 111,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 112,
+      "verseCount": 4,
+      "place": "Mekge"
+    },
+    {
+      "surah": 113,
+      "verseCount": 5,
+      "place": "Medine"
+    },
+    {
+      "surah": 114,
+      "verseCount": 6,
+      "place": "Medine"
+    }
+  ]
+}

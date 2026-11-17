@@ -1,0 +1,3306 @@
+{
+  "surah_names_arabic": [
+    {
+      "surah": 1,
+      "name": "El-Fätiha"
+    },
+    {
+      "surah": 2,
+      "name": "El-Bakara"
+    },
+    {
+      "surah": 3,
+      "name": "Älu Ymran"
+    },
+    {
+      "surah": 4,
+      "name": "En-Nisä"
+    },
+    {
+      "surah": 5,
+      "name": "El-Mäide"
+    },
+    {
+      "surah": 6,
+      "name": "El-Engäm"
+    },
+    {
+      "surah": 7,
+      "name": "El-Agräf"
+    },
+    {
+      "surah": 8,
+      "name": "El-Enfäl"
+    },
+    {
+      "surah": 9,
+      "name": "Et-Tewbe"
+    },
+    {
+      "surah": 10,
+      "name": "Ýunus"
+    },
+    {
+      "surah": 11,
+      "name": "Hud"
+    },
+    {
+      "surah": 12,
+      "name": "Ýusuf"
+    },
+    {
+      "surah": 13,
+      "name": "Er-Ragd"
+    },
+    {
+      "surah": 14,
+      "name": "Ybrahym"
+    },
+    {
+      "surah": 15,
+      "name": "El-Hijr"
+    },
+    {
+      "surah": 16,
+      "name": "En-Nahl"
+    },
+    {
+      "surah": 17,
+      "name": "El-Isrä"
+    },
+    {
+      "surah": 18,
+      "name": "El-Kehf"
+    },
+    {
+      "surah": 19,
+      "name": "Merýem"
+    },
+    {
+      "surah": 20,
+      "name": "Taha"
+    },
+    {
+      "surah": 21,
+      "name": "El-Enbiýä"
+    },
+    {
+      "surah": 22,
+      "name": "El-Hajj"
+    },
+    {
+      "surah": 23,
+      "name": "El-Mu’minun"
+    },
+    {
+      "surah": 24,
+      "name": "En-Nur"
+    },
+    {
+      "surah": 25,
+      "name": "El-Furkan"
+    },
+    {
+      "surah": 26,
+      "name": "Eş-Şu’arä"
+    },
+    {
+      "surah": 27,
+      "name": "En-Neml"
+    },
+    {
+      "surah": 28,
+      "name": "El-Kasas"
+    },
+    {
+      "surah": 29,
+      "name": "El-Ankebut"
+    },
+    {
+      "surah": 30,
+      "name": "Er-Rum"
+    },
+    {
+      "surah": 31,
+      "name": "Lukman"
+    },
+    {
+      "surah": 32,
+      "name": "Es-Sejde"
+    },
+    {
+      "surah": 33,
+      "name": "El-Ahzäb"
+    },
+    {
+      "surah": 34,
+      "name": "Sebe"
+    },
+    {
+      "surah": 35,
+      "name": "Fätyr"
+    },
+    {
+      "surah": 36,
+      "name": "Ýäsin"
+    },
+    {
+      "surah": 37,
+      "name": "Es-Säffät"
+    },
+    {
+      "surah": 38,
+      "name": "Sad"
+    },
+    {
+      "surah": 39,
+      "name": "Ez-Zümer"
+    },
+    {
+      "surah": 40,
+      "name": "Gäfir"
+    },
+    {
+      "surah": 41,
+      "name": "Fussilet"
+    },
+    {
+      "surah": 42,
+      "name": "Eş-Şura"
+    },
+    {
+      "surah": 43,
+      "name": "Ez-Zuhruf"
+    },
+    {
+      "surah": 44,
+      "name": "Ed-Duhän"
+    },
+    {
+      "surah": 45,
+      "name": "El-Jäsiýe"
+    },
+    {
+      "surah": 46,
+      "name": "El-Ahkaf"
+    },
+    {
+      "surah": 47,
+      "name": "Muhammed"
+    },
+    {
+      "surah": 48,
+      "name": "El-Feth"
+    },
+    {
+      "surah": 49,
+      "name": "El-Hujurät"
+    },
+    {
+      "surah": 50,
+      "name": "Kaf"
+    },
+    {
+      "surah": 51,
+      "name": "Ez-Zäriýät"
+    },
+    {
+      "surah": 52,
+      "name": "Et-Tur"
+    },
+    {
+      "surah": 53,
+      "name": "En-Nejm"
+    },
+    {
+      "surah": 54,
+      "name": "El-Kamar"
+    },
+    {
+      "surah": 55,
+      "name": "Er-Rahmän"
+    },
+    {
+      "surah": 56,
+      "name": "El-Wäky’a"
+    },
+    {
+      "surah": 57,
+      "name": "El-Hadid"
+    },
+    {
+      "surah": 58,
+      "name": "El-Mujädele"
+    },
+    {
+      "surah": 59,
+      "name": "El-Haşr"
+    },
+    {
+      "surah": 60,
+      "name": "El-Mumtehine"
+    },
+    {
+      "surah": 61,
+      "name": "Es-Saff"
+    },
+    {
+      "surah": 62,
+      "name": "El-Jumu’a"
+    },
+    {
+      "surah": 63,
+      "name": "El-Munäfikun"
+    },
+    {
+      "surah": 64,
+      "name": "Et-Tegabun"
+    },
+    {
+      "surah": 65,
+      "name": "Et-Taläk"
+    },
+    {
+      "surah": 66,
+      "name": "Et-Tahrim"
+    },
+    {
+      "surah": 67,
+      "name": "El-Mulk"
+    },
+    {
+      "surah": 68,
+      "name": "El-Kalem"
+    },
+    {
+      "surah": 69,
+      "name": "El-Häkka"
+    },
+    {
+      "surah": 70,
+      "name": "El-Me’ärij"
+    },
+    {
+      "surah": 71,
+      "name": "Nuh"
+    },
+    {
+      "surah": 72,
+      "name": "El-Jinn"
+    },
+    {
+      "surah": 73,
+      "name": "El-Muzzemmil"
+    },
+    {
+      "surah": 74,
+      "name": "El-Muddessir"
+    },
+    {
+      "surah": 75,
+      "name": "El-Kyýäme"
+    },
+    {
+      "surah": 76,
+      "name": "El-Insän"
+    },
+    {
+      "surah": 77,
+      "name": "El-Murselät"
+    },
+    {
+      "surah": 78,
+      "name": "En-Nebe"
+    },
+    {
+      "surah": 79,
+      "name": "En-Näzi’ät"
+    },
+    {
+      "surah": 80,
+      "name": "Abese"
+    },
+    {
+      "surah": 81,
+      "name": "Et-Tekwir"
+    },
+    {
+      "surah": 82,
+      "name": "El-Infitär"
+    },
+    {
+      "surah": 83,
+      "name": "El-Mutaffifin"
+    },
+    {
+      "surah": 84,
+      "name": "El-Inşikak"
+    },
+    {
+      "surah": 85,
+      "name": "El-Buruj"
+    },
+    {
+      "surah": 86,
+      "name": "Et-Täryk"
+    },
+    {
+      "surah": 87,
+      "name": "El-A’lä"
+    },
+    {
+      "surah": 88,
+      "name": "El-Gaşiýe"
+    },
+    {
+      "surah": 89,
+      "name": "El-Fejr"
+    },
+    {
+      "surah": 90,
+      "name": "El-Beled"
+    },
+    {
+      "surah": 91,
+      "name": "Eş-Şems"
+    },
+    {
+      "surah": 92,
+      "name": "El-Leýl"
+    },
+    {
+      "surah": 93,
+      "name": "Ed-Duhä"
+    },
+    {
+      "surah": 94,
+      "name": "Eş-Şerh"
+    },
+    {
+      "surah": 95,
+      "name": "Et-Tin"
+    },
+    {
+      "surah": 96,
+      "name": "El-Alak"
+    },
+    {
+      "surah": 97,
+      "name": "El-Kadr"
+    },
+    {
+      "surah": 98,
+      "name": "El-Beýýine"
+    },
+    {
+      "surah": 99,
+      "name": "Ez-Zelzele"
+    },
+    {
+      "surah": 100,
+      "name": "El-Ädiýät"
+    },
+    {
+      "surah": 101,
+      "name": "El-Käri’a"
+    },
+    {
+      "surah": 102,
+      "name": "Et-Tekäsur"
+    },
+    {
+      "surah": 103,
+      "name": "El-Asr"
+    },
+    {
+      "surah": 104,
+      "name": "El-Humeze"
+    },
+    {
+      "surah": 105,
+      "name": "El-Fil"
+    },
+    {
+      "surah": 106,
+      "name": "Kuraýş"
+    },
+    {
+      "surah": 107,
+      "name": "El-Mä’un"
+    },
+    {
+      "surah": 108,
+      "name": "El-Kewser"
+    },
+    {
+      "surah": 109,
+      "name": "El-Käfirun"
+    },
+    {
+      "surah": 110,
+      "name": "En-Nasr"
+    },
+    {
+      "surah": 111,
+      "name": "El-Mesed"
+    },
+    {
+      "surah": 112,
+      "name": "El-Ihläs"
+    },
+    {
+      "surah": 113,
+      "name": "El-Felak"
+    },
+    {
+      "surah": 114,
+      "name": "En-Näs"
+    }
+  ],
+  "surah_names_pdf": [
+    {
+      "surah": 1,
+      "name": "Fatyha",
+      "originalHeading": "1-nji süre: «Fatyha» («Açylyş»)",
+      "pdfPage": 2
+    },
+    {
+      "surah": 2,
+      "name": "Bakara",
+      "originalHeading": "2-nji süre: Bakara» («Sygyr»)",
+      "pdfPage": 3
+    },
+    {
+      "surah": 3,
+      "name": "Äli-Ymran",
+      "originalHeading": "3-nji süre: «Äli-Ymran» («Ymranyň maşgalasy»)",
+      "pdfPage": 51
+    },
+    {
+      "surah": 4,
+      "name": "Nisa",
+      "originalHeading": "4-nji süre: «Nisa» («Aýallar»)",
+      "pdfPage": 78
+    },
+    {
+      "surah": 5,
+      "name": "Mäide",
+      "originalHeading": "5-nji süre: «Mäide» («Supra»)",
+      "pdfPage": 107
+    },
+    {
+      "surah": 6,
+      "name": "Engam",
+      "originalHeading": "6-njy süre: «Engam» («Öýdeçi mallar»)",
+      "pdfPage": 129
+    },
+    {
+      "surah": 7,
+      "name": "Agraf",
+      "originalHeading": "7-nji süre: «Agraf» («Belent diwar»)",
+      "pdfPage": 152
+    },
+    {
+      "surah": 8,
+      "name": "Enfäl",
+      "originalHeading": "8-nji süre: «Enfäl» («Oljalar»)",
+      "pdfPage": 178
+    },
+    {
+      "surah": 9,
+      "name": "Toba",
+      "originalHeading": "9-njy süre: Toba",
+      "pdfPage": 188
+    },
+    {
+      "surah": 10,
+      "name": "Ýunus",
+      "originalHeading": "10-njy süre: Ýunus",
+      "pdfPage": 209
+    },
+    {
+      "surah": 11,
+      "name": "Hud",
+      "originalHeading": "11-nji süre: Hud",
+      "pdfPage": 222
+    },
+    {
+      "surah": 12,
+      "name": "Ýusup",
+      "originalHeading": "12-nji süre: Ýusup",
+      "pdfPage": 236
+    },
+    {
+      "surah": 13,
+      "name": "Ragd",
+      "originalHeading": "13-nji süre: «Ragd» («Gök gümmürdisi»)",
+      "pdfPage": 250
+    },
+    {
+      "surah": 14,
+      "name": "Ybraýym",
+      "originalHeading": "14-nji süre: Ybraýym",
+      "pdfPage": 256
+    },
+    {
+      "surah": 15,
+      "name": "Hyjr",
+      "originalHeading": "15-nji süre: Hyjr",
+      "pdfPage": 263
+    },
+    {
+      "surah": 16,
+      "name": "Nahl",
+      "originalHeading": "16-njy süre: «Nahl» («Bal ary»)",
+      "pdfPage": 268
+    },
+    {
+      "surah": 17,
+      "name": "Isra",
+      "originalHeading": "17-nji süre: «Isra» («Gijeki seýr»)",
+      "pdfPage": 283
+    },
+    {
+      "surah": 18,
+      "name": "Kehf",
+      "originalHeading": "18-nji süre: «Kehf» («Gowak»)",
+      "pdfPage": 294
+    },
+    {
+      "surah": 19,
+      "name": "Merýem",
+      "originalHeading": "19-njy süre: Merýem",
+      "pdfPage": 306
+    },
+    {
+      "surah": 20,
+      "name": "Taha",
+      "originalHeading": "20-nji süre: Taha",
+      "pdfPage": 313
+    },
+    {
+      "surah": 21,
+      "name": "Enbiýa",
+      "originalHeading": "21-nji süre: «Enbiýa» («Pygamberler»)",
+      "pdfPage": 323
+    },
+    {
+      "surah": 22,
+      "name": "Haj",
+      "originalHeading": "22-nji süre: Haj",
+      "pdfPage": 333
+    },
+    {
+      "surah": 23,
+      "name": "Mu’minun",
+      "originalHeading": "23-nji süre: «Mu’minun» («Möminler»)",
+      "pdfPage": 343
+    },
+    {
+      "surah": 24,
+      "name": "Nur",
+      "originalHeading": "24-nji süre: Nur",
+      "pdfPage": 351
+    },
+    {
+      "surah": 25,
+      "name": "Furkan",
+      "originalHeading": "25-nji süre: «Furkan» («Tapawutlandyryjy»)",
+      "pdfPage": 360
+    },
+    {
+      "surah": 26,
+      "name": "Şugara",
+      "originalHeading": "26-njy süre: «Şugara» («Şahyrlar»)",
+      "pdfPage": 368
+    },
+    {
+      "surah": 27,
+      "name": "Neml",
+      "originalHeading": "27-nji süre: «Neml» («Garynja»)",
+      "pdfPage": 378
+    },
+    {
+      "surah": 28,
+      "name": "Kasas",
+      "originalHeading": "28-nji süre: «Kasas» («Kyssalar»)",
+      "pdfPage": 386
+    },
+    {
+      "surah": 29,
+      "name": "Ankebut",
+      "originalHeading": "29-njy süre: «Ankebut» («Möý»)",
+      "pdfPage": 397
+    },
+    {
+      "surah": 30,
+      "name": "Rum",
+      "originalHeading": "30-njy süre: Rum",
+      "pdfPage": 405
+    },
+    {
+      "surah": 31,
+      "name": "Lukman",
+      "originalHeading": "31-nji süre: Lukman",
+      "pdfPage": 412
+    },
+    {
+      "surah": 32,
+      "name": "Sežde",
+      "originalHeading": "32-nji süre: Sežde",
+      "pdfPage": 416
+    },
+    {
+      "surah": 33,
+      "name": "Ahzab",
+      "originalHeading": "33-nji süre: «Ahzab» («Taýpalar»)",
+      "pdfPage": 419
+    },
+    {
+      "surah": 34,
+      "name": "Sebe",
+      "originalHeading": "34-nji süre: Sebe",
+      "pdfPage": 429
+    },
+    {
+      "surah": 35,
+      "name": "Fatyr",
+      "originalHeading": "35-nji süre: «Fatyr» («Dörediji»)",
+      "pdfPage": 435
+    },
+    {
+      "surah": 36,
+      "name": "Ýäsin",
+      "originalHeading": "36-njy süre: Ýäsin",
+      "pdfPage": 441
+    },
+    {
+      "surah": 37,
+      "name": "Saffät",
+      "originalHeading": "37-nji süre: «Saffät» («Hatar-hatar bolup duranlar»)",
+      "pdfPage": 447
+    },
+    {
+      "surah": 38,
+      "name": "Sad",
+      "originalHeading": "38-nji süre: Sad",
+      "pdfPage": 454
+    },
+    {
+      "surah": 39,
+      "name": "Zümer",
+      "originalHeading": "39-njy süre: «Zümer» («Toparlar»)",
+      "pdfPage": 459
+    },
+    {
+      "surah": 40,
+      "name": "Mömin",
+      "originalHeading": "40-njy süre: «Mömin» («Iman getiren»)",
+      "pdfPage": 468
+    },
+    {
+      "surah": 41,
+      "name": "Fussylet",
+      "originalHeading": "41-nji süre: «Fussylet» («Doly beýan edilen»)",
+      "pdfPage": 478
+    },
+    {
+      "surah": 42,
+      "name": "Şura",
+      "originalHeading": "42-nji süre: «Şura» («Geňeş»)",
+      "pdfPage": 484
+    },
+    {
+      "surah": 43,
+      "name": "Zuhruf",
+      "originalHeading": "43-nji süre: «Zuhruf» («Zynatlar»)",
+      "pdfPage": 490
+    },
+    {
+      "surah": 44,
+      "name": "Duhan",
+      "originalHeading": "44-nji süre: «Duhan» («Tüsse»)",
+      "pdfPage": 497
+    },
+    {
+      "surah": 45,
+      "name": "Jäsiýe",
+      "originalHeading": "45-nji süre: «Jäsiýe» («Dyza çöken»)",
+      "pdfPage": 500
+    },
+    {
+      "surah": 46,
+      "name": "Ahkaf",
+      "originalHeading": "46-njy süre: «Ahkaf» («Gum depeleri»)",
+      "pdfPage": 503
+    },
+    {
+      "surah": 47,
+      "name": "Muhammet",
+      "originalHeading": "47-nji süre: Muhammet",
+      "pdfPage": 508
+    },
+    {
+      "surah": 48,
+      "name": "Feth",
+      "originalHeading": "48-nji süre: «Feth» («Ýeňiş»)",
+      "pdfPage": 512
+    },
+    {
+      "surah": 49,
+      "name": "Hujurat",
+      "originalHeading": "49-njy süre: «Hujurat» («Otaglar»)",
+      "pdfPage": 516
+    },
+    {
+      "surah": 50,
+      "name": "Kaf",
+      "originalHeading": "50-nji süre: «Kaf»",
+      "pdfPage": 519
+    },
+    {
+      "surah": 51,
+      "name": "Zäriýät",
+      "originalHeading": "51-nji süre: «Zäriýät» («Ýeller»)",
+      "pdfPage": 521
+    },
+    {
+      "surah": 52,
+      "name": "Tur",
+      "originalHeading": "52-nji: «Tur» süresi",
+      "pdfPage": 524
+    },
+    {
+      "surah": 53,
+      "name": "Nejm",
+      "originalHeading": "53-nji süre: «Nejm» («Ýyldyz»)",
+      "pdfPage": 527
+    },
+    {
+      "surah": 54,
+      "name": "Kamar",
+      "originalHeading": "54-nji süre: «Kamar» («Aý»)",
+      "pdfPage": 529
+    },
+    {
+      "surah": 55,
+      "name": "Rahman",
+      "originalHeading": "55-nji süre: Rahman",
+      "pdfPage": 532
+    },
+    {
+      "surah": 56,
+      "name": "Wakyga",
+      "originalHeading": "56-njy süre: «Wakyga» («Uly hadysa»)",
+      "pdfPage": 535
+    },
+    {
+      "surah": 57,
+      "name": "Hadid",
+      "originalHeading": "57-nji süre: «Hadid» («Demir»)",
+      "pdfPage": 538
+    },
+    {
+      "surah": 58,
+      "name": "Mujadele",
+      "originalHeading": "58-nji süre: «Mujadele» («Jedelleşme»)",
+      "pdfPage": 543
+    },
+    {
+      "surah": 59,
+      "name": "Haşr",
+      "originalHeading": "59-njy süre: «Haşr» («Jemlenme»)",
+      "pdfPage": 546
+    },
+    {
+      "surah": 60,
+      "name": "Mumtehyne",
+      "originalHeading": "60-njy süre: «Mumtehyne» («Synag edilenler»)",
+      "pdfPage": 550
+    },
+    {
+      "surah": 61,
+      "name": "Saf",
+      "originalHeading": "61-nji süre: «Saf» («Hatar»)",
+      "pdfPage": 552
+    },
+    {
+      "surah": 62,
+      "name": "Juma",
+      "originalHeading": "62-nji süre: «Juma» («Anna güni»)",
+      "pdfPage": 554
+    },
+    {
+      "surah": 63,
+      "name": "Munafikun",
+      "originalHeading": "63-nji süre: «Munafikun» («Ikiýüzlüler»)",
+      "pdfPage": 555
+    },
+    {
+      "surah": 64,
+      "name": "Tegabun",
+      "originalHeading": "64-nji süre: «Tegabun» («Aldanma»)",
+      "pdfPage": 557
+    },
+    {
+      "surah": 65,
+      "name": "Talak",
+      "originalHeading": "65-nji süre: Talak",
+      "pdfPage": 559
+    },
+    {
+      "surah": 66,
+      "name": "Tahrym",
+      "originalHeading": "66-njy süre: «Tahrym» («Gadagan etme»)",
+      "pdfPage": 561
+    },
+    {
+      "surah": 67,
+      "name": "Mülk",
+      "originalHeading": "67-nji süre: «Mülk» («Tebärek»)",
+      "pdfPage": 563
+    },
+    {
+      "surah": 68,
+      "name": "Galam",
+      "originalHeading": "68-nji süre: Galam",
+      "pdfPage": 565
+    },
+    {
+      "surah": 69,
+      "name": "Hakka",
+      "originalHeading": "69-njy süre: «Hakka» («Anyk hakykat»)",
+      "pdfPage": 567
+    },
+    {
+      "surah": 70,
+      "name": "Magaryj",
+      "originalHeading": "70-nji süre: «Magaryj» («Belentlik derejeleri»)",
+      "pdfPage": 569
+    },
+    {
+      "surah": 71,
+      "name": "Nuh",
+      "originalHeading": "71-nji süre: Nuh",
+      "pdfPage": 571
+    },
+    {
+      "surah": 72,
+      "name": "Jyn",
+      "originalHeading": "72-nji süre: Jyn",
+      "pdfPage": 573
+    },
+    {
+      "surah": 73,
+      "name": "Muzzemmil",
+      "originalHeading": "73-nji süre: «Muzzemmil» («Bürenip ýatan»)",
+      "pdfPage": 575
+    },
+    {
+      "surah": 74,
+      "name": "Muddessir",
+      "originalHeading": "74-nji süre: «Muddessir» («Dona bürenen»)",
+      "pdfPage": 576
+    },
+    {
+      "surah": 75,
+      "name": "Kyýamat",
+      "originalHeading": "75-nji süre: Kyýamat",
+      "pdfPage": 578
+    },
+    {
+      "surah": 76,
+      "name": "Ynsan",
+      "originalHeading": "76-njy süre: Ynsan",
+      "pdfPage": 579
+    },
+    {
+      "surah": 77,
+      "name": "Murselat",
+      "originalHeading": "77-nji süre: «Murselat» («Iberilenler»)",
+      "pdfPage": 581
+    },
+    {
+      "surah": 78,
+      "name": "Nebe",
+      "originalHeading": "78-nji süre: «Nebe» («Habar»)",
+      "pdfPage": 583
+    },
+    {
+      "surah": 79,
+      "name": "Näzigat",
+      "originalHeading": "79-njy süre: «Näzigat» («Sogrup alýanlar»)",
+      "pdfPage": 584
+    },
+    {
+      "surah": 80,
+      "name": "Abese",
+      "originalHeading": "80-nji süre: «Abese» («Ýüz bermeýän»)",
+      "pdfPage": 586
+    },
+    {
+      "surah": 81,
+      "name": "Tekwir",
+      "originalHeading": "81-nji süre: «Tekwir» («Düýrlemek»)",
+      "pdfPage": 587
+    },
+    {
+      "surah": 82,
+      "name": "Infitar",
+      "originalHeading": "82-nji süre: «Infitar» («Asmanyň bölünmegi»)",
+      "pdfPage": 588
+    },
+    {
+      "surah": 83,
+      "name": "Mutaffifin",
+      "originalHeading": "83-nji süre: «Mutaffifin» («Kem çekýänler»)",
+      "pdfPage": 589
+    },
+    {
+      "surah": 84,
+      "name": "Inşikak",
+      "originalHeading": "84-nji süre: «Inşikak» («Asmanyň ýarylmagy»)",
+      "pdfPage": 590
+    },
+    {
+      "surah": 85,
+      "name": "Buruç",
+      "originalHeading": "85-nji süre: «Buruç» («Ýyldyzlar topary»)",
+      "pdfPage": 591
+    },
+    {
+      "surah": 86,
+      "name": "Taryk",
+      "originalHeading": "86-njy süre: «Taryk» («Gije ýyldyzy»)",
+      "pdfPage": 592
+    },
+    {
+      "surah": 87,
+      "name": "Aglä",
+      "originalHeading": "87-nji süre: «Aglä» («Has beýik»)",
+      "pdfPage": 593
+    },
+    {
+      "surah": 88,
+      "name": "Gaşyýe",
+      "originalHeading": "88-nji süre: «Gaşyýe» («Gaplap alan»)",
+      "pdfPage": 593
+    },
+    {
+      "surah": 89,
+      "name": "Fejr",
+      "originalHeading": "89-nji süre: «Fejr» («Daň»)",
+      "pdfPage": 594
+    },
+    {
+      "surah": 90,
+      "name": "Beled",
+      "originalHeading": "90-njy süre: «Beled» («Şäher»)",
+      "pdfPage": 595
+    },
+    {
+      "surah": 91,
+      "name": "Şems",
+      "originalHeading": "91-nji süre: «Şems» («Gün»)",
+      "pdfPage": 596
+    },
+    {
+      "surah": 92,
+      "name": "Leýl",
+      "originalHeading": "92-nji süre: «Leýl» («Gije»)",
+      "pdfPage": 597
+    },
+    {
+      "surah": 93,
+      "name": "Zuha",
+      "originalHeading": "93-nji süre: «Zuha» («Guşluk»)",
+      "pdfPage": 597
+    },
+    {
+      "surah": 94,
+      "name": "Inşirah",
+      "originalHeading": "94-nji süre: «Inşirah» («Ýarylyş»)",
+      "pdfPage": 598
+    },
+    {
+      "surah": 95,
+      "name": "Tin",
+      "originalHeading": "95-nji süre: «Tin» («Injir»)",
+      "pdfPage": 598
+    },
+    {
+      "surah": 96,
+      "name": "Alak",
+      "originalHeading": "96-njy süre: «Alak» («Gan lagtasy»)",
+      "pdfPage": 599
+    },
+    {
+      "surah": 97,
+      "name": "Gadyr",
+      "originalHeading": "97-nji süre: Gadyr",
+      "pdfPage": 600
+    },
+    {
+      "surah": 98,
+      "name": "Beýýine",
+      "originalHeading": "98-nji süre: «Beýýine» («Äşgär delil»)",
+      "pdfPage": 600
+    },
+    {
+      "surah": 99,
+      "name": "Zilzäl",
+      "originalHeading": "99-njy süre: «Zilzäl» («Ýertitreme»)",
+      "pdfPage": 601
+    },
+    {
+      "surah": 100,
+      "name": "Adiýät",
+      "originalHeading": "100-nji süre: «Adiýät» («Ýüwrük atlar»)",
+      "pdfPage": 601
+    },
+    {
+      "surah": 101,
+      "name": "Karyga",
+      "originalHeading": "101-nji süre: «Karyga» («Elhenç ses»)",
+      "pdfPage": 602
+    },
+    {
+      "surah": 102,
+      "name": "Tekäsur",
+      "originalHeading": "102-nji süre: «Tekäsur» («Köplük bilen buýsanmak»)",
+      "pdfPage": 602
+    },
+    {
+      "surah": 103,
+      "name": "Asr",
+      "originalHeading": "103-nji süre: «Asr» («Wagt»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 104,
+      "name": "Hümeze",
+      "originalHeading": "104-nji süre: «Hümeze» («Gybat edýänler»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 105,
+      "name": "Fil",
+      "originalHeading": "105-nji süre: «Fil» («Pil»)",
+      "pdfPage": 603
+    },
+    {
+      "surah": 106,
+      "name": "Kuraýş",
+      "originalHeading": "106-njy süre: «Kuraýş» («Kuraýşlylar»)",
+      "pdfPage": 604
+    },
+    {
+      "surah": 107,
+      "name": "Mägun",
+      "originalHeading": "107-nji süre: «Mägun» («Ýardam bermek»)",
+      "pdfPage": 604
+    },
+    {
+      "surah": 108,
+      "name": "Köwser",
+      "originalHeading": "108-nji süre: Köwser",
+      "pdfPage": 604
+    },
+    {
+      "surah": 109,
+      "name": "Käfirun",
+      "originalHeading": "109-njy süre: «Käfirun» («Kapyrlar»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 110,
+      "name": "Nasr",
+      "originalHeading": "110-njy süre: «Nasr» («Kömek»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 111,
+      "name": "Mesed",
+      "originalHeading": "111-nji süre: «Mesed» («Işilen süýüm»)",
+      "pdfPage": 605
+    },
+    {
+      "surah": 112,
+      "name": "Yhlas",
+      "originalHeading": "112-nji süre: «Yhlas» («Kulhuwalla»)",
+      "pdfPage": 606
+    },
+    {
+      "surah": 113,
+      "name": "Felak",
+      "originalHeading": "113-nji süre: «Felak» («Säher»)",
+      "pdfPage": 606
+    },
+    {
+      "surah": 114,
+      "name": "Näs",
+      "originalHeading": "114-nji süre: «Näs» («Ynsanlar»)",
+      "pdfPage": 606
+    }
+  ],
+  "surah_descriptions": [
+    {
+      "surah": 1,
+      "text": "«Fatyha» süresi Mekgede inen sürelerden bolup, ol 7 aýatdan ybaratdyr. Kurany Kerimiň ilkinji süresidigi üçin, oňa «bir ýeri ýa-da bir zady açan, açyjy» manysynda «Fatyha» diýlip at berlipdir. Bu süräniň «Ummul-kitap» («Kitaplaryň enesi»), «Sebgul-mesäni» («Gaýtalanýan ýedi aýat»), «Esas» («Düýp-özen»), «Şifä» («Şypa beriji»), «Käfiýe» («Ýeterlik»), «El-hamd» («Hamdy-sena»), «Salät» («Namaz»), «Dua» («Dileg-doga») we «Taglym» («Tälim») ýaly atlary hem bar. Bu süre halkymyzyň arasynda «Elham» süresi diýlip meşhurlyk gazanypdyr. Pygamberimiz Muhammet aleýhissalam: «Elhamy» okamaýanyň namazy ýokdur» diýipdir. Şonuň üçin hem «Elham» süresi namazyň ähli rekagatlarynda okalýar. Kurany Kerim bütin adamzada dogry ýoly görkezmek üçin inderilipdir. Bu mubärek we uz manyly süre Kurany Kerimiň gysgaça manysyny özünde jemleýän we yslam dininiň düýp özeni hasaplanylýan süredir. Onda taryp edilmäge diňe Allanyň mynasypdygy, Allanyň bendelerine bu dünýäde Rahman (Mähriban), ahyretde Rahymdygy (Rehim-şepagatlydygy), diňe Alla ybadat edilmelidigi, dogry ýoly tapmagyň we dogry ýoldan azaşmagyň hem Allanyň eradasy bilen baglydygy beýan edilýär.",
+      "pdfPage": 2
+    },
+    {
+      "surah": 2,
+      "text": "«Bakara» süresi Medinede inen sürelerden bolup, ol 286 aýatdan ybaratdyr. Bu süre Kurany Kerimiň iň uzyn süresi bolup, ol on ýylyň dowamynda bölek-bölek görnüşde inipdir. «Bakara» diýmegiň manysy «Sygyr» diýmekdir. Bu sürede Musa pygamberiň ymmatyna sygyr gurban etmegi buýrandygy, emma olaryň buýrugy berjaý etmekde haýal-ýagallyk edendikleri baradaky kyssa beýan edilýär.",
+      "pdfPage": 3
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "1:1-1:note-1",
+      "surah": 1,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Bu birinji aýata, gysgaça, «Bismillä» diýilýär. Ymam Agzamyň, şeýle-de bir topar başga fykh (yslam hukugy) alymlarynyň pikirine görä, «Bismillä» aýaty «Elham» süresiniň bir aýaty däldir. Diňe «Neml» süresiniň 30-njy aýatynda agzalýan «Bismillä» bir aýatdyr, galan ýerde bolsa gaýtalamadyr, şol süreden bir aýat däldir. Kurany Kerimiň «Toba» süresinden galan 113 süresiniň hemmesiniň başynda gelýän bu aýat bu süreleriň başynda diňe bereket üçin okalýar. Şonuň üçin hem ol namazda içiňden aýdylýar. Emma käbir alymlar ony «Elhamyň» bir aýaty hasaplaýarlar. Hadyslaryň birinde: «Bismillä bilen başlanmadyk işiň soňy ýokdur» diýilýär. Bu sebäpli, hem haýsydyr bir işe başlanylanda «Bismillä» aýdylýar.",
+      "pdfPage": 2
+    },
+    {
+      "id": "1:7-7:note-1",
+      "surah": 1,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "Düşündiriş: «Elham» süresi okalandan soň, «Ämin!» («Kabul et!») diýmek sünnet hasaplanylýar.",
+      "pdfPage": 2
+    },
+    {
+      "id": "2:1-1:note-1",
+      "surah": 2,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Düşündiriş: Kurany Kerimde 29 süräniň başynda getirilýän şular ýaly arap elipbiýiniň harplary özbaşdak many aňlatmaýar. Ol harplaryň getirilmegi Kuranyň şular ýaly harplardan ybaratdygyny, muňa garamazdan, yslama ynanmaýanlaryň bu mukaddes kitabyň bir aýaty ýaly jümläni hem düzüp bilmeýändiklerini ýaňzytmak maksady bilen baglanyşyklydyr. Bu harplara Kurany Kerimiň syrlary hökmünde hem garalýar.",
+      "pdfPage": 3
+    },
+    {
+      "id": "2:37-37:note-1",
+      "surah": 2,
+      "fromAyah": 37,
+      "toAyah": 37,
+      "text": "Düşündiriş: Adam ata toba eden mahaly: «Eý, Perwerdigärimiz! Biz özümize zulum etdik, eger Sen biziň günälerimizi geçip, bize merhemet etmeseň, biz zyýan çekenlerden bolarys» diýip dileg edipdir. Käbir çeşmelerde bolsa Adam atanyň toba eden wagty okan dileginiň namazda okalýan «Subhaneke» dogasydygy aýdylýar.",
+      "pdfPage": 7
+    },
+    {
+      "id": "2:40-40:note-1",
+      "surah": 2,
+      "fromAyah": 40,
+      "toAyah": 40,
+      "text": "Düşündiriş: Ysraýyl Ýakup pygamberiň lakamydyr. Manysy hem «Allanyň guly» diýmekdir. Olara Ýakup pygamberiň neslinden gelendikleri üçin ysraýyl ogullary diýlipdir. Hezreti Musa tabyn bolandyklary üçin bolsa olara musaýylar diýlipdir.",
+      "pdfPage": 8
+    },
+    {
+      "id": "2:47-47:note-1",
+      "surah": 2,
+      "fromAyah": 47,
+      "toAyah": 47,
+      "text": "Düşündiriş: Oňki döwürlerde haýsy millete pygamber iberilse, şol millet üstün hasaplanar eken. Ol millet hem, özlerine iberilen pygamber sebäpli, abraýly hasaplanylypdyr. Ýöne olaryň Allanyň öňündäki jogapkärçilikleri hem beýlekilerden has uly bolupdyr.",
+      "pdfPage": 8
+    },
+    {
+      "id": "2:48-48:note-1",
+      "surah": 2,
+      "fromAyah": 48,
+      "toAyah": 48,
+      "text": "Düşündiriş: Şepagat – bir adamyň günäsiniň geçilmegi üçin edilen haýyşdyr, kömekdir. Alla kyýamat gününde öz ygtyýary bilen islendik bendesine başga birini şepagat etme hakyny berip bilýär.",
+      "pdfPage": 8
+    },
+    {
+      "id": "2:57-57:note-1",
+      "surah": 2,
+      "fromAyah": 57,
+      "toAyah": 57,
+      "text": "Düşündiriş: Menne – ýahudylara asmandan ýörite iberilen halwa ýaly şepbeşik, şirin nygmatyň ady. Ol asmandan her gün ir bilen daň atandan, tä Gün dogýança gar ýaly ap-ak bolup ýagar eken. Halk hem her gün gündeki iýjegini alar eken. Umuman, zähmet çekmezden öz-özi gelýän ähli zatlara hem «menne» diýilýär. Sözlüklerde «menne» diýlip, käbir miweli agaçlarda peýda bolýan süýji tagamly şepbeşik iýmit düşündirilýär. Ol gijesine agaçlardan çykýan şiräniň netijesinde bir ýere üýşüp, kiçiräk şepbeşik görnüşde emele gelýär. Ony ir bilen, heniz Gün dogmanka alýarlar.",
+      "pdfPage": 9
+    },
+    {
+      "id": "2:62-62:note-1",
+      "surah": 2,
+      "fromAyah": 62,
+      "toAyah": 62,
+      "text": "Düşündiriş: Bu ýerde yslam gelmezden öň öz döwürlerindäki hak dine iman getiren ymmatlar göz öňünde tutulýar. Sabylar – öň ýaşap geçen, belli bir dinleri bolmadyk we Allanyň birligini ykrar eden ymmatlaryň biri.",
+      "pdfPage": 11
+    },
+    {
+      "id": "2:65-65:note-1",
+      "surah": 2,
+      "fromAyah": 65,
+      "toAyah": 65,
+      "text": "Düşündiriş: Bu aýatda şenbe güni balyk tutmak gadagan edilse-de, ol gadagançylyga uýmadyk ysraýyl ogullary barada aýdylýar. Kuranda we hadyslarda irki döwürlerde şular ýaly käbir günäkärleriň Allanyň näletine galyp maýmyna, doňza öwrülendikleri, soň gysga wagt ýaşap, ölüp gidendikleri barada aýdylýar.",
+      "pdfPage": 11
+    }
+  ],
+  "verses": [
+    {
+      "surah": 1,
+      "ayah": 1,
+      "text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖیمِ"
+    },
+    {
+      "surah": 1,
+      "ayah": 2,
+      "text": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمٖینَۙ"
+    },
+    {
+      "surah": 1,
+      "ayah": 3,
+      "text": "اَلرَّحْمٰنِ الرَّحٖیمِۙ"
+    },
+    {
+      "surah": 1,
+      "ayah": 4,
+      "text": "مَالِكِ یَوْمِ الدّٖینِؕ"
+    },
+    {
+      "surah": 1,
+      "ayah": 5,
+      "text": "اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعٖینُؕ"
+    },
+    {
+      "surah": 1,
+      "ayah": 6,
+      "text": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقٖیمَۙ"
+    },
+    {
+      "surah": 1,
+      "ayah": 7,
+      "text": "صِرَاطَ الَّذٖینَ اَنْعَمْتَ عَلَیْهِمْۙ غَیْرِ الْمَغْضُوبِ عَلَیْهِمْ وَلَا الضَّٓالّٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 1,
+      "text": "الٓمٓۚ"
+    },
+    {
+      "surah": 2,
+      "ayah": 2,
+      "text": "ذٰلِكَ الْكِتَابُ لَا رَیْبَۚۛ فٖیهِۚۛ هُدًى لِلْمُتَّقٖینَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 3,
+      "text": "اَلَّذٖینَ یُؤْمِنُونَ بِالْغَیْبِ وَیُقٖیمُونَ الصَّلٰوةَ وَمِمَّا رَزَقْنَاهُمْ یُنْفِقُونَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 4,
+      "text": "وَالَّذٖینَ یُؤْمِنُونَ بِمَٓا اُنْزِلَ اِلَیْكَ وَمَٓا اُنْزِلَ مِنْ قَبْلِكَۚ وَبِالْاٰخِرَةِ هُمْ یُوقِنُونَؕ"
+    },
+    {
+      "surah": 2,
+      "ayah": 5,
+      "text": "اُو𐻾لٰٓئِكَ عَلٰى هُدًى مِنْ رَبِّهِمْ وَاُو𐻾لٰٓئِكَ هُمُ الْمُفْلِحُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 6,
+      "text": "اِنَّ الَّذٖینَ كَفَرُوا سَوَٓاءٌ عَلَیْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا یُؤْمِنُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 7,
+      "text": "خَتَمَ اللّٰهُ عَلٰى قُلُوبِهِمْ وَعَلٰى سَمْعِهِمْؕ وَعَلٰٓى اَبْصَارِهِمْ غِشَاوَةٌؗ وَلَهُمْ عَذَابٌ عَظٖیمٌࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 8,
+      "text": "وَمِنَ النَّاسِ مَنْ یَقُولُ اٰمَنَّا بِاللّٰهِ وَبِالْیَوْمِ الْاٰخِرِ وَمَا هُمْ بِمُؤْمِنٖینَۘ"
+    },
+    {
+      "surah": 2,
+      "ayah": 9,
+      "text": "یُخَادِعُونَ اللّٰهَ وَالَّذٖینَ اٰمَنُواۚ وَمَا یَخْدَعُونَ اِلَّٓا اَنْفُسَهُمْ وَمَا یَشْعُرُونَؕ"
+    },
+    {
+      "surah": 2,
+      "ayah": 10,
+      "text": "فٖی قُلُوبِهِمْ مَرَضٌۙ فَزَادَهُمُ اللّٰهُ مَرَضًاۚ وَلَهُمْ عَذَابٌ اَلٖیمٌۙ بِمَا كَانُوا یَكْذِبُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 11,
+      "text": "وَاِذَا قٖیلَ لَهُمْ لَا تُفْسِدُوا فِی الْاَرْضِۙ قَالُٓوا اِنَّمَا نَحْنُ مُصْلِحُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 12,
+      "text": "اَلَٓا اِنَّهُمْ هُمُ الْمُفْسِدُونَ وَلٰكِنْ لَا یَشْعُرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 13,
+      "text": "وَاِذَا قٖیلَ لَهُمْ اٰمِنُوا كَمَٓا اٰمَنَ النَّاسُ قَالُٓوا اَنُؤْمِنُ كَمَٓا اٰمَنَ السُّفَهَٓاءُؕ اَلَٓا اِنَّهُمْ هُمُ السُّفَهَٓاءُ وَلٰكِنْ لَا یَعْلَمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 14,
+      "text": "وَاِذَا لَقُوا الَّذٖینَ اٰمَنُوا قَالُٓوا اٰمَنَّاۚ وَاِذَا خَلَوْا اِلٰى شَیَاطٖینِهِمْۙ قَالُٓوا اِنَّا مَعَكُمْۙ اِنَّمَا نَحْنُ مُسْتَهْزِؤُ𐻿نَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 15,
+      "text": "اَللّٰهُ یَسْتَهْزِئُ بِهِمْ وَیَمُدُّهُمْ فٖی طُغْیَانِهِمْ یَعْمَهُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 16,
+      "text": "اُو𐻾لٰٓئِكَ الَّذٖینَ اشْتَرَوُا الضَّلَالَةَ بِالْهُدٰىࣕ فَمَا رَبِحَتْ تِجَارَتُهُمْ وَمَا كَانُوا مُهْتَدٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 17,
+      "text": "مَثَلُهُمْ كَمَثَلِ الَّذِی اسْتَوْقَدَ نَارًاۚ فَلَمَّٓا اَضَٓاءَتْ مَا حَوْلَهُ ذَهَبَ اللّٰهُ بِنُورِهِمْ وَتَرَكَهُمْ فٖی ظُلُمَاتٍ لَا یُبْصِرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 18,
+      "text": "صُمٌّ بُكْمٌ عُمْیٌ فَهُمْ لَا یَرْجِعُونَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 19,
+      "text": "اَوْ كَصَیِّبٍ مِنَ السَّمَٓاءِ فٖیهِ ظُلُمَاتٌ وَرَعْدٌ وَبَرْقٌۚ یَجْعَلُونَ اَصَابِعَهُمْ فٖٓی اٰذَانِهِمْ مِنَ الصَّوَاعِقِ حَذَرَ الْمَوْتِؕ وَاللّٰهُ مُحٖیطٌ بِالْكَافِرٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 20,
+      "text": "یَكَادُ الْبَرْقُ یَخْطَفُ اَبْصَارَهُمْؕ كُلَّمَٓا اَضَٓاءَ لَهُمْ مَشَوْا فٖیهِۙ وَاِذَٓا اَظْلَمَ عَلَیْهِمْ قَامُواؕ وَلَوْ شَٓاءَ اللّٰهُ لَذَهَبَ بِسَمْعِهِمْ وَاَبْصَارِهِمْؕ اِنَّ اللّٰهَ عَلٰى كُلِّ شَیْءٍ قَدٖیرٌࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 21,
+      "text": "یَٓا اَیُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذٖی خَلَقَكُمْ وَالَّذٖینَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 22,
+      "text": "اَلَّذٖی جَعَلَ لَكُمُ الْاَرْضَ فِرَاشًا وَالسَّمَٓاءَ بِنَٓاءًࣕ وَاَنْزَلَ مِنَ السَّمَٓاءِ مَٓاءً فَاَخْرَجَ بِهٖ مِنَ الثَّمَرَاتِ رِزْقًا لَكُمْۚ فَلَا تَجْعَلُوا لِلّٰهِ اَنْدَادًا وَاَنْتُمْ تَعْلَمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 23,
+      "text": "وَاِنْ كُنْتُمْ فٖی رَیْبٍ مِمَّا نَزَّلْنَا عَلٰى عَبْدِنَا فَاْتُوا بِسُورَةٍ مِنْ مِثْلِهٖࣕ وَادْعُوا شُهَدَٓاءَكُمْ مِنْ دُونِ اللّٰهِ اِنْ كُنْتُمْ صَادِقٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 24,
+      "text": "فَاِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا فَاتَّقُوا النَّارَ الَّتٖی وَقُودُهَا النَّاسُ وَالْحِجَارَةُۚ اُعِدَّتْ لِلْكَافِرٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 25,
+      "text": "وَبَشِّرِ الَّذٖینَ اٰمَنُوا وَعَمِلُوا الصَّالِحَاتِ اَنَّ لَهُمْ جَنَّاتٍ تَجْرٖی مِنْ تَحْتِهَا الْاَنْهَارُؕ كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِزْقًاۙ قَالُوا هٰذَا الَّذٖی رُزِقْنَا مِنْ قَبْلُ وَاُتُوا بِهٖ مُتَشَابِهًاؕ وَلَهُمْ فٖیهَٓا اَزْوَاجٌ مُطَهَّرَةٌ وَهُمْ فٖیهَا خَالِدُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 26,
+      "text": "اِنَّ اللّٰهَ لَا یَسْتَحْيٖٓ اَنْ یَضْرِبَ مَثَلًا مَا بَعُوضَةً فَمَا فَوْقَهَاؕ فَاَمَّا الَّذٖینَ اٰمَنُوا فَیَعْلَمُونَ اَنَّهُ الْحَقُّ مِنْ رَبِّهِمْۚ وَاَمَّا الَّذٖینَ كَفَرُوا فَیَقُولُونَ مَاذَٓا اَرَادَ اللّٰهُ بِهٰذَا مَثَلًاۘ یُضِلُّ بِهٖ كَثٖیرًا وَیَهْدٖی بِهٖ كَثٖیرًاؕ وَمَا یُضِلُّ بِهٖٓ اِلَّا الْفَاسِقٖینَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 27,
+      "text": "اَلَّذٖینَ یَنْقُضُونَ عَهْدَ اللّٰهِ مِنْ بَعْدِ مٖیثَاقِهٖࣕ وَیَقْطَعُونَ مَٓا اَمَرَ اللّٰهُ بِهٖٓ اَنْ یُوصَلَ وَیُفْسِدُونَ فِی الْاَرْضِؕ اُو𐻾لٰٓئِكَ هُمُ الْخَاسِرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 28,
+      "text": "كَیْفَ تَكْفُرُونَ بِاللّٰهِ وَكُنْتُمْ اَمْوَاتًا فَاَحْیَاكُمْۚ ثُمَّ یُمٖیتُكُمْ ثُمَّ یُحْیٖیكُمْ ثُمَّ اِلَیْهِ تُرْجَعُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 29,
+      "text": "هُوَ الَّذٖی خَلَقَ لَكُمْ مَا فِی الْاَرْضِ جَمٖیعًا ثُمَّ اسْتَوٰٓى اِلَى السَّمَٓاءِ فَسَوّٰیهُنَّ سَبْعَ سَمٰوَاتٍؕ وَهُوَ بِكُلِّ شَیْءٍ عَلٖیمٌࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 30,
+      "text": "وَاِذْ قَالَ رَبُّكَ لِلْمَلٰٓئِكَةِ اِنّٖی جَاعِلٌ فِی الْاَرْضِ خَلٖیفَةًؕ قَالُٓوا اَتَجْعَلُ فٖیهَا مَنْ یُفْسِدُ فٖیهَا وَیَسْفِكُ الدِّمَٓاءَۚ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَؕ قَالَ اِنّٖٓی اَعْلَمُ مَا لَا تَعْلَمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 31,
+      "text": "وَعَلَّمَ اٰدَمَ الْاَسْمَٓاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلٰٓئِكَةِ فَقَالَ اَنْبِؤُ𐻿نٖی بِاَسْمَٓاءِ هٰٓؤُ𐻾لَٓاءِ اِنْ كُنْتُمْ صَادِقٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 32,
+      "text": "قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَٓا اِلَّا مَا عَلَّمْتَنَاؕ اِنَّكَ اَنْتَ الْعَلٖیمُ الْحَكٖیمُ"
+    },
+    {
+      "surah": 2,
+      "ayah": 33,
+      "text": "قَالَ یَٓا اٰدَمُ اَنْبِئْهُمْ بِاَسْمَٓائِهِمْۚ فَلَمَّٓا اَنْبَاَهُمْ بِاَسْمَٓائِهِمْۙ قَالَ اَلَمْ اَقُلْ لَكُمْ اِنّٖٓی اَعْلَمُ غَیْبَ السَّمٰوَاتِ وَالْاَرْضِ وَاَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 34,
+      "text": "وَاِذْ قُلْنَا لِلْمَلٰٓئِكَةِ اسْجُدُوا لِاٰدَمَ فَسَجَدُٓوا اِلَّٓا اِبْلٖیسَؕ اَبٰى وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 35,
+      "text": "وَقُلْنَا یَٓا اٰدَمُ اسْكُنْ اَنْتَ وَزَوْجُكَ الْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَیْثُ شِئْتُمَاࣕ وَلَا تَقْرَبَا هٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 36,
+      "text": "فَاَزَلَّهُمَا الشَّیْطَانُ عَنْهَا فَاَخْرَجَهُمَا مِمَّا كَانَا فٖیهِࣕ وَقُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۚ وَلَكُمْ فِی الْاَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ اِلٰى حٖینٍ"
+    },
+    {
+      "surah": 2,
+      "ayah": 37,
+      "text": "فَتَلَقّٰٓى اٰدَمُ مِنْ رَبِّهٖ كَلِمَاتٍ فَتَابَ عَلَیْهِؕ اِنَّهُ هُوَ التَّوَّابُ الرَّحٖیمُ"
+    },
+    {
+      "surah": 2,
+      "ayah": 38,
+      "text": "قُلْنَا اهْبِطُوا مِنْهَا جَمٖیعًاۚ فَاِمَّا یَاْتِیَنَّكُمْ مِنّٖی هُدًى فَمَنْ تَبِعَ هُدَایَ فَلَا خَوْفٌ عَلَیْهِمْ وَلَا هُمْ یَحْزَنُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 39,
+      "text": "وَالَّذٖینَ كَفَرُوا وَكَذَّبُوا بِاٰیَاتِنَٓا اُو𐻾لٰٓئِكَ اَصْحَابُ النَّارِۚ هُمْ فٖیهَا خَالِدُونَࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 40,
+      "text": "یَا بَنٖٓی اِسْرَٓایٖٔلَ اذْكُرُوا نِعْمَتِیَ الَّتٖٓی اَنْعَمْتُ عَلَیْكُمْ وَاَوْفُوا بِعَهْدٖٓی اُو𐻿فِ بِعَهْدِكُمْ وَاِیَّایَ فَارْهَبُونِ"
+    },
+    {
+      "surah": 2,
+      "ayah": 41,
+      "text": "وَاٰمِنُوا بِمَٓا اَنْزَلْتُ مُصَدِّقًا لِمَا مَعَكُمْ وَلَا تَكُونُٓوا اَوَّلَ كَافِرٍ بِهٖࣕ وَلَا تَشْتَرُوا بِاٰیَاتٖی ثَمَنًا قَلٖیلًاؗ وَاِیَّایَ فَاتَّقُونِ"
+    },
+    {
+      "surah": 2,
+      "ayah": 42,
+      "text": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ وَاَنْتُمْ تَعْلَمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 43,
+      "text": "وَاَقٖیمُوا الصَّلٰوةَ وَاٰتُوا الزَّكٰوةَ وَارْكَعُوا مَعَ الرَّاكِعٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 44,
+      "text": "اَتَاْمُرُونَ النَّاسَ بِالْبِرِّ وَتَنْسَوْنَ اَنْفُسَكُمْ وَاَنْتُمْ تَتْلُونَ الْكِتَابَؕ اَفَلَا تَعْقِلُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 45,
+      "text": "وَاسْتَعٖینُوا بِالصَّبْرِ وَالصَّلٰوةِؕ وَاِنَّهَا لَكَبٖیرَةٌ اِلَّا عَلَى الْخَاشِعٖینَۙ"
+    },
+    {
+      "surah": 2,
+      "ayah": 46,
+      "text": "اَلَّذٖینَ یَظُنُّونَ اَنَّهُمْ مُلَاقُوا رَبِّهِمْ وَاَنَّهُمْ اِلَیْهِ رَاجِعُونَࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 47,
+      "text": "یَا بَنٖٓی اِسْرَٓایٖٔلَ اذْكُرُوا نِعْمَتِیَ الَّتٖٓی اَنْعَمْتُ عَلَیْكُمْ وَاَنّٖی فَضَّلْتُكُمْ عَلَى الْعَالَمٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 48,
+      "text": "وَاتَّقُوا یَوْمًا لَا تَجْزٖی نَفْسٌ عَنْ نَفْسٍ شَیْـًٔا وَلَا یُقْبَلُ مِنْهَا شَفَاعَةٌ وَلَا یُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ یُنْصَرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 49,
+      "text": "وَاِذْ نَجَّیْنَاكُمْ مِنْ اٰلِ فِرْعَوْنَ یَسُومُونَكُمْ سُٓوءَ الْعَذَابِ یُذَبِّحُونَ اَبْنَٓاءَكُمْ وَیَسْتَحْیُونَ نِسَٓاءَكُمْؕ وَفٖی ذٰلِكُمْ بَلَٓاءٌ مِنْ رَبِّكُمْ عَظٖیمٌ"
+    },
+    {
+      "surah": 2,
+      "ayah": 50,
+      "text": "وَاِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَاَنْجَیْنَاكُمْ وَاَغْرَقْنَٓا اٰلَ فِرْعَوْنَ وَاَنْتُمْ تَنْظُرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 51,
+      "text": "وَاِذْ وٰعَدْنَا مُوسٰٓى اَرْبَعٖینَ لَیْلَةً ثُمَّ اتَّخَذْتُمُ الْعِجْلَ مِنْ بَعْدِهٖ وَاَنْتُمْ ظَالِمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 52,
+      "text": "ثُمَّ عَفَوْنَا عَنْكُمْ مِنْ بَعْدِ ذٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 53,
+      "text": "وَاِذْ اٰتَیْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 54,
+      "text": "وَاِذْ قَالَ مُوسٰى لِقَوْمِهٖ یَا قَوْمِ اِنَّكُمْ ظَلَمْتُمْ اَنْفُسَكُمْ بِاتِّخَاذِكُمُ الْعِجْلَ فَتُوبُٓوا اِلٰى بَارِئِكُمْ فَاقْتُلُٓوا اَنْفُسَكُمْؕ ذٰلِكُمْ خَیْرٌ لَكُمْ عِنْدَ بَارِئِكُمْؕ فَتَابَ عَلَیْكُمْؕ اِنَّهُ هُوَ التَّوَّابُ الرَّحٖیمُ"
+    },
+    {
+      "surah": 2,
+      "ayah": 55,
+      "text": "وَاِذْ قُلْتُمْ یَا مُوسٰى لَنْ نُؤْمِنَ لَكَ حَتّٰى نَرَى اللّٰهَ جَهْرَةً فَاَخَذَتْكُمُ الصَّاعِقَةُ وَاَنْتُمْ تَنْظُرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 56,
+      "text": "ثُمَّ بَعَثْنَاكُمْ مِنْ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ تَشْكُرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 57,
+      "text": "وَظَلَّلْنَا عَلَیْكُمُ الْغَمَامَ وَاَنْزَلْنَا عَلَیْكُمُ الْمَنَّ وَالسَّلْوٰىؕ كُلُوا مِنْ طَیِّبَاتِ مَا رَزَقْنَاكُمْؕ وَمَا ظَلَمُونَا وَلٰكِنْ كَانُٓوا اَنْفُسَهُمْ یَظْلِمُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 58,
+      "text": "وَاِذْ قُلْنَا ادْخُلُوا هٰذِهِ الْقَرْیَةَ فَكُلُوا مِنْهَا حَیْثُ شِئْتُمْ رَغَدًا وَادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ نَغْفِرْ لَكُمْ خَطَایَاكُمْؕ وَسَنَزٖیدُ الْمُحْسِنٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 59,
+      "text": "فَبَدَّلَ الَّذٖینَ ظَلَمُوا قَوْلًا غَیْرَ الَّذٖی قٖیلَ لَهُمْ فَاَنْزَلْنَا عَلَى الَّذٖینَ ظَلَمُوا رِجْزًا مِنَ السَّمَٓاءِ بِمَا كَانُوا یَفْسُقُونَࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 60,
+      "text": "وَاِذِ اسْتَسْقٰى مُوسٰى لِقَوْمِهٖ فَقُلْنَا اضْرِبْ بِعَصَاكَ الْحَجَرَؕ فَانْفَجَرَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَیْنًاؕ قَدْ عَلِمَ كُلُّ اُنَاسٍ مَشْرَبَهُمْؕ كُلُوا وَاشْرَبُوا مِنْ رِزْقِ اللّٰهِ وَلَا تَعْثَوْا فِی الْاَرْضِ مُفْسِدٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 61,
+      "text": "وَاِذْ قُلْتُمْ یَا مُوسٰى لَنْ نَصْبِرَ عَلٰى طَعَامٍ وَاحِدٍ فَادْعُ لَنَا رَبَّكَ یُخْرِجْ لَنَا مِمَّا تُنْبِتُ الْاَرْضُ مِنْ بَقْلِهَا وَقِثَّٓائِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَاؕ قَالَ اَتَسْتَبْدِلُونَ الَّذٖی هُوَ اَدْنٰى بِالَّذٖی هُوَ خَیْرٌؕ اِهْبِطُوا مِصْرًا فَاِنَّ لَكُمْ مَا سَاَلْتُمْؕ وَضُرِبَتْ عَلَیْهِمُ الذِّلَّةُ وَالْمَسْكَنَةُ وَبَٓاؤُ𐻿 بِغَضَبٍ مِنَ اللّٰهِؕ ذٰلِكَ بِاَنَّهُمْ كَانُوا یَكْفُرُونَ بِاٰیَاتِ اللّٰهِ وَیَقْتُلُونَ النَّبِیّٖنَ بِغَیْرِ الْحَقِّؕ ذٰلِكَ بِمَا عَصَوْا وَكَانُوا یَعْتَدُونَࣖ"
+    },
+    {
+      "surah": 2,
+      "ayah": 62,
+      "text": "اِنَّ الَّذٖینَ اٰمَنُوا وَالَّذٖینَ هَادُوا وَالنَّصَارٰى وَالصَّابِــٖٔینَ مَنْ اٰمَنَ بِاللّٰهِ وَالْیَوْمِ الْاٰخِرِ وَعَمِلَ صَالِحًا فَلَهُمْ اَجْرُهُمْ عِنْدَ رَبِّهِمْࣕ وَلَا خَوْفٌ عَلَیْهِمْ وَلَا هُمْ یَحْزَنُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 63,
+      "text": "وَاِذْ اَخَذْنَا مٖیثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَؕ خُذُوا مَٓا اٰتَیْنَاكُمْ بِقُوَّةٍ وَاذْكُرُوا مَا فٖیهِ لَعَلَّكُمْ تَتَّقُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 64,
+      "text": "ثُمَّ تَوَلَّیْتُمْ مِنْ بَعْدِ ذٰلِكَۚ فَلَوْلَا فَضْلُ اللّٰهِ عَلَیْكُمْ وَرَحْمَتُهُ لَكُنْتُمْ مِنَ الْخَاسِرٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 65,
+      "text": "وَلَقَدْ عَلِمْتُمُ الَّذٖینَ اعْتَدَوْا مِنْكُمْ فِی السَّبْتِ فَقُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِـٖٔینَۚ"
+    },
+    {
+      "surah": 2,
+      "ayah": 66,
+      "text": "فَجَعَلْنَاهَا نَكَالًا لِمَا بَیْنَ یَدَیْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِلْمُتَّقٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 67,
+      "text": "وَاِذْ قَالَ مُوسٰى لِقَوْمِهٖٓ اِنَّ اللّٰهَ یَاْمُرُكُمْ اَنْ تَذْبَحُوا بَقَرَةًؕ قَالُٓوا اَتَتَّخِذُنَا هُزُوًاؕ قَالَ اَعُوذُ بِاللّٰهِ اَنْ اَكُونَ مِنَ الْجَاهِلٖینَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 68,
+      "text": "قَالُوا ادْعُ لَنَا رَبَّكَ یُبَیِّنْ لَنَا مَا هِیَؕ قَالَ اِنَّهُ یَقُولُ اِنَّهَا بَقَرَةٌ لَا فَارِضٌ وَلَا بِكْرٌؕ عَوَانٌ بَیْنَ ذٰلِكَؕ فَافْعَلُوا مَا تُؤْمَرُونَ"
+    },
+    {
+      "surah": 2,
+      "ayah": 69,
+      "text": "قَالُوا ادْعُ لَنَا رَبَّكَ یُبَیِّنْ لَنَا مَا لَوْنُهَاؕ قَالَ اِنَّهُ یَقُولُ اِنَّهَا بَقَرَةٌ صَفْرَٓاءُۙ فَاقِعٌ لَوْنُهَا تَسُرُّ النَّاظِرٖینَ"
+    }
+  ],
+  "translations": [
+    {
+      "id": "1:1-1",
+      "surah": 1,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Rahman (Mähriban) we Rahym (Rehim-şepagatly) Allanyň ady bilen (başlaýaryn).",
+      "footnoteIds": [
+        "1:1-1:note-1"
+      ],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:2-2",
+      "surah": 1,
+      "fromAyah": 2,
+      "toAyah": 2,
+      "text": "(Ähli) hamdy-senalar älemleriň Perwerdigäri Alla mahsusdyr.",
+      "footnoteIds": [],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:3-3",
+      "surah": 1,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "(Ol) Rahmandyr (Mähribandyr), Rahymdyr (Rehim-şepagatlydyr).",
+      "footnoteIds": [],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:4-4",
+      "surah": 1,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "Din (kyýamat) gününiň Eýesidir.",
+      "footnoteIds": [],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:5-5",
+      "surah": 1,
+      "fromAyah": 5,
+      "toAyah": 5,
+      "text": "(Eý, Allam!) Biz diňe Saňa ybadat edýäris we diňe Senden kömek soraýarys!",
+      "footnoteIds": [],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:6-6",
+      "surah": 1,
+      "fromAyah": 6,
+      "toAyah": 6,
+      "text": "(Eý, Allam!) Bizi dogry ýola (yslam dinine) gönükdir!",
+      "footnoteIds": [],
+      "pdfPage": 2
+    },
+    {
+      "id": "1:7-7",
+      "surah": 1,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "(Bizi) gazaba sezewar bolanlaryň we azaşanlaryň (ýoluna) däl-de, Öz nygmat berenleriň ýoluna (gönükdir)!",
+      "footnoteIds": [
+        "1:7-7:note-1"
+      ],
+      "pdfPage": 2
+    },
+    {
+      "id": "2:1-1",
+      "surah": 2,
+      "fromAyah": 1,
+      "toAyah": 1,
+      "text": "Elif, Läm, Mim.",
+      "footnoteIds": [
+        "2:1-1:note-1"
+      ],
+      "pdfPage": 3
+    },
+    {
+      "id": "2:2-2",
+      "surah": 2,
+      "fromAyah": 2,
+      "toAyah": 2,
+      "text": "Bu (Kuran) özüniň (hakykatdygyna) şek-şübhe bolmadyk we takwalar (Alladan gorkýanlar) üçin dogry ýoly (görkezýän) kitapdyr.",
+      "footnoteIds": [],
+      "pdfPage": 3
+    },
+    {
+      "id": "2:3-3",
+      "surah": 2,
+      "fromAyah": 3,
+      "toAyah": 3,
+      "text": "Olar (takwalar) gaýyba ynanýarlar, namaz okaýarlar we Biziň özlerine beren rysgalymyzdan (Alla ýolunda) haýyr-sahawat edýärler.",
+      "footnoteIds": [],
+      "pdfPage": 3
+    },
+    {
+      "id": "2:4-4",
+      "surah": 2,
+      "fromAyah": 4,
+      "toAyah": 4,
+      "text": "(Şeýle-de) olar (takwalar) saňa inderilene (Kurana) we senden öňki (pygamberlere) inderilen (kitaplara) ynanýarlar. Olar ahyrete (hem) doly ynanýarlar.",
+      "footnoteIds": [],
+      "pdfPage": 3
+    },
+    {
+      "id": "2:5-5",
+      "surah": 2,
+      "fromAyah": 5,
+      "toAyah": 5,
+      "text": "Ine, olar (takwalar) özleriniň Perwerdigärinden (gelen) dogry ýoldadyrlar we halas bolanlar (hem) hut olaryň özleridir.",
+      "footnoteIds": [],
+      "pdfPage": 3
+    },
+    {
+      "id": "2:6-6",
+      "surah": 2,
+      "fromAyah": 6,
+      "toAyah": 6,
+      "text": "Takyk, inkär edenleri (azap bilen) gorkuzsaň-da, gorkuzmasaň-da, (olar üçin) deňdir. Olar (barybir) ynanmazlar.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:7-7",
+      "surah": 2,
+      "fromAyah": 7,
+      "toAyah": 7,
+      "text": "Alla olaryň kalplaryny we gulaklaryny möhürländir. Olaryň gözleriniň (öňünde) perde bardyr. Olara uly azap bardyr.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:8-8",
+      "surah": 2,
+      "fromAyah": 8,
+      "toAyah": 8,
+      "text": "Ynsanlaryň arasynda, ynanmasalar hem: «Biz Alla we ahyret gününe iman getirdik» diýýänler bardyr.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:9-9",
+      "surah": 2,
+      "fromAyah": 9,
+      "toAyah": 9,
+      "text": "Olar Allany we iman getirenleri aldaýandyrys (öýdýärler). Emma olar (diňe) özlerini aldaýarlar we (muňa özleri hem) düşünmeýärler.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:10-10",
+      "surah": 2,
+      "fromAyah": 10,
+      "toAyah": 10,
+      "text": "Olaryň kalplarynda hassalyk (ikiýüzlülik) bardyr. Alla olaryň (bu) hassalyklaryny artdyrdy. Ýalan sözländikleri üçin olara elhenç azap bardyr.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:11-11",
+      "surah": 2,
+      "fromAyah": 11,
+      "toAyah": 11,
+      "text": "Olara: «Ýer ýüzünde bozgakçylyk etmäň!» diýlende, (olar): «Takyk biz (işleri) düzedýäris» diýýärler.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:12-12",
+      "surah": 2,
+      "fromAyah": 12,
+      "toAyah": 12,
+      "text": "Emma, takyk, olar bozgaklaryň hut özleridir, ýöne (muňa) özleri hem düşünmeýärler.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:13-13",
+      "surah": 2,
+      "fromAyah": 13,
+      "toAyah": 13,
+      "text": "Olara: «Siz hem iman getiren ynsanlar ýaly iman getiriň!» diýlen mahaly, olar: «Heý-de biz akmaklar ýaly iman getirerismi?» diýýärler. Emma (hakyky) akmaklar olaryň hut özleridir, ýöne olar (muny) bilmeýärler.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:14-14",
+      "surah": 2,
+      "fromAyah": 14,
+      "toAyah": 14,
+      "text": "Olar (mynapyklar) iman getirenler bilen gabatlaşanlarynda: «Biz (hem siziň ýaly) iman getirdik» diýýärler. Özlerini (azaşdyran) şeýtanlary (ýahudylar) bilen tenha galanlarynda bolsa: «Biz siziň bilen, biz diňe olary (möminleri) ýaňsylaýarys» diýýärler.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:15-15",
+      "surah": 2,
+      "fromAyah": 15,
+      "toAyah": 15,
+      "text": "(Aslynda) Alla olary ýaňsylaýandyr we azgynçylyklarynyň içinde aňalyp ýörkäler, (azaba duçar bolmaklary üçin) olara möhlet berýär.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:16-16",
+      "surah": 2,
+      "fromAyah": 16,
+      "toAyah": 16,
+      "text": "Olar dogry ýoluň deregine azaşmagy (ters ýoly) satyn alanlardyr. (Şonuň üçin hem) olaryň (bu) söwdalary peýda getirmedi. Olar dogry ýoly hem tapmadylar.",
+      "footnoteIds": [],
+      "pdfPage": 4
+    },
+    {
+      "id": "2:17-17",
+      "surah": 2,
+      "fromAyah": 17,
+      "toAyah": 17,
+      "text": "Olaryň (mynapyklaryň) ýagdaýy (garaňky gijede) ot ýakýanyň ýagdaýy ýalydyr. Ol ot (ýanyp) daş-töweregini ýagtyldan wagty, Alla olaryň ýagtylygyny giderer we olary hiç zat görünmeýän tümlügiň içinde goýar (şeýdibem hiç zady görmezler).",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:18-18",
+      "surah": 2,
+      "fromAyah": 18,
+      "toAyah": 18,
+      "text": "(Olar) kerdirler, laldyrlar, kördürler, (şonuň üçin hem) yza (dogry ýola) öwrülip bilmezler.",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:19-19",
+      "surah": 2,
+      "fromAyah": 19,
+      "toAyah": 19,
+      "text": "Ýa-da (olaryň bu ýagdaýy) garaňky (gijede) gök gümmürdileriniň we ýyldyrymlaryň (arasynda) asmandan ýagýan çabgada galyp, ýyldyrymlar (urup) öldüräýmesin gorkusy bilen gulaklaryny barmaklary bilen ýapýanlara (meňzeýärler). Alla kapyrlaryň (daş-töwereklerini) gabap goýandyr.",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:20-20",
+      "surah": 2,
+      "fromAyah": 20,
+      "toAyah": 20,
+      "text": "(Şol wagt) ýyldyrym hem göýä, gözlerini çykarjak ýaly (çakar). Ol (ýyldyrym çakan wagty) olara ýagtylyk salsa-ha ýörärler, üstlerine tümlük abansa welin, gymyldaman durarlar. Alla islesedi, elbetde, olaryň gözlerini kör, gulaklaryny ker ederdi. Takyk, Allanyň ähli zada güýji ýetýändir.",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:21-21",
+      "surah": 2,
+      "fromAyah": 21,
+      "toAyah": 21,
+      "text": "Eý, ynsanlar! Takwalardan bolmagyňyz üçin sizi we sizden öňküleri ýaradan Perwerdigäriňize ybadat ediň!",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:22-22",
+      "surah": 2,
+      "fromAyah": 22,
+      "toAyah": 22,
+      "text": "Ol (Alla) ýeri siziň üçin düşek, asmany hem (ýokaryňyzy ýapýan) gupba edip goýdy. Asmandan suw (ýagyş) inderip, size rysgal bolsun diýip (ýerden dürli) miweler çykardy. Siz (bulary) bilip durkaňyz, hiç kimi Alla deň hasaplamaň!",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:23-23",
+      "surah": 2,
+      "fromAyah": 23,
+      "toAyah": 23,
+      "text": "Eger siziň Biziň gulumyza (Muhammede) inderen zatlarymyza şübhäňiz bar bolsa, onda siz oňa (Kuranyň süresine) meňzeş bir süre getiriň! Eger dogruçyl bolsaňyz, Alladan özge şaýatlaryňyzy (butlaryňyzy) hem çagyryň!",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:24-24",
+      "surah": 2,
+      "fromAyah": 24,
+      "toAyah": 24,
+      "text": "Eger muny başaryp bilmeseňiz, elbetde, (siz ony) hiç haçan başaryp bilmersiňiz, kapyrlar üçin taýýarlanylan tutaşdyrlygy ynsan we daş bolan otdan (dowzahdan) heder ediň!",
+      "footnoteIds": [],
+      "pdfPage": 5
+    },
+    {
+      "id": "2:25-25",
+      "surah": 2,
+      "fromAyah": 25,
+      "toAyah": 25,
+      "text": "Iman getirip, ýagşy işleri edýänleri aşagyndan derýalar akýan jennetler bilen söýünjile! Özlerine (jennetdäki) miweler rysgal edilip berlende, olar: «Bize öň (dünýäde) hem beýle rysgal berlipdi» diýerler. Emma olara (dünýäde) bulara meňzeş miweler berlipdi. Olar üçin (jennetde) päkize jübüt taýlar bardyr. Olar ol ýerde (jennetde) ebedi galarlar.",
+      "footnoteIds": [],
+      "pdfPage": 6
+    },
+    {
+      "id": "2:26-26",
+      "surah": 2,
+      "fromAyah": 26,
+      "toAyah": 26,
+      "text": "Takyk, Alla (hakykaty beýan etmek üçin) çybyny we ondan hem ownuk zady mysal getirmekden çekinmez. Iman getirenler bolsa (bularyň) öz Perwerdigärinden (gelen) hakykatdygyny bilýärler. Kapyrlar (bolsa): «Alla bu mysal bilen näme (diýmek) isleýär?» diýýärler. (Alla) onuň bilen birnäçesini ýoldan azaşdyrar, birnäçesini bolsa dogry ýola salar. Emma (Alla) munuň bilen diňe pasyklary azaşdyrar.",
+      "footnoteIds": [],
+      "pdfPage": 6
+    },
+    {
+      "id": "2:27-27",
+      "surah": 2,
+      "fromAyah": 27,
+      "toAyah": 27,
+      "text": "Alla beren ähti-peýmanlaryndan dänenler, Allanyň (dogan-garyndaşlyk gatnaşygy ýaly) emir eden gatnaşyklaryny kesip, ýer ýüzünde pitne-pisat çykarýanlar, (ine, hakyky) zyýan çekjekler hut şolardyr.",
+      "footnoteIds": [],
+      "pdfPage": 6
+    },
+    {
+      "id": "2:28-28",
+      "surah": 2,
+      "fromAyah": 28,
+      "toAyah": 28,
+      "text": "(Eý, kapyrlar!) Siz nädip öli wagtyňyz sizi direlden (bu dünýä getirip, jan beren) Allany inkär (edip) bilýärsiňiz?! Soň ol sizi öldürer, soň ýene direlder. Siz soňunda Oňa dolanyp eltilersiňiz!",
+      "footnoteIds": [],
+      "pdfPage": 6
+    },
+    {
+      "id": "2:29-29",
+      "surah": 2,
+      "fromAyah": 29,
+      "toAyah": 29,
+      "text": "Ol (Alla) ýer ýüzündäki ähli zady siziň üçin ýaratdy. Soň (Öz gudraty bilen) asmana ýönelip, ony ýedi gat (edip) tertip-nyzama saldy. Ol ähli zady bilýändir.",
+      "footnoteIds": [],
+      "pdfPage": 6
+    },
+    {
+      "id": "2:30-30",
+      "surah": 2,
+      "fromAyah": 30,
+      "toAyah": 30,
+      "text": "(Seniň) Perwerdigäriň perişdelere: «Men ýer ýüzünde bir oruntutar (ynsan) ýaratjak» diýende, olar: «Sen (ýerde) pitne-pisat çykaryp, gan dökjek (ynsanlary) ýaratjak bolýarsyňmy? Biz hamdy-senaň bilen Seni tesbih edýäris we mukaddes tutýarys (taryp edýäris)» diýdiler. (Alla olara): «Takyk, Men siziň bilmeýän zatlaryňyzy bilýärin» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:31-31",
+      "surah": 2,
+      "fromAyah": 31,
+      "toAyah": 31,
+      "text": "(Alla) Adam (ata) ähli zadyň atlaryny öwretdi. Soň olary perişdelere görkezip: «Eger siz dogruçyl bolsaňyz, Maňa bularyň atlaryny aýdyp beriň!» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:32-32",
+      "surah": 2,
+      "fromAyah": 32,
+      "toAyah": 32,
+      "text": "(Perişdeler): «(Eý, Perwerdigärimiz!) Sen ähli nosganlyklardan päksiň! Seniň bize öwreden zatlaryňdan başga biziň bilýän zadymyz ýokdur! Takyk, Sen (ähli zady) bilýänsiň, hikmete eýesiň!» diýdiler.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:33-33",
+      "surah": 2,
+      "fromAyah": 33,
+      "toAyah": 33,
+      "text": "(Alla): «Eý, Adam! Olara (perişdelere) ol zatlaryň atlaryny aýdyp ber!» diýdi. Ol (Adam) olara (perişdelere) olaryň (hemmesiniň) atlaryny aýdyp berende, (Alla): «Men size asmanlardaky we ýerdäki gaýyp zatlary, siziň hem nämäni äşgär edip, nämäni gizleýändigiňizi bilýärin diýmänmidim?» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:34-34",
+      "surah": 2,
+      "fromAyah": 34,
+      "toAyah": 34,
+      "text": "Biz perişdelere: «Adama (hormat edip) sežde ediň!» diýenimizde, Iblisden galany (hemme perişdeler) sežde etdiler. Ol (Iblis) ýüz öwrüp, tekepbirlik etdi we (netijede) kapyrlardan boldy.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:35-35",
+      "surah": 2,
+      "fromAyah": 35,
+      "toAyah": 35,
+      "text": "Biz: «Eý, Adam! Sen öz aýalyň (How ene) bilen jennetde mesgen tut! Ondan (jennet nygmatlaryndan) öz göwün islän ýeriňizde bol edip iýiň! (Emma) bu agajyň (miwesine) golaýlaşmaň! Ýogsa (eger bu agajyň miwesinden iýseňiz) ikiňiz hem (özüňize) zulum edenlerden bolarsyňyz» diýdik.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:36-36",
+      "surah": 2,
+      "fromAyah": 36,
+      "toAyah": 36,
+      "text": "Şeýtan olary ol ýerden (jennetden) taýdyrdy we olary özlerine (berlen) nygmatlaryndan çykartdy. Biz (Adam ata, How enä we şeýtana): «Siz biri-biriňize duşman bolup, (ýere) düşüň! Siziň üçin ýer ýüzünde mesgen we belli bir wagta çenli peýda (ýaşaýyş) bolar» diýdik.",
+      "footnoteIds": [],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:37-37",
+      "surah": 2,
+      "fromAyah": 37,
+      "toAyah": 37,
+      "text": "Adam (ata) öz Perwerdigärinden käbir ylhamlary alandan soň, (eden işine ökünip) derrew toba etdi. Takyk, Ol (Alla) tobalary kabul edijidir, Rehim-şepagatlydyr.",
+      "footnoteIds": [
+        "2:37-37:note-1"
+      ],
+      "pdfPage": 7
+    },
+    {
+      "id": "2:38-38",
+      "surah": 2,
+      "fromAyah": 38,
+      "toAyah": 38,
+      "text": "Biz: «Hemmäňiz ondan (jennetden ýere) düşüň! Soň size Menden bir dogry ýol (kitap ýa-da pygamber) gelse, (kim) Meniň ol dogry ýoluma tabyn bolsa, olara gorky-howp ýokdur we olar gamgyn hem bolmazlar» diýdik.",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:39-39",
+      "surah": 2,
+      "fromAyah": 39,
+      "toAyah": 39,
+      "text": "Biziň aýatlarymyzy inkär edip, ýalan hasaplaýanlar, ine, olar dowzahylaryň hut özleridir. Olar ol ýerde (dowzahda) ebedi galarlar.",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:40-40",
+      "surah": 2,
+      "fromAyah": 40,
+      "toAyah": 40,
+      "text": "Eý, ysraýyl ogullary! Siz Meniň size (ata-babalaryňyza) beren nygmatlarymy ýatlaň! Meniň size (sylag berjek diýip) beren ähti-peýmanyma wepaly bolmagym üçin, siz hem maňa (tabyn boljakdygyňyz üçin) beren ähti-peýmanynyza wepaly boluň! Siz diňe Menden heder ediň!",
+      "footnoteIds": [
+        "2:40-40:note-1"
+      ],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:41-41",
+      "surah": 2,
+      "fromAyah": 41,
+      "toAyah": 41,
+      "text": "Siziň ýanyňyzdakyny (Töwraty) tassyklaýjy edip inderen zadyma (Kurana) iman getiriň! Ony ilkinji inkär eden siz bolmaň! Meniň aýatlarymy az baha (bähbide) derek satmaň! Siz diňe Menden gorkuň!",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:42-42",
+      "surah": 2,
+      "fromAyah": 42,
+      "toAyah": 42,
+      "text": "Siz bilip durkaňyz, hak bilen nähaky gatyşdyrmaň we haky gizlemäň!",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:43-43",
+      "surah": 2,
+      "fromAyah": 43,
+      "toAyah": 43,
+      "text": "(Eý, ysraýyl ogullary!) Namazy berjaý ediň (okaň), zekaty (doly) beriň we rukug edýänler (egilýänler) bilen bile rukug ediň (egiliň)!",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:44-44",
+      "surah": 2,
+      "fromAyah": 44,
+      "toAyah": 44,
+      "text": "(Eý, ýahudy alymlary!) Siz kitaby (Töwraty) okap (hakykaty bilseňiz hem) ynsanlara ýagşy işleri emir edip, özüňizi bolsa unudýarsyňyzmy? Heý siz akyl ýetirjek dälmisiňiz?!",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:45-45",
+      "surah": 2,
+      "fromAyah": 45,
+      "toAyah": 45,
+      "text": "Sabyr etmek we namazy berjaý etmek bilen (Alladan) kömek soraň! Takyk (sabyr we namaz), Alladan gorkýanlardan beýlekiler üçin uly (agyr) işdir.",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:46-46",
+      "surah": 2,
+      "fromAyah": 46,
+      "toAyah": 46,
+      "text": "Takyk, olar (Alladan gorkýanlar) özleriniň Perwerdigärine gowuşjakdyklaryna we Oňa dolanyp barjakdyklaryna anyk ynanýarlar.",
+      "footnoteIds": [],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:47-47",
+      "surah": 2,
+      "fromAyah": 47,
+      "toAyah": 47,
+      "text": "Siz Meniň size beren nygmatlarymy we sizi (Musa pygamberiň döwründe) bütin äleme üstün eden (wagtlarymy) ýatlaň!",
+      "footnoteIds": [
+        "2:47-47:note-1"
+      ],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:48-48",
+      "surah": 2,
+      "fromAyah": 48,
+      "toAyah": 48,
+      "text": "Siz hiç kimiň başga birine derek töleg töläp bilmeýän, hiç kimden şepagat (kömek) kabul edilmeýän, hiç kimden fidýe (töleg puly) alynmaýan we hiç kime (hiç hili) ýardam edilmeýän günden gorkuň!",
+      "footnoteIds": [
+        "2:48-48:note-1"
+      ],
+      "pdfPage": 8
+    },
+    {
+      "id": "2:49-49",
+      "surah": 2,
+      "fromAyah": 49,
+      "toAyah": 49,
+      "text": "Biz sizi size ýowuz azap (ezýet) beren, erkek perzentleriňizi öldürip, gyz perzentleriňizi diri goýan Fyrgawnyň adamlaryndan doly halas edipdik. Bu siziň üçin Perwerdigäriňizden (gelen) uly synagdy.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:50-50",
+      "surah": 2,
+      "fromAyah": 50,
+      "toAyah": 50,
+      "text": "Biz siziň üçin deňzi ýaryp, sizi halas etdik, Fyrgawnyň adamlaryny hem siziň gözüňiziň öňünde (deňze) gark edipdik.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:51-51",
+      "surah": 2,
+      "fromAyah": 51,
+      "toAyah": 51,
+      "text": "Biz Musa (Töwraty bermek) üçin kyrk gije wadalaşypdyk. Soň siz onuň yzyndan (özüňize) zulum edip, göläni (hudaý) edindiňiz.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:52-52",
+      "surah": 2,
+      "fromAyah": 52,
+      "toAyah": 52,
+      "text": "(Mundan) soň hem siziň şükür etmegiňiz üçin Biz sizi bagyşladyk.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:53-53",
+      "surah": 2,
+      "fromAyah": 53,
+      "toAyah": 53,
+      "text": "Siziň dogry ýoly tapmagyňyz üçin Biz Musa kitaby (Töwraty) we (hak bilen batyly) tapawutlandyrýan (mugjyzalary) beripdik.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:54-54",
+      "surah": 2,
+      "fromAyah": 54,
+      "toAyah": 54,
+      "text": "Musa öz kowumyna: «Eý, kowumym! Takyk, siz göläni (hudaý) edinmek bilen, özüňize zulum etdiňiz. Indi siz öz Ýaradanyňyza toba edip, öz nebisleriňizi (erbet duýgularyňyzy) öldüriň! Bu Ýaradanyňyzyň ýanynda siziň üçin iň haýyrlysydyr. (Belki) Ol siziň tobaňyzy kabul eder. Takyk, Ol (Alla) tobalary kabul edýändir, Rehim-şepagatlydyr» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:55-55",
+      "surah": 2,
+      "fromAyah": 55,
+      "toAyah": 55,
+      "text": "Siz: «Eý, Musa! Biz, tä Allany äşgär görýänçäk, saňa hiç haçan iman getirjek däl» diýen wagtyňyz, gözüňiziň alnynda sizi ýyldyrym urdy.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:56-56",
+      "surah": 2,
+      "fromAyah": 56,
+      "toAyah": 56,
+      "text": "Siziň şükür etmegiňiz üçin (ýyldyrym urandan) soň, Biz sizi (täzeden) direltdik.",
+      "footnoteIds": [],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:57-57",
+      "surah": 2,
+      "fromAyah": 57,
+      "toAyah": 57,
+      "text": "Bulutlary siziň üstüňize kölege etdik. Size menne (şepbeşik halwa) we bedene (etini) inderip: «Size rysgal edip beren halal zatlarymyzdan iýiň» (diýdik). Emma olar, bize däl-de, özlerine zulum edýärdiler.",
+      "footnoteIds": [
+        "2:57-57:note-1"
+      ],
+      "pdfPage": 9
+    },
+    {
+      "id": "2:58-58",
+      "surah": 2,
+      "fromAyah": 58,
+      "toAyah": 58,
+      "text": "Biz (ysraýyl ogullaryna): «Siz bu oba (şähere) giriň, ol ýerdäki (iýilýän zatlardan) isleýşiňiz bol edip iýiň! Soň hem sežde edip: («Eý, Perwerdigärimiz!) Biziň günälerimizi bagyşla!» diýip gapydan giriň. Biz (hem) siziň hatalaryňyzy (günäleriňizi) bagyşlarys we ýagşylyk edýänleriň (sogaplaryny) hökman köpeldip bereris» diýipdik.",
+      "footnoteIds": [],
+      "pdfPage": 10
+    },
+    {
+      "id": "2:59-59",
+      "surah": 2,
+      "fromAyah": 59,
+      "toAyah": 59,
+      "text": "Emma zulum edenler özlerine aýdylanlary başga sözler bilen üýtgetdiler. Biz hem zulum edenlere, boýun egmekden dänendikleri sebäpli, asmandan gorkunç azap inderdik.",
+      "footnoteIds": [],
+      "pdfPage": 10
+    },
+    {
+      "id": "2:60-60",
+      "surah": 2,
+      "fromAyah": 60,
+      "toAyah": 60,
+      "text": "Musa (çölde) öz kowumy üçin suw dilände, Biz oňa: «Hasaň bilen daşa ur» diýdik. (Ol uransoň) dessine ondan (daşdan) on iki çeşme çogup çykdy. Her bir taýpa öz içjek çeşmesini bilipdi. (Biz olara): «Allanyň rysgalyndan iýiň, içiň, (emma) ýer ýüzünde bozgaklar ýaly çäkden aşmaň» (diýdik).",
+      "footnoteIds": [],
+      "pdfPage": 10
+    },
+    {
+      "id": "2:61-61",
+      "surah": 2,
+      "fromAyah": 61,
+      "toAyah": 61,
+      "text": "(Eý, ysraýyl ogullary!) Siz: «Eý, Musa! Biz hiç haçan bir tagam bilen (çäklenip) sabyr edip bilmeris. Sen biziň üçin Perwerdigäriňe ýüz tut! (Goý), Ol bize ýeriň bitirýän gök otlaryndan, hyýaryndan, sarymsagyndan, merjimeginden, soganyndan çykaryp bersin!» diýeniňizde, Musa size: «Siz haýyrly zady pes (zada) çalyşmak (isleýärsiňizmi)? Siz şähere iniň (gidiň), takyk (ol ýerde), siziň islän zatlaryňyz bardyr» diýdi. (Mundan soň) olara peslik we misginlik (tagmasy) uruldy. Olar Allanyň gazabyna duçar boldular. Bu olaryň Allanyň aýatlaryny inkär edip, pygamberleri nähak ýere öldürendikleri (sebäplidir). Bu (bolsa) olaryň asy bolandyklary we çäkden çykandyklary sebäpli boldy.",
+      "footnoteIds": [],
+      "pdfPage": 10
+    },
+    {
+      "id": "2:62-62",
+      "surah": 2,
+      "fromAyah": 62,
+      "toAyah": 62,
+      "text": "Takyk, iman getiren ýahudylardan, nasranylardan we sabylardan Alla we ahyret gününe ynanyp, ýagşy işleri edýänler üçin özleriniň Perwerdigäriniň ýanynda sylaglar bardyr. Olara hiç hili gorky-howp ýokdur we olar gamgyn hem bolmazlar.",
+      "footnoteIds": [
+        "2:62-62:note-1"
+      ],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:63-63",
+      "surah": 2,
+      "fromAyah": 63,
+      "toAyah": 63,
+      "text": "(Eý, ysraýyl ogullary!) Biz sizden (Töwrata uýjakdygyňyz barada) ähti-peýman alypdyk. (Soň siz bu lebziňizi ýuwdandygyňyz üçin) Tur (dagyny) siziň üstüňize galdyryp: «Takwalardan bolmagyňyz üçin size beren zadymyza (Töwrata) mäkäm ýapyşyň we onuň içindäkileri ýat tutuň (amal ediň)!» diýipdik.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:64-64",
+      "surah": 2,
+      "fromAyah": 64,
+      "toAyah": 64,
+      "text": "Soň munuň (Töwraty kabul edişiňiziň) yzyndan siz (beren ähti-peýmanyňyzdan) dändiňiz. Eger size Allanyň pazly-keremi we merhemeti bolmasady, elbetde, siz zyýan çekenlerden bolardyňyz.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:65-65",
+      "surah": 2,
+      "fromAyah": 65,
+      "toAyah": 65,
+      "text": "Kasam bolsun! Siz öz içiňizden şenbe güni azgynçylyk edendikleri üçin (Biziň olara): «Betnyşan maýmynlara öwrüliň!» diýendigimizi, elbetde, bilýänsiňiz.",
+      "footnoteIds": [
+        "2:65-65:note-1"
+      ],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:66-66",
+      "surah": 2,
+      "fromAyah": 66,
+      "toAyah": 66,
+      "text": "Biz muny şol wagt görenlere (ýaşaýanlara) we olaryň yzlaryndan geljeklere ybrat dersi, takwalara bolsa öwüt-nesihat bolmagy üçin etdik.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:67-67",
+      "surah": 2,
+      "fromAyah": 67,
+      "toAyah": 67,
+      "text": "Musa öz kowumyna: «Takyk, Alla siziň bir sygryň damagyny çalmagyňyzy emir edýär» diýende, olar: «Sen näme bizi ýaňsylaýarsyňmy?» diýdiler. Ol (Musa): «Men nadanlardan bolmakdan Alla sygynýaryn» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:68-68",
+      "surah": 2,
+      "fromAyah": 68,
+      "toAyah": 68,
+      "text": "Olar: «Sen biziň üçin Perwerdigäriňe ýüz tut! (Goý), Ol bize onuň (sygryň) nähilidigini beýän etsin!» diýdiler. Ol (Musa): «Takyk, Ol (Alla): «Ol ne-hä garry sygyr, ne-de ýaş göle (bolsun), bularyň arasynda ortaçarak bolsun» diýýär. (Indi) siz özüňize emir edilen zady berjaý ediň!» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    },
+    {
+      "id": "2:69-69",
+      "surah": 2,
+      "fromAyah": 69,
+      "toAyah": 69,
+      "text": "Olar: «Sen biziň üçin Perwerdigäriňe ýüz tut! (Goý), Ol bize onuň reňkiniň nähiligini beýan etsin!» diýdiler. Ol (Musa): «Takyk Ol (Alla): «Ol görenleri şat edýän ýalpyldap duran sary reňkli sygyr bolsun» diýýär» diýdi.",
+      "footnoteIds": [],
+      "pdfPage": 11
+    }
+  ],
+  "surah_titles_diyanet": [
+    {
+      "surah": 1,
+      "name": "الْفَاتِحَةِ"
+    },
+    {
+      "surah": 2,
+      "name": "الْبَقَرَةِ"
+    }
+  ],
+  "surah_metadata": [
+    {
+      "surah": 1,
+      "verseCount": 7,
+      "place": "Mekge"
+    },
+    {
+      "surah": 2,
+      "verseCount": 286,
+      "place": "Medine"
+    },
+    {
+      "surah": 3,
+      "verseCount": 200,
+      "place": "Medine"
+    },
+    {
+      "surah": 4,
+      "verseCount": 176,
+      "place": "Medine"
+    },
+    {
+      "surah": 5,
+      "verseCount": 120,
+      "place": "Medine"
+    },
+    {
+      "surah": 6,
+      "verseCount": 165,
+      "place": "Mekge"
+    },
+    {
+      "surah": 7,
+      "verseCount": 206,
+      "place": "Mekge"
+    },
+    {
+      "surah": 8,
+      "verseCount": 75,
+      "place": "Medine"
+    },
+    {
+      "surah": 9,
+      "verseCount": 129,
+      "place": "Medine"
+    },
+    {
+      "surah": 10,
+      "verseCount": 109,
+      "place": "Mekge"
+    },
+    {
+      "surah": 11,
+      "verseCount": 123,
+      "place": "Mekge"
+    },
+    {
+      "surah": 12,
+      "verseCount": 111,
+      "place": "Mekge"
+    },
+    {
+      "surah": 13,
+      "verseCount": 43,
+      "place": "Mekge"
+    },
+    {
+      "surah": 14,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 15,
+      "verseCount": 99,
+      "place": "Mekge"
+    },
+    {
+      "surah": 16,
+      "verseCount": 128,
+      "place": "Mekge"
+    },
+    {
+      "surah": 17,
+      "verseCount": 111,
+      "place": "Mekge"
+    },
+    {
+      "surah": 18,
+      "verseCount": 110,
+      "place": "Mekge"
+    },
+    {
+      "surah": 19,
+      "verseCount": 98,
+      "place": "Mekge"
+    },
+    {
+      "surah": 20,
+      "verseCount": 135,
+      "place": "Mekge"
+    },
+    {
+      "surah": 21,
+      "verseCount": 112,
+      "place": "Mekge"
+    },
+    {
+      "surah": 22,
+      "verseCount": 78,
+      "place": "Mekge"
+    },
+    {
+      "surah": 23,
+      "verseCount": 118,
+      "place": "Mekge"
+    },
+    {
+      "surah": 24,
+      "verseCount": 64,
+      "place": "Medine"
+    },
+    {
+      "surah": 25,
+      "verseCount": 77,
+      "place": "Mekge"
+    },
+    {
+      "surah": 26,
+      "verseCount": 227,
+      "place": "Mekge"
+    },
+    {
+      "surah": 27,
+      "verseCount": 93,
+      "place": "Mekge"
+    },
+    {
+      "surah": 28,
+      "verseCount": 88,
+      "place": "Mekge"
+    },
+    {
+      "surah": 29,
+      "verseCount": 69,
+      "place": "Mekge"
+    },
+    {
+      "surah": 30,
+      "verseCount": 60,
+      "place": "Mekge"
+    },
+    {
+      "surah": 31,
+      "verseCount": 34,
+      "place": "Mekge"
+    },
+    {
+      "surah": 32,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 33,
+      "verseCount": 73,
+      "place": "Medine"
+    },
+    {
+      "surah": 34,
+      "verseCount": 54,
+      "place": "Mekge"
+    },
+    {
+      "surah": 35,
+      "verseCount": 45,
+      "place": "Mekge"
+    },
+    {
+      "surah": 36,
+      "verseCount": 83,
+      "place": "Mekge"
+    },
+    {
+      "surah": 37,
+      "verseCount": 182,
+      "place": "Mekge"
+    },
+    {
+      "surah": 38,
+      "verseCount": 88,
+      "place": "Mekge"
+    },
+    {
+      "surah": 39,
+      "verseCount": 75,
+      "place": "Mekge"
+    },
+    {
+      "surah": 40,
+      "verseCount": 85,
+      "place": "Mekge"
+    },
+    {
+      "surah": 41,
+      "verseCount": 54,
+      "place": "Mekge"
+    },
+    {
+      "surah": 42,
+      "verseCount": 53,
+      "place": "Mekge"
+    },
+    {
+      "surah": 43,
+      "verseCount": 89,
+      "place": "Mekge"
+    },
+    {
+      "surah": 44,
+      "verseCount": 59,
+      "place": "Mekge"
+    },
+    {
+      "surah": 45,
+      "verseCount": 37,
+      "place": "Mekge"
+    },
+    {
+      "surah": 46,
+      "verseCount": 35,
+      "place": "Mekge"
+    },
+    {
+      "surah": 47,
+      "verseCount": 38,
+      "place": "Medine"
+    },
+    {
+      "surah": 48,
+      "verseCount": 29,
+      "place": "Medine"
+    },
+    {
+      "surah": 49,
+      "verseCount": 18,
+      "place": "Medine"
+    },
+    {
+      "surah": 50,
+      "verseCount": 45,
+      "place": "Mekge"
+    },
+    {
+      "surah": 51,
+      "verseCount": 60,
+      "place": "Mekge"
+    },
+    {
+      "surah": 52,
+      "verseCount": 49,
+      "place": "Mekge"
+    },
+    {
+      "surah": 53,
+      "verseCount": 62,
+      "place": "Mekge"
+    },
+    {
+      "surah": 54,
+      "verseCount": 55,
+      "place": "Mekge"
+    },
+    {
+      "surah": 55,
+      "verseCount": 78,
+      "place": "Mekge"
+    },
+    {
+      "surah": 56,
+      "verseCount": 96,
+      "place": "Mekge"
+    },
+    {
+      "surah": 57,
+      "verseCount": 29,
+      "place": "Medine"
+    },
+    {
+      "surah": 58,
+      "verseCount": 22,
+      "place": "Medine"
+    },
+    {
+      "surah": 59,
+      "verseCount": 24,
+      "place": "Medine"
+    },
+    {
+      "surah": 60,
+      "verseCount": 13,
+      "place": "Medine"
+    },
+    {
+      "surah": 61,
+      "verseCount": 14,
+      "place": "Medine"
+    },
+    {
+      "surah": 62,
+      "verseCount": 11,
+      "place": "Medine"
+    },
+    {
+      "surah": 63,
+      "verseCount": 11,
+      "place": "Medine"
+    },
+    {
+      "surah": 64,
+      "verseCount": 18,
+      "place": "Medine"
+    },
+    {
+      "surah": 65,
+      "verseCount": 12,
+      "place": "Medine"
+    },
+    {
+      "surah": 66,
+      "verseCount": 12,
+      "place": "Medine"
+    },
+    {
+      "surah": 67,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 68,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 69,
+      "verseCount": 52,
+      "place": "Mekge"
+    },
+    {
+      "surah": 70,
+      "verseCount": 44,
+      "place": "Mekge"
+    },
+    {
+      "surah": 71,
+      "verseCount": 28,
+      "place": "Mekge"
+    },
+    {
+      "surah": 72,
+      "verseCount": 28,
+      "place": "Mekge"
+    },
+    {
+      "surah": 73,
+      "verseCount": 20,
+      "place": "Mekge"
+    },
+    {
+      "surah": 74,
+      "verseCount": 56,
+      "place": "Mekge"
+    },
+    {
+      "surah": 75,
+      "verseCount": 40,
+      "place": "Mekge"
+    },
+    {
+      "surah": 76,
+      "verseCount": 31,
+      "place": "Medine"
+    },
+    {
+      "surah": 77,
+      "verseCount": 50,
+      "place": "Mekge"
+    },
+    {
+      "surah": 78,
+      "verseCount": 40,
+      "place": "Mekge"
+    },
+    {
+      "surah": 79,
+      "verseCount": 46,
+      "place": "Mekge"
+    },
+    {
+      "surah": 80,
+      "verseCount": 42,
+      "place": "Mekge"
+    },
+    {
+      "surah": 81,
+      "verseCount": 29,
+      "place": "Mekge"
+    },
+    {
+      "surah": 82,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 83,
+      "verseCount": 36,
+      "place": "Mekge"
+    },
+    {
+      "surah": 84,
+      "verseCount": 25,
+      "place": "Mekge"
+    },
+    {
+      "surah": 85,
+      "verseCount": 22,
+      "place": "Mekge"
+    },
+    {
+      "surah": 86,
+      "verseCount": 17,
+      "place": "Mekge"
+    },
+    {
+      "surah": 87,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 88,
+      "verseCount": 26,
+      "place": "Mekge"
+    },
+    {
+      "surah": 89,
+      "verseCount": 30,
+      "place": "Mekge"
+    },
+    {
+      "surah": 90,
+      "verseCount": 20,
+      "place": "Mekge"
+    },
+    {
+      "surah": 91,
+      "verseCount": 15,
+      "place": "Mekge"
+    },
+    {
+      "surah": 92,
+      "verseCount": 21,
+      "place": "Mekge"
+    },
+    {
+      "surah": 93,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 94,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 95,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 96,
+      "verseCount": 19,
+      "place": "Mekge"
+    },
+    {
+      "surah": 97,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 98,
+      "verseCount": 8,
+      "place": "Medine"
+    },
+    {
+      "surah": 99,
+      "verseCount": 8,
+      "place": "Medine"
+    },
+    {
+      "surah": 100,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 101,
+      "verseCount": 11,
+      "place": "Mekge"
+    },
+    {
+      "surah": 102,
+      "verseCount": 8,
+      "place": "Mekge"
+    },
+    {
+      "surah": 103,
+      "verseCount": 3,
+      "place": "Mekge"
+    },
+    {
+      "surah": 104,
+      "verseCount": 9,
+      "place": "Mekge"
+    },
+    {
+      "surah": 105,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 106,
+      "verseCount": 4,
+      "place": "Mekge"
+    },
+    {
+      "surah": 107,
+      "verseCount": 7,
+      "place": "Mekge"
+    },
+    {
+      "surah": 108,
+      "verseCount": 3,
+      "place": "Mekge"
+    },
+    {
+      "surah": 109,
+      "verseCount": 6,
+      "place": "Mekge"
+    },
+    {
+      "surah": 110,
+      "verseCount": 3,
+      "place": "Medine"
+    },
+    {
+      "surah": 111,
+      "verseCount": 5,
+      "place": "Mekge"
+    },
+    {
+      "surah": 112,
+      "verseCount": 4,
+      "place": "Mekge"
+    },
+    {
+      "surah": 113,
+      "verseCount": 5,
+      "place": "Medine"
+    },
+    {
+      "surah": 114,
+      "verseCount": 6,
+      "place": "Medine"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "printedPage": 0,
+      "pdfPage": 2,
+      "printedLabel": null,
+      "printedPageInferred": true,
+      "verses": [
+        {
+          "surah": 1,
+          "ayah": 1
+        },
+        {
+          "surah": 1,
+          "ayah": 2
+        },
+        {
+          "surah": 1,
+          "ayah": 3
+        },
+        {
+          "surah": 1,
+          "ayah": 4
+        },
+        {
+          "surah": 1,
+          "ayah": 5
+        },
+        {
+          "surah": 1,
+          "ayah": 6
+        },
+        {
+          "surah": 1,
+          "ayah": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "printedPage": 1,
+      "pdfPage": 3,
+      "printedLabel": null,
+      "printedPageInferred": true,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 1
+        },
+        {
+          "surah": 2,
+          "ayah": 2
+        },
+        {
+          "surah": 2,
+          "ayah": 3
+        },
+        {
+          "surah": 2,
+          "ayah": 4
+        },
+        {
+          "surah": 2,
+          "ayah": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "printedPage": 2,
+      "pdfPage": 4,
+      "printedLabel": "2",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 6
+        },
+        {
+          "surah": 2,
+          "ayah": 7
+        },
+        {
+          "surah": 2,
+          "ayah": 8
+        },
+        {
+          "surah": 2,
+          "ayah": 9
+        },
+        {
+          "surah": 2,
+          "ayah": 10
+        },
+        {
+          "surah": 2,
+          "ayah": 11
+        },
+        {
+          "surah": 2,
+          "ayah": 12
+        },
+        {
+          "surah": 2,
+          "ayah": 13
+        },
+        {
+          "surah": 2,
+          "ayah": 14
+        },
+        {
+          "surah": 2,
+          "ayah": 15
+        },
+        {
+          "surah": 2,
+          "ayah": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "printedPage": 3,
+      "pdfPage": 5,
+      "printedLabel": "3",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 17
+        },
+        {
+          "surah": 2,
+          "ayah": 18
+        },
+        {
+          "surah": 2,
+          "ayah": 19
+        },
+        {
+          "surah": 2,
+          "ayah": 20
+        },
+        {
+          "surah": 2,
+          "ayah": 21
+        },
+        {
+          "surah": 2,
+          "ayah": 22
+        },
+        {
+          "surah": 2,
+          "ayah": 23
+        },
+        {
+          "surah": 2,
+          "ayah": 24
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "printedPage": 4,
+      "pdfPage": 6,
+      "printedLabel": "4",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 25
+        },
+        {
+          "surah": 2,
+          "ayah": 26
+        },
+        {
+          "surah": 2,
+          "ayah": 27
+        },
+        {
+          "surah": 2,
+          "ayah": 28
+        },
+        {
+          "surah": 2,
+          "ayah": 29
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "printedPage": 5,
+      "pdfPage": 7,
+      "printedLabel": "5",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 30
+        },
+        {
+          "surah": 2,
+          "ayah": 31
+        },
+        {
+          "surah": 2,
+          "ayah": 32
+        },
+        {
+          "surah": 2,
+          "ayah": 33
+        },
+        {
+          "surah": 2,
+          "ayah": 34
+        },
+        {
+          "surah": 2,
+          "ayah": 35
+        },
+        {
+          "surah": 2,
+          "ayah": 36
+        },
+        {
+          "surah": 2,
+          "ayah": 37
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "printedPage": 6,
+      "pdfPage": 8,
+      "printedLabel": "6",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 38
+        },
+        {
+          "surah": 2,
+          "ayah": 39
+        },
+        {
+          "surah": 2,
+          "ayah": 40
+        },
+        {
+          "surah": 2,
+          "ayah": 41
+        },
+        {
+          "surah": 2,
+          "ayah": 42
+        },
+        {
+          "surah": 2,
+          "ayah": 43
+        },
+        {
+          "surah": 2,
+          "ayah": 44
+        },
+        {
+          "surah": 2,
+          "ayah": 45
+        },
+        {
+          "surah": 2,
+          "ayah": 46
+        },
+        {
+          "surah": 2,
+          "ayah": 47
+        },
+        {
+          "surah": 2,
+          "ayah": 48
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "printedPage": 7,
+      "pdfPage": 9,
+      "printedLabel": "7",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 49
+        },
+        {
+          "surah": 2,
+          "ayah": 50
+        },
+        {
+          "surah": 2,
+          "ayah": 51
+        },
+        {
+          "surah": 2,
+          "ayah": 52
+        },
+        {
+          "surah": 2,
+          "ayah": 53
+        },
+        {
+          "surah": 2,
+          "ayah": 54
+        },
+        {
+          "surah": 2,
+          "ayah": 55
+        },
+        {
+          "surah": 2,
+          "ayah": 56
+        },
+        {
+          "surah": 2,
+          "ayah": 57
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "printedPage": 8,
+      "pdfPage": 10,
+      "printedLabel": "8",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 58
+        },
+        {
+          "surah": 2,
+          "ayah": 59
+        },
+        {
+          "surah": 2,
+          "ayah": 60
+        },
+        {
+          "surah": 2,
+          "ayah": 61
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "printedPage": 9,
+      "pdfPage": 11,
+      "printedLabel": "9",
+      "printedPageInferred": false,
+      "verses": [
+        {
+          "surah": 2,
+          "ayah": 62
+        },
+        {
+          "surah": 2,
+          "ayah": 63
+        },
+        {
+          "surah": 2,
+          "ayah": 64
+        },
+        {
+          "surah": 2,
+          "ayah": 65
+        },
+        {
+          "surah": 2,
+          "ayah": 66
+        },
+        {
+          "surah": 2,
+          "ayah": 67
+        },
+        {
+          "surah": 2,
+          "ayah": 68
+        },
+        {
+          "surah": 2,
+          "ayah": 69
+        }
+      ]
+    }
+  ]
+}
