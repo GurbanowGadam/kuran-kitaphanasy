@@ -71,3 +71,12 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
 1. Google Drive'ın HTML onay sayfasını kazıyarak indirme kırılgan (kota/format değişimi).
 2. CI Python birim testlerinin çoğunu çalıştırmıyor.
 3. `mode`/`alignment` string; enum değil. `_ReaderState` çok büyük.
+
+## Yayın durumu (Google Play)
+
+- Yayıncı adı "Kuran Kitaphanasy", destek `kurankitaphanasy@gmail.com`, kişisel geliştirici
+  hesabı (üretimden önce 12 test kullanıcısı × 14 gün kapalı test zorunlu).
+- Gizlilik politikası: `site/privacy.html` → GitHub Pages (`.github/workflows/pages.yml`).
+  Ağ/izin/SDK değişirse bunu, `docs/PRIVACY.md`'yi ve uygulama içi Hakkında metnini birlikte güncelle.
+- Adım adım yol ve form cevapları: `docs/play-store/PLAY_CONSOLE_GUIDE.md`. Her yüklemede
+  `pubspec.yaml` versionCode (`+N`) artar.

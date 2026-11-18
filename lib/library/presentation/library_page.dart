@@ -272,6 +272,15 @@ class LibraryPage extends StatelessWidget {
                                 'Ýüklenen ses faýllarynyň bitewiligi barlanýar.',
                               ),
                               SizedBox(height: 12),
+                              Text('Programmanyň gizlinlik syýasaty:'),
+                              SelectableText(
+                                'https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html',
+                              ),
+                              SizedBox(height: 12),
+                              Text(
+                                'Habarlaşmak üçin: kurankitaphanasy@gmail.com',
+                              ),
+                              SizedBox(height: 12),
                               Text('Google hyzmatynyň gizlinlik syýasaty:'),
                               SelectableText(
                                 'https://policies.google.com/privacy',

@@ -1,12 +1,12 @@
 # Gizlilik politikası taslağı — Android / 1.0.0+3 hedefi
 
-DURUM: YAYINA HAZIR DEĞİL. Bu metin sahibinin incelemesi için Türkçe şablondur; yayımlanmış politika veya hukukî onay değildir. Köşeli alanlar gerçek bilgilerle doldurulmalı, kullanıcıların anlayacağı dilde son metin hazırlanmalıdır.
+DURUM: Kullanıcıya yayımlanan metin `site/privacy.html` dosyasıdır (Türkmençe + Türkçe) ve GitHub Pages ile yayınlanır. Bu belge onun ayrıntılı iç gerekçesidir; ikisi birlikte güncellenir.
 
 - Uygulama: Kuran Kitaphanasy (`tm.kuran.kitaphanasy`).
-- Yasal yayıncı / veri sorumlusu: [BEKLİYOR — gerçek kişi veya tüzel kişi adı].
-- Destek ve gizlilik iletişimi: [BEKLİYOR — sahibi tarafından doğrulanmış e-posta].
-- Herkese açık kalıcı HTTPS politika URL'si: [BEKLİYOR — henüz yayımlanmadı].
-- Yürürlük tarihi: [BEKLİYOR — gerçek yayın tarihi].
+- Yayıncı: Kuran Kitaphanasy (sahibi tarafından 2026-11-18'de belirlendi).
+- Destek ve gizlilik iletişimi: kurankitaphanasy@gmail.com.
+- Herkese açık politika URL'si: https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html (Pages etkinleştirildikten sonra).
+- Yürürlük tarihi: 18.11.2026.
 
 ## Uygulama ve cihazda tutulan bilgiler
 
@@ -26,7 +26,7 @@ Google'ın bu isteklere ilişkin saklama süresi, bağımsız kullanım amaçlar
 
 Yerel tercihler ve yer imleri değiştirilene/silinene veya uygulama verileri temizlenene kadar, tamamlanmış sesler silinene kadar cihazda kalır; otomatik süreli silme taahhüdü yoktur. Tüm yerel veriler Android sistem ayarlarındaki uygulama depolaması/verileri temizleme yoluyla kaldırılabilir; kaldırma işlemi de normalde uygulamaya ait yerel verileri siler. Google'ın olası sunucu günlükleri cihaz verilerini temizlemekle silinmez.
 
-Android kaynak manifestinde INTERNET izni bulunur; allowBackup=false ve yedek/aktarım dışlama kuralları tanımlıdır. Nihai paket ve üretici davranışı ayrıca doğrulanmalıdır; mutlak yedeklenmeme garantisi verilmez. iOS ve web davranışı bu Android taslağından otomatik çıkarılamaz: iOS sistem yedekleri, web sunucusu erişim günlükleri ve tarayıcı depolaması ayrıca açıklanmalıdır.
+Son birleşik release manifestinde `INTERNET` ve ExoPlayer/media3'ün eklediği olağan `ACCESS_NETWORK_STATE` izni bulunur; allowBackup=false ve yedek/aktarım dışlama kuralları tanımlıdır. Nihai paket ve üretici davranışı ayrıca doğrulanmalıdır; mutlak yedeklenmeme garantisi verilmez. iOS ve web davranışı bu Android taslağından otomatik çıkarılamaz: iOS sistem yedekleri, web sunucusu erişim günlükleri ve tarayıcı depolaması ayrıca açıklanmalıdır.
 
 ## Talepler ve değişiklikler
 

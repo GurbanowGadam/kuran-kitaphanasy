@@ -25,7 +25,7 @@ OKAMAK
 DIŇLEMEK
 MP3Quran çeşmesinden alnan ses ýazgylaryny saýlanan kary we süre boýunça ýükläp bilersiňiz. Ses faýllary Google Drive arkaly berilýär. Ilki ýazgyny doly ýükläň, soň ony enjamyňyzdan diňläň. Ýüklenen ýazgylary internetsiz hem diňläp bolýar.
 
-Sesleri ilkinji gezek ýüklemek üçin internet we enjamda ýeterlik boş ýer gerek. Internet hyzmatynyň tölegi ulanylyp bilner. Google Drive çäklendirmeleri ýa-da elýeterlilik meselesi ýüze çyksa, ýüklemek wagtlaýyn başa barmay biler. Ähli sesler programma bilen bile gelmeýär we internetden göni akym görnüşinde çalynmaýar.
+Sesleri ilkinji gezek ýüklemek üçin internet we enjamda ýeterlik boş ýer gerek. Internet hyzmatynyň tölegi ulanylyp bilner. Google Drive çäklendirmeleri ýa-da elýeterlilik meselesi ýüze çyksa, ýüklemek wagtlaýyn başa barmazlygy mümkin. Ähli sesler programma bilen bile gelmeýär we internetden göni akym görnüşinde çalynmaýar.
 
 Aýatlaryň arasynda geçip, aýaty ýa-da süräni gaýtalap diňläp bilersiňiz.
 

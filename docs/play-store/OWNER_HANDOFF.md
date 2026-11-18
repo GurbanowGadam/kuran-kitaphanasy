@@ -1,5 +1,9 @@
 # Sahibine teslim — Google Play / 1.0.0+3 hazırlığı
 
+> **Güncel (2026-11-18):** Yayıncı adı, e-posta ve gizlilik URL'si belirlendi; mağaza
+> görselleri (`assets/`), Türkçe metin ve adım adım yol `PLAY_CONSOLE_GUIDE.md` içinde.
+> Aşağıdaki liste ilk teslim kaydıdır; kalan işler için rehberi esas alın.
+
 ## Şu anki durum
 
 Yerel mağaza metinleri ve yayın prosedürü hazırlandı; sahip onayı gerektiren taslaklardır. İmzalı AAB, Play yüklemesi, mağaza incelemesi ve yayın birbirinden ayrıdır; burada hiçbiri tamamlandı diye işaretlenmez. Bu doküman görevi uygulama testlerini/derlemesini çalıştırmadı. Önceki sürümlerin test kayıtları yeni sürümün kanıtı değildir.

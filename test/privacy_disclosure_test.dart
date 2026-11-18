@@ -21,6 +21,9 @@ void main() {
             'hemmeler üçin açyk faýllary internet arkaly ýükleýär. Şonda Google '
             'Drive tor haýyşlaryny we IP salgyňyz ýaly tehniki maglumatlary alýar. '
             'Ýüklenen ses faýllarynyň bitewiligi barlanýar.',
+        'Programmanyň gizlinlik syýasaty:',
+        'https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html',
+        'Habarlaşmak üçin: kurankitaphanasy@gmail.com',
         'Google hyzmatynyň gizlinlik syýasaty:',
         'https://policies.google.com/privacy',
         'Sazlamalar, okalyş ýagdaýy, bellikler we ýüklenen sesler diňe şu '
@@ -47,6 +50,18 @@ void main() {
             (widget) =>
                 widget is SelectableText &&
                 widget.data == 'https://policies.google.com/privacy',
+          ),
+        ),
+        findsOneWidget,
+      );
+      expect(
+        find.descendant(
+          of: dialog,
+          matching: find.byWidgetPredicate(
+            (widget) =>
+                widget is SelectableText &&
+                widget.data ==
+                    'https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html',
           ),
         ),
         findsOneWidget,

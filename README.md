@@ -75,8 +75,9 @@ Okuma için hesap, backend, analitik, reklam, uzaktan font veya içerik indirmes
 gerekmez. Yerel okuma tercihleri/son konum ve yer imleri cihazda tutulur; uygulamayı
 silmek bu yerel veriyi kaldırır. Android release manifesti yalnız **INTERNET** izni
 ister: tek ağ isteği, kullanıcının seçtiği ses indirmesidir (Google Drive; IP adresi ve
-teknik istek bilgileri Google'a ulaşır). Başka izin yoktur; `tools/release/release_readiness.py`
-beklenmeyen izinleri reddeder. Nihai birleşik AAB izinleri yine kontrol edilir.
+teknik istek bilgileri Google'a ulaşır). Birleşik pakette ses oynatıcının (media3) eklediği
+olağan `ACCESS_NETWORK_STATE` izni de vardır. `tools/release/release_readiness.py` kaynak
+manifestlerde beklenmeyen izinleri reddeder.
 Android uygulama yedekleme kapalıdır; Android 12+ bulut/cihaz aktarım kuralları yerel
 veri alanlarını dışlar. OEM davranışı ayrıca cihazda doğrulanmalıdır.
 iOS yedekleme davranışı Android ile aynı varsayılmaz; cihazdaki yerel tercihler OS
@@ -84,8 +85,9 @@ yedeğine dahil olabilir, yayın öncesi gizlilik açıklaması buna göre incel
 
 Web ilk yüklemesi bir sunucu gerektirir; sunucunun erişim günlükleri kendi gizlilik
 kapsamıdır. Offline PWA önbelleği/tüm tarayıcılarda kurulum garantisi verilmez.
-Ayrıntılar: [gizlilik taslağı](docs/PRIVACY.md). Mağaza için sahibi tarafından erişilebilir
-bir gizlilik URL'si yayımlanmalıdır; bu belge tek başına mağaza başvurusunu tamamlamaz.
+Yayımlanan politika: [site/privacy.html](site/privacy.html) →
+https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html (GitHub Pages, `pages.yml`).
+Ayrıntılı gerekçe: [docs/PRIVACY.md](docs/PRIVACY.md).
 
 ## Kaynaklar ve izinler
 
@@ -112,7 +114,8 @@ Kaynağa erişilebilirlik tek başına yeniden dağıtım izni sayılmaz.
 
 [İkonun tekrar üretilmesi](assets/branding/README.md),
 [imzalama ve native hazırlık](docs/NATIVE_RELEASE.md),
-[yayın kontrol listesi](docs/RELEASE_CHECKLIST.md).
+[yayın kontrol listesi](docs/RELEASE_CHECKLIST.md),
+[Play Console adım adım rehberi](docs/play-store/PLAY_CONSOLE_GUIDE.md).
 
 GitHub CI analiz, Flutter testleri, dondurulmuş içerik denetimi ve debug APK üretir.
 İmzalı AAB yalnız manuel istek ve sahibin `production` ortam sırlarıyla üretilir;
