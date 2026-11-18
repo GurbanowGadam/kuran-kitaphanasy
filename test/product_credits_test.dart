@@ -9,7 +9,7 @@ import 'reader_fixture.dart';
 void main() {
   test('requested version and Material Icons license are bundled without legacy audio', () {
     final spec = File('pubspec.yaml').readAsStringSync();
-    expect(spec, contains('version: 0.0.1+2'));
+    expect(spec, contains('version: 1.0.0+3'));
     expect(spec, isNot(contains('    - assets/audio/\n')));
     expect(spec, contains('    - assets/audio/yasir-fatiha-original.mp3'));
     expect(spec, contains('assets/licenses/MaterialIcons-LICENSE.txt'));
@@ -33,7 +33,7 @@ void main() {
       expect(find.textContaining('ulanyjy tarapyndan berlen'), findsNothing);
       expect(find.text('Şrift ygtyýarnamalary'), findsOneWidget);
       expect(find.textContaining('MP3Quran'), findsOneWidget);
-      expect(find.textContaining('0.0.1'), findsOneWidget);
+      expect(find.textContaining('1.0.0'), findsOneWidget);
     },
   );
 }

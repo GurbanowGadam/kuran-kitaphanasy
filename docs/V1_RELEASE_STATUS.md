@@ -1,3 +1,5 @@
+> TARİHSEL KAYIT — Aşağıdaki metin ilk ürün aşamasını olduğu gibi korur; güncel 1.0.0+3 hazırlığının özellik veya test raporu değildir. “Ses oynatıcı yok”, “INTERNET yok” ve eski sürüm/artefakt/test ifadeleri güncel ürün için geçerli sayılmamalıdır. Mevcut kapsam MP3Quran kaynaklı Google Drive üzerinden isteğe bağlı ses indirme, yerel oynatma ve adlandırılmış yer imleri içerir; Hadis kartları yalnız yakında yer tutucularıdır. Güncel sahip kapıları: `RELEASE_CHECKLIST.md`, `NATIVE_RELEASE.md`, `PRIVACY.md`, `play-store/OWNER_HANDOFF.md`. Yerel hazırlık imzalı upload veya mağaza onayı değildir. Bu banner yeni test çalıştırıldığını iddia etmez.
+
 # Kuran Kitaphanasy 1.0.0 — uygulanan ilk ürün sürümü
 
 ## Ürün sınırı

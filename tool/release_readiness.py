@@ -19,7 +19,7 @@ def require(condition, message):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--require-signing', action='store_true')
-    parser.add_argument('--allow-pending-version', action='store_true', help='Scaffold handoff only: warn instead of failing for pending app-worker version update')
+    parser.add_argument('--allow-pending-version', action='store_true', help='Deprecated compatibility flag; invalid release versions are never accepted')
     args = parser.parse_args()
     require(not (args.require_signing and args.allow_pending_version), 'Signed release checks cannot bypass the version gate')
     gradle = (ROOT/'android/app/build.gradle.kts').read_text()
@@ -31,7 +31,14 @@ def main():
     activity = ROOT/'android/app/src/main/kotlin/tm/kuran/kitaphanasy/MainActivity.kt'
     require('package tm.kuran.kitaphanasy' in activity.read_text(), 'Kotlin package')
     manifest = ET.parse(ROOT/'android/app/src/main/AndroidManifest.xml').getroot()
-    require(not any(p.get(ANDROID+'name') == 'android.permission.INTERNET' for p in manifest.findall('uses-permission')), 'Release INTERNET permission')
+    require(any(p.get(ANDROID+'name') == 'android.permission.INTERNET' for p in manifest.findall('uses-permission')), 'Download-first audio requires INTERNET permission')
+    # Source overlays can add permissions too. Merged plugin/artifact permissions
+    # still need a separate release-artifact audit.
+    for source in sorted((ROOT/'android/app/src').rglob('AndroidManifest.xml')):
+        for permission in ET.parse(source).getroot():
+            if permission.tag.startswith('uses-permission'):
+                require(permission.get(ANDROID+'name') == 'android.permission.INTERNET',
+                        'Unexpected source-manifest permission in '+str(source.relative_to(ROOT)))
     app = manifest.find('application')
     require(app.get(ANDROID+'label') == 'Kuran Kitaphanasy', 'Android display name')
     require(app.get(ANDROID+'allowBackup') == 'false', 'Android backup policy')
@@ -74,11 +81,10 @@ def main():
     for icon in web['icons']:
         require((ROOT/'web'/icon['src']).is_file(), 'Web icon path')
     require('<title>Kuran Kitaphanasy</title>' in (ROOT/'web/index.html').read_text(), 'Web title')
-    version = re.search(r'^version:\s*(\S+)', (ROOT/'pubspec.yaml').read_text(), re.M)
-    version_ready = bool(version and version[1] == '1.0.0+1')
-    require(version_ready or args.allow_pending_version, 'pubspec version must be 1.0.0+1')
-    if not version_ready:
-        print('WARNING: app-worker pubspec version still pending; not release-ready.')
+    versions = re.findall(r'^version:[ \t]*([^\n]*)', (ROOT/'pubspec.yaml').read_text(), re.M)
+    version = versions[0].split('#', 1)[0].strip() if len(versions) == 1 else ''
+    require(re.fullmatch(r'(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\+[1-9][0-9]*', version),
+            'pubspec version must be release MAJOR.MINOR.PATCH+positive Android version code')
     props_path = ROOT/'android/key.properties'
     props = {}
     if props_path.exists():
@@ -98,7 +104,7 @@ def main():
     if args.require_signing:
         require(all(values), 'Owner release signing credentials are required')
     print(f'PASS: product identity, Android XML/export/backup policy, Kotlin path, iOS bundle IDs/plists/catalog, {len(sizes)} PNG dimensions, original glyph vectors, web manifest.')
-    print('Version: '+('1.0.0+1 verified' if version_ready else 'PENDING — scaffold handoff only'))
+    print('Version: '+version+' verified')
     print('Signing: '+signing)
     print('Not verified: Gradle/Xcode compilation, merged artifact permissions, device visuals, certificates, store policy or publication.')
 

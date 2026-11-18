@@ -1,7 +1,7 @@
 name: kuran_kitaphanasy
 description: Kuran Kitaphanasy — arapça we türkmençe offline okyjy.
 publish_to: 'none'
-version: 0.0.1+2
+version: 1.0.0+3
 environment:
   sdk: ^3.13.5
 dependencies:

@@ -1,87 +1,51 @@
-# Native kimlik ve imzalama
+# Native sürüm ve imzalama — 1.0.0+3 hedefi
 
-Ürün: Kuran Kitaphanasy. Android namespace/applicationId ve iOS Runner bundle ID:
-`tm.kuran.kitaphanasy`. Android debug: `tm.kuran.kitaphanasy.debug`.
-`pubspec.yaml` sürümü native kabuklarda Flutter build name/number olarak kullanılır;
-1.0.0+1 Android versionName=1.0.0/versionCode=1 ve iOS 1.0.0/build 1 hedefidir.
-Sürüm dosyasını platform kabuklarında ayrıca sabitlemeyin.
+Bu belge sahibinin uygulayacağı prosedürdür; bu doküman çalışmasında derleme, test, imza veya mağaza yüklemesi yapılmış olduğunu göstermez. Yerel hazırlık, imzalı dağıtım ve mağaza onayı ayrı kapılardır.
 
-## Android
+## Kimlik ve sürüm
 
-Android 12 launcher activity `android:exported="true"` olarak belirtilmiştir.
-`compileSdk`, `targetSdk`, `minSdk`, NDK Flutter SDK varsayımlarından gelir.
-Yerel Flutter 3.47.7 `compileSdk=36`, `targetSdk=36`, `minSdk=24` bildirir;
-bunlar kullanılan SDK'nın değerleridir, gelecekteki mağaza şartına otomatik uyum
-iddiası değildir. Android 15/16 edge-to-edge, sistem çubukları, geri hareketi ve
-16 KB sayfa boyutu/native kütüphane uyumluluğu gerçek release üzerinde denetlenir.
-JDK 17 kullanılır. SDK pinleri/CI değişirse bu kontrolleri tekrarlayın.
+Android namespace/applicationId: `tm.kuran.kitaphanasy`; debug: `tm.kuran.kitaphanasy.debug`. iOS Runner kimliği: `tm.kuran.kitaphanasy` (son archive ayrıca doğrulanır). Hedef `1.0.0+3`: Android versionName `1.0.0`, versionCode `3`; iOS build `3`. Pubspec/nihai artefakt sürümünü kontrol edin; dokümandaki hedef tek başına sürümü değiştirmez. Play'de kod 3 daha önce kullanıldıysa yeni, kullanılmamış ve uygun artan kod seçilmelidir.
 
-Release kaynak manifestinde INTERNET yoktur. Debug/profile geliştirme bağlantısı
-izinleri ayrı manifestlerdedir. Birleşik release manifestini `apkanalyzer manifest
-permissions` veya Android Studio ile ayrıca inceleyin; eklenti izin ekleyebilir.
-`allowBackup=false`, `fullBackupContent=false`, Android 12+ data extraction
-exclusion kuralları yerel tercihlerin Android yedeğine/aktarımına girmesini sınırlar.
+Android `compileSdk`, `targetSdk`, `minSdk` ve NDK Flutter SDK'dan gelir; Java/JVM hedefi 17'dir. Gerçek araç zincirini `flutter doctor -v` ile, son manifest değerlerini paket üzerinden okuyun. Güncel Play hedef API ve 16 KB sayfa boyutu koşullarını Console'da kontrol edin; bir SDK sürümünden otomatik mağaza uyumu çıkarmayın.
 
-### Sahibe ait release anahtarı
+Release kaynak manifestinde INTERNET vardır: isteğe bağlı Google Drive ses indirmeleri için gereklidir. `usesCleartextTraffic=false`, `allowBackup=false`, `fullBackupContent=false` ve Android 12+ data extraction dışlamaları tanımlıdır. Son birleşik manifesti Android Studio/bundletool veya APK için `apkanalyzer manifest permissions` ile inceleyin; eklentiler farklı izinler ekleyebilir. Gizlilik açıklamasında eski “internet izni yok” ifadesini kullanmayın.
 
-Bu çalışma anahtar üretmez ve sır oluşturmaz. Sahibi güvenli biçimde upload anahtarı
-sağlamalı, sertifika parmak izini ve keystore'un şifreli çevrimdışı yedeğini saklamalıdır.
-Google Play App Signing ile upload key ve app signing key farkını kaydedin.
+## Gerçek Gradle imzalama girdileri
 
-1. `android/key.properties.example` dosyasını `android/key.properties` olarak kopyalayın.
-2. Örnek değerleri sahibi tarafından sağlanan gerçek bilgilerle yerelde değiştirin.
-   storeFile mutlak yol veya `android/` dizinine göre yoldur. Java properties
-   sözdizimi kullanılır; Linux/macOS yolları tercih edilir.
-3. Alternatif: ortam değişkenleri her alan için properties değerini geçersiz kılar:
-   `ANDROID_KEYSTORE_PATH`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`,
-   `ANDROID_KEY_PASSWORD`. Parolaları terminal geçmişine, loga veya depoya yazmayın.
-4. `python3 tool/release_readiness.py --require-signing`
-5. `flutter build appbundle --release`
-6. `jarsigner -verify -verbose -certs build/app/outputs/bundle/release/app-release.aab`
-   çıktısında gerçekten imzalı ve doğrulanmış olduğunu kontrol edin. Beklenen owner
-   sertifikasıyla karşılaştırın; self-signed upload certificate uyarısı tek başına
-   debug anahtarı demek değildir. APK için `apksigner verify --print-certs` kullanılır.
+`android/app/build.gradle.kts` şu eşlemeleri kullanır:
 
-Dört alan da yoksa `flutter build appbundle --release` imzasız AAB üretir; bu mağazaya
-hazır değildir. Bazı release APK görevleri imza yokken başarısız olabilir; debug'a
-gerileme yapılmaz. Eksik kısmi yapılandırma veya bulunmayan keystore derlemeyi keser.
-Statik hazırlık aracı bir sertifika geçerlilik testi değildir. `.gitignore` keystore,
-key.properties, p12 ve provision dosyalarını dışlar; bu tek başına sır sızıntısı
-koruması değildir. Yanlışlıkla paylaşılan anahtar/parolayı sahibin prosedürüyle döndürün.
+| android/key.properties alanı | Öncelikli ortam değişkeni |
+| --- | --- |
+| storeFile | ANDROID_KEYSTORE_PATH |
+| storePassword | ANDROID_KEYSTORE_PASSWORD |
+| keyAlias | ANDROID_KEY_ALIAS |
+| keyPassword | ANDROID_KEY_PASSWORD |
 
-Debug test APK'sı: `flutter build apk --debug`. Kurulum entegrasyon sorumlusunca
-onaydan sonra yapılır; bu hazırlık çalışması cihaza kurulum yapmaz.
+Boş olmayan ortam değeri ilgili properties alanını geçersiz kılar. `storeFile` mutlak yol veya `android/` dizinine göre yoldur. Dört değer de sağlanmalı; kısmi yapılandırma veya bulunmayan keystore hata verir. Dördü de yoksa release signingConfig null'dır: AAB üretilebilmesi imzalandığı anlamına gelmez. Debug anahtarına sessiz geri dönüş yoktur.
 
-### GitHub Actions
+Sahibi mevcut doğru upload keystore'unu ve alias'ını güvenli şekilde sağlamalıdır. Bu görev anahtar üretmez. `android/key.properties.example` yalnız şablondur; gerçek yerel dosya ve keystore Git dışında tutulur. Parolaları komut geçmişine, ekran görüntüsüne, rapora veya depoya yazmayın. Güvenli yedek/erişim sorumlusunu ve upload key ile Play app-signing key farkını kaydedin.
 
-`.github/workflows/flutter.yml` Flutter 3.47.7 / Java 17 kullanır. Push/PR kalite
-kontrolleri ve debug APK; manuel `signed_release=true` seçimi ayrı imzalı AAB job'ı
-başlatır. Owner GitHub `production` ortamını korumalı ve şu sırları sağlamalıdır:
-`ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`,
-`ANDROID_KEY_PASSWORD`. Base64 şifreleme değildir. Keystore geçici runner dizinine
-çözülür, izinleri sınırlandırılır ve adım sonunda kaldırılır. Eksik sırda job durur.
-AAB artifact'ı yalnız owner incelemesi içindir, yükleme/yayın yoktur. Reponun gerçekten
-GitHub'a bağlanması, Actions policy ve action pinlerinin owner incelemesi ayrı iştir.
+## Sahibi tarafından uygulanacak sıra
 
-## iOS (macOS gerekir)
+Repo kökünde, gerçek imza girdileri güvenli biçimde sağlandıktan sonra:
 
-Eksik iOS kabuğu, yerel Flutter 3.47.7 ile geçici dizinde
-`flutter create --platforms=ios --org tm.kuran --project-name kitaphanasy --no-pub <temp>`
-çalıştırılıp yalnız `ios/` kopyalanarak üretildi. Ana `lib`, `pubspec` ve testler bu
-komutla yeniden oluşturulmadı. Runner Debug/Profile/Release bundle ID doğru; test
-bundle ID `tm.kuran.kitaphanasy.RunnerTests`. Team ID/sahte provision eklenmedi.
+```sh
+flutter pub get
+python3 tool/release_readiness.py --require-signing
+flutter analyze
+flutter test
+python3 tools/check_full_content.py
+flutter build appbundle --release --build-name=1.0.0 --build-number=3
+jarsigner -verify -verbose -certs build/app/outputs/bundle/release/app-release.aab
+keytool -printcert -jarfile build/app/outputs/bundle/release/app-release.aab
+```
 
-Info.plist ürün adını, Flutter sürüm değişkenlerini ve `tk`, `ar`, `en` dil bildirimini
-içerir: Türkmençe geliştirme dili, Arapça kitap içeriği, İngilizce sistem fallback.
-Bu bildirim tüm UI'nin üç dilde çevrildiği iddiası değildir. App Store dil alanlarını
-gerçekte sunulan UI ve içerik ile karşılaştırın. Uygulamada özel şifreleme yoktur;
-`ITSAppUsesNonExemptEncryption=false` mevcut offline kapsam içindir, yeni ağ/kripto
-özelliğinde yeniden incelenmelidir.
+Bunlar çalıştırma talimatıdır, başarılı sonuç kaydı değildir. Hazırlık kontrolü sertifika geçerliliğini veya yayın hakkını kanıtlamaz. `jarsigner` çıktısını inceleyin: gerçekten imzalı/doğrulanmış olmalı; yalnız çıkış koduna güvenmeyin. Sertifikanın SHA-256 parmak izini sahibinin beklenen upload sertifikasıyla karşılaştırın; debug sertifikasını kabul etmeyin. Self-signed upload sertifikası uyarısını da otomatik olarak debug sertifikası saymayın. APK için `apksigner verify --print-certs` kullanın.
 
-macOS'ta `flutter doctor -v`, `flutter pub get`, gerekli CocoaPods/SPM bağımlılık
-çözümü ve `open ios/Runner.xcworkspace` ile başlayın. Runner hedefinde sahibi Team,
-bundle ID, entitlements ve signing/provisioning ayarlar. `flutter build ios --release
---no-codesign` derleme kontrolü, daha sonra sahibi imzalı `flutter build ipa --release`
-veya Xcode Archive yapar. Plugin privacy manifestlerini ve birleşik archive içindeki
-required-reason API bildirimlerini inceleyin (özellikle yerel tercihler eklentisi).
-Linux'ta Xcode/iOS derlemesi, archive, simulator veya cihaz doğrulaması yapılmadı.
+Beklenen çıktı: `build/app/outputs/bundle/release/app-release.aab`. Eski aynı adlı dosyayı yeni sonuç diye kullanmayın; sürüm, paket, katalog, hash ve sertifikayı final çıktıdan kaydedin. Anahtarlar, yerel raporlar ve build artefaktları Git'e eklenmez.
+
+Sahibi ayrıca Play App Signing kaydını, internal testing yüklemesini, Play kaynaklı split APK kurulumunu, pre-launch raporunu ve gerçek cihaz kabulünü tamamlar. AAB üretmek yükleme veya onay değildir. Haricî CI çalıştırılması ve secret kurulumu da bu dokümanla yapılmış sayılmaz.
+
+## iOS sınırı
+
+iOS için macOS/Xcode ve sahibine ait Apple hesabı, Team/provisioning gerekir. `flutter build ios --release --no-codesign` yalnız derleme kontrolüdür; `flutter build ipa --release`/Xcode Archive, imza ve TestFlight ayrı işlemlerdir. Linux statik kontrolü iOS testi değildir. Son archive'ın privacy manifestleri/required-reason API beyanları, yerel veri yedeği ve ağ/şifreleme beyanları Google üzerinden ses indirme kapsamıyla yeniden incelenmelidir; eski tamamen offline varsayımı kullanılmamalıdır.
