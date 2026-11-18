@@ -118,6 +118,21 @@ Crashlytics), hesap veya başka bir SDK eklenirse beyan güncellenmelidir.
 (4) sure listesi, (5) ses paneli çalarken vurgulu ayet, (6) koyu tema, (7) yer imleri.
 Telefonu USB ile bağlarsanız ben `adb` ile çekip hazırlayabilirim.
 
+### Play aramasında bulunma
+
+Play'de anahtar kelime alanı yoktur; arama **başlık > kısa açıklama > tam açıklama** sırasıyla
+ağırlık verir ve her dil listelemesini o dili kullananlar için ayrı değerlendirir.
+
+- Mağaza başlığı `Kuran Kitaphanasy: Türkmençe` (simge adı değişmez).
+- Hedef ifadeler ("türkmençe kuran", "kurany kerim", "türkmen dilinde kuran",
+  "türkmence kur'an") başlık, kısa açıklama ve tam açıklamanın ilk cümlesinde doğal
+  biçimde geçer. Kelime tekrarı/listesi eklemeyin: politika ihlalidir, ret sebebidir.
+- Hem Türkmençe (varsa) hem Türkçe listeleme ekleyin; Rusça listeleme Türkmenistan'daki
+  Rusça telefon kullanıcılarına ayrıca ulaşır.
+- Sıralamayı ayrıca indirme sayısı, puanlar ve yorumlar etkiler; ilk test kullanıcılarından
+  puan/yorum isteyin. Yayından birkaç hafta sonra Console → *Store performance* bölümünde
+  hangi aramalardan gelindiğine bakıp metni güncelleyin.
+
 ## 7. Test kanalları ve üretime geçiş
 
 1. **İç test (Internal testing):** yeni sürüm oluştur → AAB yükle → sürüm notu

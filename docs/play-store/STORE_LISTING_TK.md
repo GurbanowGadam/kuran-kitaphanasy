@@ -2,17 +2,19 @@
 
 Sahibe not: Aşağıdaki alanlar Türkmençedir; başlıkları değil, alan içeriklerini kopyalayın. Yayın/dil onayı bekler. Console'da Türkmençe listeleme seçeneği yoksa metni ilgisiz bir dil etiketiyle yayımlamayın; desteklenen dil ve yerelleştirme yolunu sahibi belirlesin. Kurum ortaklığı/tasdiki veya hadislerin hazır olduğu iddia edilmez.
 
-## Uygulama adı
+## Uygulama adı (mağaza başlığı, en fazla 30 karakter)
 
-Kuran Kitaphanasy
+Kuran Kitaphanasy: Türkmençe
 
-## Kısa açıklama
+Telefondaki simge adı "Kuran Kitaphanasy" olarak kalır; bu yalnız mağaza başlığıdır.
 
-Kurany Kerimi arapça we türkmençe okaň, sesleri ýükläp diňläň.
+## Kısa açıklama (en fazla 80 karakter)
+
+Türkmençe Kuran: Kurany Kerim arapça we türkmen dilinde, sesli diňlemek bilen.
 
 ## Tam açıklama
 
-Kuran Kitaphanasy — Kurany Kerimi arapça we türkmençe many terjimesi bilen okamaga niýetlenen programma.
+Kuran Kitaphanasy — Kurany Kerimi türkmen dilinde okamak üçin programma. Türkmençe Kuran: arapça tekst we türkmençe many terjimesi bir ýerde, internetsiz.
 
 OKAMAK
 • Kurany Kerimiň 114 süresi.

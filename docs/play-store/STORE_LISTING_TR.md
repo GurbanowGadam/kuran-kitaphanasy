@@ -7,19 +7,21 @@ ek çeviri olarak eklenebilir. Başlıkları değil, kod bloklarının içeriği
 ## Uygulama adı (en fazla 30 karakter)
 
 ```text
-Kuran Kitaphanasy
+Kuran Kitaphanasy: Türkmençe
 ```
+
+Telefondaki simge adı "Kuran Kitaphanasy" olarak kalır; bu yalnız mağaza başlığıdır.
 
 ## Kısa açıklama (en fazla 80 karakter)
 
 ```text
-Kur'an-ı Kerim'i Arapça ve Türkmence okuyun, sesleri indirip dinleyin.
+Türkmence Kur'an: Kurany Kerim Arapça ve Türkmen dilinde meal, sesli dinleme.
 ```
 
 ## Tam açıklama (en fazla 4000 karakter)
 
 ```text
-Kuran Kitaphanasy — Kur'an-ı Kerim'i Arapça metni ve Türkmence meali ile okumak için hazırlanmış bir uygulamadır.
+Kuran Kitaphanasy — Türkmence Kur'an-ı Kerim uygulaması. Kur'an'ı Türkmen dilinde meali (Türkmençe: Kurany Kerim) ve Arapça metniyle internetsiz okuyun.
 
 OKUMA
 • Kur'an-ı Kerim'in 114 suresinin tamamı.
