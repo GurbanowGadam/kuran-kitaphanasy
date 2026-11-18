@@ -1,8 +1,8 @@
 # Türkçe Google Play mağaza metni — 1.0.0+3
 
-Play Console dil listesinde Türkmençe yoksa varsayılan dil **Türkçe (tr-TR)** olur ve
-aşağıdaki metin kullanılır. Türkmençe varsa `STORE_LISTING_TK.md` varsayılan, bu metin
-ek çeviri olarak eklenebilir. Başlıkları değil, kod bloklarının içeriğini kopyalayın.
+Varsayılan dil **Türkçe (tr-TR)** seçildi (Play Console'da Türkmençe listeleme dili yok).
+Tam açıklama önce Türkçe, ardından aynı içeriğin Türkmençe bölümünü içerir: Türkmen
+kullanıcılar kendi dilini görür, Türkmençe arama ifadeleri de dizine girer. Başlıkları değil, kod bloklarının içeriğini kopyalayın.
 
 ## Uygulama adı (en fazla 30 karakter)
 
@@ -41,6 +41,33 @@ Hesap açmanız gerekmez; reklam ve analitik yoktur. Ayarlarınız, yer imlerini
 
 HADİSLER
 Hadis bölümleri şimdilik yalnızca «Yakında» olarak gösterilen yer tutuculardır; bu sürümde okunabilir hadis koleksiyonu yoktur.
+
+━━━━━━━━━━
+TÜRKMENÇE
+━━━━━━━━━━
+
+Kuran Kitaphanasy — Kurany Kerimi türkmen dilinde okamak üçin programma. Türkmençe Kuran: arapça tekst we türkmençe many terjimesi bir ýerde, internetsiz.
+
+OKAMAK
+• Kurany Kerimiň 114 süresi.
+• Arapça tekst, türkmençe many terjimesi ýa-da ikisi bilelikde.
+• Tekstleri internetsiz okamak.
+• Süreleriň arasynda geçmek, düşündirişleri we bellikleri okamak.
+• Öz adyňyz bilen okalýan ýeri belläp goýmak we soň oňa dolanmak.
+• Açyk ýa-da garaňky tema, ýazuw ölçegini sazlamak.
+
+DIŇLEMEK
+MP3Quran çeşmesinden alnan ses ýazgylaryny saýlanan kary we süre boýunça ýükläp bilersiňiz. Ses faýllary Google Drive arkaly berilýär. Ilki ýazgyny doly ýükläň, soň ony enjamyňyzdan diňläň. Ýüklenen ýazgylary internetsiz hem diňläp bolýar.
+
+Sesleri ilkinji gezek ýüklemek üçin internet we enjamda ýeterlik boş ýer gerek. Internet hyzmatynyň tölegi ulanylyp bilner. Google Drive çäklendirmeleri ýa-da elýeterlilik meselesi ýüze çyksa, ýüklemek wagtlaýyn başa barmazlygy mümkin. Ähli sesler programma bilen bile gelmeýär we internetden göni akym görnüşinde çalynmaýar.
+
+Aýatlaryň arasynda geçip, aýaty ýa-da süräni gaýtalap diňläp bilersiňiz.
+
+ÝERLI SAKLAMA
+Okamak sazlamalary, bellän ýerleriňiz we ýüklenen sesler enjamda saklanýar. Programma hasap açmagy talap etmeýär. Ses ýüklenende Google hyzmatlaryna tor haýyşy iberilýär; gizlinlik syýasatyndaky maglumatlary okaň.
+
+HADYSLAR BARADA
+Hadys bölümleri häzir diňe «Ýakynda» diýlip görkezilýän ýer tutujylardyr. Bu wersiýada okamaga taýýar hadys ýygyndysy ýok.
 ```
 
 ## Sürüm notu (en fazla 500 karakter)
