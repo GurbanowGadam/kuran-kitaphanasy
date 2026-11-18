@@ -5,7 +5,7 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/audio/quran_audio_controller.dart';
 
-import 'mp3quran_migration_test.dart' show ClipPlayer;
+import 'audio_fakes.dart';
 
 // Verification of existing behavior, not feature-TDD or a Drive publication gate.
 // No production catalog is modified. No network transport/native decoder is used.
@@ -156,7 +156,7 @@ void main() {
     for (final raw in packages) {
       final p = AudioPackage.fromJson(Map<String, dynamic>.from(raw));
       expect(p.validMetadata, true, reason: p.key);
-      expect(p.isFullSurah, true);
+      expect(p.format, AudioPackage.fullSurahFormat);
       expect(keys.add(p.key), true);
       expect(p.ayahCount, _counts[p.surah - 1]);
       expect(p.verseTimings, hasLength(p.ayahCount));
@@ -164,7 +164,6 @@ void main() {
       expect(p.publicationStatus, 'pending-upload');
       expect(raw['driveFileId'], isNull);
       expect(p.isPublished, false);
-      expect(p.openingOverride, isNull);
       final mid = int.parse(p.reciterId.split('_').last);
       expect(_ids, contains(mid));
       expect(p.source['moshafId'], mid);

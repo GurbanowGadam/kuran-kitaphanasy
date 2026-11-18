@@ -22,9 +22,8 @@ void main() {
     final pairs = <String>{};
     for (final raw in j['packages']) {
       final p = AudioPackage.fromJson(Map<String, dynamic>.from(raw));
-      expect(p.isFullSurah, true);
+      expect(p.format, AudioPackage.fullSurahFormat);
       expect(p.validMetadata, true, reason: p.key);
-      expect(p.openingOverride, isNull);
       expect(pairs.add(p.key), true);
       expect(p.files.keys, ['${p.surah.toString().padLeft(3, '0')}.mp3']);
       expect(p.source['url'], contains('mp3quran.net/'));

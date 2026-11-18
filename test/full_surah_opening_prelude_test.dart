@@ -6,8 +6,7 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/audio/quran_audio_controller.dart';
 
-import 'mp3quran_migration_test.dart'
-    show ClipPlayer, timedPackage, catalog, syntheticMp3;
+import 'audio_fakes.dart';
 
 final sourceBytes = utf8.encode(
   'synthetic complete Fatiha original, never decoded',
@@ -206,7 +205,7 @@ void main() {
     await c.play();
     expect(q.preparations, 0);
     expect(c.isPlaying, false);
-    expect(c.error, contains('hash'));
+    expect(c.errorDetail, contains('hash'));
   });
   test('cached corruption fails closed, never silently replaced', () async {
     await setup();
@@ -216,7 +215,7 @@ void main() {
     await file.writeAsString('tampered');
     await c.play();
     expect(q.preparations, 0);
-    expect(c.error, contains('hash'));
+    expect(c.errorDetail, contains('hash'));
   });
   test(
     'asset is checked even when content-addressed cache already exists',
@@ -228,7 +227,7 @@ void main() {
       await c.play();
       expect(c.isPlaying, false);
       expect(q.preparations, 1);
-      expect(c.error, contains('hash'));
+      expect(c.errorDetail, contains('hash'));
     },
   );
   test(

@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/audio/quran_audio_controller.dart';
@@ -10,7 +9,7 @@ import 'package:kuran_kitaphanasy/reader/presentation/reader.dart';
 import 'package:kuran_kitaphanasy/reader/settings/reader_preferences.dart';
 
 import 'reader_audio_test.dart' show FakeAudio;
-import 'audio_service_test.dart' show QueuePlayer;
+import 'audio_fakes.dart';
 import 'reader_fixture.dart';
 
 class DelayedAudio extends FakeAudio {
@@ -120,31 +119,16 @@ void main() {
     final root = await Directory.systemTemp.createTemp('audio-target-first');
     addTearDown(() => root.delete(recursive: true));
     final bytes = List<int>.filled(256 * 1024, 7);
-    final hash = sha256.convert(bytes).toString();
     final packages = <Map<String, dynamic>>[];
     for (var s = 1; s <= 114; s++) {
-      final name = '${s.toString().padLeft(3, '0')}001.mp3';
-      final f = File('${root.path}/quran_audio/Alafasy_128kbps/$s/$name');
+      final f = File(localAudioPath(root, s));
       await f.parent.create(recursive: true);
       await f.writeAsBytes(bytes);
-      packages.add({
-        'reciterId': 'Alafasy_128kbps',
-        'surah': s,
-        'ayahCount': 1,
-        'bytes': 1,
-        'driveFileId': 'fixture',
-        'sha256': hash,
-        'files': {name: hash},
-      });
+      packages.add(timedPackageFor(s, mp3: bytes));
     }
     final c = QuranAudioController(
       directory: () async => root,
-      catalogLoader: () async => jsonEncode({
-        'reciters': [
-          {'id': 'Alafasy_128kbps', 'name': 'fixture', 'bitrate': 128},
-        ],
-        'packages': packages,
-      }),
+      catalogLoader: () async => catalogOf(packages),
     );
     addTearDown(c.dispose);
     final clock = Stopwatch()..start();
@@ -173,7 +157,7 @@ void main() {
       final selection = c.selectVerse(111, 1);
       await c.close();
       final closedSurah = c.surah;
-      catalog.complete(jsonEncode({'reciters': [], 'packages': []}));
+      catalog.complete(catalogOf([]));
       await selection;
       expect(c.surah, closedSurah);
     },
@@ -186,26 +170,13 @@ void main() {
       addTearDown(() => root.delete(recursive: true));
       final c = QuranAudioController(
         directory: () async => root,
-        catalogLoader: () async => jsonEncode({
-          'reciters': [],
-          'packages': [
-            {
-              'reciterId': 'Alafasy_128kbps',
-              'surah': 111,
-              'ayahCount': 5,
-              'bytes': 1,
-              'driveFileId': 'fixture',
-              'sha256': '',
-              'files': {},
-            },
-          ],
-        }),
+        catalogLoader: () async => catalogOf([timedPackageFor(111)]),
       );
       addTearDown(c.dispose);
       await c.selectVerse(111, 99);
       expect(c.surah, 1);
       expect(c.ayah, 1);
-      expect(c.error, contains('Invalid verse'));
+      expect(c.failure, AudioFailure.invalidSelection);
     },
   );
 
@@ -215,7 +186,7 @@ void main() {
       final c = QuranAudioController(catalogLoader: () async => 'invalid JSON');
       addTearDown(c.dispose);
       await c.selectVerse(111, 1);
-      expect(c.error, contains('Audio initialization failed'));
+      expect(c.failure, AudioFailure.initialization);
       expect(c.isReady, false);
     },
   );
@@ -234,7 +205,7 @@ void main() {
     final pending = c.selectVerse(111, 1);
     c.dispose();
     final before = emissions;
-    catalog.complete(jsonEncode({'reciters': [], 'packages': []}));
+    catalog.complete(catalogOf([]));
     await pending;
     expect(storageCalls, 0);
     expect(emissions, before);
@@ -244,25 +215,10 @@ void main() {
     final root = await Directory.systemTemp.createTemp('audio-late-sha');
     addTearDown(() => root.delete(recursive: true));
     final bytes = utf8.encode('verified fixture');
-    final hash = sha256.convert(bytes).toString();
-    final path = '${root.path}/quran_audio/Alafasy_128kbps/111/111001.mp3';
-    final file = File(path);
+    final file = File(localAudioPath(root, 111));
     await file.parent.create(recursive: true);
     await file.writeAsBytes(bytes);
-    String catalog() => jsonEncode({
-      'reciters': [],
-      'packages': [
-        {
-          'reciterId': 'Alafasy_128kbps',
-          'surah': 111,
-          'ayahCount': 1,
-          'bytes': 1,
-          'driveFileId': 'fixture',
-          'sha256': hash,
-          'files': {'111001.mp3': hash},
-        },
-      ],
-    });
+    String catalog() => catalogOf([timedPackageFor(111, mp3: bytes)]);
     final q = QueuePlayer();
     final c = QuranAudioController(
       directory: () async => root,
@@ -276,7 +232,7 @@ void main() {
     expect(c.isPlaying, false);
     expect(c.isReady, false);
     expect(q.preparations, 0);
-    expect(c.error, contains('corrupt'));
+    expect(c.failure, AudioFailure.localCorrupt);
     c.dispose();
     final restored = QuranAudioController(
       directory: () async => root,

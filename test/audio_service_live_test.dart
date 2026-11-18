@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/audio/quran_audio_controller.dart';
 
-import 'mp3quran_migration_test.dart' show ClipPlayer;
+import 'audio_fakes.dart';
 
 class _RealNetwork extends HttpOverrides {}
 
@@ -57,7 +57,10 @@ void main() {
               if (_surah == 9) expect(p.ayahCount, 129);
               // Full-surah opening means the exact source's pre-ayah interval,
               // not an inserted besmele (including Fatiha/Tevbe lead-in).
-              expect(p.hasOpening, (p.verseTimings.first['startMs'] as int) > 0);
+              expect(
+                p.hasOpening,
+                (p.verseTimings.first['startMs'] as int) > 0,
+              );
               expect(p.isPublished, true);
               expect(c.canDownload, true);
               await c.downloadSelected();

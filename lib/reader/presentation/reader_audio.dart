@@ -25,8 +25,9 @@ extension _ReaderAudio on _ReaderState {
         audioInitialization ??= controller.initialize(),
       ]);
     } catch (error) {
+      debugPrint('Audio open failed: $error');
       if (mounted && generation == audioOpenGeneration) {
-        audioUiError = 'Ses açylmady: $error';
+        audioUiError = AudioFailure.initialization.message;
       }
     } finally {
       if (mounted && generation == audioOpenGeneration) {
@@ -40,8 +41,9 @@ extension _ReaderAudio on _ReaderState {
     try {
       await action();
     } catch (error) {
+      debugPrint('Audio action failed: $error');
       if (mounted) {
-        audioUiError = 'Ses: $error';
+        audioUiError = AudioFailure.playback.message;
         audioChanged();
       }
     }

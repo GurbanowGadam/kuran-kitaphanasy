@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/reader/presentation/reader.dart';
@@ -137,7 +139,35 @@ class FakeAudio extends QuranAudioController {
   }
 }
 
+class FailingAudio extends FakeAudio {
+  @override
+  Future<void> selectVerse(int s, int v) async =>
+      throw const SocketException('Connection refused (OS Error)');
+
+  @override
+  String? get error => AudioFailure.network.message;
+}
+
 void main() {
+  testWidgets('audio failures are shown only as Türkmen messages', (t) async {
+    final a = FailingAudio();
+    await t.pumpWidget(
+      MaterialApp(
+        home: Reader(
+          data: Future.value(fixture()),
+          audioController: a,
+          goHome: () {},
+        ),
+      ),
+    );
+    await t.pumpAndSettle();
+    await t.tap(find.byKey(const Key('audio-menu')));
+    await t.pumpAndSettle();
+    final shown = t.widget<Text>(find.byKey(const Key('audio-error'))).data!;
+    expect(shown, AudioFailure.initialization.message);
+    expect(shown, isNot(contains('Socket')));
+    expect(find.textContaining('OS Error'), findsNothing);
+  });
   testWidgets('pending MP3Quran has no download and keeps reciter selector', (
     t,
   ) async {

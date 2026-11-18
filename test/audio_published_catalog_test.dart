@@ -151,7 +151,7 @@ void main() {
         expect(p.isPublished, true, reason: p.key);
         expect(p.validMetadata, true, reason: p.key);
         expect(raw['remoteVerified'], true, reason: p.key);
-        expect(p.isFullSurah, true, reason: p.key);
+        expect(p.format, AudioPackage.fullSurahFormat, reason: p.key);
         expect(p.surah, inInclusiveRange(1, 114));
         expect(p.ayahCount, _counts[p.surah - 1], reason: p.key);
         expect(p.verseTimings, hasLength(p.ayahCount));

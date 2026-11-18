@@ -1,84 +1,10 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 
-import 'package:archive/archive.dart';
-import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/audio/quran_audio_controller.dart';
 
-import 'audio_service_test.dart' show QueuePlayer;
-
-// Deliberately synthetic portable bytes, never a production recording.
-final syntheticMp3 = utf8.encode('test-only full recording');
-// Freeze one archive for catalog and transport: ZIP timestamps otherwise make
-// separately encoded, identical MP3 fixtures acquire different SHA256 values.
-final _syntheticZip = ZipEncoder().encode(
-  Archive()..addFile(ArchiveFile('001.mp3', syntheticMp3.length, syntheticMp3)),
-);
-Map<String, dynamic> timedPackage({String status = 'published'}) {
-  final zip = _syntheticZip;
-  return {
-    'reciterId': 'mp3quran_123',
-    'surah': 1,
-    'ayahCount': 2,
-    'format': 'full-surah-timed-v1',
-    'publicationStatus': status,
-    'driveFileId': status == 'published'
-        ? 'test-only-drive-id-0000000000'
-        : null,
-    'bytes': zip.length,
-    'sha256': sha256.convert(zip).toString(),
-    'files': {'001.mp3': sha256.convert(syntheticMp3).toString()},
-    'audioFile': '001.mp3',
-    'totalDurationMs': 10000,
-    'verseTimings': [
-      {'ayah': 1, 'startMs': 1000, 'endMs': 3000},
-      {'ayah': 2, 'startMs': 5000, 'endMs': 8000},
-    ],
-    'source': {
-      'provider': 'mp3quran',
-      'reciterId': 123,
-      'moshafId': 123,
-      'url': 'https://server8.mp3quran.net/afs/001.mp3',
-      'timingUrl':
-          'https://www.mp3quran.net/api/v3/ayat_timing?surah=1&read=123',
-      'timingSha256': sha256
-          .convert(utf8.encode('raw fixture timings'))
-          .toString(),
-      'recordingStyle': 'Murattal',
-    },
-  };
-}
-
-String catalog(Map<String, dynamic> p) => jsonEncode({
-  'version': 2,
-  'provider': 'mp3quran',
-  'contentVersion': '0.0.1',
-  'reciters': [
-    {'id': 'mp3quran_123', 'name': 'Afasi', 'bitrate': 128},
-  ],
-  'packages': [p],
-});
-
-class ClipPlayer extends QueuePlayer implements ClippedAudioPlayback {
-  List<LocalAudioClip> clips = [];
-  Duration? sought;
-  @override
-  Future<void> prepareClips(
-    List<LocalAudioClip> value,
-    int index,
-    int generation,
-  ) async {
-    clips = value;
-    await prepareQueue(value.map((v) => v.path).toList(), index, generation);
-  }
-
-  @override
-  Future<void> seek(Duration p) async {
-    sought = p;
-  }
-}
+import 'audio_fakes.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -100,7 +26,7 @@ void main() {
         p['verseTimings'][1]['endMs'] = 10424;
         p['source']['timingEndBeyondAudioMs'] = 424;
         p['source']['timingPolicy'] = 'original-starts-eof-500ms-v1';
-        final zip = _syntheticZip;
+        final zip = syntheticZip;
         var downloads = 0;
         QuranAudioController make() => QuranAudioController(
           directory: () async => root,
@@ -294,7 +220,6 @@ void main() {
     'source',
     'hash',
     'format',
-    'override',
   ]) {
     test('invalid full metadata fails closed: $defect', () async {
       final p = timedPackage();
@@ -311,12 +236,6 @@ void main() {
           p['files']['001.mp3'] = 'bad';
         case 'format':
           p['format'] = 'unknown';
-        case 'override':
-          p['openingOverride'] = {
-            'asset': 'old',
-            'sha256': 'x',
-            'durationMs': 1,
-          };
       }
       final root = await Directory.systemTemp.createTemp('invalid-mp3');
       var downloads = 0;
