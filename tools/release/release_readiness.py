@@ -9,7 +9,7 @@ import struct
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 ANDROID = '{http://schemas.android.com/apk/res/android}'
 
 def require(condition, message):

@@ -31,7 +31,7 @@ Repo kökünde, gerçek imza girdileri güvenli biçimde sağlandıktan sonra:
 
 ```sh
 flutter pub get
-python3 tool/release_readiness.py --require-signing
+python3 tools/release/release_readiness.py --require-signing
 flutter analyze
 flutter test
 python3 tools/check_full_content.py

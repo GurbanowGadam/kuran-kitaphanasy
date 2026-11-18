@@ -2,7 +2,7 @@
 
 ## Product boundary
 
-V1 is an offline Flutter application with one real catalog entry: Quran. No account, backend, analytics, runtime scripture download, audio placeholder, or invented book is exposed. The approved Arabic/Türkmen reader surface is retained. Source capture/build tools and archived captures are build-time evidence, not runtime services.
+V1 is an offline-first Flutter application with one real catalog entry: Quran (Hadith cards are explicit coming-soon placeholders). No account, backend, analytics or runtime scripture download exists. The only network use is a user-initiated audio download. The approved Arabic/Türkmen reader surface is retained. Source capture/build tools and archived captures are build-time evidence, not runtime services.
 
 ## Modules
 
@@ -19,6 +19,11 @@ V1 is an offline Flutter application with one real catalog entry: Quran. No acco
 - `lib/reader/presentation/surah_opening.dart`: source-backed Arabic headings, opening formulas and metadata.
 - `lib/reader/settings/reader_preferences.dart`: versioned state decoding, storage adapters and ordered debounced writer.
 - `lib/reader/settings/reader_settings_sheet.dart`: part library containing book-scoped settings and live font previews.
+- `lib/audio/audio_catalog.dart`: MP3Quran full-surah package model, metadata/timing validation, isolate catalog decode. Only `full-surah-timed-v1` is accepted.
+- `lib/audio/audio_download.dart`: streamed Drive download, incremental SHA-256, file-backed ZIP inflate into a staging directory, atomic rename. Memory is bounded by I/O buffers.
+- `lib/audio/audio_playback.dart`: `AudioPlayback` interface (gapless clip queue) and the `just_audio` implementation.
+- `lib/audio/audio_failure.dart`: `AudioFailure` enum with the only user-visible (Türkmen) audio messages; technical causes stay in `errorDetail`.
+- `lib/audio/quran_audio_controller.dart`: selection, download state, clip queue and seek orchestration with generation counters against stale async work. Storage key `quran_audio/mp3quran-0.0.1/<reciter>/<surah>/` is stable across versions.
 - Top-level `reader_data.dart`, `library.dart` and `surah_opening.dart` are compatibility exports; they do not duplicate implementations.
 
 ## Content invariants

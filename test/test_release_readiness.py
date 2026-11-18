@@ -11,7 +11,7 @@ import unittest
 from unittest.mock import patch
 
 REPO = Path(__file__).resolve().parents[1]
-spec = importlib.util.spec_from_file_location('release_readiness', REPO / 'tool/release_readiness.py')
+spec = importlib.util.spec_from_file_location('release_readiness', REPO / 'tools/release/release_readiness.py')
 assert spec is not None and spec.loader is not None
 validator = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(validator)

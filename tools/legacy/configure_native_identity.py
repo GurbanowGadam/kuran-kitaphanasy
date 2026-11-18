@@ -2,7 +2,7 @@
 """One-time identity migration; deliberately touches native/web scaffolds only."""
 from pathlib import Path
 import plistlib
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 old = ROOT / 'android/app/src/main/kotlin/tm/demo/kurany_kerim_demo/MainActivity.kt'
 new = ROOT / 'android/app/src/main/kotlin/tm/kuran/kitaphanasy/MainActivity.kt'
 if old.exists():

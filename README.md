@@ -2,8 +2,8 @@
 
 Türkmençe Kur'an okuma kütüphanesi. Flutter uygulaması; Arapça kaynak metin,
 Türkmençe meal, sure girişleri, açıklama notları ve fontlar paket içinde bulunur.
-Ürün kimliği `tm.kuran.kitaphanasy`, ilk sürüm hedefi `1.0.0+1`'dir.
-Bu depo yayın hazırlığıdır; mağaza onayı, yükleme veya yayımlanma iddiası değildir.
+Ürün kimliği `tm.kuran.kitaphanasy`; güncel sürüm `pubspec.yaml` içindeki `version`
+alanıdır (ilk Play sürümü `1.0.0+3`).
 
 ## Kullanım
 
@@ -14,6 +14,11 @@ meal kaynak blokları gerektiğinde birden çok ayeti kapsar, bloklar yeniden ç
 veya keyfî bölünmez. Kapsam ve metin korunumu için `tools/check_full_content.py`
 ve `assets/sources/full-content-manifest.json` esas alınır.
 
+Ses: beş kârinin MP3Quran tam-sure kayıtları (5 × 114 sure). Ses APK içinde değildir;
+kullanıcı bir sureyi kendisi indirmeyi seçtiğinde Google Drive'dan ZIP olarak gelir,
+SHA-256 ile doğrulanır, cihazda saklanır ve resmî ayet zamanlamalarıyla çevrimdışı çalınır.
+Ayrıntılar: [OFFLINE_AUDIO](docs/OFFLINE_AUDIO.md), [MP3QURAN_PIPELINE](docs/MP3QURAN_PIPELINE.md).
+
 ## Geliştirme ve denetim
 
 Flutter 3.47.7 stable / Dart 3.13.5, Android JDK 17. SDK sürümünü değiştirirken
@@ -21,8 +26,9 @@ CI ve native eklenti uyumluluğunu birlikte denetleyin.
 
 ```sh
 flutter pub get
-python3 tool/release_readiness.py
+python3 tools/release/release_readiness.py
 python3 tools/check_full_content.py
+python3 -m unittest discover -s test -p 'test_*.py'
 flutter analyze
 flutter test
 flutter build apk --debug
@@ -52,18 +58,25 @@ ile gizlice imzalanmaz. Telefon kurulumu ve görsel onay ayrı bir entegrasyon a
   [okuyucu sunumu](lib/reader/presentation/reader.dart),
   [sure açılışı](lib/reader/presentation/surah_opening.dart),
   [yerel tercihler](lib/reader/settings/reader_preferences.dart).
+- Ses: [denetleyici](lib/audio/quran_audio_controller.dart) (seçim/kuyruk durumu),
+  [katalog](lib/audio/audio_catalog.dart), [doğrulamalı indirme](lib/audio/audio_download.dart),
+  [yerel oynatıcı](lib/audio/audio_playback.dart), [Türkmençe hata türleri](lib/audio/audio_failure.dart).
 - `assets/data/`: uygulama verileri; `assets/fonts/`: çevrimdışı fontlar;
   `assets/sources/`: dondurulmuş yanıtlar, kaynak hash'leri ve kontrol raporları.
-- `tools/`: içerik edinme/doğrulama araçları; `tool/`: ürün kimliği/ikon/yayın araçları.
+- `tools/`: içerik edinme/doğrulama araçları; `tools/mp3quran/`: ses kataloğu hattı;
+  `tools/release/`: ürün kimliği/ikon/yayın denetimi; `tools/legacy/`: çalıştırılmayan eski betikler.
+- `docs/`: mimari, yayın, gizlilik ve içerik kuralları
+  ([OKUYUCU_KURALLARI](docs/OKUYUCU_KURALLARI.md), [mühendislik değerlendirmesi](docs/ENGINEERING_REVIEW.md)).
 - `android/`, `ios/`, `web/`: aynı ürünün native/web kabukları.
 
 ## Gizlilik ve çevrimdışı çalışma
 
 Okuma için hesap, backend, analitik, reklam, uzaktan font veya içerik indirmesi
-gerekmez. Yerel okuma tercihleri/son konum cihazda tutulur; uygulamayı silmek bu
-yerel veriyi kaldırabilir. Android release ana manifestinde INTERNET izni yoktur;
-debug/profile manifestlerinin Flutter geliştirme bağlantısı için INTERNET içermesi
-release ağ erişimi iddiası değildir. Nihai birleşik APK/AAB izinleri yine kontrol edilir.
+gerekmez. Yerel okuma tercihleri/son konum ve yer imleri cihazda tutulur; uygulamayı
+silmek bu yerel veriyi kaldırır. Android release manifesti yalnız **INTERNET** izni
+ister: tek ağ isteği, kullanıcının seçtiği ses indirmesidir (Google Drive; IP adresi ve
+teknik istek bilgileri Google'a ulaşır). Başka izin yoktur; `tools/release/release_readiness.py`
+beklenmeyen izinleri reddeder. Nihai birleşik AAB izinleri yine kontrol edilir.
 Android uygulama yedekleme kapalıdır; Android 12+ bulut/cihaz aktarım kuralları yerel
 veri alanlarını dışlar. OEM davranışı ayrıca cihazda doğrulanmalıdır.
 iOS yedekleme davranışı Android ile aynı varsayılmaz; cihazdaki yerel tercihler OS

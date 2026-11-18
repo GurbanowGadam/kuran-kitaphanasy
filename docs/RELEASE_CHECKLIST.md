@@ -15,7 +15,7 @@ Durum: yerel doküman/mağaza metni hazırlığı. Aşağıdaki kutular gerçek 
 
 ## Yerel kalite ve gerçek cihaz (henüz bu belgede onaylanmış değil)
 
-- [ ] `flutter pub get`, `python3 tool/release_readiness.py`, `flutter analyze`, `flutter test`, `python3 tools/check_full_content.py` son kaynak üzerinde çalıştırıldı; gerçek sonuçlar güvenli yerel raporda kaydedildi.
+- [ ] `flutter pub get`, `python3 tools/release/release_readiness.py`, `flutter analyze`, `flutter test`, `python3 tools/check_full_content.py` son kaynak üzerinde çalıştırıldı; gerçek sonuçlar güvenli yerel raporda kaydedildi.
 - [ ] Son artefaktın içerik/katalog hash ve sürüm bilgileri kaynaklarla eşleştirildi. Tarihsel `V1_RELEASE_STATUS.md` güncel kanıt sayılmadı.
 - [ ] İlk başlatma ve soğuk yeniden açılış uçak modunda: tüm surelere erişim, son sayfa, Arapça/meal/notlar, kaydırma ve kayıtlı konum kontrol edildi.
 - [ ] Yer imi adı ekleme/düzenleme/silme ve yeniden açılış; açık/koyu tema, büyük yazı, dar/büyük ekran, Arapça birleşme/hareke/kırpılma kontrol edildi.

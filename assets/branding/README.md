@@ -17,13 +17,13 @@ maksimum genişlik/yükseklik adaptive/maskable güvenli dairenin içinde kalır
 
 ```sh
 python3 -m venv .venv-branding
-.venv-branding/bin/pip install -r tool/branding-requirements.txt
+.venv-branding/bin/pip install -r tools/release/branding-requirements.txt
 # Linux'ta libcairo2 sistem kütüphanesi gerekir; Python bağımlılığı değildir.
 # Taahhüt edilmiş orijinal outline'dan, Flutter/uygulama derlemesi olmadan:
-.venv-branding/bin/python tool/generate_branding.py
-python3 tool/release_readiness.py
+.venv-branding/bin/python tools/release/generate_branding.py
+python3 tools/release/release_readiness.py
 # Yalnız bilinçli SDK/glif güncellemesinde, outline/provenance diff'ini inceleyerek:
-.venv-branding/bin/python tool/generate_branding.py --flutter-root /absolute/path/to/flutter
+.venv-branding/bin/python tools/release/generate_branding.py --flutter-root /absolute/path/to/flutter
 ```
 
 Çıktılar:
@@ -36,7 +36,7 @@ python3 tool/release_readiness.py
 - Web normal/maskable 192/512 ve favicon 32; ürün kaynağı 1024 ve Play store icon 512.
 - `generated-icons.json`: her üretilmiş PNG'nin beklenen kare boyutu.
 
-`tool/release_readiness.py` PNG IHDR boyutlarını, iOS RGB/alfa durumunu, catalog
+`tools/release/release_readiness.py` PNG IHDR boyutlarını, iOS RGB/alfa durumunu, catalog
 referanslarını ve Android/SVG vektörünün aynı orijinal path kullandığını doğrular.
 Aynı bağımlılık/native Cairo sürümüyle yeniden üretim byte düzeyinde kararlıdır;
 farklı rasterizer sürümünde antialiasing byte'ları değişebilir, glif outline'ı korunur.

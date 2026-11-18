@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render Flutter's real auto_stories_outlined outline, never a substitute book.
 Use --flutter-root to re-extract after explicit SDK/glyph review; otherwise use
-committed original outline. Requirements: tool/branding-requirements.txt.
+committed original outline. Requirements: tools/release/branding-requirements.txt.
 """
 import argparse
 import hashlib
@@ -12,7 +12,7 @@ from pathlib import Path
 import cairosvg
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 BRAND = ROOT / 'assets/branding'
 BG = '#18685f'
 

@@ -17,14 +17,14 @@ Codex/Hermes ile geliştirilen kod tabanının devralma incelemesi. Bundan sonra
 
 ## Bulgular ve öneriler (öncelik sırası)
 
-### P1 — Kullanıcıya İngilizce hata metni
+### P1 — Kullanıcıya İngilizce hata metni — ✅ ÇÖZÜLDÜ (2026-11-18)
 `QuranAudioController._error` (`'Download failed: $e'`, `'Playback failed: $e'`,
 `'Audio initialization failed'`, `'Invalid verse'` …) ses panelinde doğrudan
 gösteriliyor; ham exception metni de ekleniyor. Türkmençe arayüz kuralını ihlal eder.
 **Öneri:** Denetleyici `AudioError` enum'u yayınlasın; panel bunu Türkmençe metne
 çevirsin; teknik ayrıntı yalnız `debugPrint`'e gitsin.
 
-### P1 — İndirmede bellek tepe noktası
+### P1 — İndirmede bellek tepe noktası — ✅ ÇÖZÜLDÜ (2026-11-18, akışlı kurulum)
 `_download` tüm `.part` dosyasını `readAsBytes()` ile belleğe alıp `ZipDecoder`
 ile çözüyor, sonra `entry.content` ile ikinci kopya oluşuyor. Uzun surelerde
 (ör. Bakara, onlarca MB) düşük RAM'li cihazlarda OOM riski.
@@ -37,7 +37,7 @@ taraması uyarısıyla kırılabilir. 570 paket herkese açık Drive'da.
 **Öneri:** Sabit HTTPS dosya barındırma (GitHub Releases, Cloudflare R2 vb.).
 Hak/izin kapsamı sahibin kararıdır.
 
-### P2 — Ses denetleyicisinin bölünmesi ve eski kod
+### P2 — Ses denetleyicisinin bölünmesi ve eski kod — ✅ ÇÖZÜLDÜ (2026-11-18)
 Katalogdaki 570 paketin tamamı `full-surah-timed-v1`; `ayah-files-v1`,
 `openingOverride`, `_advance`, `_loadedPath` yolu yalnız eski testler için duruyor.
 **Öneri:** `AudioCatalog` (model+doğrulama), `AudioDownloader` (indirme+depolama),
@@ -53,7 +53,7 @@ CI yalnız `content_editorial_review.py` çalıştırıyor. `test/test_*.py`,
 `tools/tests/`, font/ortografi testleri koşmuyor. **Öneri:** bağımlılığı olmayanları
 CI'a ekle; `fonttools`/`uharfbuzz` gerektirenleri ayrı iş olarak.
 
-### P3 — Depo düzeni
+### P3 — Depo düzeni — ✅ ÇÖZÜLDÜ (2026-11-18: `tools/release`, `tools/legacy`, belgeler `docs/`)
 - `tool/` ve `tools/` iki ayrı klasör — kafa karıştırıcı.
 - Kökteki `OKUYUCU_KURALLARI.md`, `AUDIO_OPENING_CORRECTION.md`, `SURE_ADLARI.txt`
   `docs/` altına taşınmalı; `AUDIO_OPENING_CORRECTION.md` artık eski (Abu Bakr

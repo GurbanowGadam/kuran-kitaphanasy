@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: flutter pub get
-      - run: python3 tool/release_readiness.py
+      - run: python3 tools/release/release_readiness.py
       # Uses frozen artifacts + stdlib and the runner's OpenSSL. No PDF/network refresh.
       - run: python3 tools/check_full_content.py
       - run: python3 test/content_editorial_review.py
@@ -79,7 +79,7 @@ jobs:
           trap 'rm -f "$ANDROID_KEYSTORE_PATH"' EXIT
           printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$ANDROID_KEYSTORE_PATH"
           chmod 600 "$ANDROID_KEYSTORE_PATH"
-          python3 tool/release_readiness.py --require-signing
+          python3 tools/release/release_readiness.py --require-signing
           flutter build appbundle --release
           jarsigner -verify -verbose -certs build/app/outputs/bundle/release/app-release.aab > "$RUNNER_TEMP/signature-verification.txt"
           if ! grep -q 'jar verified' "$RUNNER_TEMP/signature-verification.txt"; then

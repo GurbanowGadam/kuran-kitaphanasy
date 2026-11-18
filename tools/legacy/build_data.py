@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 translations = json.loads((ROOT/'test/translation_expected.json').read_text())
 arabic = json.loads((ROOT/'assets/sources/arabic-verified.json').read_text())
 surahs = []

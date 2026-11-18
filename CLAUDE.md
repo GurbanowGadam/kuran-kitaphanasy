@@ -22,9 +22,15 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
 - `lib/reader/presentation/reader.dart` + `part` dosyaları (`reader_content`, `reader_bookmarks`,
   `reader_audio`, `../settings/reader_settings_sheet`) — tek büyük `_ReaderState`
 - `lib/reader/settings/reader_preferences.dart` — sürümlü tercih şeması, `PreferenceWriter` (debounce)
-- `lib/audio/quran_audio_controller.dart` — katalog, indirme, ZIP, doğrulama, oynatma (çok büyük)
+- `lib/audio/` — `quran_audio_controller` (seçim/kuyruk durumu), `audio_catalog` (tam-sure
+  modeli + doğrulama), `audio_download` (akışlı indirme, artımlı SHA-256, atomik kurulum),
+  `audio_playback` (just_audio klip kuyruğu), `audio_failure` (tek Türkmençe hata kaynağı).
+  Kullanıcıya yalnız `AudioFailure.message` gösterilir; teknik ayrıntı `errorDetail`'de.
+  Depolama anahtarı `quran_audio/mp3quran-0.0.1/...` değişmemeli (indirilmiş sesler kaybolur).
+- Testlerde ses sahteleri ve fikstürleri: `test/audio_fakes.dart`
 - Kök `lib/library.dart`, `lib/reader_data.dart`, `lib/surah_opening.dart` yalnız uyumluluk export'ları
-- `tools/` içerik edinme/doğrulama (Python), `tool/` ürün kimliği/ikon/yayın denetimi
+- `tools/` içerik edinme/doğrulama (Python), `tools/mp3quran/` ses kataloğu hattı,
+  `tools/release/` ürün kimliği/ikon/yayın denetimi, `tools/legacy/` ÇALIŞTIRILMAZ
 - `assets/data/` çalışma verisi, `assets/sources/` dondurulmuş kaynak kanıtları + hash'ler
 
 ## Değişmez kurallar (kırma)
@@ -36,7 +42,7 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
 2. **Fail-closed.** Eksik/bozuk veri tahmini içerikle doldurulmaz; Türkmençe hata +
    "Täzeden synanyş" gösterilir. Ses dosyası hash'i tutmuyorsa çalınmaz.
 3. Gizlilik: hesap, analitik, reklam, uzaktan font yok. Yeni ağ isteği/SDK/izin
-   eklemek `docs/PRIVACY.md`, uygulama içi gizlilik metni ve `tool/release_readiness.py`
+   eklemek `docs/PRIVACY.md`, uygulama içi gizlilik metni ve `tools/release/release_readiness.py`
    güncellemesi gerektirir — sahibe sor.
 4. `~/kurany-kerim-demo` salt okunur referanstır.
 5. Push yok, mağaza yüklemesi yok, imza anahtarı üretme/okuma yok.
@@ -49,7 +55,7 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
   ```sh
   flutter analyze
   flutter test                      # ~1 dk; tek dosya: flutter test test/x_test.dart
-  python3 tool/release_readiness.py # android/ios/web/pubspec kimliği değişince
+  python3 tools/release/release_readiness.py # android/ios/web/pubspec kimliği değişince
   python3 tools/check_full_content.py # assets/ veya tools/ değişince
   python3 -m unittest discover -s test -p 'test_*.py'
   ```
@@ -62,10 +68,6 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
 
 ## Bilinen teknik borç (öncelik sırası; ayrıntı: docs/ENGINEERING_REVIEW.md)
 
-1. Ses denetleyicisi İngilizce hata metinlerini doğrudan kullanıcıya gösteriyor.
-2. ZIP indirme tamamen belleğe okunuyor (`readAsBytes` + `entry.content`) → düşük RAM riski.
-3. `quran_audio_controller.dart` 1470 satır; artık kullanılmayan `ayah-files-v1` /
-   `openingOverride` eski yolu duruyor.
-4. Google Drive'ın HTML onay sayfasını kazıyarak indirme kırılgan (kota/format değişimi).
-5. CI Python birim testlerinin çoğunu çalıştırmıyor.
-6. `mode`/`alignment` string; enum değil. `_ReaderState` çok büyük.
+1. Google Drive'ın HTML onay sayfasını kazıyarak indirme kırılgan (kota/format değişimi).
+2. CI Python birim testlerinin çoğunu çalıştırmıyor.
+3. `mode`/`alignment` string; enum değil. `_ReaderState` çok büyük.
