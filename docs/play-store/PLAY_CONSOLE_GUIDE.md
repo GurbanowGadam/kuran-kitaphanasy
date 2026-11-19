@@ -108,7 +108,7 @@ Crashlytics), hesap veya başka bir SDK eklenirse beyan güncellenmelidir.
 | Uygulama adı, kısa ve tam açıklama | `STORE_LISTING_TK.md` (Türkmençe) veya `STORE_LISTING_TR.md` (Türkçe) |
 | Uygulama simgesi 512×512 | `docs/play-store/assets/play-icon-512.png` |
 | Öne çıkan görsel 1024×500 | `docs/play-store/assets/feature-graphic-1024x500.png` |
-| Telefon ekran görüntüleri | En az 2, önerilen 4–8 (aşağıya bakın) |
+| Telefon ekran görüntüleri | `docs/play-store/assets/screenshots/01…07-*.png` (1080×2125; 1.0.0+3, Galaxy A15'ten 2026-11-19'da çekildi, durum/gezinme çubukları kırpıldı → 2:1 sınırına uyar). Sırayla yükleyin. |
 | Kategori | **Kitaplar ve Referans** (Books & Reference) |
 | E-posta | `kurankitaphanasy@gmail.com` |
 | Web sitesi (isteğe bağlı) | `https://gurbanowgadam.github.io/kuran-kitaphanasy/` |
