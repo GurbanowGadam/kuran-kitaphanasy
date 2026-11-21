@@ -121,7 +121,7 @@ extension _ReaderBookmarks on _ReaderState {
     );
     if (!mounted) return;
     if (action == 'audio') {
-      await openAudio(target.surah, target.ayah);
+      await openAudio(target.surah, target.ayah, autoplay: true);
       return;
     }
     if (action != 'bookmark') return;

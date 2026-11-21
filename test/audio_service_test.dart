@@ -64,6 +64,97 @@ void main() {
     },
   );
 
+  test('finished surah auto-plays the next downloaded surah', () async {
+    package = timedPackageFor(1);
+    final secondZip = ZipEncoder().encode(
+      Archive()
+        ..addFile(ArchiveFile('002.mp3', syntheticMp3.length, syntheticMp3)),
+    );
+    final second = timedPackageFor(2)
+      ..['bytes'] = secondZip.length
+      ..['sha256'] = sha256.convert(secondZip).toString();
+    var transport = secondZip;
+    final c = QuranAudioController(
+      directory: () async => root,
+      catalogLoader: () async => catalogOf([package, second]),
+      playerFactory: () => q,
+      downloader: (uri, cancel) async* {
+        yield transport;
+      },
+    );
+    await c.selectVerse(2, 1);
+    await c.downloadSelected();
+    expect(c.isReady, true);
+    transport = zip;
+    await c.selectVerse(1, 1);
+    await c.downloadSelected();
+    await c.play();
+    q.tick(2, seconds: 5, duration: 5, completed: true);
+    for (var i = 0; i < 100 && !(c.surah == 2 && c.isPlaying); i++) {
+      await Future<void>.delayed(const Duration(milliseconds: 5));
+    }
+    expect(c.surah, 2);
+    expect(c.ayah, 1);
+    expect(c.isPlaying, true);
+    expect(q.playing, true);
+    expect(q.preparations, 2);
+    c.dispose();
+  });
+
+  test(
+    'finished surah selects an undownloaded next surah without playing',
+    () async {
+      var requests = 0;
+      package = timedPackageFor(1);
+      final second = timedPackageFor(2);
+      final c = QuranAudioController(
+        directory: () async => root,
+        catalogLoader: () async => catalogOf([package, second]),
+        playerFactory: () => q,
+        downloader: (uri, cancel) async* {
+          requests++;
+          yield zip;
+        },
+      );
+      await c.downloadSelected();
+      await c.play();
+      q.tick(2, seconds: 5, duration: 5, completed: true);
+      for (var i = 0; i < 100 && c.surah != 2; i++) {
+        await Future<void>.delayed(const Duration(milliseconds: 5));
+      }
+      await Future<void>.delayed(const Duration(milliseconds: 20));
+      expect(c.surah, 2);
+      expect(c.ayah, 1);
+      expect(c.isReady, false);
+      expect(c.canDownload, true);
+      expect(c.isPlaying, false);
+      expect(c.isDownloading, false);
+      expect(requests, 1);
+      expect(q.preparations, 1);
+      c.dispose();
+    },
+  );
+
+  test('repeat surah keeps looping instead of advancing', () async {
+    package = timedPackageFor(1);
+    final c = QuranAudioController(
+      directory: () async => root,
+      catalogLoader: () async => catalogOf([package, timedPackageFor(2)]),
+      playerFactory: () => q,
+      downloader: (uri, cancel) async* {
+        yield zip;
+      },
+    );
+    await c.downloadSelected();
+    await c.play();
+    c.toggleRepeatSurah();
+    q.tick(2, seconds: 5, duration: 5, completed: true);
+    await Future<void>.delayed(const Duration(milliseconds: 20));
+    expect(c.surah, 1);
+    expect(c.isPlaying, true);
+    c.dispose();
+  });
+
   test('stale events are ignored after pause, selection and close', () async {
     final c = make();
     await c.downloadSelected();

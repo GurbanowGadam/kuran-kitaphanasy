@@ -454,6 +454,9 @@ class QuranAudioController extends ChangeNotifier {
             _position = _duration;
             _queueKey = null;
             unawaited(player.pause());
+            _emit();
+            unawaited(_advanceAfterSurah(_surah));
+            return;
           }
           _emit();
         },
@@ -467,6 +470,35 @@ class QuranAudioController extends ChangeNotifier {
       ),
     );
     return player;
+  }
+
+  /// After a surah ends naturally, move to the next surah's first ayah.
+  /// A verified local download starts automatically; otherwise the panel
+  /// stays on the next surah with its download button and nothing is fetched.
+  Future<void> _advanceAfterSurah(int finished) async {
+    if (_disposed || finished >= 114) return;
+    final next = finished + 1;
+    final available = _packages.any(
+      (p) =>
+          p.reciterId == _reciterId &&
+          p.surah == next &&
+          p.isPublished &&
+          p.validMetadata,
+    );
+    if (!available) return;
+    // selectVerse increments the generation synchronously; any later user
+    // selection, reciter change or close supersedes this continuation.
+    final generation = _selectionGeneration + 1;
+    await selectVerse(next, 1);
+    if (_disposed ||
+        generation != _selectionGeneration ||
+        _surah != next ||
+        _ayah != 1 ||
+        _playing ||
+        !isReady) {
+      return;
+    }
+    await play();
   }
 
   Future<void> play() => _play();

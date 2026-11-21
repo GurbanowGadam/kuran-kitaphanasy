@@ -23,7 +23,7 @@ Per-file full remote hash proofs: /home/gadamgurban/kuran-mp3quran-v0.0.1-full/p
 
 ## Download-only and local playback contract
 
-Long-press Arabic, meal or bilingual block to open named bookmarks or Aýaty diňle; the headphones toolbar button opens the same lazy player. Existing bookmark naming/move/+ behavior remains. Choosing a reciter stops the prior recording and does not download automatically. Selecting a surah does not auto-play or stream.
+Long-press Arabic, meal or bilingual block to open named bookmarks or Aýaty diňle; the headphones toolbar button opens the same lazy player. Existing bookmark naming/move/+ behavior remains. Choosing a reciter stops the prior recording and does not download automatically. Selecting a surah from the headphones button does not auto-play or stream. Aýaty diňle from the long-press menu starts playback immediately when that surah is already downloaded and verified; otherwise the panel shows the download button. When a surah finishes naturally (repeat off), the player moves to the next surah's first ayah: a verified local download auto-plays, otherwise it waits with the download button and nothing is fetched automatically.
 
 Completed files live in durable app-support storage. Downloads use .part/staging, enforce expected length/SHA256, validate safe ZIP structure and original MP3 hash, then atomically publish. Cancelled/incomplete/corrupt files are not playable; controller restart verifies local persistence. Existing75 package identities were preserved, so expansion does not intentionally invalidate those completed downloads.
 

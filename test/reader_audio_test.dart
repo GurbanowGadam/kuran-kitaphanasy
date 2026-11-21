@@ -681,6 +681,68 @@ void main() {
     expect(a.closed, 1);
     expect(find.byKey(const Key('audio-panel')), findsNothing);
   });
+  testWidgets('verse listen starts downloaded audio without a second tap', (
+    t,
+  ) async {
+    final a = FakeAudio()..local = true;
+    await t.pumpWidget(
+      MaterialApp(
+        home: Reader(
+          data: Future.value(fixture()),
+          audioController: a,
+          goHome: () {},
+        ),
+      ),
+    );
+    await t.pumpAndSettle();
+    await t.longPressAt(
+      t.getTopLeft(find.byKey(const Key('translation-t1'))) +
+          const Offset(30, 20),
+    );
+    await t.pumpAndSettle();
+    await t.tap(find.byKey(const Key('verse-listen')));
+    await t.pumpAndSettle();
+    expect(a.targetSurah, 1);
+    expect(a.targetAyah, 1);
+    expect(a.playing, isTrue);
+    await t.tap(find.byKey(const Key('audio-close')));
+    await t.pumpAndSettle();
+  });
+  testWidgets('audio menu still waits for an explicit play tap', (t) async {
+    final a = FakeAudio()..local = true;
+    await t.pumpWidget(
+      MaterialApp(
+        home: Reader(
+          data: Future.value(fixture()),
+          audioController: a,
+          goHome: () {},
+        ),
+      ),
+    );
+    await t.pumpAndSettle();
+    await t.tap(find.byKey(const Key('audio-menu')));
+    await t.pumpAndSettle();
+    expect(a.playing, isFalse);
+  });
+  testWidgets('reciter sheet is titled Kary saýla', (t) async {
+    final a = FakeAudio()..local = true;
+    await t.pumpWidget(
+      MaterialApp(
+        home: Reader(
+          data: Future.value(fixture()),
+          audioController: a,
+          goHome: () {},
+        ),
+      ),
+    );
+    await t.pumpAndSettle();
+    await t.tap(find.byKey(const Key('audio-menu')));
+    await t.pumpAndSettle();
+    await t.tap(find.byKey(const Key('audio-reciter')));
+    await t.pumpAndSettle();
+    expect(find.text('Kary saýla'), findsOneWidget);
+    expect(find.textContaining('Käri'), findsNothing);
+  });
   testWidgets('long press offers exactly two real verse actions', (t) async {
     await t.pumpWidget(
       MaterialApp(

@@ -1,7 +1,9 @@
 part of 'reader.dart';
 
 extension _ReaderAudio on _ReaderState {
-  Future<void> openAudio(int surah, int ayah) async {
+  /// [autoplay] starts an already verified download right away; an
+  /// undownloaded surah keeps showing its download button instead.
+  Future<void> openAudio(int surah, int ayah, {bool autoplay = false}) async {
     if (audioOpening) return;
     final generation = ++audioOpenGeneration;
     audioOpening = true;
@@ -24,6 +26,16 @@ extension _ReaderAudio on _ReaderState {
         selection,
         audioInitialization ??= controller.initialize(),
       ]);
+      if (autoplay &&
+          mounted &&
+          widget.active &&
+          generation == audioOpenGeneration &&
+          controller.surah == surah &&
+          controller.ayah == ayah &&
+          controller.isReady &&
+          !controller.isPlaying) {
+        await audioAction(controller.play);
+      }
     } catch (error) {
       debugPrint('Audio open failed: $error');
       if (mounted && generation == audioOpenGeneration) {
@@ -183,7 +195,7 @@ extension _ReaderAudio on _ReaderState {
               children: [
                 control(
                   'audio-reciter',
-                  'Käri saýla · ${a.reciters.where((r) => r.id == a.reciterId).map((r) => r.name).join()}',
+                  'Kary saýla · ${a.reciters.where((r) => r.id == a.reciterId).map((r) => r.name).join()}',
                   Icons.record_voice_over_outlined,
                   audioOpening || a.reciters.isEmpty
                       ? null
@@ -197,7 +209,7 @@ extension _ReaderAudio on _ReaderState {
                                 child: ListView(
                                   shrinkWrap: true,
                                   children: [
-                                    const ListTile(title: Text('Käri saýla')),
+                                    const ListTile(title: Text('Kary saýla')),
                                     for (final r in a.reciters)
                                       ListTile(
                                         title: Text(r.name),
