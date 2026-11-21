@@ -4,6 +4,8 @@ import 'package:kuran_kitaphanasy/main.dart';
 import 'package:kuran_kitaphanasy/reader_data.dart';
 import 'package:kuran_kitaphanasy/reader/presentation/surah_picker_list.dart';
 
+import 'reader_fixture.dart';
+
 void main() {
   for (final dark in [false, true]) {
     testWidgets(
@@ -17,8 +19,7 @@ void main() {
         await t.pumpWidget(QuranApp(data: Future.value(data)));
         await t.pumpAndSettle();
         if (dark) {
-          await t.tap(find.byTooltip('Garaňky görnüş'));
-          await t.pumpAndSettle();
+          await setDarkTheme(t);
         }
         await t.ensureVisible(find.byKey(const Key('book-quran')));
         await t.tap(find.byKey(const Key('book-quran')));

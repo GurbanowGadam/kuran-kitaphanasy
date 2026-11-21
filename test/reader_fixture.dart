@@ -104,6 +104,26 @@ Future<void> openReader(WidgetTester tester) async {
   await tester.pumpAndSettle();
 }
 
+/// Dark theme now lives in Sazlamalar; returns to the Kitaphana tab.
+Future<void> setDarkTheme(WidgetTester tester) async {
+  await tester.tap(find.byKey(const Key('tab-settings')));
+  await tester.pumpAndSettle();
+  await tester.tap(find.byKey(const Key('settings-dark')));
+  await tester.pumpAndSettle();
+  await tester.tap(find.byKey(const Key('tab-library')));
+  await tester.pumpAndSettle();
+}
+
+/// Opens «Çeşmeler we programma barada» from Sazlamalar.
+Future<void> openAbout(WidgetTester tester) async {
+  await tester.tap(find.byKey(const Key('tab-settings')));
+  await tester.pumpAndSettle();
+  await tester.ensureVisible(find.byKey(const Key('source-about')));
+  await tester.pumpAndSettle();
+  await tester.tap(find.byKey(const Key('source-about')));
+  await tester.pumpAndSettle();
+}
+
 Future<void> setMode(WidgetTester tester, String mode) async {
   await tester.tap(find.byKey(const Key('mode-dropdown')));
   await tester.pumpAndSettle();

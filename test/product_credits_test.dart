@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/main.dart';
 
@@ -23,9 +22,7 @@ void main() {
     (t) async {
       await t.pumpWidget(QuranApp(data: Future.value(fixture())));
       await t.pumpAndSettle();
-      await t.ensureVisible(find.byKey(const Key('source-about')));
-      await t.tap(find.byKey(const Key('source-about')));
-      await t.pumpAndSettle();
+      await openAbout(t);
       expect(
         find.textContaining('Türkmenistanyň Müftüsiniň müdiriýeti'),
         findsOneWidget,

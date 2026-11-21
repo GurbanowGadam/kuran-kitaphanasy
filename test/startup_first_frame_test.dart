@@ -36,7 +36,7 @@ void main() {
               expect(
                 fail
                     ? find.byKey(const Key('startup-retry'))
-                    : find.text('Kitaphana'),
+                    : find.byKey(const Key('library-title')),
                 findsOneWidget,
               );
               expect(binding.sendFramesToEngine, isFalse);

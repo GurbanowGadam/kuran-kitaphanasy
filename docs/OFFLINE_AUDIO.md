@@ -57,3 +57,5 @@ This proves observed native playback/UI output state for that recording, not an 
 Version0.0.1+2; debug package tm.kuran.kitaphanasy.debug. The installable APK uses the Android debug certificate. Release AAB is genuinely unsigned because owner release keys are not configured; it is not directly Play-upload-ready. Recording/source/font attribution is retained; see the rights review and source evidence, not public Drive sharing alone, for the licensing basis.
 
 Earlier EveryAyah/demo/device logs are historical and do not prove current MP3Quran behavior. Preserved prior document: docs/history/OFFLINE_AUDIO_BEFORE_FULL.md. Earlier75-package release reports are under releases/0.0.1/history/.
+
+Sazlamalar → Ýüklenen sesler: diskte bulunan tam-sure kayıtlarını (kari, boyut) listeler ve tek tek siler (`scanDownloads` / `deletePackage`). Liste yalnız dosya varlığına bakar; çalma öncesi SHA-256 doğrulaması değişmedi. Silinen kayıt yüklüyse önce durdurulur. Okuyucu ve Sazlamalar aynı denetleyiciyi paylaşır.

@@ -21,8 +21,7 @@ Future<ReaderData> openNote(
   await t.pumpWidget(QuranApp(data: Future.value(data)));
   await t.pumpAndSettle();
   if (dark) {
-    await t.tap(find.byTooltip('Garaňky görnüş'));
-    await t.pumpAndSettle();
+    await setDarkTheme(t);
   }
   await t.ensureVisible(find.text('Okap başla'));
   await t.pumpAndSettle();

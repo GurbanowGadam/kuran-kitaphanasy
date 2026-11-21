@@ -3,6 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:kuran_kitaphanasy/main.dart';
 import 'package:kuran_kitaphanasy/reader_data.dart';
 
+import 'reader_fixture.dart';
+
 void main() {
   for (final dark in [false, true]) {
     testWidgets('Surah fixed chrome is darker and stays pinned dark=$dark', (
@@ -12,8 +14,7 @@ void main() {
       await t.pumpWidget(QuranApp(data: Future.value(data)));
       await t.pumpAndSettle();
       if (dark) {
-        await t.tap(find.byTooltip('Garaňky görnüş'));
-        await t.pumpAndSettle();
+        await setDarkTheme(t);
       }
       await t.tap(find.byKey(const Key('book-quran')));
       await t.pumpAndSettle();

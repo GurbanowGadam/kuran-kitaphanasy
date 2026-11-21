@@ -16,7 +16,11 @@ Kitaphana'da Hadis kitapları yalnızca "ýakynda" yer tutucusudur.
 
 ## Mimari harita
 
-- `lib/main.dart` → `lib/app/app.dart` (tema, Library↔Reader `IndexedStack`, ilk kare erteleme)
+- `lib/main.dart` → `lib/app/app.dart` (tema, alt menü Kitaphana·Hasaplar·Sazlamalar, Library↔Reader
+  `IndexedStack`, ilk kare erteleme, paylaşılan `QuranAudioController`); `lib/app/about_dialog.dart`
+- `lib/trackers/{domain,data,presentation}` — kullanıcı takipleri ("Hasaplar"); katı JSON şeması,
+  bozuk kayıt üzerine yazılmaz. Anahtar `kuran_kitaphanasy.trackers` değişmemeli. Ayrıntı: docs/HASAPLAR.md
+- `lib/settings/settings_page.dart` — tema, indirilen sesler, hasap yedeği (pano), Hakkında
 - `lib/library/{domain,data,presentation}` — kitap kataloğu, `BookRepository`
 - `lib/reader/data/reader_data.dart` — 10 JSON dataset'i yükler, **fail-closed** doğrular, indeksler
 - `lib/reader/presentation/reader.dart` + `part` dosyaları (`reader_content`, `reader_bookmarks`,

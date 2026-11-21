@@ -423,6 +423,43 @@ class QuranAudioController extends ChangeNotifier {
     _emit();
   }
 
+  /// Completed downloads present on disk with their size, catalog order.
+  /// Presence only (cheap); playback still verifies SHA-256 before use.
+  Future<List<({AudioPackage package, int bytes})>> scanDownloads() async {
+    await initialize();
+    if (!_initialized || _root == null) {
+      throw AudioException(
+        _failure ?? AudioFailure.initialization,
+        _errorDetail ?? 'Audio storage unavailable',
+      );
+    }
+    final found = <({AudioPackage package, int bytes})>[];
+    for (final p in _packages) {
+      final name = p.audioFile;
+      if (name == null) continue;
+      final file = File('${_path(p)}/$name');
+      if (await file.exists()) {
+        found.add((package: p, bytes: await file.length()));
+      }
+    }
+    return found;
+  }
+
+  /// Removes one downloaded recording, stopping it first if it is loaded.
+  Future<void> deletePackage(AudioPackage p) async {
+    await initialize();
+    if (_root == null) return;
+    if (selectedPackage?.key == p.key) {
+      await deleteSelected();
+    } else {
+      final d = Directory(_path(p));
+      if (await d.exists()) await d.delete(recursive: true);
+    }
+    _ready.remove(p.key);
+    _localChecks.remove(p.key);
+    _emit();
+  }
+
   AudioPlayback _ensurePlayer() {
     final existing = _player;
     if (existing != null) return existing;

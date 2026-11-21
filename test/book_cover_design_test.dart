@@ -64,11 +64,7 @@ void main() {
                 ),
                 child: child!,
               ),
-              home: LibraryPage(
-                dark: dark,
-                toggleTheme: () {},
-                openBook: (_) => opened = true,
-              ),
+              home: LibraryPage(dark: dark, openBook: (_) => opened = true),
             ),
           );
           await t.pumpAndSettle();

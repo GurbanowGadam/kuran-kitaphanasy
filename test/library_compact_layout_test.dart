@@ -17,7 +17,6 @@ void main() {
         addTearDown(t.view.resetPhysicalSize);
         addTearDown(t.view.resetDevicePixelRatio);
         var opened = false;
-        var toggled = false;
         await t.pumpWidget(
           MaterialApp(
             theme: ThemeData(
@@ -30,10 +29,10 @@ void main() {
               ),
               child: child!,
             ),
-            home: LibraryPage(
-              dark: dark,
-              toggleTheme: () => toggled = true,
-              openBook: (_) => opened = true,
+            // The app shows the library above the 80dp bottom navigation.
+            home: Scaffold(
+              body: LibraryPage(dark: dark, openBook: (_) => opened = true),
+              bottomNavigationBar: const SizedBox(height: 80),
             ),
           ),
         );
@@ -49,18 +48,8 @@ void main() {
         expect(find.text('Okap başla').hitTestable(), findsOneWidget);
         await t.tap(find.text('Okap başla'));
         expect(opened, true);
-        await t.tap(find.byType(IconButton).first);
-        expect(toggled, true);
         await t.ensureVisible(find.text('Sahih Buhari'));
         expect(find.text('Sahih Buhari').hitTestable(), findsOneWidget);
-        await t.ensureVisible(find.byKey(const Key('source-about')));
-        expect(
-          find.byKey(const Key('source-about')).hitTestable(),
-          findsOneWidget,
-        );
-        await t.tap(find.byKey(const Key('source-about')));
-        await t.pumpAndSettle();
-        expect(find.byType(AlertDialog), findsOneWidget);
         expect(t.takeException(), isNull);
       });
     }

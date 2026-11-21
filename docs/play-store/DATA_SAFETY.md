@@ -7,6 +7,7 @@ Hedef: Android 1.0.0+3. Bu hazır doldurulmuş form, hukukî görüş veya “ve
 | Akış | Gözlem | Form için kalan karar |
 | --- | --- | --- |
 | Okuma konumu, tema/font, yer imi adları | Yerel tercihler; uygulama kodunda geliştiriciye yükleme yolu yok | Sadece cihazda işleme ile cihaz dışı toplama ayrımını güncel tanımlara göre yapın; final SDK ve backup kapsamını doğrulayın |
+| Hasaplar (kullanıcı takipleri) ve pano yedeği | Yerel depolama; yedek yalnız kullanıcı isteğiyle sistem panosuna kopyalanır, uygulama göndermez | Cihaz dışına uygulama tarafından aktarım yok; yeni izin/SDK yok. Okuma tercihleriyle aynı "yalnız cihazda" değerlendirmesi |
 | İndirilmiş ses ve zamanlama/doğrulama dosyaları | Uygulamaya ait kalıcı yerel depo, yerelden oynatma | İndirme sırasında oluşan ağ verisini sesin yerel saklanmasından ayrı değerlendirin |
 | Google Drive ses isteği | Kullanıcı başlatır; Google IP, istenen dosya kimliği, istek zamanı ve HTTP teknik bilgilerini alabilir | Google'ın rolü, amaçları, saklaması ve bağımsız kullanımı araştırılmadan “toplama/paylaşma yok” seçmeyin |
 | Hesap/reklam/analitik | İncelenen uygulama kapsamı bunları sunmuyor | Final geçişli/native SDK'lar ve son paket için tekrar doğrulayın; kodda görünmemek üçüncü taraf davranışı hakkında garanti değildir |

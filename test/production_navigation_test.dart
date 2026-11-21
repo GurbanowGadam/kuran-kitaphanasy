@@ -4,7 +4,7 @@ import 'package:kuran_kitaphanasy/main.dart';
 import 'package:kuran_kitaphanasy/reader/settings/reader_preferences.dart';
 
 import 'surah_opening_test.dart' show realData;
-import 'reader_fixture.dart' show fixture;
+import 'reader_fixture.dart' show fixture, setDarkTheme;
 import 'reader_settings_test.dart' show settings, choose, close;
 
 Future<void> open(
@@ -154,13 +154,21 @@ void main() {
       await open(t, store);
       await t.tap(find.byKey(const Key('back-library')));
       await t.pumpAndSettle();
-      await t.tap(find.byIcon(Icons.dark_mode_outlined));
-      await t.pumpAndSettle();
+      await setDarkTheme(t);
       await t.pumpWidget(const SizedBox());
       await t.pump(const Duration(seconds: 1));
       await t.pumpWidget(QuranApp(data: Future.value(fixture()), store: store));
       await t.pumpAndSettle();
-      expect(find.byIcon(Icons.light_mode_outlined), findsOneWidget);
+      expect(
+        Theme.of(t.element(find.byKey(const Key('book-quran')))).brightness,
+        Brightness.dark,
+      );
+      await t.tap(find.byKey(const Key('tab-settings')));
+      await t.pumpAndSettle();
+      expect(
+        t.widget<SwitchListTile>(find.byKey(const Key('settings-dark'))).value,
+        isTrue,
+      );
     },
   );
 }

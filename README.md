@@ -14,6 +14,12 @@ meal kaynak blokları gerektiğinde birden çok ayeti kapsar, bloklar yeniden ç
 veya keyfî bölünmez. Kapsam ve metin korunumu için `tools/check_full_content.py`
 ve `assets/sources/full-content-manifest.json` esas alınır.
 
+Alt menü: **Kitaphana · Hasaplar · Sazlamalar**. Hasaplar, kullanıcının kendi takipleridir
+(kaza namazları, kitap/hatim ilerlemesi, tesbih sayacı, günlük alışkanlık veya özel takip);
+yalnız cihazda tutulur, Sazlamalar'dan panoya yedeklenip geri yüklenebilir.
+Sazlamalar'da tema, indirilen seslerin yönetimi ve kaynak/gizlilik bilgisi bulunur.
+Ayrıntılar: [HASAPLAR](docs/HASAPLAR.md).
+
 Ses: beş kârinin MP3Quran tam-sure kayıtları (5 × 114 sure). Ses APK içinde değildir;
 kullanıcı bir sureyi kendisi indirmeyi seçtiğinde Google Drive'dan ZIP olarak gelir,
 SHA-256 ile doğrulanır, cihazda saklanır ve resmî ayet zamanlamalarıyla çevrimdışı çalınır.
@@ -58,6 +64,10 @@ ile gizlice imzalanmaz. Telefon kurulumu ve görsel onay ayrı bir entegrasyon a
   [okuyucu sunumu](lib/reader/presentation/reader.dart),
   [sure açılışı](lib/reader/presentation/surah_opening.dart),
   [yerel tercihler](lib/reader/settings/reader_preferences.dart).
+- Uygulama kabuğu ve alt menü: [app](lib/app/app.dart), [Hakkında](lib/app/about_dialog.dart);
+  [Sazlamalar](lib/settings/settings_page.dart);
+  Hasaplar: [model](lib/trackers/domain/tracker.dart), [depolama](lib/trackers/data/tracker_book.dart),
+  [ekran](lib/trackers/presentation/trackers_page.dart), [form](lib/trackers/presentation/tracker_editor.dart).
 - Ses: [denetleyici](lib/audio/quran_audio_controller.dart) (seçim/kuyruk durumu),
   [katalog](lib/audio/audio_catalog.dart), [doğrulamalı indirme](lib/audio/audio_download.dart),
   [yerel oynatıcı](lib/audio/audio_playback.dart), [Türkmençe hata türleri](lib/audio/audio_failure.dart).
@@ -72,7 +82,7 @@ ile gizlice imzalanmaz. Telefon kurulumu ve görsel onay ayrı bir entegrasyon a
 ## Gizlilik ve çevrimdışı çalışma
 
 Okuma için hesap, backend, analitik, reklam, uzaktan font veya içerik indirmesi
-gerekmez. Yerel okuma tercihleri/son konum ve yer imleri cihazda tutulur; uygulamayı
+gerekmez. Yerel okuma tercihleri/son konum, yer imleri ve hasaplar cihazda tutulur; uygulamayı
 silmek bu yerel veriyi kaldırır. Android release manifesti yalnız **INTERNET** izni
 ister: tek ağ isteği, kullanıcının seçtiği ses indirmesidir (Google Drive; IP adresi ve
 teknik istek bilgileri Google'a ulaşır). Birleşik pakette ses oynatıcının (media3) eklediği

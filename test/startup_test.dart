@@ -60,7 +60,7 @@ void main() {
       QuranApp(repository: repository, store: MemoryReaderStore()),
     );
     await t.pumpAndSettle();
-    expect(find.text('Kitaphana'), findsOneWidget);
+    expect(find.byKey(const Key('library-title')), findsOneWidget);
     expect(t.takeException(), isNull);
     await t.tap(find.byKey(const Key('book-quran')));
     await t.pumpAndSettle();
@@ -185,7 +185,7 @@ void main() {
         await t.pumpAndSettle();
         repository.pending.complete(fixture());
         await t.pumpAndSettle();
-        expect(find.text('Kitaphana'), findsOneWidget);
+        expect(find.byKey(const Key('library-title')), findsOneWidget);
         await t.tap(find.byKey(const Key('book-quran')));
         await t.pumpAndSettle();
         expect(find.byType(Reader), findsOneWidget);
@@ -215,7 +215,7 @@ void main() {
           store: store,
           onStartupReady: () {
             notifications++;
-            expect(find.text('Kitaphana'), findsOneWidget);
+            expect(find.byKey(const Key('library-title')), findsOneWidget);
             expect(
               repository.calls,
               0,
@@ -229,9 +229,9 @@ void main() {
       expect(repository.calls, 0);
       store.pending.complete({'version': 1, 'dark': true});
       await t.pumpAndSettle();
-      expect(find.text('Kitaphana'), findsOneWidget);
+      expect(find.byKey(const Key('library-title')), findsOneWidget);
       expect(
-        Theme.of(t.element(find.text('Kitaphana'))).brightness,
+        Theme.of(t.element(find.byKey(const Key('library-title')))).brightness,
         Brightness.dark,
       );
       expect(find.byType(Reader, skipOffstage: false), findsNothing);
@@ -255,7 +255,7 @@ void main() {
         QuranApp(repository: repository, store: MemoryReaderStore()),
       );
       await t.pumpAndSettle();
-      expect(find.text('Kitaphana'), findsOneWidget);
+      expect(find.byKey(const Key('library-title')), findsOneWidget);
       expect(t.takeException(), isNull);
       await t.tap(find.byKey(const Key('book-quran')));
       await t.pumpAndSettle();
@@ -263,7 +263,7 @@ void main() {
       expect(find.byType(Reader, skipOffstage: false), findsNothing);
       await t.tap(find.byKey(const Key('reader-load-home')));
       await t.pumpAndSettle();
-      expect(find.text('Kitaphana'), findsOneWidget);
+      expect(find.byKey(const Key('library-title')), findsOneWidget);
       await t.tap(find.byKey(const Key('book-quran')));
       await t.pumpAndSettle();
       repository.fail = false;
@@ -298,7 +298,7 @@ void main() {
       await t.tap(find.byKey(const Key('startup-retry')));
       store.pending.complete(null);
       await t.pumpAndSettle();
-      expect(find.text('Kitaphana'), findsOneWidget);
+      expect(find.byKey(const Key('library-title')), findsOneWidget);
       expect(notifications, 1);
       expect(repository.calls, 1);
     },

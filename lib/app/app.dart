@@ -6,6 +6,10 @@ import '../reader_data.dart';
 import '../reader/presentation/reader.dart';
 import '../library/data/book_repository.dart';
 import '../reader/settings/reader_preferences.dart';
+import '../audio/quran_audio_controller.dart';
+import '../settings/settings_page.dart';
+import '../trackers/data/tracker_book.dart';
+import '../trackers/presentation/trackers_page.dart';
 
 class QuranApp extends StatefulWidget {
   const QuranApp({
@@ -13,6 +17,8 @@ class QuranApp extends StatefulWidget {
     this.data,
     this.repository,
     this.store,
+    this.trackerStore,
+    this.audioController,
     this.onStartupReady,
   });
 
@@ -22,6 +28,8 @@ class QuranApp extends StatefulWidget {
   final Future<ReaderData>? data;
   final BookRepository? repository;
   final ReaderStore? store;
+  final TrackerStore? trackerStore;
+  final QuranAudioController? audioController;
   @override
   State<QuranApp> createState() => _QuranAppState();
 }
@@ -36,6 +44,26 @@ class _QuranAppState extends State<QuranApp> {
           ? MemoryReaderStore()
           : SharedPreferencesReaderStore());
   LibraryBook? selectedBook;
+
+  /// Bottom navigation: 0 Kitaphana, 1 Hasaplar, 2 Sazlamalar.
+  int tab = 0;
+
+  /// Hasaplar storage is read only once its tab is first opened, so startup
+  /// and the library never wait for it.
+  bool trackersOpened = false;
+  late final TrackerBook trackers = TrackerBook(
+    store:
+        widget.trackerStore ??
+        (widget.data != null
+            ? MemoryTrackerStore()
+            : SharedPreferencesTrackerStore()),
+  );
+
+  /// One player for the reader and Sazlamalar, so deleting a recording there
+  /// stops it here. Created lazily; its constructor never touches plugins.
+  QuranAudioController? ownedAudio;
+  QuranAudioController get audio =>
+      widget.audioController ?? (ownedAudio ??= QuranAudioController());
   late final PreferenceWriter libraryWriter = PreferenceWriter(
     store,
     '_library',
@@ -102,8 +130,8 @@ class _QuranAppState extends State<QuranApp> {
     });
   }
 
-  void toggleLibraryTheme() {
-    setState(() => dark = !dark);
+  void setTheme(bool value) {
+    setState(() => dark = value);
     libraryWriter.schedule({'version': 1, 'dark': dark});
     libraryWriter.flush();
   }
@@ -111,6 +139,8 @@ class _QuranAppState extends State<QuranApp> {
   @override
   void dispose() {
     libraryWriter.dispose();
+    trackers.dispose();
+    ownedAudio?.dispose();
     super.dispose();
   }
 
@@ -141,14 +171,65 @@ class _QuranAppState extends State<QuranApp> {
           : IndexedStack(
               index: reading ? 1 : 0,
               children: [
-                LibraryPage(
-                  dark: dark,
-                  toggleTheme: toggleLibraryTheme,
-                  books: repository.books,
-                  openBook: (book) => setState(() {
-                    selectedBook = book;
-                    reading = true;
-                  }),
+                PopScope(
+                  canPop: tab == 0,
+                  onPopInvokedWithResult: (didPop, result) {
+                    if (!didPop && tab != 0) setState(() => tab = 0);
+                  },
+                  child: Scaffold(
+                    body: IndexedStack(
+                      index: tab,
+                      children: [
+                        LibraryPage(
+                          dark: dark,
+                          books: repository.books,
+                          openBook: (book) => setState(() {
+                            selectedBook = book;
+                            reading = true;
+                          }),
+                        ),
+                        trackersOpened
+                            ? TrackersPage(book: trackers)
+                            : const SizedBox.shrink(),
+                        SettingsPage(
+                          dark: dark,
+                          setDark: setTheme,
+                          trackers: trackers,
+                          audio: () => audio,
+                          surahNames: () async =>
+                              (await loadBook(repository.books.first.id)).names,
+                        ),
+                      ],
+                    ),
+                    bottomNavigationBar: NavigationBar(
+                      key: const Key('main-navigation'),
+                      selectedIndex: tab,
+                      onDestinationSelected: (i) => setState(() {
+                        tab = i;
+                        if (i == 1) trackersOpened = true;
+                      }),
+                      destinations: const [
+                        NavigationDestination(
+                          key: Key('tab-library'),
+                          icon: Icon(Icons.auto_stories_outlined),
+                          selectedIcon: Icon(Icons.auto_stories),
+                          label: 'Kitaphana',
+                        ),
+                        NavigationDestination(
+                          key: Key('tab-trackers'),
+                          icon: Icon(Icons.checklist_outlined),
+                          selectedIcon: Icon(Icons.checklist),
+                          label: 'Hasaplar',
+                        ),
+                        NavigationDestination(
+                          key: Key('tab-settings'),
+                          icon: Icon(Icons.settings_outlined),
+                          selectedIcon: Icon(Icons.settings),
+                          label: 'Sazlamalar',
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 if (selectedBook != null)
                   FutureBuilder<ReaderData>(
@@ -161,6 +242,7 @@ class _QuranAppState extends State<QuranApp> {
                           key: ValueKey(selectedBook!.id),
                           bookId: selectedBook!.id,
                           store: store,
+                          audioController: audio,
                           data: loadBook(selectedBook!.id),
                           active: reading,
                           goHome: () => setState(() => reading = false),

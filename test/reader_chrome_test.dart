@@ -12,8 +12,7 @@ void main() {
       if (dark) {
         await t.tap(find.byKey(const Key('back-library')));
         await t.pumpAndSettle();
-        await t.tap(find.byTooltip('Garaňky görnüş'));
-        await t.pumpAndSettle();
+        await setDarkTheme(t);
         await t.tap(find.byKey(const Key('book-quran')));
         await t.pumpAndSettle();
       }

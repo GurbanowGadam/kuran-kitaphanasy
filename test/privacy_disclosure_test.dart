@@ -10,9 +10,7 @@ void main() {
     (t) async {
       await t.pumpWidget(QuranApp(data: Future.value(fixture())));
       await t.pumpAndSettle();
-      await t.ensureVisible(find.byKey(const Key('source-about')));
-      await t.tap(find.byKey(const Key('source-about')));
-      await t.pumpAndSettle();
+      await openAbout(t);
 
       final dialog = find.byType(AlertDialog);
       for (final text in [
@@ -26,12 +24,15 @@ void main() {
         'Habarlaşmak üçin: kurankitaphanasy@gmail.com',
         'Google hyzmatynyň gizlinlik syýasaty:',
         'https://policies.google.com/privacy',
-        'Sazlamalar, okalyş ýagdaýy, bellikler we ýüklenen sesler diňe şu '
+        'Sazlamalar, okalyş ýagdaýy, bellikler, hasaplar we ýüklenen sesler diňe şu '
             'enjamda saklanýar. Hasap açmak talap edilmeýär; mahabat we '
             'analitika ýok.',
+        'Hasaplaryň ätiýaçlyk nusgasy diňe siz «Hasaplary göçür» '
+            'düwmesine basanyňyzda enjamyň buferine göçürilýär; ony '
+            'nirede saklajagyňyzy özüňiz saýlaýarsyňyz.',
         'Ýerli maglumatlary pozmak üçin enjamyň ulgam sazlamalarynda '
             'programmanyň maglumatlaryny arassalaň ýa-da programmany aýryň. '
-            'Şonda şu enjamdaky sazlamalar, okalyş ýagdaýy, bellikler we '
+            'Şonda şu enjamdaky sazlamalar, okalyş ýagdaýy, bellikler, hasaplar we '
             'ýüklenen sesler pozular.',
       ]) {
         final disclosure = find.descendant(
@@ -58,10 +59,7 @@ void main() {
         find.descendant(
           of: dialog,
           matching: find.byWidgetPredicate(
-            (widget) =>
-                widget is SelectableText &&
-                widget.data ==
-                    'https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html',
+            (widget) => widget is SelectableText && widget.data == 'https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html',
           ),
         ),
         findsOneWidget,

@@ -6,13 +6,13 @@ DURUM: Kullanıcıya yayımlanan metin `site/privacy.html` dosyasıdır (Türkme
 - Yayıncı: Kuran Kitaphanasy (sahibi tarafından 2026-11-18'de belirlendi).
 - Destek ve gizlilik iletişimi: kurankitaphanasy@gmail.com.
 - Herkese açık politika URL'si: https://gurbanowgadam.github.io/kuran-kitaphanasy/privacy.html (Pages etkinleştirildikten sonra).
-- Yürürlük tarihi: 18.11.2026.
+- Yürürlük tarihi: 22.11.2026 (ilk sürüm 18.11.2026; 22.11.2026: Hasaplar ve pano yedeği eklendi).
 
 ## Uygulama ve cihazda tutulan bilgiler
 
 Kur'an'ın 114 suresi, Arapça metin ve Türkmençe meal uygulama içinde bulunur; okuma için internet gerekmez. Mevcut kodda kullanıcı hesabı, reklam, geliştirici analitiği veya geliştiriciye okuma kaydı gönderen bir backend bulunmaz. Bu, üçüncü tarafların hiçbir veri işlemediği anlamına gelmez.
 
-Okuma konumu, görünüm/tema, yazı boyutları ve diğer okuma tercihleri, kullanıcının adlandırdığı yer imleri cihazdaki yerel uygulama depolamasında tutulur. İndirilen sesler ve bunların doğrulama/ayet zamanlama dosyaları uygulamaya ait kalıcı yerel depoda saklanır. Bunlar uygulama tarafından geliştiriciye yüklenmez; hesaplar veya cihazlar arasında uygulama kaynaklı senkronizasyon sunulmaz.
+Okuma konumu, görünüm/tema, yazı boyutları ve diğer okuma tercihleri, kullanıcının adlandırdığı yer imleri cihazdaki yerel uygulama depolamasında tutulur. Kullanıcının oluşturduğu takipler ("Hasaplar": kaza namazı, kitap/hatim ilerlemesi, tesbih sayacı, günlük alışkanlık ve gün bazlı etkinlik sayıları) aynı yerel depolamada tutulur. Takip yedeği yalnız kullanıcı Sazlamalar'da "Hasaplary göçür"e bastığında sistem panosuna JSON metni olarak kopyalanır; uygulama bu metni hiçbir yere göndermez, panodan sonraki kullanım kullanıcının seçimidir (pano içeriğini başka uygulamalar okuyabilir). Geri yükleme yalnız kullanıcının yapıştırdığı metni katı şemayla doğrular; geçersizse hiçbir şey değişmez. Bu özellik yeni izin, SDK veya ağ isteği eklemez. İndirilen sesler ve bunların doğrulama/ayet zamanlama dosyaları uygulamaya ait kalıcı yerel depoda saklanır. Bunlar uygulama tarafından geliştiriciye yüklenmez; hesaplar veya cihazlar arasında uygulama kaynaklı senkronizasyon sunulmaz.
 
 ## İsteğe bağlı ses indirmeleri ve Google
 

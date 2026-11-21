@@ -155,6 +155,27 @@ void main() {
     c.dispose();
   });
 
+  test('scanDownloads lists installed recordings and deletePackage removes '
+      'them, stopping the loaded queue', () async {
+    final c = make();
+    expect(await c.scanDownloads(), isEmpty);
+    await c.downloadSelected();
+    await c.play();
+    final found = await c.scanDownloads();
+    expect(found.single.package.surah, 1);
+    expect(found.single.bytes, syntheticMp3.length);
+    await c.deletePackage(found.single.package);
+    expect(c.isPlaying, false);
+    expect(q.playing, false);
+    expect(c.isReady, false);
+    expect(File(localFile()).existsSync(), false);
+    expect(await c.scanDownloads(), isEmpty);
+    // A fresh download after deletion is verified and playable again.
+    await c.downloadSelected();
+    expect(c.isReady, true);
+    c.dispose();
+  });
+
   test('stale events are ignored after pause, selection and close', () async {
     final c = make();
     await c.downloadSelected();

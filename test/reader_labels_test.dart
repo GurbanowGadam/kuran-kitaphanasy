@@ -51,8 +51,7 @@ void main() {
         await t.pumpWidget(QuranApp(data: Future.value(data)));
         await t.pumpAndSettle();
         if (dark) {
-          await t.tap(find.byIcon(Icons.dark_mode_outlined));
-          await t.pumpAndSettle();
+          await setDarkTheme(t);
         }
         await t.tap(find.byKey(const Key('book-quran')));
         await t.pumpAndSettle();
